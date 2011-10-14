@@ -1,0 +1,151 @@
+%4cm binding margin left
+%2cm head margin top
+%2.5cm fore-edge margin right
+%4cm tail margin  bottom
+%a4 is 21 x 29.7 cm
+
+%1.5 spacing for main body, 
+%single spacing for bibliography
+
+%% Master tex file for the thesis.
+
+%\documentclass[11pt,a4paper]{book} % double-sided
+\documentclass[12pt,a4paper]{report}
+
+
+\usepackage{subfigure,epsfig,amstext,floatfig,alltt,fancyhdr,setspace}
+\include{macros}
+\initfloatingfigs
+
+%%% helps to discourage hyphenation 10000 for no hyphens but dodgy line lengths%%%
+\hyphenpenalty=5000
+\tolerance=1000
+
+% sets all the margins to be the correct size for thesis
+
+%%%%%%% FINAL THESIS MARGINS  %%%%%%%%%
+\setlength{\oddsidemargin}{0.7cm}
+%\setlength{\evensidemargin}{1.46cm}
+\setlength{\evensidemargin}{-0.04cm}
+%\setlength{\evensidemargin}{0cm}
+\setlength{\textwidth}{14.5cm}
+\setlength{\topmargin}{-0.94cm}
+\setlength{\textheight}{21.9cm} %22.2
+\renewcommand{\hoffset}{0cm}
+\renewcommand{\voffset}{0cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%% In the beginning ....
+\begin{document}
+%% First do introductory stuff - leave this as pagestyle empty until after
+%% the table of contents
+%\pagestyle{empty}
+%
+\include{title}
+%\ \newpage		% Newpage needed if doing double sided.
+
+
+
+%% Include abstract - use separate parskip for this and then set parskip for
+%% rest of thesis.
+%\pagestyle{plain}
+
+%-----------------------------------------------------------------------------
+
+\pagestyle{fancy}
+\fancyhead{} %clear all fields
+\renewcommand{\headheight}{28pt}
+\cfoot{}
+\fancyfoot[LE,RO]{\thepage}
+
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername \ \thechapter.\ #1}{}} 
+\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1} {}}
+
+\fancyhead[LE]{\small \slshape \leftmark}      % Chapter in the right on even pages
+\fancyhead[RO]{\small \slshape \rightmark}     % Section in the left on odd pages
+\renewcommand{\headrulewidth}{0.3pt}    % Width of head rule
+
+%-----------------------------------------------------------------------------
+
+
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+\onehalfspacing
+
+\addcontentsline{toc}{chapter}{Abstract}
+\include{abstract}
+
+%\ \newpage		% Newpage needed if printing double sided.
+
+\addcontentsline{toc}{chapter}{Declaration}
+\include{declaration}
+
+%\ \newpage		% Newpage needed if printing double sided.
+
+\addcontentsline{toc}{chapter}{Acknowledgements}
+\include{acknowledgements}
+
+\singlespacing
+
+%\ \newpage		% Newpage needed if printing double sided.
+
+\addcontentsline{toc}{chapter}{Contents}
+\tableofcontents
+
+%\ \newpage		% Newpage needed if printing double sided.
+%\ \newpage		% Newpage needed if printing double sided.
+
+\addcontentsline{toc}{chapter}{List of figures}
+\listoffigures
+
+%\ \newpage		% Newpage needed if printing double sided.
+
+\addcontentsline{toc}{chapter}{List of tables}
+\listoftables
+  
+%\ \newpage		% Newpage needed if printing double sided.
+%\ \newpage		% Newpage needed if printing double sided.
+
+\clearpage % this command stops table page becoming page 1
+
+
+%% Now the body of the text - note that parskip has to be reset after the TOC
+
+\onehalfspacing
+\pagenumbering{arabic}
+
+\setcounter{page}{1}
+%% Add chapters here %%
+\include{Introduction}
+\include{Theory}
+\include{Detector}
+\include{Object Reconstruction}
+\include{AlphaT}
+\include{RA1}
+\include{RA4}
+\include{Conclusion}
+
+\renewcommand{\chaptername}[1]{Appendix A. }
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername \ #1}{}} 
+
+\appendix
+\include{appA}
+
+\small{
+\singlespacing
+
+%% And finally the references
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{plain} %optional
+\bibliography{papers}
+
+}
+%% The END !!!
+\end{document}
+
+
+
+
