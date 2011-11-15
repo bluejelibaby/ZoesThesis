@@ -1,8 +1,24 @@
 \begin{thebibliography}{1}
 
+\bibitem{PDG}
+K~et~al. Nakamura.
+\newblock Review of particle physics, 2010-2011. review of particle properties.
+\newblock {\em J. Phys. G}, 37(7A):075021, 2010.
+\newblock The 2010 edition of Review of Particle Physics is published for the
+  Particle Data Group by IOP Publishing as article number 075021 in volume 37
+  of Journal of Physics G: Nuclear and Particle Physics. This edition should be
+  cited as: K Nakamura et al (Particle Data Group) 2010 J. Phys. G: Nucl. Part.
+  Phys. 37 075021.
+
 \bibitem{CMSTDP}
 {The {CMS} Collaboration}.
 \newblock {T}he {C}ompact {M}uon {S}olenoid {T}echnical {P}roposal.
 \newblock {\em CERN/LHCC}, 94-38, 1994.
+
+\bibitem{HCALTestBeam}
+Efe Yazgan.
+\newblock {The CMS barrel calorimeter response to particle beams from 2-GeV/c
+  to 350-GeV/c}.
+\newblock {\em J. Phys. Conf. Ser.}, 160:012056, 2009.
 
 \end{thebibliography}
