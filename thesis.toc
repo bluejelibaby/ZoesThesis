@@ -2,8 +2,8 @@
 \contentsline {chapter}{Declaration}{ii}
 \contentsline {chapter}{Acknowledgements}{iii}
 \contentsline {chapter}{Contents}{iv}
-\contentsline {chapter}{List of figures}{iv}
-\contentsline {chapter}{List of tables}{v}
+\contentsline {chapter}{List of figures}{v}
+\contentsline {chapter}{List of tables}{vi}
 \contentsline {chapter}{\numberline {1} Introduction}{1}
 \contentsline {chapter}{\numberline {2}Theoretical Overview}{2}
 \contentsline {section}{\numberline {2.1}The Standard Model}{2}
@@ -18,30 +18,30 @@
 \contentsline {subsection}{\numberline {3.2.4}ECAL}{7}
 \contentsline {subsection}{\numberline {3.2.5}HCAL}{9}
 \contentsline {subsection}{\numberline {3.2.6}Muon System}{11}
-\contentsline {subsection}{\numberline {3.2.7}Trigger}{13}
-\contentsline {chapter}{\numberline {4}SUSY Search Topology and the $\alpha _{T}$ variable}{15}
-\contentsline {section}{\numberline {4.1}SUSY Search Toplogies}{15}
-\contentsline {section}{\numberline {4.2}$\alpha _{T}$ in a di-jet system}{15}
-\contentsline {section}{\numberline {4.3}$\alpha _{T}$ in a n-jet system}{15}
-\contentsline {section}{\numberline {4.4}$\alpha _{T}$ search strategy}{15}
-\contentsline {chapter}{\numberline {5}The all-hadronic search with inclusive jets + missing energy}{16}
-\contentsline {section}{\numberline {5.1}Event Selection}{16}
-\contentsline {section}{\numberline {5.2}Analysis and Results}{16}
-\contentsline {section}{\numberline {5.3}Data-Driven Background Estimation}{16}
-\contentsline {subsection}{\numberline {5.3.1}Total background prediction}{16}
-\contentsline {subsection}{\numberline {5.3.2}Estimating EWK background using high $p_{T}$ using W+Jets events}{16}
-\contentsline {subsection}{\numberline {5.3.3}Estimation Z $\nu \mathaccent "7016\relax {\nu }$ + jets background using photon + jets events}{16}
-\contentsline {section}{\numberline {5.4}Systematic Uncertainties}{16}
-\contentsline {section}{\numberline {5.5}Limits}{16}
-\contentsline {section}{\numberline {5.6}Conclusion}{16}
-\contentsline {chapter}{\numberline {6}Using the $\alpha _{T}$ method in single lepton search}{17}
-\contentsline {section}{\numberline {6.1}Extending the $\alpha _{T}$ approach in events with one lepton, jets and missing energy}{17}
-\contentsline {section}{\numberline {6.2}Event Selection}{17}
-\contentsline {section}{\numberline {6.3}Analysis and Results}{17}
-\contentsline {section}{\numberline {6.4}Data-Driven Background Estimation}{17}
-\contentsline {subsection}{\numberline {6.4.1}Total background prediction in HT bins}{17}
-\contentsline {section}{\numberline {6.5}Systematic Uncertainties}{17}
-\contentsline {section}{\numberline {6.6}Limits}{17}
-\contentsline {section}{\numberline {6.7}Conclusion}{17}
-\contentsline {chapter}{\numberline {7}Conclusions}{18}
-\contentsline {chapter}{Bibliography}{19}
+\contentsline {subsection}{\numberline {3.2.7}Trigger}{14}
+\contentsline {chapter}{\numberline {4}SUSY Search Topology and the $\alpha _{T}$ variable}{17}
+\contentsline {section}{\numberline {4.1}SUSY Search Toplogies}{17}
+\contentsline {section}{\numberline {4.2}$\alpha _{T}$ in a di-jet system}{17}
+\contentsline {section}{\numberline {4.3}$\alpha _{T}$ in a n-jet system}{17}
+\contentsline {section}{\numberline {4.4}$\alpha _{T}$ search strategy}{17}
+\contentsline {chapter}{\numberline {5}The all-hadronic search with inclusive jets + missing energy}{18}
+\contentsline {section}{\numberline {5.1}Event Selection}{18}
+\contentsline {section}{\numberline {5.2}Analysis and Results}{18}
+\contentsline {section}{\numberline {5.3}Data-Driven Background Estimation}{18}
+\contentsline {subsection}{\numberline {5.3.1}Total background prediction}{18}
+\contentsline {subsection}{\numberline {5.3.2}Estimating EWK background using high $p_{T}$ using W+Jets events}{18}
+\contentsline {subsection}{\numberline {5.3.3}Estimation Z $\nu \mathaccent "7016\relax {\nu }$ + jets background using photon + jets events}{18}
+\contentsline {section}{\numberline {5.4}Systematic Uncertainties}{18}
+\contentsline {section}{\numberline {5.5}Limits}{18}
+\contentsline {section}{\numberline {5.6}Conclusion}{18}
+\contentsline {chapter}{\numberline {6}Using the $\alpha _{T}$ method in single lepton search}{19}
+\contentsline {section}{\numberline {6.1}Extending the $\alpha _{T}$ approach in events with one lepton, jets and missing energy}{19}
+\contentsline {section}{\numberline {6.2}Event Selection}{19}
+\contentsline {section}{\numberline {6.3}Analysis and Results}{19}
+\contentsline {section}{\numberline {6.4}Data-Driven Background Estimation}{19}
+\contentsline {subsection}{\numberline {6.4.1}Total background prediction in HT bins}{19}
+\contentsline {section}{\numberline {6.5}Systematic Uncertainties}{19}
+\contentsline {section}{\numberline {6.6}Limits}{19}
+\contentsline {section}{\numberline {6.7}Conclusion}{19}
+\contentsline {chapter}{\numberline {7}Conclusions}{20}
+\contentsline {chapter}{Bibliography}{21}

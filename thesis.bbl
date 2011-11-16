@@ -1,5 +1,21 @@
 \begin{thebibliography}{1}
 
+\bibitem{TRIGTDR}
+Sergio Cittolin, Attila R‡cz, and Paris Sphicas.
+\newblock {\em CMS trigger and data-acquisition project: Technical Design
+  Report}.
+\newblock Technical Design Report CMS. CERN, Geneva, 2002.
+
+\bibitem{HCALTDR}
+The~CMS Collaboration.
+\newblock {\em The CMS hadron calorimeter project: Technical Design Report}.
+\newblock Technical Design Report CMS. CERN, Geneva, 1997.
+
+\bibitem{MuonTDR}
+The~CMS Collaboration.
+\newblock {\em The CMS muon project: Technical Design Report}.
+\newblock Technical Design Report CMS. CERN, Geneva, 1997.
+
 \bibitem{PDG}
 K~et~al. Nakamura.
 \newblock Review of particle physics, 2010-2011. review of particle properties.
