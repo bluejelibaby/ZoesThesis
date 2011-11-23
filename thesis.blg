@@ -14,46 +14,46 @@ A level-1 auxiliary file: RA1.aux
 A level-1 auxiliary file: RA4.aux
 A level-1 auxiliary file: Conclusion.aux
 A level-1 auxiliary file: appA.aux
-The style file: plain.bst
+The style file: Unsrt_Eprint.bst
 Database file #1: papers.bib
 You've used 6 entries,
-            2118 wiz_defined-function locations,
-            551 strings with 5160 characters,
-and the built_in function-call counts, 1546 in all, are:
-= -- 154
-> -- 53
+            1829 wiz_defined-function locations,
+            503 strings with 4719 characters,
+and the built_in function-call counts, 1110 in all, are:
+= -- 102
+> -- 31
 < -- 0
-+ -- 24
-- -- 16
-* -- 87
-:= -- 283
++ -- 14
+- -- 8
+* -- 53
+:= -- 187
 add.period$ -- 22
 call.type$ -- 6
-change.case$ -- 23
+change.case$ -- 3
 chr.to.int$ -- 0
 cite$ -- 6
-duplicate$ -- 68
-empty$ -- 135
-format.name$ -- 16
-if$ -- 323
+duplicate$ -- 62
+empty$ -- 129
+format.name$ -- 8
+if$ -- 257
 int.to.chr$ -- 0
 int.to.str$ -- 6
 missing$ -- 9
 newline$ -- 34
-num.names$ -- 12
-pop$ -- 22
+num.names$ -- 6
+pop$ -- 20
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 0
 quote$ -- 0
-skip$ -- 40
+skip$ -- 16
 stack$ -- 0
-substring$ -- 68
+substring$ -- 36
 swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 18
+type$ -- 0
 warning$ -- 0
-while$ -- 14
+while$ -- 8
 width$ -- 7
 write$ -- 73

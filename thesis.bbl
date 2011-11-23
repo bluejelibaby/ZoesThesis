@@ -1,20 +1,9 @@
 \begin{thebibliography}{1}
 
-\bibitem{TRIGTDR}
-Sergio Cittolin, Attila R‡cz, and Paris Sphicas.
-\newblock {\em CMS trigger and data-acquisition project: Technical Design
-  Report}.
-\newblock Technical Design Report CMS. CERN, Geneva, 2002.
-
-\bibitem{HCALTDR}
-The~CMS Collaboration.
-\newblock {\em The CMS hadron calorimeter project: Technical Design Report}.
-\newblock Technical Design Report CMS. CERN, Geneva, 1997.
-
-\bibitem{MuonTDR}
-The~CMS Collaboration.
-\newblock {\em The CMS muon project: Technical Design Report}.
-\newblock Technical Design Report CMS. CERN, Geneva, 1997.
+\bibitem{CMSTDP}
+{The {CMS} Collaboration}.
+\newblock {T}he {C}ompact {M}uon {S}olenoid {T}echnical {P}roposal.
+\newblock {\em CERN/LHCC}, 94-38, 1994.
 
 \bibitem{PDG}
 K~et~al. Nakamura.
@@ -26,15 +15,26 @@ K~et~al. Nakamura.
   cited as: K Nakamura et al (Particle Data Group) 2010 J. Phys. G: Nucl. Part.
   Phys. 37 075021.
 
-\bibitem{CMSTDP}
-{The {CMS} Collaboration}.
-\newblock {T}he {C}ompact {M}uon {S}olenoid {T}echnical {P}roposal.
-\newblock {\em CERN/LHCC}, 94-38, 1994.
+\bibitem{HCALTDR}
+The~CMS Collaboration.
+\newblock {\em The CMS hadron calorimeter project: Technical Design Report}.
+\newblock Technical Design Report CMS. CERN, Geneva, 1997.
 
 \bibitem{HCALTestBeam}
 Efe Yazgan.
 \newblock {The CMS barrel calorimeter response to particle beams from 2-GeV/c
   to 350-GeV/c}.
 \newblock {\em J. Phys. Conf. Ser.}, 160:012056, 2009.
+
+\bibitem{MuonTDR}
+The~CMS Collaboration.
+\newblock {\em The CMS muon project: Technical Design Report}.
+\newblock Technical Design Report CMS. CERN, Geneva, 1997.
+
+\bibitem{TRIGTDR}
+Sergio Cittolin, Attila R‡cz, and Paris Sphicas.
+\newblock {\em CMS trigger and data-acquisition project: Technical Design
+  Report}.
+\newblock Technical Design Report CMS. CERN, Geneva, 2002.
 
 \end{thebibliography}
