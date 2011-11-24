@@ -98,18 +98,18 @@
 %\ \newpage		% Newpage needed if printing double sided.
 %\ \newpage		% Newpage needed if printing double sided.
 
-\addcontentsline{toc}{chapter}{List of figures}
-\listoffigures
+%%%%%ZOE%\addcontentsline{toc}{chapter}{List of figures}
+%%%ZOE\listoffigures
 
 %\ \newpage		% Newpage needed if printing double sided.
 
-\addcontentsline{toc}{chapter}{List of tables}
-\listoftables
+%%%%ZOE\addcontentsline{toc}{chapter}{List of tables}
+%%%%ZOE\listoftables
   
 %\ \newpage		% Newpage needed if printing double sided.
 %\ \newpage		% Newpage needed if printing double sided.
 
-\clearpage % this command stops table page becoming page 1
+%%%ZOE\clearpage % this command stops table page becoming page 1
 
 
 %% Now the body of the text - note that parskip has to be reset after the TOC
@@ -119,20 +119,20 @@
 
 \setcounter{page}{1}
 %% Add chapters here %%
-\include{Introduction}
-\include{Theory}
+%\include{Introduction}
+%\include{Theory}
 \include{Detector}
-\include{Object Reconstruction}
-\include{AlphaT}
-\include{RA1}
-\include{RA4}
-\include{Conclusion}
+%\include{Object Reconstruction}
+%\include{AlphaT}
+%\include{RA1}
+%\include{RA4}
+%\include{Conclusion}
 
 \renewcommand{\chaptername}[1]{Appendix A. }
 \renewcommand{\chaptermark}[1]{\markboth{\chaptername \ #1}{}} 
 
-\appendix
-\include{appA}
+%\appendix
+%\include{appA}
 
 \small{
 \singlespacing

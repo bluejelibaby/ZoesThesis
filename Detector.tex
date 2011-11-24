@@ -1,20 +1,43 @@
 \chapter{The Compact Muon Solenoid Experiment at the LHC}
 \section{The Large Hadron Collider}
 
-The Large Hadron Collider (LHC) is a double-ring circular synchrotron designed to collide two proton beams with a centre of mass energy $\sqrt{s}$  = 14 $\tev$at a final design luminosity of $10^{34}$cm$^{-2}$s$^{-1}$, with the aim of discovering new physics at the TeV scale. It will also be used to collide heavy lead ions (Pb$^{82+}$) to an energy of 2.76 \tev  per nucleon, in specific runs. In 2011, as part of the early phase of operation the machine was operated at 3.5 TeV per beam, $\sqrt{s} = $7TeV, in order to protect the magnets, and is not expected to run at full energy until 2014. However this energy far surpasses that of its nearest competitor the Tevatron, with 0.98 TeV per beam, and thus holds the world record. This advance allows the investigation for the first time of physics that occurs at the TeV scale, including the search for heavy new particles. The LHC has unparalleled reach in the search for new physics, not only due to the significant increase of energy, but also due to the intensity of the beam delivered. The number of events produced by a given physical process depends proportionally on its cross section $\sigma$, which increases with $\sqrt{s}$, and the luminosity $\lumi$, which has the dependence shown in equation \ref{eq:lumi} below.
+The Large Hadron Collider (LHC) is a double-ring circular synchrotron at CERN designed to collide two proton beams with a centre of mass energy $\sqrt{s}$  = 14 $\tev$ at a final design luminosity of $10^{34}$cm$^{-2}$s$^{-1}$, with the aim of discovering new physics at the TeV scale. It will also be used to collide heavy lead ions (Pb$^{82+}$) to an energy of 2.76 \tev  per nucleon, in specific runs. In 2011, as part of the early phase of operation the machine was operated at 3.5 TeV per beam, $\sqrt{s} = $7TeV, in order to protect the magnets, and is not expected to run at full energy until 2014. However this energy far surpasses that of its nearest competitor the Tevatron, with 0.98 TeV per beam, and thus holds the world record. This advance allows the investigation for the first time of physics that occurs at the TeV scale, including the search for heavy new particles. 
+
+The LHC has unparalleled reach in the search for new physics, not only due to the significant increase of energy, but also due to the intensity of the beam delivered. The number of events produced by a given physical process depends proportionally on its cross section $\sigma$, and therefore proportional to $\sqrt{s}$ and the luminosity $\lumi$, which has the dependence shown in equation \ref{eq:lumi} below~\cite{LHCDesign}:
 
 \begin{equation}
 n = \lumi \sigma, \lumi = \frac{N_{b}^{2} n_{b} f_{rev} \gamma_{r}}{4 \pi \epsilon_{n} \beta^{*}}F
 \label{eq:lumi}
 \end{equation}
 
+where $N_{b}$ is the number of particles in a single bunch, $n_{b}$ is the number of bunches in a beam, $f_{rev}$ the frequency of revolutions, $\gamma_{r}$ is the relatavistic gamma, $\epsilon_{n}$ is the beam emittance and $\beta^{*}$ is the beta function associated with the collision point. The geometric luminosity function F provides a reduction factor based on the beam crossing angle, and depends on the full crossing angle at he IP $\theta_{c}$, and the transverse and longitudinal RMS beam dimensions $\sigma_{*}$ and $\sigma_{z}$ with the following dependency:
+\begin{equation}
+F^{2} = \frac{1}{1+(\frac{\theta_{c} \sigma_{z}}{2\sigma_{*}})}
+\label{eq:lumi}
+\end{equation}
 
 Situated in the tunnel of the previous e+e- machine LEP, spanning the Franco-Swiss border,  the LHC is mostly circular with a circumference of 27km, consisting of 8 arced sectors connected by 8 straight sections in which are the numbered Interaction Points (IP), where the two beams circulating in opposite directions can be allowed to intercept. To accelerate the protons around the rings, the beams must experience opposite dipole fields from one another, and have two separate vacuum systems. As the tunnel has restricted space available, the dipole magnets are twin bore with two coils and, but share the same structure and cryogenics. The superconducting dipole magnets must produce a field in excess of 8T due to the high momentum of the protons, and thus have a high current and must be cooled below 2K by liquid helium to ensure safe operation. The beams are non-continuous, grouped in "bunches" at intervals. At the IPs the two beams are directed to coincide, and quadropole magnets are used to collimate the beam in order to maximise the cross sections. 
 
-At four of these IP's are located the four main detectors that analyse the data from collisions: ATLAS (A Toroidal LHC Apparatus) at IP1 and CMS(Compact Muon Solenoid) at IP 5 are multi-purpose detectors analysing the p-p collisions for signs of new physics. At IP 8 the LHCb (LHC beauty) detector looks for CP violation and other rare decays in a forward detector, and ALICE (A Large Ion Collider Experiment) at IP 2 will investigate the lead-lead ion collisions. The locations of the detectors in the LHC ring is shown in Figure XXX.
+At four of these IP's are located the four main detectors that analyse the data from collisions: ATLAS (A Toroidal LHC Apparatus) at IP1 and CMS(Compact Muon Solenoid) at IP 5 are multi-purpose detectors analysing the p-p collisions for signs of new physics. At IP 8 the LHCb (LHC beauty) detector looks for CP violation and other rare decays in a forward detector, and ALICE (A Large Ion Collider Experiment) at IP 2 will investigate the lead-lead ion collisions. The locations of the detectors in the LHC ring is shown in Figure \ref{fig:LHC}~\cite{LHCConcept} .
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{Figures/Detector/lhc-schematic}
+\caption{Schematic of the LHC ring and the location of the major experiments.}
+\label{fig:LHC}
+\end{figure}
 
 
-The LHC magnets are set up for beams of a certain energy range, and therefore it is not possible to accelerate the particles here from low energies, an acceleration and injection system is required. A beam of 50MeV protons is created in LINAC2, in 6 bunches, and each bunch is then split into 12, resulting in 72 bunches which are fed into the Proton Synchotron Booster. After accelerating to an energy of 1.4GeV, they enter the Proton Synchotron, where they are accelerated to 26GeV, and fed in sets of 2-4 into the Super Proton Synchotron. Now 144-288 bunches, they are accelerated to 460GeV ready of injection into the LHC. Twelve of these sets are injected into the LHC at one, directly into both rings, giving a nominal bunch density of 2808, with a spacing of 25ns. This process takes ~20 minutes, and then the LHC takes a further ~20minutes to ramp up to desired energy. The magnets preventing the beams coinciding in the detectors are turned off and stable collisions occur. The luminosity falls regularly as the run progresses, and after ~10 hours, it has fallen below an acceptable level, and the beam is dumped before repeating the process again. Using these short runs of high luminosity it is possible for the LHC to take vast amounts of data. The 2011 Run delivered 5.727 fb$_{-1}$ data, the first 1.1fb$_{-1}$ of which was delivered by the end of June, and is considered for this thesis.
+The LHC magnets are set up for beams of a certain energy range, and therefore it is not possible to accelerate the particles here from low energies, an acceleration and injection system is required. A beam of 50MeV protons is created in LINAC2, in 6 bunches, and each bunch is then split into 12, resulting in 72 bunches which are fed into the Proton Synchotron Booster. After accelerating to an energy of 1.4GeV, they enter the Proton Synchotron, where they are accelerated to 26GeV, and fed in sets of 2-4 into the Super Proton Synchotron. Now 144-288 bunches, they are accelerated to 460GeV ready of injection into the LHC. Twelve of these sets are injected into the LHC at one, directly into both rings, giving a nominal bunch density of 2808, with a spacing of 25ns. The layout of the accelerators mentioned here and their interaction with the LHC is shown in Figure `\ref{fig:LHCinject}his process takes ~20 minutes, and then the LHC takes a further ~20minutes to ramp up to desired energy. The magnets preventing the beams coinciding in the detectors are turned off and stable collisions occur. However, the luminosity falls regularly as the run progresses, and after ~10 hours, it has fallen below an acceptable level, and the beam is dumped before repeating the process again. Using these short runs of high luminosity it is possible for the LHC to take vast amounts of data. The 2011 Run delivered 5.727fb$_{-1}$ data, the first 1.1fb$_{-1}$ of which was delivered by the end of June, and is considered for this thesis.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{Figures/Detector/injection}
+\caption{Layout of the CERN accelerator complex, illustrating the relationship between the LHC and its supporting accelerators.}
+\label{fig:LHCinject}
+\end{figure}
+
+
 
 \section{The Compact Muon Solenoid}
 
@@ -37,7 +60,7 @@ The high magnetic field was chosen in order to achieve the bending power necessa
 
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{Figures/Detector/CMS_Slice}
+\includegraphics[width=0.6\textwidth]{Figures/Detector/CMS_Slice}
 \caption{Transverse slice through the CMS Detector showing each type of particle and how it interacts with the sub-detectors.}
 \label{fig:CMS_Slice}
 \end{figure}
@@ -137,7 +160,7 @@ Built within the iron yoke the MS shares the same structural layout, constructed
 
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{Figures/Detector/MS}
+\includegraphics[width=0.6\textwidth]{Figures/Detector/MS}
 \caption{The Muon system shown in the $r-\theta$}
 \label{fig:MuonSystem}
 \end{figure}

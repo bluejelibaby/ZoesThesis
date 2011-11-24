@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  20 NOV 2011 22:33
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  24 NOV 2011 23:30
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -124,8 +124,12 @@ No file macros.tex.
 ** Make sure \initfloatingfigs being called immediately
    after \begin{document} !! ** (./thesis.aux (./title.aux) (./symbols.aux)
 (./abstract.aux) (./declaration.aux) (./acknowledgements.aux)
-(./Introduction.aux) (./Theory.aux) (./Detector.aux) (./Object.aux)
-(./AlphaT.aux) (./RA1.aux) (./RA4.aux) (./Conclusion.aux) (./appA.aux))
+(./Introduction.aux) (./Theory.aux) (./Detector.aux
+
+LaTeX Warning: Label `eq:lumi' multiply defined.
+
+) (./Object.aux) (./AlphaT.aux) (./RA1.aux) (./RA4.aux) (./Conclusion.aux)
+(./appA.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -253,160 +257,89 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [5] (./thesis.lof)
-\tf@lof=\write4
-\openout4 = `thesis.lof'.
-
- [6
-
-]
-(./thesis.lot)
-\tf@lot=\write5
-\openout5 = `thesis.lot'.
-
- [7
-
-]
-\openout2 = `Introduction.aux'.
-
- (./Introduction.tex
-Chapter 1.
-) [1
-
-
-
-]
-\openout2 = `Theory.aux'.
-
- (./Theory.tex
-Chapter 2.
-) [2
-
-
-
-]
+ [1]
 \openout2 = `Detector.aux'.
 
  (./Detector.tex
-Chapter 3.
-[3
+Chapter 1.
+[2
 
 
+]
 
-] [4]
+LaTeX Warning: Citation `LHCConcept' on page 3 undefined on input line 21.
+
+<Figures/Detector/lhc-schematic.jpg, id=35, 375.3222pt x 391.7034pt>
+File: Figures/Detector/lhc-schematic.jpg Graphic file (type jpg)
+
+<use Figures/Detector/lhc-schematic.jpg> [3] [4 <./Figures/Detector/lhc-schemat
+ic.jpg>] <Figures/Detector/injection.png, id=44, 477.785pt x 339.2675pt>
+File: Figures/Detector/injection.png Graphic file (type png)
+
+<use Figures/Detector/injection.png>
 Missing character: There is no § in font cmr12!
- <Figures/Detector/CMS_Structure.pdf, id=50, 845.1575pt x 597.23125pt>
+ [5 <./Figures/Detector/injection.png>]
+<Figures/Detector/CMS_Structure.pdf, id=50, 845.1575pt x 597.23125pt>
 File: Figures/Detector/CMS_Structure.pdf Graphic file (type pdf)
 
-<use Figures/Detector/CMS_Structure.pdf>
-<Figures/Detector/CMS_Slice.png, id=51, 995.72pt x 507.8975pt>
+<use Figures/Detector/CMS_Structure.pdf> [6 <./Figures/Detector/CMS_Structure.p
+df>] <Figures/Detector/CMS_Slice.png, id=201, 995.72pt x 507.8975pt>
 File: Figures/Detector/CMS_Slice.png Graphic file (type png)
 
-<use Figures/Detector/CMS_Slice.png> [5] [6 <./Figures/Detector/CMS_Structure.p
-df> <./Figures/Detector/CMS_Slice.png (PNG copy)>] [7] [8] [9] [10]
-<Figures/Detector/HCAL.png, id=220, 641.7576pt x 373.8768pt>
+<use Figures/Detector/CMS_Slice.png> [7 <./Figures/Detector/CMS_Slice.png (PNG 
+copy)>] [8] [9] [10] [11]
+<Figures/Detector/HCAL.png, id=221, 641.7576pt x 373.8768pt>
 File: Figures/Detector/HCAL.png Graphic file (type png)
 
-<use Figures/Detector/HCAL.png> [11]
+<use Figures/Detector/HCAL.png> [12 <./Figures/Detector/HCAL.png>]
 Missing character: There is no Ä in font cmr12!
- [12 <./Figures/Detector/HCAL.png>]
-[13] <Figures/Detector/MS.pdf, id=234, 437.635pt x 335.2525pt>
+ [13]
+<Figures/Detector/MS.pdf, id=229, 437.635pt x 335.2525pt>
 File: Figures/Detector/MS.pdf Graphic file (type pdf)
 
-<use Figures/Detector/MS.pdf> [14 <./Figures/Detector/MS.pdf>] [15]) [16]
-[17]
-\openout2 = `Object.aux'.
-
-
-No file Object.tex.
-[18
-
-
-
-]
-\openout2 = `AlphaT.aux'.
-
- (./AlphaT.tex
-Chapter 4.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <24.88> on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 1.
-) [19
-
-
-]
-\openout2 = `RA1.aux'.
-
- (./RA1.tex
-Chapter 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 6.
-) [20
-
-
-
-]
-\openout2 = `RA4.aux'.
-
- (./RA4.tex
-Chapter 6.
-) [21
-
-
-
-]
-\openout2 = `Conclusion.aux'.
-
- (./Conclusion.tex
-Chapter 7.
-) [22
-
-
-
-]
-\openout2 = `appA.aux'.
-
-
-No file appA.tex.
-(./thesis.bbl
+<use Figures/Detector/MS.pdf> [14] [15 <./Figures/Detector/MS.pdf>] [16])
+[17] (./thesis.bbl
+Missing character: There is no Ÿ in font cmr10!
 Missing character: There is no ‡ in font cmr10!
-) [23
+) [18
 
 
+] (./thesis.aux (./title.aux) (./symbols.aux)
+(./abstract.aux) (./declaration.aux) (./acknowledgements.aux) (./Detector.aux))
+
+LaTeX Warning: There were undefined references.
 
 
-] (./thesis.aux (./title.aux) (./symbols.aux) (./abstract.aux) (./declaration.a
-ux) (./acknowledgements.aux) (./Introduction.aux)
-(./Theory.aux) (./Detector.aux) (./Object.aux) (./AlphaT.aux) (./RA1.aux)
-(./RA4.aux) (./Conclusion.aux) (./appA.aux)) ) 
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1991 strings out of 493747
- 26965 string characters out of 3143546
- 85458 words of memory out of 3000000
- 5158 multiletter control sequences out of 15000+200000
- 13259 words of font info for 45 fonts, out of 3000000 for 9000
+ 1965 strings out of 493747
+ 26846 string characters out of 3143546
+ 85520 words of memory out of 3000000
+ 5163 multiletter control sequences out of 15000+200000
+ 12029 words of font info for 41 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 37i,11n,40p,1434b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2010/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2010/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2010/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2010/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2010/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2010/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2010/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2010/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2010/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (31 pages, 2562497 bytes).
+ 37i,11n,40p,1577b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
+xlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/tex
+live/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
+e/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
+2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
+010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis.pdf (23 pages, 2659478 bytes).
 PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
- 199 compressed objects within 2 object streams
+ 309 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

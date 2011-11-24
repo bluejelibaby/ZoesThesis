@@ -2,46 +2,14 @@
 \contentsline {chapter}{Declaration}{ii}
 \contentsline {chapter}{Acknowledgements}{iii}
 \contentsline {chapter}{Contents}{iv}
-\contentsline {chapter}{List of figures}{v}
-\contentsline {chapter}{List of tables}{vi}
-\contentsline {chapter}{\numberline {1} Introduction}{1}
-\contentsline {chapter}{\numberline {2}Theoretical Overview}{2}
-\contentsline {section}{\numberline {2.1}The Standard Model}{2}
-\contentsline {section}{\numberline {2.2}Motivation for New Physics}{2}
-\contentsline {section}{\numberline {2.3}Supersymmetry}{2}
-\contentsline {chapter}{\numberline {3}The Compact Muon Solenoid Experiment at the LHC}{3}
-\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{3}
-\contentsline {section}{\numberline {3.2}The Compact Muon Solenoid}{5}
-\contentsline {subsection}{\numberline {3.2.1}Coordinate System}{7}
-\contentsline {subsection}{\numberline {3.2.2}Superconducting Magnet}{7}
-\contentsline {subsection}{\numberline {3.2.3}Tracker}{8}
-\contentsline {subsection}{\numberline {3.2.4}ECAL}{9}
-\contentsline {subsection}{\numberline {3.2.5}HCAL}{11}
-\contentsline {subsection}{\numberline {3.2.6}Muon System}{13}
-\contentsline {subsection}{\numberline {3.2.7}Trigger}{15}
-\contentsline {chapter}{\numberline {4}SUSY Search Topology and the $\alpha _{T}$ variable}{19}
-\contentsline {section}{\numberline {4.1}SUSY Search Toplogies}{19}
-\contentsline {section}{\numberline {4.2}$\alpha _{T}$ in a di-jet system}{19}
-\contentsline {section}{\numberline {4.3}$\alpha _{T}$ in a n-jet system}{19}
-\contentsline {section}{\numberline {4.4}$\alpha _{T}$ search strategy}{19}
-\contentsline {chapter}{\numberline {5}The all-hadronic search with inclusive jets + missing energy}{20}
-\contentsline {section}{\numberline {5.1}Event Selection}{20}
-\contentsline {section}{\numberline {5.2}Analysis and Results}{20}
-\contentsline {section}{\numberline {5.3}Data-Driven Background Estimation}{20}
-\contentsline {subsection}{\numberline {5.3.1}Total background prediction}{20}
-\contentsline {subsection}{\numberline {5.3.2}Estimating EWK background using high $p_{T}$ using W+Jets events}{20}
-\contentsline {subsection}{\numberline {5.3.3}Estimation Z $\nu \mathaccent "7016\relax {\nu }$ + jets background using photon + jets events}{20}
-\contentsline {section}{\numberline {5.4}Systematic Uncertainties}{20}
-\contentsline {section}{\numberline {5.5}Limits}{20}
-\contentsline {section}{\numberline {5.6}Conclusion}{20}
-\contentsline {chapter}{\numberline {6}Using the $\alpha _{T}$ method in single lepton search}{21}
-\contentsline {section}{\numberline {6.1}Extending the $\alpha _{T}$ approach in events with one lepton, jets and missing energy}{21}
-\contentsline {section}{\numberline {6.2}Event Selection}{21}
-\contentsline {section}{\numberline {6.3}Analysis and Results}{21}
-\contentsline {section}{\numberline {6.4}Data-Driven Background Estimation}{21}
-\contentsline {subsection}{\numberline {6.4.1}Total background prediction in HT bins}{21}
-\contentsline {section}{\numberline {6.5}Systematic Uncertainties}{21}
-\contentsline {section}{\numberline {6.6}Limits}{21}
-\contentsline {section}{\numberline {6.7}Conclusion}{21}
-\contentsline {chapter}{\numberline {7}Conclusions}{22}
-\contentsline {chapter}{Bibliography}{23}
+\contentsline {chapter}{\numberline {1}The Compact Muon Solenoid Experiment at the LHC}{2}
+\contentsline {section}{\numberline {1.1}The Large Hadron Collider}{2}
+\contentsline {section}{\numberline {1.2}The Compact Muon Solenoid}{6}
+\contentsline {subsection}{\numberline {1.2.1}Coordinate System}{7}
+\contentsline {subsection}{\numberline {1.2.2}Superconducting Magnet}{8}
+\contentsline {subsection}{\numberline {1.2.3}Tracker}{8}
+\contentsline {subsection}{\numberline {1.2.4}ECAL}{9}
+\contentsline {subsection}{\numberline {1.2.5}HCAL}{11}
+\contentsline {subsection}{\numberline {1.2.6}Muon System}{14}
+\contentsline {subsection}{\numberline {1.2.7}Trigger}{16}
+\contentsline {chapter}{Bibliography}{18}

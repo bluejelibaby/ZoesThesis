@@ -1,5 +1,11 @@
 \begin{thebibliography}{1}
 
+\bibitem{LHCDesign}
+Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
+  Poole, and Paul Proudlock.
+\newblock {\em LHC Design Report}.
+\newblock CERN, Geneva, 2004.
+
 \bibitem{CMSTDP}
 {The {CMS} Collaboration}.
 \newblock {T}he {C}ompact {M}uon {S}olenoid {T}echnical {P}roposal.
