@@ -1,0 +1,74 @@
+\subsection{Improved Background Estimations \label{sec:improved-background}}
+
+For the RA1 publication, very conservative assumptions were used in
+the data driven background methods. For the inclusive background
+prediction, the double-ratio method, which makes the least assumptions
+about the \scalht extrapolation into signal region but suffers from
+very large statistical uncertainties, was chosen as the default
+inclusive prediction over the more aggressive but also more precise
+"flat" scaling assumption (see Section~\ref{sec:ht-scaling}). For the
+estimate of the EWK background based on muon (see Section~\ref{sec:mu}
+and photon (see Section~\ref{sec:photon} control samples, very
+conservative assumptions for event selection and systematic error
+determination were used for the final result. In the following, we
+discuss the possible improvement of the result when more aggressive
+assumptions for the data driven background methods are exploited.
+
+\subsubsection{Using the constant  \RaT assumption for the inclusive background prediction\label{sec:flat-rat}}     
+
+As discussed as a cross check in the RA1 paper, another variant of the
+\scalht scaling analysis, based on the independence of \RaT on \scalht
+when the data sample is dominated by EWK processes, i.e. for $\alt >$
+0.55, uses the weighted average of the \RaT values measured in the two
+\scalht control regions. This value is then also used in the signal
+region to obtain an estimate of the total background. As it can be
+seen from Table~\ref{tab:altratio}, the constant assumption of \RaT
+with \scalht yields a significantly more precise prediction of the
+total background in the two \scalht bins than the double ratio
+scaling, which only assumes that the double ratio is constant.
+
+Figure~\ref{fig:RA1_flat_RaT_tanb3} shows a comparison of the 95\% CL
+exclusion limit of the default analysis with the one obtained when
+using the more precise background prediction based on the constant
+\RaT assumption. The gain in the observed and expected exclusion limit
+is approximately 20 GeV in $m_{1/2}$ for fixed $m_0$ and therefore of
+comparable size to the gain achieved with the two-bin interpretation
+(see Fig.~\ref{RA1_twobin_tanb3} for comparison).
+
+\begin{figure}[h]
+   \begin{center}
+     \includegraphics[width=0.8\textwidth]{figures/cmssm/RA1_ExclusionLimit_tanb3_1HTRconstRexp.pdf} 
+     \caption{\label{fig:RA1_flat_RaT_tanb3} Comparison of the
+       observed %and expected
+       $95\%$ CL exclusion contours in the CMSSM $m_0 - m_{1/2}$ plane
+       ($\tan \beta = 3$, $A_0 = 0$, $\sign(\mu)>0$) for the default
+       analysis and the more precise inclusive background estimate
+       based on constant \RaT. {\it Note: Since producing the expected limit with toy experiments is CPU time consuming, we present here the comparison for the observed limit which leads to the same conclusion. The plot will be replaced with a soothed version showing the expected limit after the pre-approval.} }
+\end{center}
+\end{figure}
+
+
+
+% \subsubsection{Less conservative assumptions for the EWK background estimate}\label{sec:aggressive_ewk}
+% The RA2 analysis proponents proposed in \cite{RA2-EWK} more aggressive
+% estimates on the systematic uncertainties for \fixme{Markus, Ted
+%   should fill in the rest here}.
+
+% Figure~\ref{fig:RA1_RA2ewk_RaT_tanb3} shows a comparison of the 95\%
+% CL exclusion limit of the default analysis with the one obtained when
+% using the more aggressive assumptions for the EWK background estimate.
+% The gain in the expected and observed limit is marginal but for
+% reasons of synchronisation with the RA2 analysis it might be
+% worthwhile to adopt these assumptions for the EWK estimate in the
+% future.
+
+%  \begin{figure}[h]
+%    \begin{center}
+%  %   \includegraphics[width=0.95\textwidth]{figures/cmssm/RA1_RA2ewk_tanb3.pdf} 
+%      \caption{\label{fig:RA1_RA2ewk_RaT_tanb3} Comparison of the
+%        observed and expected $95\%$ CL exclusion contour in the CMSSM
+%        $m_0 - m_{1/2}$ plane ($\tan \beta = 3$, $A_0 = 0$,
+%        $\sign(\mu)>0$) for the default analysis and the more
+%        aggressive EWK assumptions. {\it Note: Since producing the expected limit with toy experiments is CPU time consuming, we present here the comparison for the observed limit which leads to the same conclusion. The plot will be replaced with a soothed version showing the expected limit after the pre-approval.}\fixme{Ted needs to change the disclaimer} }
+% \end{center}
+% \end{figure}

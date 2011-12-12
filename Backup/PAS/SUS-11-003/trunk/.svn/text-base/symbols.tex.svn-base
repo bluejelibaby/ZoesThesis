@@ -1,0 +1,83 @@
+\newcommand\rs{\raisebox{1.0ex}[-1.0ex]}
+\newcommand{\ra}{\ensuremath{\rightarrow}}
+\newcommand{\znunu}{\ensuremath{{\text Z} \ra \nu\bar{\nu}}}
+\newcommand{\zmumu}{\ensuremath{{\text Z} \ra \mu\mu}}
+\newcommand{\wmunu}{\ensuremath{{\text W} \ra \mu\nu}}
+\newcommand{\wtaunu}{\ensuremath{{\text W} \ra \tau\nu}}
+\newcommand{\dphi}{\ensuremath{\Delta \phi}}
+\newcommand{\dphijj}{\ensuremath{\Delta \phi_{ j1,j2}}}
+\newcommand{\Pt}{\ensuremath{{p_{\text T}}\xspace}}
+\newcommand{\pts}{\ensuremath{p_{\text T}{\text s}}\xspace}
+\newcommand{\Et}{\ensuremath{{E_{\text T}}\xspace}}
+\newcommand{\ptjf}{\ensuremath{p_{\rm T}^{ {\rm j}_1} }}
+\newcommand{\ptjs}{\ensuremath{p_{\rm T}^{ {\rm j}_2} }}
+\newcommand{\ptjt}{\ensuremath{p_{\rm T}^{ {\rm j}_3} }}
+\newcommand{\etajf}{\ensuremath{\eta^{ {\rm j}_1} }}
+\newcommand{\etajs}{\ensuremath{\eta^{ {\rm j}_2} }}
+\newcommand{\etajt}{\ensuremath{\eta^{ {\rm j}_3} }}
+\newcommand{\ttj}{\ensuremath{\rm{t}\bar{\rm{t}} + jets}\xspace}
+\newcommand{\wj}{\ensuremath{\rm W + jets}\xspace}
+\newcommand{\zj}{\ensuremath{\rm Z + jets}\xspace}
+\newcommand{\al}{\ensuremath{\alpha}}
+\newcommand{\alt}{\ensuremath{\alpha_{\text{T}}}\xspace}
+\newcommand{\etaabs}{\ensuremath{|\eta|}}
+%\newcommand{\gev}{\ensuremath{\mathrm{\,Ge\kern -0.1em V}}}
+\newcommand{\pb}{\ensuremath{pb^{-1}}}
+\newcommand{\mjj}{\ensuremath{M_{\text{inv}}^{j1,j2}}}
+%\newcommand{\ttbar}{\ensuremath{t\bar{t}}}
+\newcommand{\chiznew}{\ensuremath{\chi^{0}}\xspace}
+\newcommand{\chipnew}{\ensuremath{\chi^{+}}\xspace}
+\newcommand{\sQuanew}{\ensuremath{\tilde{\rm q}}\xspace}
+\newcommand{\sGlunew}{\ensuremath{\tilde{\rm g}}\xspace}
+\newcommand{\ttNew}{\ensuremath{\rm{t}\bar{\rm{t}}}\xspace}
+\newcommand{\tev}{\TeV}
+%<TW date="30/10/2010">
+%\newcommand{\Et}{E_{T}}
+\newcommand{\combIso}{Iso_{\textrm{comb.}}}
+\renewcommand{\arraystretch}{1.2}
+\newcommand{\bigNum}[2]{#1 \, \times \, 10 \, ^{#2}}
+%</TW>
+
+\newcommand{\raT}{\ensuremath{R_{\alt}}}
+\newcommand{\RaT}{\ensuremath{R_{\alt}}\xspace}
+
+\def\eslash{{\hbox{$E$\kern-0.6em\lower-.05ex\hbox{/}\kern0.10em}}}
+\def\vecmet{\mbox{$\vec{\eslash}_T$}} %missing ET vector
+\def\vecet{\mbox{$\vec{E}_\text{T}$}} % ET vector
+\def\MET{\mbox{$\eslash_\text{T}$}\xspace}
+\def\met{\mbox{$\eslash_\text{T}$}\xspace}
+\def\mex{\mbox{$\eslash_\text{x}$}} %missing Ex
+\def\mey{\mbox{$\eslash_\text{y}$}} %missing Ey
+\def\mepar{\mbox{$\eslash_\parallel$}}
+\def\meperp{\mbox{$\eslash_\perp$}}
+\def\Zmm{Z \rightarrow \mu\mu}
+\def\metvec{\mbox{$\vec{\met}$}\xspace}
+\def\metvecrec{\mbox{$\vec{\met}^{\rm rec}$}\xspace}
+\def\metvecgen{\mbox{$\vec{\met}^{\rm gen}$}\xspace}
+\def\metgen{\mbox{$\met^{\rm gen}$}\xspace}
+\def\metparl{\mbox{$\mepar^{\rm rec}$}\xspace}
+\def\metperp{\mbox{$\meperp^{\rm rec}$}\xspace}
+\def\deltamet{\mbox{$\Delta\met$}\xspace}
+\def\pthat{\mbox{$\hat{p}_T$}\xspace}
+\def\hslash{{\hbox{$H$\kern-0.8em\lower-.05ex\hbox{/}\kern0.10em}}}
+\def\MHT{\mbox{$\hslash_\text{T}$}\xspace}
+\def\mht{\mbox{$\hslash_\text{T}$}\xspace}
+\def\sumet{\mbox{$\sum \rm{E}_\text{T}$}\xspace}
+\def\scalht{\mbox{$H_\text{T}$}\xspace}
+\def\etmiss{\mbox{$\eslash_\text{T}$}\xspace}
+\def\htmiss{\mbox{$\hslash_\text{T}$}\xspace}
+\def\mtt{\mbox{$\rm{M}_\text{T2}$}\xspace}
+\def\rmec{\mbox{$R_{\mht/\met}$}\xspace}
+\def\bdphi{\mbox{$\Delta\phi^{*}$}\xspace}
+\def\bigeslash{{\hbox{$E$\kern-0.38em\lower-.05ex\hbox{/}\kern0.10em}}}
+\def\bigmet{\mbox{$\bigeslash_T$}}
+\def\bighslash{{\hbox{$H$\kern-0.6em\lower-.05ex\hbox{/}\kern0.10em}}}
+\def\bigmht{\mbox{$\bighslash_T$}}
+\def\cls{\mbox{CL$_s$}\xspace}
+\def\incl{\includegraphics[width=0.49\linewidth]}
+\def\inclrot{\includegraphics[angle=90,width=0.47\linewidth]}
+\def\INCL{\includegraphics[angle=90,width=0.45\linewidth]}
+\def\Incl{\includegraphics[angle=90,width=0.60\linewidth]}
+
+
+

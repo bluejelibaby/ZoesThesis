@@ -1,0 +1,119 @@
+\subsection{Cross-section limits for Simplified Model Spectra \label{sec:sms}}
+
+The following description of the Simplified Model Spectra is taken
+from Refs.~\cite{SMSAN,SMSnote} where they are described in detail.
+
+In short, they are~\footnote{So far only the two models listed below have been considered. 
+Additionally, models with pair-produced gluinos or squarks decaying through a one stage cascade
+resulting in jets, LSP and a W are available and could be investigated as well if desired.}:
+
+\begin{itemize}
+\item pair-produced gluinos where each gluino directly decays to two light quarks and the LSP;
+\item pair-produced squarks where each squark decays to one jet and the LSP;
+%\item pair-produced gluinos or squarks that decay via a wino and jets and subsequently decaying to W. 
+\end{itemize}
+
+\begin{figure}[tbp]
+  \begin{center}
+      \includegraphics[angle=90,width=0.3\textwidth]{figures/sms/T1.pdf}
+      \includegraphics[angle=90,width=0.3\textwidth]{figures/sms/T2.pdf}
+%  \end{center}
+%  \begin{center}
+%      \includegraphics[angle=90,width=0.3\textwidth]{figures/sms/T3.pdf}
+%      \includegraphics[angle=90,width=0.3\textwidth]{figures/sms/T4.pdf}
+      \caption{Diagram of simplified models. Top left: gluino pair
+        production; top right: squark pair production.
+%        ; bottom row: one
+%        single step cascade decay for gluino pair production and
+%        squark pair production.
+}
+    \label{fig:diagram}
+  \end{center}
+\end{figure}
+
+
+Figure~\ref{fig:diagram} shows the respective diagrams for the simplified topologies.
+Fast simulation Monte Carlo samples are generated for different combinations of squark 
+(gluino) and LSP masses.
+
+%For the one stage decay, we consider only events where the W decays hadronically 
+%(excluding the $\tau$ final state). There are numerous advantages in doing this. 
+%First, limits/fits can be readily translated to apply to processes with Z in the 
+%vast majority of parameter space. Second the results can be easily combined with 
+%the results from the leptonic searches as the two signals are are exclusive. 
+%Third the impact of the systematics uncertainties coming from the lepton veto 
+%efficiency estimation in the context of hadronic searches is in this way minimized.
+
+
+% In the case of cascades, there is an additional mass that affects the final state 
+% kinematics and the acceptance for the signal. In this case, Monte Carlo samples are 
+% generated for different intermediate masses of $m_{\chi}$ for each $m_{LSP}$ and $m_{gluino}$.
+% The $m_{gluino}$-$m_{\chi}$ difference is proportional to the jet \pt emitted directly from 
+% the gluino and the $m_{\chi}$-$m_{LSP}$ mass difference is proportional to the energy of the 
+% jets from the W.
+
+% As suggested in~\cite{SMSnote}, the following slices are studied separately: 
+% $m_{\chi}$=1/2($m_{LSP}$+$m_{gluino}$) and $m_{\chi}$=($m_{LSP}$+1/4 $m_{gluino}$) or 
+% $m_{\chi}$=($m_{LSP}$+3/4 $m_{gluino}$) and $m_{\chi}$=$m_{LSP}$+82.
+% \FIXME{Double check what we use!}
+
+
+
+\begin{figure}[t]
+   \begin{center}
+     \subfigure[\label{fig:xsecT1}]{\includegraphics[angle=0, width = 0.45\textwidth]{figures/sms/profileLikelihood_T1_lo_2HtBins_constantR_xsLimit.pdf}}\
+     \subfigure[\label{fig:xsecT1}]{\includegraphics[angle=0, width = 0.45\textwidth]{figures/sms/profileLikelihood_T1_lo_2HtBins_constantR_xsLimit_logZ.pdf}}\
+     \subfigure[\label{fig:effT1}]{\includegraphics[angle=0, width = 0.45\textwidth]{figures/sms/T1_eff.pdf}}
+   \caption{\label{fig:T1} 
+ Top: Cross-section for the T1 topology excluded at the 95\% CL. Bottom: efficiency times acceptance of the analysis for the T1 topology.
+}
+\end{center}
+\end{figure}
+
+\begin{figure}[t]
+   \begin{center}
+     \subfigure[\label{fig:xsecT2}]{\includegraphics[angle=0, width = 0.45\textwidth]{figures/sms/profileLikelihood_T2_lo_2HtBins_constantR_xsLimit.pdf}}\
+     \subfigure[\label{fig:xsecT2}]{\includegraphics[angle=0, width = 0.45\textwidth]{figures/sms/profileLikelihood_T2_lo_2HtBins_constantR_xsLimit_logZ.pdf}}\
+     \subfigure[\label{fig:effT2}]{\includegraphics[angle=0, width = 0.45\textwidth]{figures/sms/T2_eff.pdf}}
+   \caption{\label{fig:T2} 
+ Top: Cross-section for the T2 topology excluded at the 95\% CL. Bottom: efficiency times acceptance of the analysis for the T2 topology.
+}
+\end{center}
+\end{figure}
+
+% \begin{figure}[t]
+%    \begin{center}
+% %   \subfigure[\label{fig:effT3}]{\includegraphics[angle=90, width = 0.45\textwidth]{figures/sms/T3_eff.pdf}}
+% %     \subfigure[\label{fig:xsecT3}]{\includegraphics[angle=90, width = 0.45\textwidth]{figures/sms/T3_xsec.pdf}}\
+%    \caption{\label{fig:T3} 
+% Left: efficiency times acceptance of the analysis for the T3 topology. Right: Cross-section for the T3 topology excluded at the 95\% CL.
+% }
+% \end{center}
+% \end{figure}
+
+% \begin{figure}[t]
+%    \begin{center}
+% %   \subfigure[\label{fig:effT4}]{\includegraphics[angle=90, width = 0.45\textwidth]{figures/sms/T4_eff.pdf}}
+% %     \subfigure[\label{fig:xsecT4}]{\includegraphics[angle=90, width = 0.45\textwidth]{figures/sms/T4_xsec.pdf}}\
+%    \caption{\label{fig:T4} 
+% Left: efficiency times acceptance of the analysis for the T4 topology. Right: Cross-section for the T4 topology excluded at the 95\% CL.
+% }
+% \end{center}
+% \end{figure}
+
+
+
+Figs.~\ref{fig:T1} and \ref{fig:T2} show the efficiency and upper
+limit on the cross-section for the T1 and T2 topologies, respectively.
+There is not a one-to-one relation between efficiency and cross
+section limit because of signal contamination in the background
+control samples.
+
+It can be seen that the efficiency of the analysis is much reduced in
+regions of parameter space where the squark (gluino) and LSP masses 
+are similar as in this case the production of hard jets is suppressed. 
+It is highest for heavy squarks (gluinos) and LSP mass roughly half
+the squark (gluino) mass which leads to hard jets and sizeable missing
+energy.
+
+

@@ -3,58 +3,47 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: title.aux
 A level-1 auxiliary file: symbols.aux
-A level-1 auxiliary file: abstract.aux
-A level-1 auxiliary file: declaration.aux
-A level-1 auxiliary file: acknowledgements.aux
-A level-1 auxiliary file: Introduction.aux
-A level-1 auxiliary file: Theory.aux
 A level-1 auxiliary file: Detector.aux
-A level-1 auxiliary file: Object.aux
-A level-1 auxiliary file: AlphaT.aux
-A level-1 auxiliary file: RA1.aux
-A level-1 auxiliary file: RA4.aux
-A level-1 auxiliary file: Conclusion.aux
-A level-1 auxiliary file: appA.aux
 The style file: Unsrt_Eprint.bst
 Database file #1: papers.bib
-You've used 7 entries,
+You've used 8 entries,
             1829 wiz_defined-function locations,
-            509 strings with 4894 characters,
-and the built_in function-call counts, 1349 in all, are:
-= -- 116
-> -- 54
-< -- 0
-+ -- 22
-- -- 15
-* -- 70
-:= -- 229
-add.period$ -- 25
-call.type$ -- 7
-change.case$ -- 3
+            505 strings with 4903 characters,
+and the built_in function-call counts, 1506 in all, are:
+= -- 130
+> -- 62
+< -- 1
++ -- 25
+- -- 17
+* -- 79
+:= -- 258
+add.period$ -- 28
+call.type$ -- 8
+change.case$ -- 4
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 73
-empty$ -- 150
-format.name$ -- 15
-if$ -- 309
+cite$ -- 8
+duplicate$ -- 81
+empty$ -- 164
+format.name$ -- 17
+if$ -- 343
 int.to.chr$ -- 0
-int.to.str$ -- 7
+int.to.str$ -- 8
 missing$ -- 11
-newline$ -- 39
-num.names$ -- 7
-pop$ -- 27
+newline$ -- 44
+num.names$ -- 8
+pop$ -- 29
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 18
+skip$ -- 20
 stack$ -- 0
 substring$ -- 36
-swap$ -- 7
-text.length$ -- 0
+swap$ -- 8
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 9
-width$ -- 8
-write$ -- 84
+while$ -- 10
+width$ -- 9
+write$ -- 96

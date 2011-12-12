@@ -1,0 +1,8 @@
+\section{Summary \label{sec:conclusions}}
+In this note we have presented a search for supersymmetry in dijet and multijet events using the \alt variable.
+The analysis presents an update of the published paper~\cite{RA1Paper} with some further refinements. 
+The study is currently based on an integrated luminosity of 350\pbinv, corresponding to a factor 10 increase in 
+analysed data compared to the 2010 analysis. The observed \HT distribution for events with $\alt > 0.55$ is in
+good agreement with the SM expectation obtained from data control samples. In the absence of a signal, limits
+on the allowed parameter space in the CMSSM were set which exceed those set by previous analyses.
+

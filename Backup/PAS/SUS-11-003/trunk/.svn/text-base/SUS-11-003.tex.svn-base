@@ -1,0 +1,109 @@
+% Customizable fields and text areas start with % >> below.
+% Lines starting with the comment character (%) are normally removed before release outside the collaboration, but not those comments ending lines
+
+% svn info. These are modified by svn at checkout time.
+% The last version of these macros found before the maketitle will be the one on the front page,
+% so only the main file is tracked.
+% Do not edit by hand!
+\RCS$Revision$
+\RCS$HeadURL$
+\RCS$Id$
+%%%%%%%%%%%%% ptdr definitions %%%%%%%%%%%%%%%%%%%%%
+%\input{ptdr-definitions} %These have been replaced by the equivalent style file
+\input{symbols}
+%%%%%%%%%%%%%%%  Title page %%%%%%%%%%%%%%%%%%%%%%%%
+\cmsNoteHeader{SUS-11-003} % This is over-written in the CMS environment: useful as preprint no. for export versions
+% >> Title: please make sure that the non-TeX equivalent is in PDFTitle below
+\title{Search for supersymmetry in all-hadronic events with $\alpha_{\rm T}$}
+
+% >> Authors
+%Author is always "The CMS Collaboration" for PAS and papers, so author, etc, below will be ignored in those cases
+%For multiple affiliations, create an address entry for the combination
+\address[neu]{Northeastern University}
+\address[fnal]{Fermilab}
+\address[cern]{CERN}
+\author[cern]{The CMS Collaboration}
+
+% >> Date
+% The date is in yyyy/mm/dd format. Today has been
+% redefined to match, but if the date needs to be fixed, please write it in this fashion.
+% For papers and PAS, \today is taken as the date the head file (this one) was last modified according to svn: see the RCS Id string above.
+% For the final version it is best to "touch" the head file to make sure it has the latest date.
+\date{\today}
+ 
+% >> Abstract
+% Abstract processing:
+% 1. **DO NOT use \include or \input** to include the abstract: our abstract extractor will not search through other files than this one.
+% 2. **DO NOT use %**                  to comment out sections of the abstract: the extractor will still grab those lines (and they won't be comments any longer!).
+% 3. **DO NOT use tex macros**         in the abstract: External TeX parsers used on the abstract don't understand them.
+
+\abstract{
+An update of the search for supersymmetry in events with
+jets and missing transverse energy, based on the analysis in
+Ref.~\cite{RA1Paper}, is presented. 
+The results are based on a data sample of 1.1 fb$^{-1}$ of integrated luminosity 
+recorded at $\sqrt{s}$ = 7 TeV. In this search, the variable $\alpha_{\rm T}$ is used as
+the main discriminator between events with real and fake missing transverse energy,
+and no excess of events over the Standard Model expectation is found. 
+Given this agreement, exclusion limits in the parameter space of the
+constrained minimal supersymmetric model are set. In this model, squark and gluino
+masses of 1.1 TeV are
+excluded for values of the common scalar mass at the GUT scale  
+$m_0 < 0.5$ TeV. 
+}
+
+% Do not comment out the following hypersetup lines (metadata). They will disappear in NODRAFT mode and are needed by CDS.
+% Also: make sure that the values of the metadata items are sensible. For APS submissions, they are automatically converted to APS keywords.
+\hypersetup{%
+pdfauthor={RA1 Team},%
+pdftitle={Search for supersymmetry in all-hadronic events with alpha_T},%
+pdfsubject={CMS},%
+pdfkeywords={CMS, physics, jets, missing energy, SUSY, alpha_T}}
+
+\maketitle %maketitle comes after all the front information has been supplied
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Begin text %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% **DO NOT REMOVE THE BIBLIOGRAPHY** which is located before the appendix
+
+\tableofcontents
+\newpage
+
+%\input Preface
+
+\input intro
+
+%\input framework
+
+%\input datasamples
+
+%\input selection
+
+\input results
+
+\input systematics
+
+\input statistics
+
+\input final-results
+
+%\input Interpretation
+
+%\input final-results
+
+\input conclusions
+
+%\input controlvars
+
+%\input backgrounds
+
+%\input systematics
+
+
+
+%% **DO NOT REMOVE BIBLIOGRAPHY**
+\bibliography{auto_generated}   % will be created by the tdr script.
+
+%\clearpage
+%\appendix
+%\input appendix
+

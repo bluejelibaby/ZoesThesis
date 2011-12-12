@@ -6,6 +6,11 @@ Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
 \newblock {\em LHC Design Report}.
 \newblock CERN, Geneva, 2004.
 
+\bibitem{LHCConcept}
+Thomas~Sven Pettersson and P~Lefèvre.
+\newblock {T}he {L}arge {H}adron {C}ollider: {C}onceptual {D}esign.
+\newblock Technical Report CERN-AC-95-05 LHC, CERN, Geneva, Oct 1995.
+
 \bibitem{CMSTDP}
 {The {CMS} Collaboration}.
 \newblock {T}he {C}ompact {M}uon {S}olenoid {T}echnical {P}roposal.

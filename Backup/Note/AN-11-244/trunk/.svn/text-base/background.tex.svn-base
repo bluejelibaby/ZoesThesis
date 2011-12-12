@@ -1,0 +1,126 @@
+\subsection{Improved sensitivity to higher-mass states \label{sec:shape-analysis}}
+The signal region in the RA1 analysis is defined by  $\scalht > 350 \gev$.  For reasons of simplicity and robustness it was decided to carry out a simple count-and-count interpretation of the final results for the RA1 publication. In order to gain additional sensitivity to higher-mass states it is possible to make a re-interpretation of the observed and expected number of events in this signal region by split it in multiple \scalht bins. Therefore, the simple count-and-count interpretation of one signal bin will turn into a \scalht shape analysis based on several bins. This requires that the data driven background methods used to determine the expected number of SM background events in the signal region provide an estimate for each of the \scalht bins chosen to categorise the signal region of $\scalht > 350 \gev$. The data driven background methods used for the RA1 analysis were explicitly designed with this use-case in mind. In the following the results for the different background prediction methods are presented when splitting the signal region into two bins: $350 < \scalht < 450 \gev$ and $\scalht > 450 \gev$, which is the optimal number of bins that can be exploited for the available statistic. It should be noted that this approach does not involve any changes of cuts or even a re-analysis of the data. It simply represents a re-interpretation of the final results in terms of multiple \scahlt bins instead of only one.
+
+
+\subsubsection{Total background estimation using \scalht dependence of \RaT}
+
+The total Standard Model background is estimated based on an extrapolation of 
+the ratio $\RaT = N^{\alt > 0.55}/N^{\alt < 0.55}$ from a low \scalht control 
+region to the signal region $\scalht > 350 \gev$.
+
+As in Ref.~\cite{RA1Paper}, the following dependencies of \RaT on \scalht are considered:
+\begin{itemize}
+\item a constant behaviour
+\item an exponential dependence
+\end{itemize}
+
+For the RA1 publication the more conservative approach of an exponential dependence
+was chosen as the default method, while the more precise constant assumption was used as a cross check.
+Table~\ref{tab:altratio} shows how the predicted and observed number of events split in the two \scalht region. Figure~\ref{fig:altratio} displays the \scalht evolution of the predicted and observed number of events. 
+
+
+% \begin{table}[ht] 
+% \caption{Observed and predicted event yields in the different \scalht regions. The quoted uncertainties are statistical only.}
+% \label{tab:altratio} 
+% \begin{center}
+% \begin{tabular}{l||c c|c c| c}
+% \hline
+% \scalht (\gev)           & 250-300         & 300-350         & 350-400         & 400-450         & $>$450 \\\hline
+% $N^{\alt>0.55}$          & 33              & 11              & 5               & 3               & 5      \\  
+% $N^{\alt<0.55}$          & 844459          & 331948          & 146126          & 79523           & 65475  \\\hline
+% \RaT ($10^{-5}$) (Data)  & 3.91 $\pm$ 0.68 & 3.31 $\pm$ 1.00 & 3.42 $\pm$ 1.53 & 3.77 $\pm$ 2.18 & 7.64 $\pm$ 3.42 \\\hline
+% \RaT ($10^{-5}$) (const) &\multicolumn{2}{c|}{ 3.72 $\pm$ 0.56 } & \multicolumn{2}{c|}{ 3.72 $\pm$ 0.56 } & 3.72 $\pm$ 0.56 \\
+% %$N^{\alt>0.55}$ (pred1)  &      --         &   --            & 5.44 $\pm$ 0.82 & 2.96 $\pm$ 0.45 & 4.09 $\pm$ 0.62 \\\hline
+% $N^{\alt>0.55}$ (const)  &      --         &   --            & \multicolumn{2}{c|}{8.39 $\pm$ 1.27} & 4.09 $\pm$ 0.62 \\\hline
+% \RaT ($10^{-5}$) (exp)   & 3.91 $\pm$ 0.68 & 3.31 $\pm$ 1.00 & 2.81 $\pm$ 1.76 & 2.38 $\pm$ 2.31 & 2.02 $\pm$ 2.66 \\
+% %$N^{\alt>0.55}$ (pred2)  &      --          &  --            & 4.11 $\pm$ 2.58 & 1.89 $\pm$ 1.84 & 2.22 $\pm$ 2.92 \\\hline
+% $N^{\alt>0.55}$ (exp)    &      --          &  --            & \multicolumn{2}{c|}{6.00 $\pm$ 4.41} & 2.22 $\pm$ 2.92 \\\hline
+% \end{tabular}
+% \end{center}
+% \end{table}
+
+\begin{table}[ht] 
+\caption{Observed and predicted event yields in the different \scalht regions. The quoted uncertainties are statistical only.}
+\label{tab:altratio} 
+\begin{center}
+\begin{tabular}{l||c c|c c}
+\hline
+\scalht (\gev)                & 250-300             & 300-350                & 350-450              & $>$450 \\\hline
+$N^{\alt>0.55}$                & 33                       & 11                          & 8                          & 5     \\  
+$N^{\alt<0.55}$                & 844459               & 331948                  & 225649                & 65475  \\\hline
+\RaT ($10^{-5}$) (Data)  & 3.91 $\pm$ 0.68 & 3.31 $\pm$ 1.00   & 3.55 $\pm$ 1.25 & 7.64 $\pm$ 3.42 \\\hline
+\RaT ($10^{-5}$) (const) &\multicolumn{2}{c|}{ 3.72 $\pm$ 0.56 } & 3.72 $\pm$ 0.56 $\pm 9%_{syst}$ & 3.72 $\pm$ 0.56 $\pm 14%_{syst}$ \\
+$N^{\alt>0.55}$ (const)    &      --                   &   --                        & 8.39 $\pm$ 1.27 $\pm 9%_{syst}$ & 4.09 $\pm$ 0.62 $\pm 14%_{syst}$ \\\hline
+\RaT ($10^{-5}$) (exp)    & 3.91 $\pm$ 0.68 & 3.31 $\pm$ 1.00   & 2.60 $\pm$ 2.04 $\pm 17%_{syst}$ & 2.02 $\pm$ 2.66 $\pm 29%_{syst}$ \\
+$N^{\alt>0.55}$ (exp)       &      --                   &  --                         & 5.87 $\pm$ 4.61 $\pm 17%_{syst}$ & 2.22 $\pm$ 2.92 $\pm 29%_{syst}$  \\\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{figure}[t]
+   \begin{center}
+   \includegraphics[angle=90, width = 0.9\textwidth]{figures/altratio_bg.pdf}
+   \caption{\label{fig:altratio} 
+Top: \RaT as a function of \scalht for data (black), constant assumption of \RaT dependence on \scalht (red) and
+exponential assumption of \RaT dependence on \scalht (blue).
+Middle: Number of observed and predicted events as a function of \scalht. Data are shown in black, constant prediction
+in red and exponential prediction in blue.
+Bottom: Difference between prediction and data normalised to prediction uncertainty. Constant prediction is shown in red,
+exponential prediction in blue. 
+\FIXME{to be replaced by a figure from Rob}
+}
+\end{center}
+\end{figure}
+
+
+\subsubsection{Estimation of background from \ttbar and W + jets events using a muon control sample}
+
+
+ Table~\ref{tab:mu} shows the split of the muon control sample numbers and corresponding background prediction in the two \scalht bins.
+
+\begin{table}[ht] 
+\caption{Observed number of events in data and MC simulation for the $\mu$ + jets control sample
+and the MC expectation \ttbar/W + jets events in the hadronic signal sample.}
+\label{tab:mu} 
+\begin{center}
+\begin{tabular}{l|c|c}
+\hline
+Sample                     & $350 < \scalht < 450 \gev$&  $\scalht > 450 \gev$ \\\hline
+$\mu$ + jets (Data; $\mu$ sample)        & 5   & 2   \\
+$\mu$ + jets (MC; $\mu$ sample)          & 4.1 & 1.9 \\ 
+\ttbar/W + jets (MC; hadr. sample)       & 3.4 & 1.7 \\ \hline
+$\tau (N^{\ttbar/W; had}_{MC}/N^{\ttbar/W; mu}_{MC})$ & 0.83 $\pm$ 30\% & 0.89 $\pm$ 30\% \\\hline
+Predicted \ttbar/W + jets BG &  4.2 $\pm$ $^{+1.8}_{-2.1}$ $_{stat}$ $\pm$ 1.3 $_{syst}$ & 1.8 $\pm$ $^{+1.4}_{-1.8}$ $_{stat}$ $\pm$ 0.5 $_{syst}$ \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+\subsubsection{Estimation of background from \znunu + jets from photon + jets events}
+
+Table~\ref{tab:phot} shows the split of the photon control sample numbers and corresponding background prediction in the two \scalht bins.
+
+
+\begin{table}[ht] 
+\caption{Observed number of events in data and MC simulation for the photon + jets control sample
+and the MC expectation for \znunu + jets events in the hadronic signal sample.}
+\label{tab:phot} 
+\begin{center}
+\begin{tabular}{l|c|c}
+\hline
+Sample               & $350 < \scalht < 450 \gev$&  $\scalht > 450 \gev$ \\\hline
+$\gamma$ + jets (Data.; $\mu$ sample) & 6   & 1   \\
+$\gamma$ + jets (MC; $\mu$ sample)    & 4.4 & 2.1 \\ 
+\znunu\ +jets (MC; hadr. sample)      & 2.6 & 1.5 \\ \hline
+$\tau (N^{\znunu; had}_{MC}/N^{\gamma; \gamma}_{MC})$ & 0.59 $\pm$ 40\% & 0.71 $\pm$ 40\% \\\hline
+Predicted \znunu\ BG      & 3.5 $\pm$ $^{+1.4}_{-1.6}$ $_{stat}$ $\pm$ 1.4$_{syst}$ & 0.7 $\pm$ $^{1.0}_{-0.7}$ $_{stat}$ $\pm$ 0.3$_{syst}$ \\\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsubsection{Impact of the \scalht shape interpretation on the 95\% CL exclusion limit in the CMSSM}
+
+Figure~\ref{RA1_twobin_tanb3.pdf} shows a comparison of the 95\% CL exclusion limit for the published count-and-count (i.e. one signal bin) interpretation of the data with the one obtained from the two-bin shape analysis interpretation. As expected, there is a significant gain in the observed and expected exclusion limit of approximately 20 GeV in $m_{1/2}$ for fixed $m_0$ when using the shape interpretation of the final result.
+

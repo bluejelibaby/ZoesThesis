@@ -1,0 +1,415 @@
+@misc{patlayer1twiki,
+ note = "\mbox{https://twiki.cern.ch/twiki/bin/view/CMS/SusyPatLayer1DefV9}"
+}
+@misc{globaltagstwiki,
+ note = "\mbox{https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideFrontierConditions}"
+}
+@misc{jetenergytwiki,
+ note = "\mbox{https://twiki.cern.ch/twiki/bin/view/CMS/WorkBook210JetAnalysis\#Jec900GeV}"
+}
+@misc{meticheptwiki,
+ note = "\mbox{https://twiki.cern.ch/twiki/bin/viewauth/CMS/METichepPAS2}"
+}
+@misc{DijetAN,
+ note = "Jet Commissioning using Di-Jet Events from 900 GeV and 2360 GeV Collision Data, CMS AN-2010/009"
+}
+@misc{PFJetID,
+ note = "\mbox{Particle Flow Jet Identification Criteria, CMS AN-2010/003}"
+}
+@misc{CaloJetID,
+ note = "\mbox{Calorimeter Jet Quality Criteria for the First CMS Collision Data,} \mbox{and preparations for calibrating their efficiencies, CMS AN-2009/087}"
+}
+@ARTICLE{antikt,
+ AUTHOR=       "Cacciari, M. and Salam, G.~P. and Soyez, G.",
+ TITLE=        "The anti-kt jet clustering algorithm",
+ JOURNAL=      "JHEP",
+ VOLUME=       "0804:063",
+ YEAR=         "2008"
+}
+@ARTICLE{Randall:2008rw,
+ AUTHOR=       "L. Randall and D. Tucker-Smith",
+ TITLE=        "Dijet Searches for Supersymmetry at the LHC",
+ JOURNAL=      "Phys.Rev.Lett.",
+ VOLUME=       "101 221803",
+ YEAR=         "2008"
+}
+@Article{Melnikov:2006kv,
+     author    = "Melnikov, Kirill and Petriello, Frank",
+     title     = "{Electroweak gauge boson production at hadron colliders
+                  through O(alpha(s)**2)}",
+     journal   = "Phys. Rev.",
+     volume    = "D74",
+     year      = "2006",
+     pages     = "114017",
+     eprint    = "hep-ph/0609070",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevD.74.114017",
+     SLACcitation  = "%%CITATION = HEP-PH/0609070;%%"
+}
+@misc{pas-ewk-10-004,
+ note="CMS Physics Analysis Summary, CMS PAS EWK-10-004"
+}
+@misc{pas-egm-10-006,
+ note="CMS Physics Analysis Summary, CMS PAS EGM-10-006"
+}
+@misc{cms-pas-jme-10-010,
+ note="CMS Physics Analysis Summary, CMS PAS JME-10-010"
+}
+@misc{cms-pas-TOP-10-001,
+ note="CMS Physics Analysis Summary, CMS PAS TOP-10-001"
+}
+
+@misc{top-xs,
+ note="CMS Physics Analysis Summary, CMS PAS TOP-11-002"
+}
+
+@misc{w-xs,
+ note="CMS Physics Analysis Summary, CMS PAS EWK-10-002"
+}
+
+@misc{cms-pas-sus-09001,
+ note="CMS Physics Analysis Summary, CMS PAS SUS-09-001"
+}
+@misc{cms-pas-sus-08005,
+ note="CMS Physics Analysis Summary, CMS PAS SUS-08-005"
+}
+@misc{HIG-08-001,
+ note="CMS Physics Analysis Summary, CMS PAS HIG-08-001"
+}
+@misc{cms-an-080114,
+ note="CMS Analysis Note, CMS-AN 2008/114"
+}
+@misc{cms-an-10-242,
+ note="CMS Analysis Note, CMS-AN 2010/242"
+}
+@misc{ZWAN,
+ note="CMS Analysis Note, CMS AN-2010/264"
+}
+@misc{WPOL,
+ note="CMS Analysis Note, CMS-AN 2010/309"
+}
+@misc{cms-pas-sus-08002,
+ note="CMS Physics Analysis Summary, CMS PAS SUS-08-002"
+}
+@misc{cms-pas-jme_10003,
+ note="CMS Physics Analysis Summary, CMS PAS JME-10-003"
+}
+@misc{cms-an-080071,
+ note="CMS Analysis Note, CMS-AN 2008/071"
+}
+@misc{cms-an-090056,
+ note="CMS Analysis Note, CMS-AN 2009/056"
+}
+@misc{cms-an-090040,
+ note="CMS Analysis Note, CMS-AN 2009/040"
+}
+@misc{cms-pas-ewk-07002,
+ note="CMS Physics Analysis Summary, CMS PAS EWK-07-002"
+}
+@misc{summer10,
+ note = "See: https://twiki.cern.ch/twiki/bin/viewauth/CMS/ProductionReProcessingSummer10"
+ }
+@misc{patl1,
+ note = "See: https://twiki.cern.ch/twiki/bin/view/CMS/SusyPatLayer1DefV9"
+}
+@misc{icfcode,
+ note = "See: https://svn.cern.ch/reps/icfsusy/trunk/AnalysisV2/"
+}
+@misc{bib:isolep,
+ note="See: https://twiki.cern.ch/twiki/bin/view/CMS/VplusJets"
+}
+@misc{bib:ecalstatus,
+ note="See: https://twiki.cern.ch/twiki/bin/view/CMS/EcalChannelStatus"
+}
+@Article{madgraph,
+     author    = "Alwall, Johan and others",
+     title     = "{MadGraph/MadEvent v4: The New Web Generation}",
+     journal   = "JHEP",
+     volume    = "09",
+     year      = "2007",
+     pages     = "028",
+     eprint    = "0706.2334",
+     archivePrefix = "arXiv",
+     primaryClass  =  "hep-ph",
+     SLACcitation  = "%%CITATION = 0706.2334;%%"
+}
+@misc{susyanalysis,
+ note="See: https://twiki.cern.ch/twiki/bin/view/CMS/SusyPat"
+}
+@misc{pat,
+ note="See: https://twiki.cern.ch/twiki/bin/view/CMS/SWGuidePAT"
+}
+@misc{patcc,
+ note="See: https://twiki.cern.ch/twiki/bin/view/CMS/SusyPatCrossCleaner"
+}
+@misc{biasedDPhi,
+ note="CMS Analysis Note, CMS-AN 2009/040"
+}
+@misc{dPhiMPT,
+ note ="See talk by Mariarosaria d'Alfonso: http://indico.cern.ch/getFile.py/access?contribId=7&resId=2&materialId=slides&confId=54337"
+}
+@ARTICLE{hcalnoise,
+     COLLABORATION = "CMS",
+     TITLE        = "HCAL performance from first collisions data",
+     JOURNAL      = "CMS Detector Performance Summary",
+     VOLUME       = "DPS-2010/025",
+     YEAR         = "2010"}
+@Article{ProfileLikelihood,
+	author="Severini",
+     	title="Likelihood methods in statistics",
+	journal="Oxford University Press",
+	year="2000"
+}
+@Article{MINOS,
+	author = "Frederic James",
+	title="{MINUIT Reference Manual}",
+	journal="{CERN Program Library Writeup}",
+	volume="D506"
+}
+@Article{CDFLimits,
+	author = "Altonen and others",
+	collaboration="CDF",
+	title = "the CDF exclusion region in the $m_{1/2}$ vs. $m_{0}$ plane",
+	journal = "Phys. Rev. Lett",
+	volume="102",
+	pages="121801",
+	year="2009",
+	archivePrefix="arXiv",
+	eprint="0811.2512"
+}
+@Article{D0Limits,
+	author="Abazov and others",
+	collaboration="D0",
+	journal="Phys. Lett. B",
+	volume="660",
+	pages="449",
+	year="2008",
+	archivePrefix="arXiv",
+	eprint="0712.3805"
+}
+@Article{LEPLimits,
+	author="LEPSUSYWG",
+	collaboration= "ALEPH, DELPHI, L3 and OPAL",
+	journal="{LEPSUSYWG/02-06-2}",
+	note="{http://lepsusy.web.cern.ch/lepsusy}"
+}
+@Article{ROOSTATS,
+	author="Moneta, Belasco, Cranmer and others",
+	journal="Proceedings of Science",
+	title="The RooStats Project",
+	year="2010"
+}
+@ARTICLE{ecalnoise,
+     COLLABORATION = "CMS",
+     TITLE        = "Electromagnetic calorimeter commissioning and first results with 7 TeV data",
+     JOURNAL      = "CMS Note",
+     VOLUME       = "2010/012",
+     YEAR         = "2010"}    
+@ARTICLE{ewk_wz_xsec,
+		 COLLABORATION = "CMS",
+		 TITLE        = "Measurements of inclusive W and Z cross Sections in pp collisions at 7 TeV",
+		 JOURNAL      = "CMS Note",
+		 VOLUME       = "2010/116",
+		 YEAR         = "2010"}
+@ARTICLE{muon_reco,
+	   COLLABORATION = "CMS",
+		 TITLE        = "Muon reconstruction in the CMS detector",
+		 JOURNAL      = "CMS Note",
+		 VOLUME       = "2008/097",
+		 YEAR         = "2008"}
+@ARTICLE{muon_id,
+	   COLLABORATION = "CMS",
+		 TITLE        = "Muon identification in CMS",
+		 JOURNAL      = "CMS Note",
+		 VOLUME       = "2008/098",
+		 YEAR         = "2008"}
+@misc{photon_id,
+ note="See: https://twiki.cern.ch/twiki/bin/view/CMS/PhotonID"
+}
+@Article{PTDRII,
+          collaboration = "CMS",
+          title  = "{CMS Physics Technical Design Report, Volume II: Physics Performance}",
+          journal   = "J. Phys. G: Nucl. Part. Phys.",
+          volume    = "34",
+          year      = "2007",
+          pages     = "995-1579"
+}
+@misc{SUS-10-001,
+ note="CMS Physics Analysis Summary, CMS PAS SUS-10-001"
+}
+@misc{cousins,
+note="See: \nolinkurl{http://cousins.web.cern.ch/cousins/drafts/rhorho_cousins.pdf}"
+}
+@misc{dixon,
+ note = "\mbox{L. Dixon, private communication}"
+}
+@Article{RA1Paper,
+     author    = "Khachatryan, Vardan and others",
+ collaboration = "CMS",
+     title     = "{Search for Supersymmetry in pp Collisions at 7 TeV in
+                  Events with Jets and Missing Transverse Energy}",
+     journal   = "Phys. Lett.",
+     volume    = "B698",
+     year      = "2011",
+     pages     = "196-218",
+     eprint    = "1101.1628",
+     archivePrefix = "arXiv",
+     primaryClass  =  "hep-ex",
+     doi       = "10.1016/j.physletb.2011.03.021",
+     SLACcitation  = "%%CITATION = 1101.1628;%%"
+}
+@ARTICLE{JME-09-008,
+     COLLABORATION = "CMS",
+     TITLE        = "Calorimeter Jet Quality Criteria for the First CMS Collision Data",
+     JOURNAL      = "CMS Physics Analysis Summary",
+     VOLUME       = "JME-09-008",
+      URL         = "http://cdsweb.cern.ch/record/1259924",
+     YEAR         = "2009"
+}
+@Article{PAS-EGM-10-004,
+		 COLLABORATION = "CMS",
+		 TITLE        = "Electron reconstruction and identification at $\sqrt{s}$ = 7 TeV",
+		 JOURNAL      = "CMS Physics Analysis Summary",
+		 VOLUME       = "EGM-10-004",
+      URL         = "http://cdsweb.cern.ch/record/1299116",
+		 YEAR         = "2010"
+}		
+@Article{PAS-EGM-10-005,
+		 COLLABORATION = "CMS",
+		 TITLE        = "Photon reconstruction and identification at $\sqrt{s}$ = 7 TeV",
+		 JOURNAL      = "CMS Physics Analysis Summary",
+		 VOLUME       = "EGM-10-005",
+      URL         = "http://cdsweb.cern.ch/record/1279143",
+		 YEAR         = "2010"
+}		
+@Article{PAS-MUO-10-002,
+		 COLLABORATION = "CMS",
+		 TITLE        = "Performance of muon identification in pp collisions at $\sqrt{s}$ = 7 TeV",
+		 JOURNAL      = "CMS Physics Analysis Summary",
+		 VOLUME       = "MUO-10-002",
+      URL         = "http://cdsweb.cern.ch/record/1279140",
+		 YEAR         = "2010"
+}
+@misc{SMSnote,
+ note = "\mbox{https://twiki.cern.ch/twiki/pub/CMS/SUSY/referenceTopologiesDec13.pdf}"
+}
+@misc{SMSAN,
+ note = "Search Optimization and Limit Setting Using Simplified Model Spectra for the RA2 Inclusive Hadronic SUSY Search, CMS AN-2010/404"
+}
+@Article{RA2,
+     author    = "Chatrchyan, Serguei and others",
+ collaboration = "CMS",
+     title     = "{Search for New Physics with Jets and Missing Transverse
+                  Momentum in pp collisions at sqrt(s) = 7 TeV}",
+     year      = "2011",
+     eprint    = "1106.4503",
+     archivePrefix = "arXiv",
+     primaryClass  =  "hep-ex",
+     SLACcitation  = "%%CITATION = 1106.4503;%%"
+}
+@Article{Razor,
+     author    = "Chatrchyan, Serguei and others",
+ collaboration = "CMS",
+     title     = "{Inclusive search for squarks and gluinos in pp collisions
+                  at sqrt(s) = 7 TeV}",
+     year      = "2011",
+     eprint    = "1107.1279",
+     archivePrefix = "arXiv",
+     primaryClass  =  "hep-ex",
+     SLACcitation  = "%%CITATION = 1107.1279;%%"
+}
+@Article{ref:CMSSM,
+     author    = "Kane, Gordon L. and Kolda, Christopher F. and Roszkowski,
+                  Leszek and Wells, James D.",
+     title     = "{Study of constrained minimal supersymmetry}",
+     journal   = "Phys. Rev.",
+     volume    = "D49",
+     year      = "1994",
+     pages     = "6173",
+     doi       = "10.1103/PhysRevD.49.6173"
+}
+@Article{ref:MSUGRA,
+  title = {Locally Supersymmetric Grand Unification},
+  author = {Chamseddine, A. H. and Arnowitt, R.  and Nath, Pran },
+  journal = {Phys. Rev. Lett.},
+  volume = {49},
+  number = {14},
+  pages = {970--974},
+  numpages = {4},
+  year = {1982},
+  month = {Oct},
+  doi = {10.1103/PhysRevLett.49.970},
+  publisher = {American Physical Society}
+}
+@Article{Bern:2011pa,
+     author    = "Bern, Z. and others",
+     title     = "{Driving Missing Data at Next-to-Leading Order}",
+     year      = "2011",
+     eprint    = "1106.1423",
+     archivePrefix = "arXiv",
+     primaryClass  =  "hep-ph",
+     SLACcitation  = "%%CITATION = 1106.1423;%%"
+}
+@Article{Allanach:2001kg,
+     author    = "Allanach, B. C.",
+     title     = "{SOFTSUSY: a program for calculating supersymmetric spectra}",
+     journal   = "Comput. Phys. Commun.",
+     volume    = "143",
+     year      = "2002",
+     pages     = "305",
+     doi       = "10.1016/S0010-4655(01)00460-X"
+}
+@Article{pythia,
+     author    = "{Sj\"ostrand, Torbjorn and Mrenna, Stephen and Skands, Peter Z.}",
+     title     = "{PYTHIA 6.4 Physics and Manual}",
+     journal   = "JHEP",
+     volume    = "05",
+     year      = "2006",
+     pages     = "026",
+     doi			= "10.1088/1126-6708/2006/05/026"
+}
+@Article{pythia8,
+     author    = {Sj\"ostrand, Torbjorn and Mrenna, Stephen and Skands, Peter Z.},
+     title     = "{A Brief Introduction to PYTHIA 8.1}",
+     journal   = "Comput. Phys. Commun.",
+     volume    = "178",
+     year      = "2008",
+     pages     = "852",
+     doi       = "10.1016/j.cpc.2008.01.036"
+}
+@Article{Beenakker:1996ch,
+     author    = "Beenakker, W. and Hopker, R. and Spira, M. and Zerwas, P.
+                  M.",
+     title     = "{Squark and gluino production at hadron colliders}",
+     journal   = "Nucl. Phys.",
+     volume    = "B492",
+     year      = "1997",
+     pages     = "51-103",
+     doi       = "10.1016/S0550-3213(97)00084-9"
+}
+@Article{cls-pdg,
+     author        = "Nakamura, K.",
+     collaboration = "Particle Data Group",
+     title         = "{Review of particle physics}",
+     journal       = "J. Phys.",
+     volume        = "G 37",
+     year          = "2010",
+     pages         = "075021",
+     doi           = "10.1088/0954-3899/37/7A/075021",
+     SLACcitation  = "%%CITATION = JPHGB,G37,075021;%%"
+}
+@article{ref:lumi,
+      AUTHOR        = "{CMS Collaboration}",
+      COLLABORATION = {CMS},
+      TITLE         = "Measurement of CMS Luminosity ",
+      JOURNAL     = "CMS Physics Analysis Summary",
+      VOLUME        = "CMS-PAS-EWK-10-002",
+      YEAR          = "2010"
+}
+@Article{PAS-JME-10-010,
+		 COLLABORATION = "CMS",
+		 TITLE        = "Jet Energy Corrections determination at 7 TeV",
+		 JOURNAL      = "CMS Physics Analysis Summary",
+		 VOLUME       = "JME-10-010",
+      URL         = "http://cdsweb.cern.ch/record/1308178",
+		 YEAR         = "2010"}

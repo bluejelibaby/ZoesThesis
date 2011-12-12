@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  24 NOV 2011 23:30
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  9 DEC 2011 12:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -116,6 +116,8 @@ Package: alltt 1997/06/16 v2.0g defines alltt environment
 Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
 
 Package: `setspace' 6.7 <2000/12/01>
+) (/usr/local/texlive/2010/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
 )
 \@input{macros.aux}
 \openout2 = `macros.aux'.
@@ -123,13 +125,23 @@ Package: `setspace' 6.7 <2000/12/01>
 No file macros.tex.
 ** Make sure \initfloatingfigs being called immediately
    after \begin{document} !! ** (./thesis.aux (./title.aux) (./symbols.aux)
-(./abstract.aux) (./declaration.aux) (./acknowledgements.aux)
-(./Introduction.aux) (./Theory.aux) (./Detector.aux
+(./RA1.aux
 
-LaTeX Warning: Label `eq:lumi' multiply defined.
+LaTeX Warning: Label `fig:muon_beforeat_mupt' multiply defined.
 
-) (./Object.aux) (./AlphaT.aux) (./RA1.aux) (./RA4.aux) (./Conclusion.aux)
-(./appA.aux))
+
+LaTeX Warning: Label `sub@fig:muon_beforeat_mupt' multiply defined.
+
+
+LaTeX Warning: Label `fig:muon_beforeat_njet' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:muon_beforeat_njet' multiply defined.
+
+
+LaTeX Warning: Label `fig:kin' multiply defined.
+
+))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -144,8 +156,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
-
-(/usr/local/texlive/2010/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2010/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count97
 \scratchdimen=\dimen115
@@ -222,124 +233,383 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout2 = `symbols.aux'.
 
  (./symbols.tex)
-\openout2 = `abstract.aux'.
+\openout2 = `RA1.aux'.
 
- (./abstract.tex) [1
-
-
-
-
-
-]
-\openout2 = `declaration.aux'.
-
- (./declaration.tex) [2
-
-
-
-]
-\openout2 = `acknowledgements.aux'.
-
-
-(./acknowledgements.tex) [3
-
-
-
-] (./thesis.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 9.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 9.
- [4
-
-
-])
-\tf@toc=\write3
-\openout3 = `thesis.toc'.
-
- [1]
-\openout2 = `Detector.aux'.
-
- (./Detector.tex
+ (./RA1.tex
 Chapter 1.
-[2
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <24.88> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 13.
+[1
+
+
+
 
 
 ]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
+ (/usr/local/texlive/2010/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
+ [2]
+<Figures/Analysis/PAS/HT_all.pdf, id=21, 569.12625pt x 558.085pt>
+File: Figures/Analysis/PAS/HT_all.pdf Graphic file (type pdf)
 
-LaTeX Warning: Citation `LHCConcept' on page 3 undefined on input line 21.
+<use Figures/Analysis/PAS/HT_all.pdf>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 52.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 52.
 
-<Figures/Detector/lhc-schematic.jpg, id=35, 375.3222pt x 391.7034pt>
-File: Figures/Detector/lhc-schematic.jpg Graphic file (type jpg)
+<Figures/Analysis/PAS/JetMultiplicity_all.pdf, id=22, 569.12625pt x 558.085pt>
+File: Figures/Analysis/PAS/JetMultiplicity_all.pdf Graphic file (type pdf)
 
-<use Figures/Detector/lhc-schematic.jpg> [3] [4 <./Figures/Detector/lhc-schemat
-ic.jpg>] <Figures/Detector/injection.png, id=44, 477.785pt x 339.2675pt>
-File: Figures/Detector/injection.png Graphic file (type png)
+<use Figures/Analysis/PAS/JetMultiplicity_all.pdf>
+<Figures/Analysis/PAS/AlphaT_all.pdf, id=23, 569.12625pt x 558.085pt>
+File: Figures/Analysis/PAS/AlphaT_all.pdf Graphic file (type pdf)
 
-<use Figures/Detector/injection.png>
-Missing character: There is no ß in font cmr12!
- [5 <./Figures/Detector/injection.png>]
-<Figures/Detector/CMS_Structure.pdf, id=50, 845.1575pt x 597.23125pt>
-File: Figures/Detector/CMS_Structure.pdf Graphic file (type pdf)
+<use Figures/Analysis/PAS/AlphaT_all.pdf>
+<Figures/Analysis/PAS/AlphaT_Zoomed_all.pdf, id=24, 569.12625pt x 558.085pt>
+File: Figures/Analysis/PAS/AlphaT_Zoomed_all.pdf Graphic file (type pdf)
 
-<use Figures/Detector/CMS_Structure.pdf> [6 <./Figures/Detector/CMS_Structure.p
-df>] <Figures/Detector/CMS_Slice.png, id=201, 995.72pt x 507.8975pt>
-File: Figures/Detector/CMS_Slice.png Graphic file (type png)
+<use Figures/Analysis/PAS/AlphaT_Zoomed_all.pdf>
+Underfull \hbox (badness 4954) in paragraph at lines 64--64
+\OT1/cmr/m/n/10 high-light-ing the agree-ment on the
+ []
 
-<use Figures/Detector/CMS_Slice.png> [7 <./Figures/Detector/CMS_Slice.png (PNG 
-copy)>] [8] [9] [10] [11]
-<Figures/Detector/HCAL.png, id=221, 641.7576pt x 373.8768pt>
-File: Figures/Detector/HCAL.png Graphic file (type png)
 
-<use Figures/Detector/HCAL.png> [12 <./Figures/Detector/HCAL.png>]
-Missing character: There is no ƒ in font cmr12!
- [13]
-<Figures/Detector/MS.pdf, id=229, 437.635pt x 335.2525pt>
-File: Figures/Detector/MS.pdf Graphic file (type pdf)
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-<use Figures/Detector/MS.pdf> [14] [15 <./Figures/Detector/MS.pdf>] [16])
-[17] (./thesis.bbl
+
+<Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf, id=25, 569.12625p
+t x 558.085pt>
+File: Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf Graphic file 
+(type pdf)
+
+<use Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf>
+<Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf, id=26, 569.12625pt
+ x 558.085pt>
+File: Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf Graphic file (
+type pdf)
+ <use Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf>
+<Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf, id=27, 569.12625pt x 
+558.085pt>
+File: Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf Graphic file (typ
+e pdf)
+ <use Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<Figures/Analysis/PAS/Ratio_Multi2Incl_AlphaT55.pdf, id=28, 569.12625pt x 408.5
+2625pt>
+File: Figures/Analysis/PAS/Ratio_Multi2Incl_AlphaT55.pdf Graphic file (type pdf
+)
+ <use Figures/Analysis/PAS/Ratio_Multi2Incl_AlphaT55.pdf>
+<Figures/Analysis/PAS/Syst_Multi2Incl_AlphaT55.pdf, id=29, 569.12625pt x 408.52
+625pt>
+File: Figures/Analysis/PAS/Syst_Multi2Incl_AlphaT55.pdf Graphic file (type pdf)
+
+ <use Figures/Analysis/PAS/Syst_Multi2Incl_AlphaT55.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_beforeaT.pdf, id
+=30, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_beforeaT.pd
+f Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_beforeaT.pdf
+>
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_beforeaT.pdf, id
+=31, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_beforeaT.pd
+f Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_beforeaT.pdf
+>
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT.pdf, id
+=32, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT.pd
+f Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT.pdf
+>
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_beforeaT.pdf, id=3
+3, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_beforeaT.pdf 
+Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_beforeaT.pdf>
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_beforeaT.pdf, i
+d=34, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_beforeaT.p
+df Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_beforeaT.pd
+f>
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_beforeaT.pdf, id=3
+5, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_beforeaT.pdf 
+Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_beforeaT.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_afteraT.pdf, id=
+36, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_afteraT.pdf
+ Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_afteraT.pdf>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_beforeaT.pd
+f Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_beforeaT.pdf
+>
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT.pdf, id=
+37, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT.pdf
+ Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT.pdf>
+
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_afteraT.pdf, id=38
+, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_afteraT.pdf G
+raphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_afteraT.pdf>
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_afteraT.pdf, id
+=39, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_afteraT.pd
+f Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_afteraT.pdf
+>
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_afteraT.pdf, id=40
+, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_afteraT.pdf G
+raphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_afteraT.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/Analysis/Types/2011_275_TT_Pie.png, id=41, 698.61pt x 674.52pt>
+File: Figures/Analysis/Types/2011_275_TT_Pie.png Graphic file (type png)
+
+<use Figures/Analysis/Types/2011_275_TT_Pie.png>
+<Figures/Analysis/Types/2011_275_W_Pie.png, id=42, 698.61pt x 674.52pt>
+File: Figures/Analysis/Types/2011_275_W_Pie.png Graphic file (type png)
+
+<use Figures/Analysis/Types/2011_275_W_Pie.png>
+<Figures/Analysis/Types/2011_325_TT_Pie.png, id=43, 698.61pt x 674.52pt>
+File: Figures/Analysis/Types/2011_325_TT_Pie.png Graphic file (type png)
+
+<use Figures/Analysis/Types/2011_325_TT_Pie.png>
+<Figures/Analysis/Types/2011_325_W_Pie.png, id=44, 698.61pt x 674.52pt>
+File: Figures/Analysis/Types/2011_325_W_Pie.png Graphic file (type png)
+
+<use Figures/Analysis/Types/2011_325_W_Pie.png>
+<Figures/Analysis/Types/2011_unsca375_TT_Pie.png, id=45, 698.61pt x 674.52pt>
+File: Figures/Analysis/Types/2011_unsca375_TT_Pie.png Graphic file (type png)
+
+<use Figures/Analysis/Types/2011_unsca375_TT_Pie.png>
+<Figures/Analysis/Types/2011_unsca375_W_Pie.png, id=46, 698.61pt x 674.52pt>
+File: Figures/Analysis/Types/2011_unsca375_W_Pie.png Graphic file (type png)
+
+<use Figures/Analysis/Types/2011_unsca375_W_Pie.png>
+
+LaTeX Warning: Float too large for page by 26.22495pt on input line 168.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf, id=47, 5
+69.12625pt x 541.02126pt>
+File: Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf Grap
+hic file (type pdf)
+
+<use Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf>
+<Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf, id=48, 569.126
+25pt x 541.02126pt>
+File: Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf Graphic fi
+le (type pdf)
+
+<use Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_fit_logy.pdf, id=49,
+ 569.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_fit_logy.pdf Gr
+aphic file (type pdf)
+
+<use Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_fit_logy.pdf>
+<Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.pdf, 
+id=50, 569.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.
+pdf Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.p
+df>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<Figures/Analysis/PAS/stats_plots/RQcdZero/muon_control_fit_logy.pdf, id=51, 56
+9.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdZero/muon_control_fit_logy.pdf Graph
+ic file (type pdf)
+
+<use Figures/Analysis/PAS/stats_plots/RQcdZero/muon_control_fit_logy.pdf>
+<Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf, id=
+52, 569.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf
+ Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<Figures/Analysis/PAS/stats_plots/RQcdZero/photon_control_fit_logy.pdf, id=53, 
+569.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdZero/photon_control_fit_logy.pdf Gra
+phic file (type pdf)
+
+<use Figures/Analysis/PAS/stats_plots/RQcdZero/photon_control_fit_logy.pdf>
+<Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.pdf, i
+d=54, 569.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.p
+df Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.pd
+f>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_alphaT_ratio.pdf, id
+=55, 569.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_alphaT_ratio.pd
+f Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_alphaT_ratio.pdf
+>
+<Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_ratio.p
+df, id=56, 569.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_ra
+tio.pdf Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_rat
+io.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf, id=57, 569.12625pt x 4
+08.52625pt>
+File: Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf Graphic file (type
+ pdf)
+ <use Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [3] [4] [5 <./Figures/Analysis/PAS/HT_all.pdf> <./Figures/Analysis/PAS/JetMul
+tiplicity_all.pdf> <./Figures/Analysis/PAS/AlphaT_all.pdf, page is rotated 90 d
+egrees> <./Figures/Analysis/PAS/AlphaT_Zoomed_all.pdf, page is rotated 90 degre
+es>] [6 <./Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf, page is
+ rotated 90 degrees> <./Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.
+pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/JetMultiplicityAfterAl
+phaT_all.pdf, page is rotated 90 degrees>] [7 <./Figures/Analysis/PAS/Ratio_Mul
+ti2Incl_AlphaT55.pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/Syst_
+Multi2Incl_AlphaT55.pdf, page is rotated 90 degrees>] [8 <./Figures/Analysis/PA
+S/muon_plots/spring11NoLogYMuPtMuonControl_beforeaT.pdf, page is rotated 90 deg
+rees> <./Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_beforeaT
+.pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/muon_plots/spring11No
+LogYaT_HMuonControl_beforeaT.pdf, page is rotated 90 degrees> <./Figures/Analys
+is/PAS/muon_plots/spring11NoLogYHTMuonControl_beforeaT.pdf, page is rotated 90 
+degrees> <./Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_befo
+reaT.pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/muon_plots/spring
+11NoLogYMTMuonControl_beforeaT.pdf, page is rotated 90 degrees>] [9 <./Figures/
+Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_afteraT.pdf, page is rota
+ted 90 degrees> <./Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonContro
+l_afteraT.pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/muon_plots/s
+pring11NoLogYHTMuonControl_afteraT.pdf, page is rotated 90 degrees> <./Figures/
+Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_afteraT.pdf, page is rot
+ated 90 degrees> <./Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl
+_afteraT.pdf, page is rotated 90 degrees>] [10 <./Figures/Analysis/Types/2011_2
+75_TT_Pie.png (PNG copy)> <./Figures/Analysis/Types/2011_275_W_Pie.png (PNG cop
+y)> <./Figures/Analysis/Types/2011_325_TT_Pie.png (PNG copy)> <./Figures/Analys
+is/Types/2011_325_W_Pie.png (PNG copy)> <./Figures/Analysis/Types/2011_unsca375
+_TT_Pie.png (PNG copy)> <./Figures/Analysis/Types/2011_unsca375_W_Pie.png (PNG 
+copy)>] [11 <./Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat
+.pdf> <./Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf> <./Fig
+ures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_fit_logy.pdf> <./Figures
+/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.pdf>]
+[12 <./Figures/Analysis/PAS/stats_plots/RQcdZero/muon_control_fit_logy.pdf> <./
+Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf> <./F
+igures/Analysis/PAS/stats_plots/RQcdZero/photon_control_fit_logy.pdf> <./Figure
+s/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.pdf>]
+[13 <./Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_alphaT_ratio.p
+df> <./Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_r
+atio.pdf> <./Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf, page is ro
+tated 90 degrees>] (./thesis.bbl
 Missing character: There is no ü in font cmr10!
+Missing character: There is no è in font cmr10!
 Missing character: There is no á in font cmr10!
-) [18
+) [14
 
 
-] (./thesis.aux (./title.aux) (./symbols.aux)
-(./abstract.aux) (./declaration.aux) (./acknowledgements.aux) (./Detector.aux))
-
-LaTeX Warning: There were undefined references.
-
+] (./thesis.aux (./title.aux)
+(./symbols.aux) (./RA1.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1965 strings out of 493747
- 26846 string characters out of 3143546
- 85520 words of memory out of 3000000
- 5163 multiletter control sequences out of 15000+200000
- 12029 words of font info for 41 fonts, out of 3000000 for 9000
+ 2167 strings out of 493747
+ 38509 string characters out of 3143546
+ 102644 words of memory out of 3000000
+ 5374 multiletter control sequences out of 15000+200000
+ 12912 words of font info for 44 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 37i,11n,40p,1577b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,10n,40p,1003b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
 sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
 /local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
 ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
 al/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
-/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
-xlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/tex
-live/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
-ive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
-e/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
-2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
-010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (23 pages, 2659478 bytes).
+/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
+xlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
+ve/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2
+010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+10/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2010
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2010/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2010/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis.pdf (15 pages, 745258 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
+ 1107 PDF objects out of 1200 (max. 8388607)
+ 534 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 

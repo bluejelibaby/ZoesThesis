@@ -1,0 +1,113 @@
+\section{Framework for Statistical Interpretation \label{sec:statistics}}
+This section outlines the statistical framework used for the limit interpretation of the observed yields of the \scalht shape analysis.
+\subsection{Hadronic Selection}
+\label{sec:hadronic}
+Let $N$ be the number of $H_T$ bins.  The bins need not have equal width.  Let $n^i$ represent the number of events observed with $\alpha_{T} > 0.55$ in each $H_T$ bin $i$.  The likelihood of the observations is expressed as:
+
+\begin{equation}
+L_{hadronic}=\prod_i \mathrm{Pois}(n^i |\, b^i + s^i)
+\label{eq:basicLhadronic}
+\end{equation}
+
+where $b^i$ represents the expected SM background in bin $i$, and $s^i$ represents the expected number of signal events in bin $i$.
+
+%\subsection{Background Models}
+We assume that $b^i\equiv EWK^i + QCD^i$, where $EWK^i$ is the
+expected yield of electroweak events in bin $i$, and $QCD^i$ is the 
+expected yield of QCD events in bin $i$.
+%We model $QCD^i$ as described in Section~\ref{sec:htEvolution},
+%i.e. $R_{QCD^{i}(A_{QCD}, k_{QCD})}$ and assume a falling distribution
+%($k_{QCD} \ge 0$).  
+We then model $R_{QCD^{i}}$ as falling exponentially with \HT and $R_{EWK^{i}}$ as constant
+across \HT as described in Section~\ref{sec:htEvolution}.
+%One can assume either that $R_{QCD}$ is constant or falling
+%($k_{QCD}\ge0$), or that the sample is QCD-free ($A_{QCD}=0$).  
+%We assume that $R_{EWK}$ is constant across $\scalht$, as described in Section \ref{sec:htEvolution}.
+We define $Z_{inv}^{i} \equiv f_{Zinv}^{i} \times EWK^i$, and
+$\ttbar W^{i} \equiv (1-f_{Zinv}^{i})\times EWK^i$.  The variables
+$Z_{inv}^i$ and $\ttbar W^i$ are used in Section \ref{sec:ewk}.  Each $f_{Zinv}^{i}$ is a fit parameter, and is limited to be between zero and one.  
+
+\subsection{Testing the Goodness-of-Fit of the SM-only Hypothesis}
+In Equation \ref{eq:basicLhadronic}, we set $s^i=0$ for all $i$.  We determine the set of parameter values which maximizes the likelihood function specified in Section \ref{sec:fit}, and note the corresponding value $L^{data}_{max}$ of the likelihood.  The likelihood function (using these parameter values) is then used as a probability density function for the observations to generate many pseudo-experiments.  For each pseudo-experiment, we maximize the likelihood function over all parameters, and note the corresponding value $L_{max}$.  We determine the quantile of $L^{data}_{max}$ in the resulting distribution of $L_{max}$, and quote the result as a $p$-value.
+
+\subsection{Testing specific SUSY Models}
+\label{sec:susyModels}
+Let $x$ represent the cross-section for the model in question, and let $l$ represent the recorded luminosity.  Let $\epsilon^{i}_{had}$ be the analysis efficiency as simulated for the model in $H_T$ bin $i$.  We take the uncertainty on the efficiency to be fully correlated among the bins.  Let $\delta$ represent the relative uncertainty on the signal yield in a bin $i$.  Let $\rho_{sig}$ represent the ``correction factor'' to the signal yield which accommodates systematic uncertainties.  Let $f$ be the parameter of interest, for which we shall determine the allowed interval.  We write the likelihood of the observations this way:
+
+\begin{equation}
+L_{hadronic}=\mathrm{Gaus}(1.0 |\,\rho_{sig}, \delta) \times \prod_i \mathrm{Pois}(n^i |\,b^i + f\rho_{sig} xl\epsilon_{had}^i)
+\end{equation}
+
+If the upper limit of the interval for $f$ is less than one, then we consider the model incompatible with the data.
+
+\subsection{Electroweak Background Constraints}
+\label{sec:ewk}
+In each bin of $H_T$, we have two measurements: $n_{ph}$, and $n_{mu}$,
+representing the event counts in the photon and muon control samples.  Each of these measurements has a 
+corresponding Monte Carlo expectation: $MC_{ph}$, and $MC_{mu}$.  The Monte Carlo also gives
+expected amounts of $Z_{inv}$ and $t\bar{t}+W$ in the hadronically-selected sample: $MC_{Z_{inv}}$ and $MC_{t\bar{t}+W}$.
+Let $i$ label the $H_T$ bin, let $\sigma_{phZ}^{inp}$ and $\sigma_{muW}^{inp}$ represent the relative 
+systematic uncertainties for the control sample constraints.  Define 
+
+\begin{equation}
+r_{ph}^i = \frac{MC_{ph}^i}{MC_{Z_{inv}}^i};\, r_{mu}^i = \frac{MC_{mu}^i}{MC_{t\bar{t}+W}^i}
+\end{equation}
+
+We treat the systematics as fully correlated among the $H_T$ bins.  We use this likelihood:
+
+\begin{equation}
+\label{eq:photonOption1}
+L_{ph}=\mathrm{Gaus}( 1.0 |\,\rho_{phZ}, \sigma_{phZ}^{inp}) \times \prod_i \mathrm{Pois}(n_{ph}^i |\, \rho_{phZ} r_{ph}^{i} Z_{inv}^{i})
+\end{equation}
+
+\begin{equation}
+\label{eq:muonOption1}
+L_{mu}=\mathrm{Gaus}( 1.0 |\,\rho_{muW}, \sigma_{muW}^{inp}) \times \prod_i \mathrm{Pois}(n_{mu}^i |\, \rho_{muW} r_{mu}^{i} ttW^{i} + s_{mu}^i)
+\end{equation}
+
+The parameters $\rho_{phZ}$ and $\rho_{muW}$ represent ``correction factors'' which accommodate systematic uncertainty.  The variable $Z_{inv}^{i}$ represents the expected number of $Z\rightarrow\nu\bar{\nu}$ events in $H_T$ bin $i$ of the hadronically selected sample.  The variable $ttW^i$ represents the expected number of events from SM $W$-boson production (including top quark decays) in $H_T$ bin $i$ of the hadronically selected sample.
+
+We define $s_{mu}^i \equiv f\rho_{sig} xl\epsilon_{mu}^i$, where $\epsilon_{mu}^i$ is the analysis efficiency of the muon-selection on the SUSY model in question in $H_T$ bin $i$, and the other parameters are defined in Section \ref{sec:susyModels}.
+
+\subsection{$H_T$ Evolution Method}
+\label{sec:htEvolution}
+The hypothesis that the \RaT falls exponentially in \HT:
+
+\begin{equation}
+R_{\alpha_{T}}(H_T) = A e^{-k H_T}
+\end{equation}
+
+involves the  two parameters $A$ and $k$  whose values will be determined.  A constant ratio is equivalent to requiring $k=0$.
+Let $m_i$ represent the number of events observed with $\alpha_{T} \le 0.55$ in each $H_T$ bin $i$.
+The expected background is written thus:
+
+\begin{equation}
+b_i = \int_{x_i}^{x_{i+1}}\! \frac{\mathrm{d}N}{\mathrm{d}H_T}(x) A e^{-k x}\, \mathrm{d}x.
+\end{equation}
+
+where $\frac{\mathrm{d}N}{\mathrm{d}H_T}$ is the distribution of $H_T$ for events with $\alpha_{T} \le 0.55$,
+$x_i$ is the lower edge of the bin, and $x_{i+1}$ is the upper edge of the bin ($\infty$ for the final bin).
+We assume
+
+\begin{equation}
+\frac{\mathrm{d}N}{\mathrm{d}H_T}(x) = m_{i}\delta(x-\langle H_T \rangle_i),
+\end{equation}
+
+i.e. within a bin the whole distribution occurs at the mean value of $H_T$ in that bin.
+Then
+
+\begin{equation}
+b_i = \int_{x_i}^{x_{i+1}}\! m_{i}\delta(x-\langle H_T \rangle_i) Ae^{-kx}\, \mathrm{d}x = m_{i} Ae^{-k \langle H_T \rangle_i}.
+\label{eq:biDirac}
+\end{equation}
+
+\subsection{Likelihood Model}
+\label{sec:fit}
+
+The likelihood function used is the product of the likelihood functions described in the previous sections:
+
+\begin{equation}
+L = L_{hadronic} \times L_{mu} \times L_{ph}
+\end{equation}
+
+There are $6+N$ nuisance parameters: $A_{EWK}$, $A_{QCD}$, $k_{QCD}$, $\{f_{Zinv}^{i}\}$, as well as the ``systematic'' variables $\rho_{phZ}$, $\rho_{muW}$, $\rho_{sig}$.
