@@ -1,4 +1,25 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{Glashow}
+S.~L. Glashow.
+\newblock {Partial Symmetries of Weak Interactions}.
+\newblock {\em Nucl. Phys.}, 22:579--588, 1961.
+
+\bibitem{Breaking}
+Jeffrey Goldstone, Abdus Salam, and Steven Weinberg.
+\newblock Broken symmetries.
+\newblock {\em Phys. Rev.}, 127:965--970, Aug 1962.
+
+\bibitem{WWHMass}
+Benjamin~W. Lee, C.~Quigg, and H.~B. Thacker.
+\newblock Weak interactions at very high energies: The role of the higgs-boson
+  mass.
+\newblock {\em Phys. Rev. D}, 16:1519--1531, Sep 1977.
+
+\bibitem{zwicky}
+F.~{Zwicky}.
+\newblock {Die Rotverschiebung von extragalaktischen Nebeln}.
+\newblock {\em Helvetica Physica Acta}, 6:110--127, 1933.
 
 \bibitem{LHCDesign}
 Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John

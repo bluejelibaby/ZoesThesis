@@ -1,25 +1,22 @@
 \chapter{Theoretical Overview}
 
-At the heart of particle physics is a quest to discover the fundamental building blocks of the universe, and how they interact with one another. Throughout the history knowledge has been advanced through theoretical postulation and experimental investigation. Theorists and experimentalists seek together to build a full description of the dynamics of the fundamental particles, and while they have discovered much, the picture is not complete yet. The current state of play is collectively known as the Standard Model (SM), and is a rigourously tested and widely accepted theory. However, whilst there are no disagreements, there are some gaps which hint at physics beyond, fuelling a new generation of experimentalists seeking answers to what lies behind. 
+At the heart of particle physics is a quest to discover the fundamental building blocks of the universe, and how they interact with one another. The field is often given the alternative title "High Energy" physics, as the quest to investigate ever smaller distances as we zoom into the structure of our world is analogous to an increase in the energy scale necessary to view it. Throughout the history knowledge has been advanced through a combination of theoretical postulation using mathematical tools, and experimental searches. Particle physicists seek together to build a full description of the dynamics of the fundamental particles, and while they have discovered much, the picture is not complete yet. The current state of play is collectively known as the Standard Model (SM), and is a rigourously tested and widely accepted theory. However, whilst there are no disagreements, there are some gaps which hint at physics beyond, fuelling a new generation of experimentalists seeking answers to what lies behind.
 
 \section{The Standard Model}
 
-The Standard Model (SM) is the name given to the theories that successfully describes the known elementary particles and their fundamental interactions with respect to the strong, weak and electromagnetic forces.  These theories are formulated mathematically using quantum field theory (QFT), in which particles are thought of as excitations of fields, and the dynamics of a given system are summarised in a function called a Lagrangian. In order to reflect the symmetries observed in nature, measurements of physical properties in the SM must be invariant under local transformations, and this property is called gauge invariance. Therefore the SM is a special case of field theory, called Gauge Theory, and the interactions between particles are described by force-carrying mediation particles known as gauge bosons. 
-
+The Standard Model (SM) is the name given to the theories that successfully describes the known elementary particles and their fundamental interactions with respect to the strong, weak and electromagnetic forces.  These theories are formulated mathematically using quantum field theory (QFT), in which particles are thought of as excitations of fields, and the dynamics of a given system are summarised in a function called a Lagrangian. In order to reflect the symmetries observed in nature, measurements of physical properties in the SM must be invariant under local transformations, and this property is called gauge invariance. Therefore the SM is a special case of field theory, called Gauge Theory, and the interactions between particles are described by force-carrying mediation particles known as gauge bosons. From Noether's Theorem, it is known that as a consequence of a symmetry in a dynamical system there is an associated physically conserved quantity. Clearly, for the electromagnetic force this is the electric charge. Analogously, there are conserved "charges" for the strong and weak forces, "colour" charge and the quantum number "isospin", $T_{3}$ respectively. 
+ 
 The set of possible transformations is described in the language of Group Theory, and thus we describe the SM as a non-Abelian Yang-Mills type gauge field theory based on the symmetry group $SU(3)_{C} \times SU(2)_{L} \times U(1)_{Y}$. The strong interactions described by Quantum Chromodynamics (QCD) are represented by $SU(3)_{C}$, and the electromagnetic and weak interactions are represented together due to Electroweak Unification by the group $SU(2)_L \times U(1)_{Y}$. As of yet, the fourth fundamental force Gravity is not included in the Standard Model, but this is seen as of little consequence as gravitational forces are thought to have comparatively little effect on fundamental particles. 
-
-
 
 
 There exist two main types of fundamental particle, which in order to distinguish we must address the concept of spin. 
 \begin{description}
 \item[Spin] \hfill \\
 Spin is the name given to a property of elementary particles, corresponding to a type of angular momentum, although this differs from classical angular momentum. This is an intrinsic property and thus has a specific value for each particle type. The values of the spin quantum number s which describe the magnitude can take any half integer value $s=0, \frac{1}{2}, 1, \frac{3}{2}$, etc. In addition to magnitude we describe a particle as having spin \textit{up} when the spin is in the direction of the z-axis, and spin \textit{down} if the spin is against the direction of the z-axis. When the spin direction is in the direction of momentum of the particle, it is described as left-handed, and when it is against as right-handed. 
-
+\end{description}
 All fundamental particles are divided into the spin-1/2 \textit{fermions} which are the building blocks for matter, and the force-mediating \textit{bosons} which must carry integer spin, usually spin-1. 
  
 
- 
 The fermions which make up all visible matter can be described in three families, or "generations", shown in Equation \ref{eqn:threefams}. Within each generation, there are two sets of particles, those on the left are the leptons, which interact by the weak and electromagnetic forces only, and those on the right are the quarks, which also interact by the strong force. In each generation, there are two quarks, which differ by electoral charge - one has +2/3 and the other -1/3 (in units of the electron charge \textit{e}), an electrically charged lepton and a neutral lepton called a neutrino which is either massless or very light. The three families then are organised in ascending order of mass. The first generation is therefore stable and all ordinary matter is constructed from it, whilst the second and third are liable to decay into particles of the first generation. In addition to each particle detailed here there exists a corresponding antiparticle due to a symmetry in charge and quantum numbers.  
 
 \begin{equation}
@@ -37,78 +34,146 @@ e & d \\
 \end{bmatrix}
 \label{eqn:threefams}
 \end{equation}
-\subsection(Gauge Theory of Interactions}
+
+The particles which mediate the forces are bosons, the photon $\gamma$ for the electromagnetic force, the 8 gluons $g_{i}$ for the strong force and the $W^{\pm}$ and Z bosons that carry the Weak force, all of which are spin-1 particles. The final particle of the SM is the Higgs Boson of spin-0, as yet undiscovered in experiment but expected from the theory, as we will see later. 
+
+\subsection{Gauge Theory of Interactions}
 
 Everything in our Universe interacts by way of gauge bosons mediating one of the four fundamental forces. Whilst the SM incorporates the electromagnetic, strong and weak forces, it as of yet has not been possible to describe the gravitational force in this way. 
 
 
 \subsubsection{Quantum ElectroDynamics}
 
-The fundamental electromagnetic force is studied in quantum field theory as Quantim Electrodynamics (QED), the oldest and simplest of the theories brought together to build the 
+The fundamental electromagnetic force is studied in quantum field theory as Quantum Electrodynamics (QED), the oldest and simplest of the theories brought together to form the SM. The symmetry of QED is U(1) and this gives an associated conserved quantity, the electric charge Q. The electromagnetic force is carried by the massless boson, the photon, and affects only the charged fermions. The symmetry allows no self interaction of the photon. The fermion field $\psi_{q}$ with charge $q$ and mass $m_{q}$ gives rise to the Lagrangian in Equation \ref{eqn:QEDL}. 
+
+Lagrangian 
+\begin{equation}
+\Lagr_{QED} = \bar{\psi}_{q}(i \gamma^{\mu}\slashed{D}_{QED,\mu} - m_{q}) \psi_{q} - \frac{1}{4}F_{\mu \nu}F^{\mu \nu}
+\label{eqn:QEDL}
+\end{equation}
+
+Here, $\slashed{D}_{QED,\mu}$is the covariant derivative, incorporating the introduction of a photon gauge field $A_{\mu}$, so as to maintain an invariance to local U(1) charge symmetry. Thus, 
+\begin{equation}
+\slashed{D}_{QED,\mu} = \partial_{\mu} + iQA_{\mu}
+\end{equation}
+where Q is described as the generator of the symmetry group and is analogous to electric charge. The strength of coupling of each force is described by the coupling constant, in this case governed by the constant e, the charge of an electron: $\alpha = \frac{e^{2}}{4\pi}$ 
+
 \subsubsection{QCD}
 
-Quantum Chromodynamics (QCD) is the relevant quantum field theory that describes the dynamics of the strong force. The strong force has a property analogous to the electric charge, which is called colour charge, and thus only particles which have colour charge, namely the quarks, can feel it. The force-mediators are known as the gluons g
+Quantum Chromodynamics (QCD) is the relevant quantum field theory that describes the dynamics of the strong force. The strong force of symmetry group $SU(3)_{C}$ has 8 massless gauge bosons known as the gluons, and a conserved quantity called colour charge, which has three types called $q_{i} i=1,2,3$. The name "colour" is not meant to imply a connection to visual colour, merely an analogy between the three types and the primary colours red, blue and green. Only particles which carry colour charge are affected - the quarks have colour, while leptons do not. Unlike the photon in electromagnetism, the gluons that mediate the force carry the charge also, leading to the self-interactions that govern the behaviour of QCD. 
 
-\subsubsection{Electroweak Sector}
+A quark carries one "colour" $q_{i}$, taking one of the three possible values, and an analogous antiquark carries one "anti-colour". On the other hand, gluons carry both a colour and an anti-colour.  Separation of two charges gives rise to a potential energy, which increases linearly as the charges are moved further apart. As a consequence, it would take an infinite amount of energy to separate two quarks, and thus they are not found free in nature, but only bound within colourless hadrons such as the proton p $\sim$ uud and the neutron n $\sim$ dud, an effect we call \textit{confinement}. This explains why colour charge is not observed in nature, as beyond a fundamental level it has no meaning.
+
+ To describe this behaviour, the coupling constant of the strong force, $\alpha_{S}$  as the distance between two particles is increased, or as the energy scale is increased, in comparison to the coupling constant for QED which has the inverse relationship. When we discuss quarks in particle physics although they are free, this is as a result of the "asymptotic freedom" where when viewed at very large energies the distances are infinitely small, and the quarks behave freely. tat
+
+\begin{equation}
+\Lagr_{QCD} = \sum_{q} \bar{q}(i \gamma^{\mu}\slashed{D}_{QCD,\mu} - m_{q}) q - \frac{1}{4}F^{\alpha}_{\mu \nu}F^{\mu \nu}_{\alpha}
+\label{eqn:QCDL}
+\end{equation}
 
 
 
+\subsubsection{The Weak Force and Electroweak Unification}
+
+The weak interaction, responsible for radioactive decay, makes up the final piece of the puzzle. So named because of its comparatively low strength compared to the electromagnetic and strong forces, it is was theorised as being mediated by massive force bosons $W^{\pm}$ and Z long before they were discovered experimentally. A lagrangian theory for the weak force must take into account the characteristics of weak interactions. Firstly, it is capable of flavour changing in quark interactions. Secondly, it shows a chirality whereby it interacts with only left-handed fermions, and right handed anti-fermions, violating Parity, P. It also violates ye Thirdly it is capable of both charged interactions which violate the charge C, and neutral interactions which do not. Whilst C and P can both be violated, the product CP 
+
+ describing the interactions of the left-handed fermion doublets. The group symmetry is SU(2) giving rise to a conserved quantity known as weak isospin, I. Building an individual Lagrangian to describe the picture of weak interactions was not as simple as in the strong and electromagnetic sectors, with each proposed model suffering problems. Finally it was realised that despite their apparent differences the weak and electromagnetic forces were low-energy manifestations of the same force, and a composite theory was proposed~\cite{Glashow}. This is called Electroweak Unification, and for this the Nobel Prize was awarded to Glashow, Salam and Weinberg in 1979~\cite{Breaking}. 
+
+The gauge group of the unified theory is $SU(2)_{L} \times U(1)_{Y}$, where $U(1)_{Y}$ is a different copy of the symmetry seen in electromagnetism, the $U(1)_{em}$ group. In this picture the conserved quantity is Y, the weak hypercharge, and the conserved quantity for the SU(2) symmetry is the weak isospin, $T_{3}$. The previous quantity conserved under $U(1)_{em}$ Q can be defined as a linear combination of the two $Q = T_{3} + \frac{Y}{2}$.  The $SU(2)_{L}$ suffix is not taken from the conserved quantity, $T_{3}$, but from it most important property, its action on only Left Handed (LH) fermions. Fermions that are Right Handed (RH) have a weak isospin $T_{3} = 0$ and do not interact via the weak force, whereas LH fermions have $T_{3} =  \pm \frac{1}{2}$ and interact via three gauge bosons. The $W^{\pm}$ bosons have each an isospin of unit 1, with a sign defined by the name, and they govern an interaction from a particle of $T_{3}=+\frac{1}{2}$ into one of $T_{3}=-\frac{1}{2}$ and vice versa, according to conservation laws. The third boson given by the SU(2) group alone is the $W^{0}$ boson of $T_{3}=0$, which allows interactions where the weak isospin stays the same. This is not a physically observed particle, as the electroweak unification leads to mixing between this and the boson given by the $U(1)_{Y}$ group to produce the photon and the $Z^{0}$ particle. 
 
 \subsection{EWSB and the Higgs Mechanism}
 
 In order to give mass to the W and Z bosons whilst retaining the necessary local gauge invariance, we say that $SU(2)_{L} \times U(1)_{Y}$ must be spontaneously broken into $U(1)_{em}$, the group of symmetries representing the electromagnetic sector. The simplest way to introduce such a breaking is known as the Higgs Mechanism, and corresponds to the addition of a scalar field. Ensuring the change to the Lagrangian is invariant, there is a covariant derivative term and an additional potential. With the construction of a potential colloquially known as a "mexican hat" potential [NEEDPIC], the minimum does not lie at $\phi$ = 0, but in 3D space in a circle of minima around $\phi$, so there are an infinite number of minima, introducing a degeneracy. As a particular vacuum is chosen, the symmetry is broken. Interactions with the field lead to masses for the W and Z bosons. This leads to the existence of a massive scalar particle, known as the Higgs Boson, to date the only particle of the SM yet to be observed. 
 
+The distinction between the two forces caused by this symmetry breaking are due to a linear combination of the weak hyper charge and isospin, $T_{3}$ and Y that vanishes for the Higgs. As this defines the conserved quantity Q for the electromagnetic group, this is not affected by the higgs, and thus the $U(1)_{em}$ group remains unbroken. Conversely, the weak portion interacts with the Higgs and the W$\pm$ and Z bosons acquire mass.  
 
 \section{Motivation for Physics Beyond the Standard Model}
-The standard model has been widely successful, predicting the existence of particles such as the $W^{\pm}$ and Z Bosons, and the t quark, showing impressive agreement with experimental findings. However, there are several signs that it is not a complete theory, motivating the postulation of new theories and extensions. 
+The standard model has been widely successful, predicting the existence of particles such as the $W^{\pm}$ and Z Bosons, and the t quark, showing impressive agreement with experimental findings at the level of 0.1\%. However, there are several signs that it is not a complete theory, that more information is needed to describe physics at higher energy scales. It can be assumed that the Standard Model is a low-energy . 
 
-The SM does not currently incorporate the gravitational force, which leads to the belief that the SM is only valid up to some unknown energy scale.
+The SM does not currently incorporate the gravitational force, a problem which has not bothered particle physicists much as the strength of the effects of gravity on fundamental particles is negligible compared to the other fundamental forces. However, at an energy known as the Plank Scale, $M_{p} \sim 1-^{18}$ GeV quantum gravitational effects become important, leading to the breakdown of the existing QFT picture of the Standard Model. Thus new physics must exist at this energy scale, or before, indicating the SM is only valid up to some unknown energy scale. Several other theoretical problems exist motivating theories for physics Beyond the Standard Model (BSM) at the TeV scale, which we are able to explore for the first time with the LHC. 
 
  nor does it explain the existence of dark matter and dark energy. Neutrino masses and flavour mixing are also unexplained. In addition, several features of the existing SM are seen as inelegant, as they require some mathematical fine-tuning and thus are unlikely to reflect nature. The main motivations for 
 \subsection{The Hierarchy Problem}
-\subsection{Dark Matter}
 
-Experimental Cosmology has shown in a variety of ways the existence of mass in the universe that cannot be seen. This is known as dark matter, and it accounts for 22\pc of our universe. In order to explain the properties a weakly interacting massive particle (WIMP) is required, and it must be electrically neutral. There is no provisions for such a particle in the Standard Model. 
+Although the Higgs Boson has yet to be observed experimentally, its mechanism is necessary to the Standard Model to provide mass to the particles, and thus is considered to exist unless proven otherwise. However, while it solves the SSB problem, the Higgs theory introduces theoretical issues of its own. The presence of the Higgs in the SM ensures the WW scattering amplitude does not violate unitarity, but only whilst the $m_{H} < 1 TeV$, providing an upper bound on the expected mass\cite{WWHMass}. 
+
+However, in the coupling of the Higgs to heavy fermions, the mass of the Higgs receives extremely large radiative corrections. If each coupling with a fermion f has a term in the Lagrangian $-\lambda_{F} H \bar{f}f$, it contributes a quadratically divergent factor $\delta m^{2}_{H}$ that corrects the squared mass of the Higgs. 
+
+\begin{equation}
+\delta m^{2}_{H} = - \frac{|\lambda_{f}|^{2}|}{8 \pi^{2}}\Lambda^{2}_{UV}
+\label{eqn:HIGGQUAD}
+\end{equation}
+
+The parameter $\Lambda_{UV}$ is the \textit{ultraviolet cutoff}, so named as it represents the smallest distance to probe in the calculation. It can be thought of as the scale at which the Standard Model is valid up to, as any new physics would change the theory. If there were no new physics at a lower energy, it takes the value of the Plank Scale $M_{P}$, but in this case the correction will be 30 orders of magnitude higher than the 1 TeV upper bound justified experimentally. As there exists nothing in the SM to fix the Higgs Mass, the theory requires fine-tuning, tweaking the parameters to agree with observational findings. This is generally accepted to be an inelegant method, as it requires the input of extra information, and indicates a gap in the fundamental description leading to searches for extensions to the Standard Model. 
+
+\subsection{Cold Dark Matter}
+
+The existence of Dark Matter was postulated as early as 1933 by Zwicky \cite{zwicky}, as the orbital velocities of galaxies in clusters were inconsistent with their observed mass, suggesting some additional mass was present but not luminous.  Measurments of rotation curves of galaxies, cosmic microwave background and structure formation have confirmed this concept over the years. Experimental results from WMAP conclude only $\sim 4.5\%$ of the energy in our universe is made of the baryonic matter we see, while dark matter accounts for $\sim 23\%$ and the rest is comprised of another unknown, dark energy. Although the existence of such matter has been well documented, there is still no understanding of the physics behind the phenomena. In order to explain the properties a weakly interacting massive particle (WIMP) is required, and it must be electrically neutral. There is no provisions for such a particle in the SM, indicating additional particle content requiring extensions in the theory. 
 
 \subsection{Unification of Coupling Constants}
 
-At the basis of theoretical particle physics is the observation of the symmetry and simplicity of nature. Unification, where several theories can be combined into one description,  has undergone before, first Electricity and magnetism, and then electromagnetism with the weak force. While each of the three forces of the SM have their own coupling constant, as the energy scale is increased the coupling constants converge towards one another. However precision measurements show that within the current framework,  there is no common point where all three intersect.
+At the basis of theoretical particle physics is the observation of the symmetry and simplicity of nature. Unification, where several theories can be combined into one description,  has undergone before, first Electricity and magnetism, and then electromagnetism with the weak force. While each of the three forces of the SM have their own coupling constant, as the energy scale is increased the coupling constants converge towards one another. However precision measurements show that within the current framework,  there is no common point where all three intersect. In addition, at the Planck Scale as gravity's coupling constant would be of similar strength many hope for a Grand Unified Theory (GUT),  occurring at this scale known also as the GUT scale. This is only possible with the incorporation of some new physics which would alter the trend of the couplings between the electroweak scale and this GUT scale. 
 
 
 \section{Supersymmetry}
-Supersymmetry is a theory which represents an extension to the Standard Model based around a symmetry between fermions and bosons. Under this symmetry elementary particles in the SM would each have corresponding super-partners, differing by one half unit of spin, such that a fermion has a boson super partner, and vice versa. The transformation of supersymmetry can be seen as a transformation 
+
+The hierarchy problem could be removed, rather than controlled, if there were a way to cancel out the quadratic diverging term in the Higgs mass correction. As the correction for bosons has the opposite sign, the conception of a new symmetry was born, one between fermions and bosons. Known as SUperSYmmetry (SUSY), this theory extends the SM under this symmetry such that elementary particles in the SM each have a super partner differing by one half unit of spin as yet undiscovered, just as the anti-particles were once postulated. For every fermion contributing to the quadratic divergence, a boson partner contributes the equal and opposite term, and thus the hierarchy problem cancels out and the mass of the higgs can take a sensible value.
+
+Under this symmetry elementary particles in the SM would each have corresponding super-partners, differing by one half unit of spin, such that a fermion has a scalar boson super partner, and vice versa. At the heart of supersymmetry is a transformation that changes the field of a fermion into that of a boson, and vice versa. The generator of the transformation shall be known as Q,
 
 \begin{equation}
-Q|F> = |B>, 	Q|B> = |F> 
+Q|fermion> = |boson>, 	Q|boson> = |fermion> 
 \label{eqn:Q}
 \end{equation}
 
+According to an exact symmetry a super partner would have the same characteristics as its partner, including its mass, which would indicate they were within the reach of previous physics experiments. However, they have not been observed, and thus it is concluded that the symmetry is broken at some energy scale, to give the superpartners greater mass. In order for SUSY to eliminate the hierarchy problem, this breaking is assumed to occur at the Electroweak Scale, which restricts the size of the difference in mass to the order of ~1 TeV.  This is known as "soft" SUSY breaking, and offers the hope of discovering this new physics at the TeV scale, as is now possible for the first time with the LHC. 
+
+In addition to its neat solution to the hierarchy problem SUSY has several other consequences which lead to its position as the most favoured theory for new physics at the TeV scale. The inclusion of SUSY particles to the SM has the side affect of altering the runnings of the gauge coupling constants of the three fundamental forces, discussed above, such that they are consistent with theories of Grand Unification, an energy scale at which the three are equal. Rather than a motivation, this is a pleasant coincidence, but lends plausibility to the theory. It also shows promising features necessary for theories to incorporate gravity, although it does not finish the job. SUSY itself cannot be the final fundamental theory of particle physics, but is an extension which shows much promise. The final, perhaps most exciting feature of SUSY is that it can offer a candidate for the particle that represents dark matterm with the introduction of a new quantum number R - Parity. 
 
 
-
-\subsection{MSSM} 
-
-Whilst there are money ways to construct mathematically the theory of Supersymmery, it is usual to do it in the way which introduces the least number of new degrees of freedom. This corresponds to the minimal particle contact required to satisfy the core symmetry, which corresponds to one supersymmetric particle, called a super partner, for each SM particle. We call this the Minimal Supersymetric Standard Model. 
 
 \subsection{R-Parity}
 
-In order to distinguish the SUSY particles from the SM particles a new quantum number R Parity  is born, defined in Equation \ref{eqn:RPAR} using the quantum numbers B (baryon number), L (lepton Number) and S (spin). Under this construction, all SM particles carry $R_{p}$ of +1 and all super partners carry -1. 
+Consructing the most general form of SUSY, terms appear which allow processes which violate two quantum numbers, the baryon number B and the lepton number L. Whilst there is no theoretical reason for this to be a problem, these interactions have not been observed, and are constrained heavily. An undeniable constraint is the lifetime of the proton, which is very large, whereas these processes would facilitate its decay. whilst B and L are not fundamental symmetries in the theory, it is possible to construct a new quantum number R defined in Equation \ref{eqn:RPAR} which can be required as a symmetry R-parity. It distinguishes between particles from the SM and the sparticles introduced by SUSY, as under this construction, all SM particles carry $R$ of +1 and all super partners carry -1. 
 
 \begin{equation}
-R_{P} = (-1)^{3(B-L)+2S}
+R = (-1)^{3(B-L)+2S}
 \label{eqn:RPAR}
 \end{equation}
 Whilst terms in the Quantum Field Theory do allow for the possibility of violation of this parity, experimental measurements has excluded this for sparticles with masses on the TeV scale, and therefore those within the reach of the LHC. Thus the  majority of searches consider models with a symmetry which forbids this violation and conserves Rp. Several phenomenological consequences arise from this assumption which provide the backbone to SUSY searches at the LHC. 
 
-IN over for SUSY particles to be produced at the LHC under this framework, they must be pair produced from SM particles. The heavier particles undergo a decay chain ending in the lightest of the supersymmetric particles, denoted the Lightest Super Partner (LSP), and this particle is by necessity stable and neutral, as it cannot decay into SM particles. This type of particle is called a Weakly Interacting Massive Particle (WIMP), and they will not interact in a detector, leading us to characterise our searches for it by a requirement for large amounts of missing energy.
+IN over for SUSY particles to be produced at the LHC under this framework, they must be pair produced from SM particles. The heavier particles undergo a decay chain ending in the lightest of the supersymmetric particles, denoted the Lightest Super Partner (LSP), and this particle is by necessity stable and neutral, as it cannot decay into SM particles. These characteristics denote it a WIMP, the type of particle that is sought in Dark Matter searches.  These particles will not interact in a detector, therefore are characterised in an experiment as large amounts of missing energy. As this is directly a characteristic of a WIMP in the final state, such a signature represents not only SUSY but is shared by other new physics models with a dark matter candidate particle. 
+
+Models may be constructed to constrain the violation of B and L without R-parity conservation, but those shall not be considered in this thesis, as this unique feature provides both physical motivation and a search strategy for physics at the LHC.
 
 
-\subsection{CMSSM}
+\subsection{MSSM} 
 
+Whilst there are money ways to construct mathematically the theory of Supersymmery, it is usual to do it in the way which introduces the least number of new degrees of freedom. This corresponds to the minimal particle contact required to satisfy the core symmetry, which corresponds to one new degree of freedom for each existing SM one. This approach is known as the Minimal Supersymetric Standard Model (MSSM), and has an additional new particles, known as a sparticle, for each known SM particle. 
+
+The particles are arranged to fit the irreducible representation of the symmetry, in \textit{supermultiplets}, each of which contains both fermions and bosons. The number of bosonic and sermonic degrees of freedom are therefore equal in any supermultiplet. The names of the spin-0 bosons that partner the SM fermions are prepended by "s", known as squarks and sleptons, collectively the sfermions. 
+
+The Higgs receives different treatment in SUSY, as not one but two Higgs supermutiplets are required, to give mass separately to the quarks of charge \sfrac{1}{3} and the quarks of charge \sfrac{2}{3}
+
+
+
+\subsection{Minimal Supergravity and the Constrained MSSM}
+
+Even assuming a minimal particle content, the MSSM has a large number of free parameters, introduced through SUSY and Electroweak symmetry breaking, 105 more than the SM. When it comes to experimental searches, this is an unworkable number, for to examine possible behaviour of SUSY one would have to look in 105 dimensions. Thus for the purpose of making models to work with, it is desired to constrain this number in the theory. One popular theory used in this thesis is the theory of minimal SUper GRAvity, otherwise known as mSUGRA. 
+
+The concept behind mSUGRA is that there should be some messenger between the MSMM sector and 
 
 \subsubsection{Current Limits on the CMSSM}
+
+Two types of limits exist in mSUGRA space, those imposed theoretically and those that result from experimental data. Of the latter, some are contributed from cosmology, and others from particle physics. 
+
+There are some regions of th parameter space where the masses of the particles have a hierarchy which results in the stau being the LSP. This is theoretically forbidden as the LSP certainly contributes some if not all of the dark matter in the universe, and it is known to be neutral. 
+
+
+
 \subsection{Other BSM Models}
 \subsection{Production Mechanisms at the LHC}
+\subsubsection{The Parton Model}
 
 
 
