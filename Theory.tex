@@ -4,7 +4,7 @@ At the heart of particle physics is a quest to discover the fundamental building
 
 \section{The Standard Model}
 
-The Standard Model (SM) is the name given to the theories that successfully describes the known elementary particles and their fundamental interactions with respect to the strong, weak and electromagnetic forces.  These theories are formulated mathematically using quantum field theory (QFT), in which particles are thought of as excitations of fields, and the dynamics of a given system are summarised in a function called a Lagrangian. In order to reflect the symmetries observed in nature, measurements of physical properties in the SM must be invariant under local transformations, and this property is called gauge invariance. Therefore the SM is a special case of field theory, called Gauge Theory, and the interactions between particles are described by force-carrying mediation particles known as gauge bosons. From Noether's Theorem, it is known that as a consequence of a symmetry in a dynamical system there is an associated physically conserved quantity. Clearly, for the electromagnetic force this is the electric charge. Analogously, there are conserved "charges" for the strong and weak forces, "colour" charge and the quantum number "isospin", $T_{3}$ respectively. 
+The Standard Model (SM) is the name given to the theories that successfully describes the known elementary particles and their fundamental interactions with respect to the strong, weak and electromagnetic forces.  These theories are formulated mathematically using quantum field theory (QFT), in which particles are thought of as excitations of fields, and the dynamics of a given system are summarised in a function called a Lagrangian. In order to reflect the symmetries observed in nature, measurements of physical properties in the SM must be invariant under local transformations, and this property is called gauge invariance. Therefore the SM is a special case of field theory, called Gauge Theory, and the interactions between particles are described by force-carrying mediation particles known as gauge bosons. From Noether's Theorem, it is known that as a consequence of a symmetry in a dynamical system there is an associated physically conserved quantity\cite{Rolnick}. Clearly, for the electromagnetic force this is the electric charge. Analogously, there are conserved "charges" for the strong and weak forces, "colour" charge and the quantum number "isospin", $T_{3}$ respectively. 
  
 The set of possible transformations is described in the language of Group Theory, and thus we describe the SM as a non-Abelian Yang-Mills type gauge field theory based on the symmetry group $SU(3)_{C} \times SU(2)_{L} \times U(1)_{Y}$. The strong interactions described by Quantum Chromodynamics (QCD) are represented by $SU(3)_{C}$, and the electromagnetic and weak interactions are represented together due to Electroweak Unification by the group $SU(2)_L \times U(1)_{Y}$. As of yet, the fourth fundamental force Gravity is not included in the Standard Model, but this is seen as of little consequence as gravitational forces are thought to have comparatively little effect on fundamental particles. 
 
@@ -122,13 +122,12 @@ The hierarchy problem could be removed, rather than controlled, if there were a 
 Under this symmetry elementary particles in the SM would each have corresponding super-partners, differing by one half unit of spin, such that a fermion has a scalar boson super partner, and vice versa. At the heart of supersymmetry is a transformation that changes the field of a fermion into that of a boson, and vice versa. The generator of the transformation shall be known as Q,
 
 \begin{equation}
-Q|fermion> = |boson>, 	Q|boson> = |fermion> 
+\textrm{Q}|\textrm{fermion}\rangle = |\textrm{boson}\rangle,  \; \; \; \;  \textrm{Q}|\textrm{boson}\rangle = |\textrm{fermion}\rangle  
 \label{eqn:Q}
 \end{equation}
 
-According to an exact symmetry a super partner would have the same characteristics as its partner, including its mass, which would indicate they were within the reach of previous physics experiments. However, they have not been observed, and thus it is concluded that the symmetry is broken at some energy scale, to give the superpartners greater mass. In order for SUSY to eliminate the hierarchy problem, this breaking is assumed to occur at the Electroweak Scale, which restricts the size of the difference in mass to the order of ~1 TeV.  This is known as "soft" SUSY breaking, and offers the hope of discovering this new physics at the TeV scale, as is now possible for the first time with the LHC. 
 
-In addition to its neat solution to the hierarchy problem SUSY has several other consequences which lead to its position as the most favoured theory for new physics at the TeV scale. The inclusion of SUSY particles to the SM has the side affect of altering the runnings of the gauge coupling constants of the three fundamental forces, discussed above, such that they are consistent with theories of Grand Unification, an energy scale at which the three are equal. Rather than a motivation, this is a pleasant coincidence, but lends plausibility to the theory. It also shows promising features necessary for theories to incorporate gravity, although it does not finish the job. SUSY itself cannot be the final fundamental theory of particle physics, but is an extension which shows much promise. The final, perhaps most exciting feature of SUSY is that it can offer a candidate for the particle that represents dark matterm with the introduction of a new quantum number R - Parity. 
+In addition to its neat solution to the hierarchy problem SUSY has several other consequences which lead to its position as the most favoured theory for new physics at the TeV scale. The inclusion of SUSY particles to the SM has the side affect of altering the runnings of the gauge coupling constants of the three fundamental forces, discussed above, such that they are consistent with theories of Grand Unification, an energy scale at which the three are equal. Rather than a motivation, this is a pleasant coincidence, but lends plausibility to the theory. It also shows promising features necessary for theories to incorporate gravity, although it does not finish the job. SUSY itself cannot be the final fundamental theory of particle physics, but is an extension which shows much promise, and is a pre-requisite for many higher energy theories such as most formulations of String Theory\cite{Dine}. The final, perhaps most exciting feature of SUSY is that it can offer a candidate for the particle that represents dark matter with the introduction of a new quantum number R - Parity. 
 
 
 
@@ -140,9 +139,16 @@ Consructing the most general form of SUSY, terms appear which allow processes wh
 R = (-1)^{3(B-L)+2S}
 \label{eqn:RPAR}
 \end{equation}
-Whilst terms in the Quantum Field Theory do allow for the possibility of violation of this parity, experimental measurements has excluded this for sparticles with masses on the TeV scale, and therefore those within the reach of the LHC. Thus the  majority of searches consider models with a symmetry which forbids this violation and conserves Rp. Several phenomenological consequences arise from this assumption which provide the backbone to SUSY searches at the LHC. 
+Whilst terms in the Quantum Field Theory do allow for the possibility of violation of this parity, experimental measurements has excluded this for sparticles with masses on the TeV scale, and therefore those within the reach of the LHC. Thus the  majority of searches consider models with a symmetry which forbids this violation and conserves Rp. Several phenomenological consequences that transcend specific models arise from this assumption which provide the backbone to SUSY searches at the LHC:
 
-IN over for SUSY particles to be produced at the LHC under this framework, they must be pair produced from SM particles. The heavier particles undergo a decay chain ending in the lightest of the supersymmetric particles, denoted the Lightest Super Partner (LSP), and this particle is by necessity stable and neutral, as it cannot decay into SM particles. These characteristics denote it a WIMP, the type of particle that is sought in Dark Matter searches.  These particles will not interact in a detector, therefore are characterised in an experiment as large amounts of missing energy. As this is directly a characteristic of a WIMP in the final state, such a signature represents not only SUSY but is shared by other new physics models with a dark matter candidate particle. 
+\begin{itemize}
+\item{In order for SUSY particles to be produced at the LHC under this framework, they must be pair produced from SM particles.} 
+
+\item{The heavier particles will cascade down a decay chain ending through creation of the lightest of the supersymmetric particles, denoted the Lightest Super Partner (LSP)}
+
+\item{The LSP must be stable as it cannot decay into SM particles, and through cosmological bounds must be electrically neutral.} 
+\end{itemize}
+These characteristics of the LSP show us that it is a WIMP, the type of particle that is sought in Dark Matter searches.  These particles will not interact in a detector, therefore are characterised in an experiment as large amounts of missing energy. As this is directly a characteristic of a WIMP in the final state, such a signature represents not only SUSY but is shared by other new physics models with a dark matter candidate particle. 
 
 Models may be constructed to constrain the violation of B and L without R-parity conservation, but those shall not be considered in this thesis, as this unique feature provides both physical motivation and a search strategy for physics at the LHC.
 
@@ -151,17 +157,40 @@ Models may be constructed to constrain the violation of B and L without R-parity
 
 Whilst there are money ways to construct mathematically the theory of Supersymmery, it is usual to do it in the way which introduces the least number of new degrees of freedom. This corresponds to the minimal particle contact required to satisfy the core symmetry, which corresponds to one new degree of freedom for each existing SM one. This approach is known as the Minimal Supersymetric Standard Model (MSSM), and has an additional new particles, known as a sparticle, for each known SM particle. 
 
-The particles are arranged to fit the irreducible representation of the symmetry, in \textit{supermultiplets}, each of which contains both fermions and bosons. The number of bosonic and sermonic degrees of freedom are therefore equal in any supermultiplet. The names of the spin-0 bosons that partner the SM fermions are prepended by "s", known as squarks and sleptons, collectively the sfermions. 
+The particles are arranged to fit the irreducible representation of the symmetry, in \textit{supermultiplets}, each of which contains both fermions and bosons. The number of bosonic and fermonic degrees of freedom are therefore equal in any supermultiplet. 
 
-The Higgs receives different treatment in SUSY, as not one but two Higgs supermutiplets are required, to give mass separately to the quarks of charge \sfrac{1}{3} and the quarks of charge \sfrac{2}{3}
+The names of the spin-0 bosons that partner the SM fermions are prefixed with "s-", known as squarks and sleptons, collectively the sfermions. As the SM contains a distinction between left and right handed fermions, the boson super partners have one of each too, and are labelled RH and LH, but it is important to remember this is not a description of the super partner itself, merely a label to describe the SM particle is associated with. 
 
+The names of the fermions from the SM bosons are appended with "-ino" such as the super partners of the gluons, the gluinos. However, for the other fundamental SM bosons, identifying their superpartners is not so simple. The symmetry acts not on the results of electroweak symmetry breaking but on the fields of the SU(2)_{L} \times U(1)_{Y} group. Thus there should be three Winos {W} and a Bino \~{B}. 
+
+The Higgs receives different treatment in SUSY, as not one but two Higgs supermutiplets are required, to give mass separately to the quarks of charge \sfrac{1}{3} and the quarks of charge \sfrac{2}{3}. Where the SM has one complex doublet, the MSSM has two complex Higgs doublets, hence the sector has 8 degrees of freedom. Three are lost to give the W and Z bosons mass in electroweak symmetry breaking, leaving five which represent five higgs boson particles: the charged higgs bosons $H^{\pm}$, and three neutral bosons h, H and A. The corresponding superparters are known as the higgsinos.  
+
+Due to electroweak symmetry breaking the fermions superpartners of the $SU(2)_{L} \times U(1)_{Y}$ group are not generally the mass eigenstates. Instead the winos and bino mix with the higgsino fields to produce the mass eigenstates in two groups, the charginos $\Chi^{\pm}_{1,2}$ and the neutralinos $\Chi^{0}_{1,2,3,4}$
+
+\subsection{Supersymmetry Breaking}
+
+According to an exact symmetry a super partner would have the same characteristics as its partner, including its mass, which would indicate they were within the reach of previous physics experiments. However no observed particles can be sparticles, and thus it is concluded that the symmetry is broken at some energy scale, to give the superpartners greater mass. In order for SUSY to eliminate the hierarchy problem, this breaking is assumed to occur at the Electroweak Scale, which restricts the size of the difference in mass to the order of ~1 TeV.  
+
+This is known as "soft" SUSY breaking, and offers the hope of discovering this new physics at the TeV scale, as is now possible for the first time with the LHC. This involves "soft" mass terms incorporated into the Lagrangian theory that do not introduce quadratic divergences that would provide a new "hierarchy problem". However, the nature of this breaking is not known and thus it is traditional to formulate it in the theory to contain all the mass and mixing terms allowed by the underlying symmetry, which gives arbitrary masses to the sparticles. As there are many unknowns this introduces a large number of parameters (>50) to the system. Not all is lost, as SUSY is still capable of making useful predictions, however to compete the theory an understanding of the nature of SUSY breaking is really required. A full lagrangian treatment can be found 
 
 
 \subsection{Minimal Supergravity and the Constrained MSSM}
 
-Even assuming a minimal particle content, the MSSM has a large number of free parameters, introduced through SUSY and Electroweak symmetry breaking, 105 more than the SM. When it comes to experimental searches, this is an unworkable number, for to examine possible behaviour of SUSY one would have to look in 105 dimensions. Thus for the purpose of making models to work with, it is desired to constrain this number in the theory. One popular theory used in this thesis is the theory of minimal SUper GRAvity, otherwise known as mSUGRA. 
+Even assuming a minimal particle content, the MSSM has a large number of free parameters, introduced through SUSY and Electroweak symmetry breaking, 105 more than the SM. When it comes to experimental searches, this is an unworkable number, for to examine possible behaviour of SUSY one would have to look in 105 dimensions. Thus for the purpose of making models to work with, it is desired to constrain this number in the theory. One popular GUT model is the theory of minimal SUper GRAvity, otherwise known as mSUGRA. 
 
-The concept behind mSUGRA is that there should be some messenger between the MSMM sector and 
+The concept behind mSUGRA is that there should be some messenger between the MSMM sector and the Electroweak scale, which could be gravity. 
+
+The MSSM combined with the theory of mSUGRA is called the Constrained MSSM, or CMSSM, as the number of free parameters has been reduced to a manageable five. These factors are:
+
+\begin{itemize}
+\item{The common scalar mass $m_{0}$}
+\item{The common gauging mass $m_{1/2}$}
+\item{The common trilinear coupling $A_{0}$}
+\item{tan $\beta$}
+\item{ sign($\mu$)}
+\end{itemize} 
+
+With this relatively small parameter space it is possible to construct models with which to construct search strategies, and allows us to exclude regions with the advent of new results. A given point in mSUGRA space defines the mass hierarchy of the particles, and therefore governs the interactions that are possible, as well as the identity of the LSP. Thus in different regions the productions mechanisms can differ. 
 
 \subsubsection{Current Limits on the CMSSM}
 
