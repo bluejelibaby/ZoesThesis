@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  20 JAN 2012 17:22
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  29 JAN 2012 18:47
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -446,7 +446,8 @@ Package: xparse 2010/05/23 v1927 Generic document command parser
 
 No file macros.tex.
 ** Make sure \initfloatingfigs being called immediately
-   after \begin{document} !! ** (./thesis.aux)
+   after \begin{document} !! ** (./thesis.aux (./title.aux) (./symbols.aux)
+(./Theory.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -463,8 +464,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 39.
-
-(/usr/local/texlive/2010/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2010/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 39.
@@ -508,140 +508,4 @@ Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
 (/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
 
-(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2010/03/01 v1.9 Key value parser (HO)
-
-(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2010/01/28 v1.3 Prefix for e-TeX command names (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 436.
-
-(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-\openout2 = `title.aux'.
-
-
-(./title.tex) [1
-
-
-
-
-{/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-\openout2 = `symbols.aux'.
-
- (./symbols.tex)
-\openout2 = `Theory.aux'.
-
- (./Theory.tex
-Chapter 1.
-
-LaTeX Warning: Citation `Rolnick' on page 1 undefined on input line 7.
-
-[1
-
-
-
-
-
-]
-
-LaTeX Warning: Reference `eqn:threefams' on page 2 undefined on input line 20.
-
-[2]
-
-LaTeX Warning: Reference `eqn:QEDL' on page 3 undefined on input line 47.
-
-[3] [4]
-
-LaTeX Warning: Citation `Glashow' on page 5 undefined on input line 80.
-
-
-LaTeX Warning: Citation `Breaking' on page 5 undefined on input line 80.
-
-[5] [6]
-
-LaTeX Warning: Citation `WWHMass' on page 7 undefined on input line 98.
-
-[7]
-
-LaTeX Warning: Citation `zwicky' on page 8 undefined on input line 111.
-
-[8]
-
-LaTeX Warning: Citation `Dine' on page 9 undefined on input line 130.
-
-[9]
-
-LaTeX Warning: Reference `eqn:RPAR' on page 10 undefined on input line 136.
-
-[10] [11]
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 166.
-
- (/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 166.
-
-
-(/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [12] [13])
-[14] (./thesis.bbl) [15
-
-
-] (./thesis.aux (./title.aux) (./symbols.aux)
-(./Theory.aux))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 135 ({)
-### bottom level 
-Here is how much of TeX's memory you used:
- 6944 strings out of 493747
- 111966 string characters out of 3143546
- 153237 words of memory out of 3000000
- 10071 multiletter control sequences out of 15000+200000
- 15387 words of font info for 50 fonts, out of 3000000 for 9000
- 714 hyphenation exceptions out of 8191
- 38i,11n,40p,1414b,274s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/base/8r.enc
-}{/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
-</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
-usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
-ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
-al/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
-/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
-xlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
-ve/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
-2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2
-010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
-10/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2010
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2010/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2010/t
-exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2010/tex
-mf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on thesis.pdf (16 pages, 226356 bytes).
-PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+(/usr

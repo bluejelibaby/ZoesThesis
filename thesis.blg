@@ -6,44 +6,44 @@ A level-1 auxiliary file: symbols.aux
 A level-1 auxiliary file: Theory.aux
 The style file: Unsrt_Eprint.bst
 Database file #1: papers.bib
-You've used 6 entries,
+You've used 10 entries,
             1829 wiz_defined-function locations,
-            498 strings with 4268 characters,
-and the built_in function-call counts, 1280 in all, are:
-= -- 114
-> -- 38
+            531 strings with 5000 characters,
+and the built_in function-call counts, 2207 in all, are:
+= -- 189
+> -- 88
 < -- 0
-+ -- 16
-- -- 10
-* -- 78
-:= -- 203
-add.period$ -- 18
-call.type$ -- 6
-change.case$ -- 4
++ -- 34
+- -- 24
+* -- 147
+:= -- 357
+add.period$ -- 31
+call.type$ -- 10
+change.case$ -- 7
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 62
-empty$ -- 145
-format.name$ -- 10
-if$ -- 287
+cite$ -- 10
+duplicate$ -- 103
+empty$ -- 238
+format.name$ -- 24
+if$ -- 494
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 8
-newline$ -- 33
-num.names$ -- 6
-pop$ -- 24
+int.to.str$ -- 10
+missing$ -- 13
+newline$ -- 54
+num.names$ -- 10
+pop$ -- 34
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 16
+skip$ -- 28
 stack$ -- 0
-substring$ -- 98
-swap$ -- 6
+substring$ -- 146
+swap$ -- 10
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 12
-width$ -- 7
-write$ -- 66
+while$ -- 19
+width$ -- 12
+write$ -- 114
