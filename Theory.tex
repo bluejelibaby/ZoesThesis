@@ -118,7 +118,7 @@ The local SU(3)$_{C}$ invariance of QCD is defined by the transformations in Equ
 
 \begin{equation}
 q(\stc) \rightarrow e^{i\frac{g_{s}}{2}\theta^{\alpha}(\stc) \lambda_{\alpha}} q(\stc) \mathrm{ with } \alpha = 1, ... , 8
-\label{eqn:qdctrans}
+\label{eqn:qcdtrans}
 \end{equation}
 
 
@@ -144,7 +144,7 @@ where the covariant derivative in this case is
 \label{eqn:QCDD}
 \end{equation}
 
-The gluon field tensor $G^{\alpha}_{\mu \nu}$, analogous to the photon field tensor we had seen in QED is defined in Equation \ref{eqn:G}. Unlike that of the photon, it can be seen that in the kinetic term of $\Lagr$ this gives rise to three and four gluon terms thus describing the self-interaction of the gluons. 
+The gluon field tensor $G^{\alpha}_{\mu \nu}$, analogous to the photon field tensor we had seen in QED is defined in Equation \ref{eqn:GQCD}. Unlike that of the photon, it can be seen that in the kinetic term of $\Lagr$ this gives rise to three and four gluon terms thus describing the self-interaction of the gluons. 
 
 \begin{equation}
 G^{\alpha}_{\mu \nu} (\stc) = \partial_{\mu} A^{\alpha}_{\nu} (\stc) - \partial_{\nu}A^{\alpha}_{\mu}(\stc) + g_{S} f_{\alpha \beta \gamma} A^{\beta}_{\mu}(\stc)A^{\gamma}_{\mu}(\stc)
@@ -169,7 +169,7 @@ The weak interaction, responsible for radioactive decay, makes up the final piec
 
 The group symmetry is SU(2) giving rise to a conserved quantity known as weak isospin, I which has a component $I_{3}$ that points in the direction of the z axis. The left-handed fermions form isospin doublets with $I_{3} = \pm \sfrac{1}{2}$ whilst the right handed neutrinos are isospin singlets where $I_{3} = 0$.
 
-Building an individual Lagrangian to describe the picture of weak interactions was not as simple as in the strong and electromagnetic sectors, with each proposed model suffering problems, as described in detail in Ref. \cite{Herrero}. Attempting to form a $SU(2)_{L} $ Finally it was realised that despite their apparent differences the weak and electromagnetic forces were low-energy manifestations of the same force, and a composite theory was proposed~\cite{Glashow}. This is called Electroweak Unification, and for this the Nobel Prize was awarded to Glashow, Salam and Weinberg in 1979~\cite{Breaking}. 
+Building an individual Lagrangian to describe the picture of weak interactions was not as simple as in the strong and electromagnetic sectors, with each proposed model suffering problems, as described in detail in Ref. \cite{HerreroSM}. Attempting to form a $SU(2)_{L} $ Finally it was realised that despite their apparent differences the weak and electromagnetic forces were low-energy manifestations of the same force, and a composite theory was proposed~\cite{Glashow}. This is called Electroweak Unification, and for this the Nobel Prize was awarded to Glashow, Salam and Weinberg in 1979~\cite{Breaking}. 
 
 The gauge group of the unified theory is $SU(2)_{L} \times U(1)_{Y}$, where $U(1)_{Y}$ is a different copy of the symmetry seen in electromagnetism, the $U(1)_{em}$ group. In this picture the conserved quantity is Y, the weak hypercharge, and the conserved quantity for the SU(2) symmetry is the weak isospin, $T_{3}$. The previous quantity conserved under $U(1)_{em}$ Q can be defined as a linear combination of the two $Q = T_{3} + \frac{Y}{2}$.  The $SU(2)_{L}$ suffix is not taken from the conserved quantity, $T_{3}$, but from it most important property, its action on only Left Handed (LH) fermions. Fermions that are Right Handed (RH) have a weak isospin $T_{3} = 0$ and do not interact via the weak force, whereas LH fermions have $T_{3} =  \pm \frac{1}{2}$ and interact via three gauge bosons. The $W^{\pm}$ bosons have each an isospin of unit 1, with a sign defined by the name, and they govern an interaction from a particle of $T_{3}=+\frac{1}{2}$ into one of $T_{3}=-\frac{1}{2}$ and vice versa, according to conservation laws. The third boson given by the SU(2) group alone is the $W^{0}$ boson of $T_{3}=0$, which allows interactions where the weak isospin stays the same. This is not a physically observed particle, as the electroweak unification leads to mixing between this and the boson given by the $U(1)_{Y}$ group to produce the photon and the $Z^{0}$ particle.
 
@@ -233,16 +233,24 @@ The incorporation of the gravitational force has not bothered particle physicist
 As there is both theoretical and experimental concerns over the SM, this provokes theories Beyond the Standard Model (BSM), many of which come in to play at the TeV scale, which we are able to explore for the first time with the LHC. A detailed description of a few of the most interesting shortcomings most relevant to this thesis is given below.
 
 \subsection{The Hierarchy Problem}
-Although the Higgs Boson has yet to be observed experimentally, its mechanism is necessary to the Standard Model to provide mass to the particles, and thus is considered to exist unless proven otherwise. However, while it solves the SSB problem, the Higgs theory introduces theoretical issues of its own. The presence of the Higgs in the SM ensures the WW scattering amplitude does not violate unitarity, but only whilst the $m_{H} < 1 TeV$, providing an upper bound on the expected mass\cite{WWHMass}. 
+Although the Higgs Boson has yet to be observed experimentally, its mechanism is necessary to the Standard Model to provide mass to the particles, and thus is considered to exist unless proven otherwise. However, while it solves the SSB problem, the Higgs theory introduces theoretical issues of its own. The presence of the Higgs in the SM ensures the WW scattering amplitude does not violate unitarity, but only whilst the $m_{H} < 1 \textrm{TeV}$, providing an upper bound on the expected mass\cite{WWHMass}. 
 
-However, in the coupling of the Higgs to heavy fermions, the mass of the Higgs receives extremely large radiative corrections. If each coupling with a fermion f has a term in the Lagrangian $-\lambda_{F} H \bar{f}f$, it contributes a quadratically divergent factor $\delta m^{2}_{H}$ that corrects the squared mass of the Higgs. 
+However, the mass of the Higgs, given by its self interation received extremely large radiative corrections. This is due to the heavy fermion anti-fermion pair loop contribution, seen in Figure \ref{fig:hiloop}. 
+
+\begin{figure}
+\centering
+\includegraphics[width=0.4\textwidth]{Figures/Theory/higgsself}
+\caption{\label{fig:hiloop}The loop contribution to the higgs self-mass interaction from fermion-anti-fermion pairs in the SM}
+\end{figure}
+
+If each coupling with a fermion f has a term in the Lagrangian $-\lambda_{F} H \bar{f}f$, it contributes a quadratically divergent factor $\delta m^{2}_{H}$ that corrects the squared mass of the Higgs. 
 
 \begin{equation}
 \delta m^{2}_{H} =\sum_{f} - \frac{|\lambda_{f}|^{2}}{8 \pi^{2}}\Lambda^{2}_{UV} + \mathcal{O}(ln\Lambda)
 \label{eqn:HIGGQUAD}
 \end{equation}
 
-The factor $\lambda_{f}$  represents the coupling for each type of fermion, which is largest in the case of the top quark, where $\lambda_{t} \approx 1$. The parameter $\Lambda_{UV}$ is the \textit{ultraviolet cutoff}, so named as it represents the smallest distance to probe in the calculation. It can be thought of as the scale at which the Standard Model is valid up to, as any new physics would change the theory. If there were no new physics at a lower energy, it takes the value of the Plank Scale $M_{P}$, but in this case the correction will be 30 orders of magnitude higher than the 1 TeV upper bound justified experimentally. As there exists nothing in the SM to fix the Higgs Mass, the theory requires fine-tuning, tweaking the parameters to agree with observational findings. This is generally accepted to be an inelegant method, as it requires the input of extra information, and indicates a gap in the fundamental description leading to searches for extensions to the Standard Model. 
+The factor $\lambda_{f}$  represents the coupling for each type of fermion, which is largest in the case of the top quark, where $\lambda_{t} \approx 1$. The parameter $\Lambda_{UV}$ is the \textit{ultraviolet cutoff}, so named as it represents the smallest distance to probe in the calculation. It can be thought of as the scale at which the Standard Model is valid up to, as any new physics would change the theory. If there were no new physics at a lower energy, it takes the value of the Plank Scale $M_{P}$, but in this case the correction will be 30 orders of magnitude higher than the 1 TeV upper bound justified experimentally\cite{Drees}. As there exists nothing in the SM to fix the Higgs Mass, the theory requires fine-tuning, tweaking the parameters to agree with observational findings. This is generally accepted to be an inelegant method, as it requires the input of extra information, and indicates a gap in the fundamental description leading to searches for extensions to the Standard Model. 
 
 \subsection{Cold Dark Matter}
 
@@ -266,6 +274,13 @@ Under this symmetry elementary particles in the SM would each have corresponding
 \label{eqn:Q}
 \end{equation}
 
+where the complex spinors that generate SUSY anti-commutate, with the following relationships:
+
+
+\begin{equation}
+\{Q_{\alpha},Q_{\beta}\} = \{Q_{\alpha}^{\dagger},Q_{\beta}^{\dagger}\} = 0 \qquad \{Q_{\alpha},Q_{\alpha}^{\dagger}\} = 2
+\end{equation} 
+
 
 In addition to its neat solution to the hierarchy problem SUSY has several other consequences which lead to its position as the most favoured theory for new physics at the TeV scale. The inclusion of SUSY particles to the SM has the side affect of altering the runnings of the gauge coupling constants of the three fundamental forces, discussed above, such that they are consistent with theories of Grand Unification, an energy scale at which the three are equal. Rather than a motivation, this is a pleasant coincidence, but lends plausibility to the theory. It also shows promising features necessary for theories to incorporate gravity, although it does not finish the job. SUSY itself cannot be the final fundamental theory of particle physics, but is an extension which shows much promise, and is a pre-requisite for many higher energy theories such as most formulations of String Theory\cite{Dine}. The final, perhaps most exciting feature of SUSY is that it can offer a candidate for the particle that represents dark matter with the introduction of a new quantum number R - Parity. 
 
@@ -273,7 +288,7 @@ In addition to its neat solution to the hierarchy problem SUSY has several other
 
 \subsection{R-Parity}
 
-Consructing the most general form of SUSY, terms appear which allow processes which violate two quantum numbers, the baryon number B and the lepton number L. Whilst there is no theoretical reason for this to be a problem, these interactions have not been observed, and are constrained heavily. An undeniable constraint is the lifetime of the proton, which is very large, whereas these processes would facilitate its decay. whilst B and L are not fundamental symmetries in the theory, it is possible to construct a new quantum number R defined in Equation \ref{eqn:RPAR} which can be required as a symmetry R-parity. It distinguishes between particles from the SM and the sparticles introduced by SUSY, as under this construction, all SM particles carry $R$ of +1 and all super partners carry -1. 
+Consructing the most general form of SUSY, terms appear which allow processes which violate two quantum numbers, the baryon number B and the lepton number L. Whilst there is no theoretical reason for this to be a problem, these interactions have not been observed, and are constrained heavily. An undeniable constraint is the lifetime of the proton, which is very large, whereas these processes would facilitate its decay. whilst B and L are not fundamental symmetries in the theory, it is possible to construct a new quantum number R defined in Equation \ref{eqn:RPAR} which can be required as a symmetry R-parity\cite{terning}. It distinguishes between particles from the SM and the sparticles introduced by SUSY, as under this construction, all SM particles carry $R$ of +1 and all super partners carry -1. 
 
 \begin{equation}
 R = (-1)^{3(B-L)+2S}
@@ -359,9 +374,17 @@ Assuming SUSY exists within the reach of the LHC, indicated by the restriction i
 Within mSUGRA there are three distinct regions which exhibit different decay modes, defined by the mass relationship between the gluinos and the squarks. These an be seen Figure \ref{fig:msugratdr} , where the diagonal green lines represent a cross-over in the squark-gluino hierarchy. Passing left-right on the diagram, the regions are:
 
 \begin{description}
-\item[Region1: $m_{\tilde{g}} > m_{\tilde{q}}$]{All the gluinos are heavier than the squarks, thus $\tilde{q}-\tilde{q}$ production dominates}
-\item[Region 2]{}
-\item[Region 3]{ $m_{\tilde{g}} < m_{\tilde{q}}$}
+\item[Region1: $m_{\tilde{g}} > m_{\tilde{q}}$]{As the gluinos are heavier than the squarks, the general form of decays is
+\begin{equation}
+\tilde{g} \rightarrow \tilde{q} \bar{q} , \tilde{q} \rightarrow q \chi
+\end{equation}
+}
+\item[Region 2: $m_{\tilde{g}}< m_{\tilde{q}_{L}}, m_{\tilde{g}}> m_{\tilde{t}_{1}} $]{Here the mass of there gluino between that of the heaviest andy lightest squark, therefore more complicated decay relationships between the two are allowed, and these depend on exactly which quarks are heavier and which lighter. The $\tilde{q}_{L}$ are the heaviest, while states such at $\tilde{b}_{1}$ and $\tilde{t}_{1}$ are some of the lightest. The heavier quarks decay to lighter squarks and to gluinos, and the gluino decays to lighter squarks. }
+\item[Region 3: $m_{\tilde{g}} < m_{\tilde{q}}$]{Finally in this region the gluino is lighter than any squark, and the allowed decays take the form
+\begin{equation}
+\tilde{q} \rightarrow \tilde{g}q , \tilde{g} \rightarrow q\bar{q} \chi
+\end{equation}
+}
 \end{description}
 
 As the dominating decay of both squarks and gluinos produce quarks, we expect in a SUSY event many hadronic jets from these sources along with the gluon radiation from the incoming and outgoing patrons. Thus a traditional SUSY signature that provides the basis for this thesis is that of multiple jets and evidence of a (missing) LSP. 

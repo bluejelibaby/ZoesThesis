@@ -13,6 +13,11 @@ R.~{Bouchendira}, P.~{Clad{\'e}}, S.~{Guellati-Kh{\'e}lifa}, F.~{Nez}, and
 \newblock {\em Physical Review Letters}, 106(8):080801, February 2011,
   1012.3627.
 
+\bibitem{HerreroSM}
+M.~Herrero.
+\newblock {The Standard model}.
+\newblock 1998, hep-ph/9812242.
+
 \bibitem{Glashow}
 S.~L. Glashow.
 \newblock {Partial Symmetries of Weak Interactions}.
@@ -34,6 +39,11 @@ Benjamin~W. Lee, C.~Quigg, and H.~B. Thacker.
   mass.
 \newblock {\em Phys. Rev. D}, 16:1519--1531, Sep 1977.
 
+\bibitem{Drees}
+Manuel Drees.
+\newblock {An Introduction to supersymmetry}.
+\newblock 1996, hep-ph/9611409.
+
 \bibitem{zwicky}
 F.~{Zwicky}.
 \newblock {Die Rotverschiebung von extragalaktischen Nebeln}.
@@ -49,6 +59,11 @@ E.~Komatsu et~al.
 Michael Dine.
 \newblock {\em {Supersymmetry and String Theory}}.
 \newblock Cambridge University Press, 2007.
+
+\bibitem{terning}
+John Terning.
+\newblock {\em Modern Supersymmetry}.
+\newblock Clarendon Press, 2006.
 
 \bibitem{CMSTDRII}
 A~de~Roeck, A~Ball, M~Della~Negra, L~Foa, and A~Petrilli.
