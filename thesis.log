@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  31 JAN 2012 15:25
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  31 JAN 2012 19:20
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -549,66 +549,61 @@ Chapter 1.
 
 
 
-]
-LaTeX Font Info:    Calculating math sizes for size <8.39996> on input line 22.
+] [2]
+LaTeX Font Info:    Calculating math sizes for size <8.39996> on input line 27.
 
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.19998> not available
-(Font)              size <5> substituted on input line 22.
+(Font)              size <5> substituted on input line 27.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.19998> not available
-(Font)              size <5> substituted on input line 22.
+(Font)              size <5> substituted on input line 27.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.19998> not available
-(Font)              size <5> substituted on input line 22.
+(Font)              size <5> substituted on input line 27.
 
-[2] [3] [4] [5]
+[3] [4] [5]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <4.19998> not available
-(Font)              size <5> substituted on input line 109.
+(Font)              size <5> substituted on input line 114.
 
-[6] [7] [8] [9]
-Overfull \hbox (5.27113pt too wide) detected at line 206
-\OML/cmm/m/it/12 B[]\OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 x\OT1/cmr/m/n/12 ) = \OML
-/cmm/m/it/12 @[]B[]\OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 x\OT1/cmr/m/n/12 ) \OMS/cm
-sy/m/n/12 ^^@ \OML/cmm/m/it/12 @[]B[]\OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 x\OT1/cm
-r/m/n/12 )\OML/cmm/m/it/12 W[]\OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 x\OT1/cmr/m/n/1
-2 ) = \OML/cmm/m/it/12 @[]W[]\OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 x\OT1/cmr/m/n/12
- ) \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 @[]W[]\OT1/cmr/m/n/12 (\OT1/cmr/bx/n/1
-2 x\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 g^^O[]W[]\OT1/cmr/m/n/12 (\OT1/cmr/bx/n
-/12 x\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 W[]\OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 x\O
-T1/cmr/m/n/12 )
- []
-
-[10] <Figures/Theory/MHat.png, id=52, 949.5475pt x 586.19pt>
+[6] [7] [8] [9] [10] <Figures/Theory/MHat.png, id=52, 949.5475pt x 586.19pt>
 File: Figures/Theory/MHat.png Graphic file (type png)
 
-<use Figures/Theory/MHat.png> [11 <./Figures/Theory/MHat.png>] [12]
+<use Figures/Theory/MHat.png> [11] [12 <./Figures/Theory/MHat.png>]
 <Figures/Theory/higgsself.pdf, id=60, 390.45876pt x 175.65625pt>
 File: Figures/Theory/higgsself.pdf Graphic file (type pdf)
 
-<use Figures/Theory/higgsself.pdf> [13 <./Figures/Theory/higgsself.pdf>]
-[14] [15] [16] [17]
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 323.
+<use Figures/Theory/higgsself.pdf> [13] [14 <./Figures/Theory/higgsself.pdf>]
+[15] <Figures/Theory/smcoupling.pdf, id=83, 573.14125pt x 392.46625pt>
+File: Figures/Theory/smcoupling.pdf Graphic file (type pdf)
+
+<use Figures/Theory/smcoupling.pdf>
+<Figures/Theory/susycoupling.pdf, id=84, 574.145pt x 388.45125pt>
+File: Figures/Theory/susycoupling.pdf Graphic file (type pdf)
+
+<use Figures/Theory/susycoupling.pdf> [16] [17 <./Figures/Theory/smcoupling.pdf
+> <./Figures/Theory/susycoupling.pdf>] [18]
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 345.
 
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 323.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 345.
 
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [18] [19]
-[20] <Figures/Theory/mSUGRA_TDR_1.pdf, id=102, 542.025pt x 520.94624pt>
+) [19] [20]
+[21] <Figures/Theory/mSUGRA_TDR_1.pdf, id=135, 542.025pt x 520.94624pt>
 File: Figures/Theory/mSUGRA_TDR_1.pdf Graphic file (type pdf)
 
-<use Figures/Theory/mSUGRA_TDR_1.pdf> [21] [22 <./Figures/Theory/mSUGRA_TDR_1.p
-df>]) [23] (./thesis.bbl
+<use Figures/Theory/mSUGRA_TDR_1.pdf> [22] [23 <./Figures/Theory/mSUGRA_TDR_1.p
+df>]) [24] (./thesis.bbl
 Underfull \hbox (badness 1275) in paragraph at lines 9--15
 \OT1/cmr/m/n/10.95 De-ter-mi-na-tion of the Fine Struc-ture Con-stant and Test 
 of the Quan-tum
@@ -620,13 +615,16 @@ Underfull \hbox (badness 1596) in paragraph at lines 9--15
  Let-ters\OT1/cmr/m/n/10.95 , 106(8):080801, Febru-ary 2011,
  []
 
-) [24
+[25
 
 
-] (./thesis.aux (./title.aux) (./symbols.aux) (./Theory.aux))
+]) [26] (./thesis.aux (./title.aux) (./symbols.aux) (./Theory.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.90001pt have occurred.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  )
 (\end occurred inside a group at level 1)
@@ -634,13 +632,13 @@ LaTeX Font Warning: Size substitutions with differences
 ### simple group (level 1) entered at line 135 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 7050 strings out of 493747
- 113734 string characters out of 3143546
- 153529 words of memory out of 3000000
- 10163 multiletter control sequences out of 15000+200000
+ 7070 strings out of 493747
+ 114137 string characters out of 3143546
+ 154600 words of memory out of 3000000
+ 10181 multiletter control sequences out of 15000+200000
  18133 words of font info for 61 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,12n,40p,1413b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,12n,40p,1413b,320s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/base/8r.enc
 }{/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -663,10 +661,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2010/texmf
 dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2010/texmf-d
 ist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2010/texmf-dis
 t/fonts/type1/urw/times/utmr8a.pfb>
-Output written on thesis.pdf (25 pages, 390843 bytes).
+Output written on thesis.pdf (27 pages, 446101 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
+ 222 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

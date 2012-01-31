@@ -13,6 +13,11 @@ R.~{Bouchendira}, P.~{Clad{\'e}}, S.~{Guellati-Kh{\'e}lifa}, F.~{Nez}, and
 \newblock {\em Physical Review Letters}, 106(8):080801, February 2011,
   1012.3627.
 
+\bibitem{PichSM}
+Antonio Pich.
+\newblock {The Standard model of electroweak interactions}.
+\newblock 2007, 0705.4264.
+
 \bibitem{HerreroSM}
 M.~Herrero.
 \newblock {The Standard model}.
@@ -32,6 +37,11 @@ Jeffrey Goldstone, Abdus Salam, and Steven Weinberg.
 Luis Alvarez-Gaume and John Ellis.
 \newblock {Eyes on a prize particle}.
 \newblock {\em Nat Phys}, 7(1):2--3, 2011.
+
+\bibitem{PeskinSch}
+Michael Peskin and Daniel Schroeder.
+\newblock {\em {An Introduction to Quantum Field Theory}}.
+\newblock Westview Press, 1995.
 
 \bibitem{WWHMass}
 Benjamin~W. Lee, C.~Quigg, and H.~B. Thacker.
@@ -60,10 +70,31 @@ Michael Dine.
 \newblock {\em {Supersymmetry and String Theory}}.
 \newblock Cambridge University Press, 2007.
 
+\bibitem{PeskinBSM}
+Michael~E. Peskin.
+\newblock {Beyond the standard model}.
+\newblock 1997, hep-ph/9705479.
+
 \bibitem{terning}
 John Terning.
 \newblock {\em Modern Supersymmetry}.
 \newblock Clarendon Press, 2006.
+
+\bibitem{SUSYPrime}
+Stephen~P. Martin.
+\newblock {A Supersymmetry primer}.
+\newblock 1997, hep-ph/9709356.
+
+\bibitem{SUSYsuch}
+S.~Dawson.
+\newblock {SUSY and such}.
+\newblock {\em NATO Adv.Study Inst.Ser.B Phys.}, 365:33--80, 1997,
+  hep-ph/9612229.
+
+\bibitem{early}
+Albert de~Roeck.
+\newblock Early physics with atlas and cms.
+\newblock {\em Pramana Journal of Physics}, 2007.
 
 \bibitem{CMSTDRII}
 A~de~Roeck, A~Ball, M~Della~Negra, L~Foa, and A~Petrilli.
