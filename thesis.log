@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  31 JAN 2012 19:20
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  1 FEB 2012 00:49
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -441,13 +441,27 @@ Package: xparse 2010/05/23 v1927 Generic document command parser
 (LaTeX)  with arg. spec. 'omom' on line 238.
 
 )
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
 \@input{macros.aux}
 \openout2 = `macros.aux'.
 
 No file macros.tex.
 ** Make sure \initfloatingfigs being called immediately
    after \begin{document} !! ** (./thesis.aux (./title.aux) (./symbols.aux)
-(./Theory.aux))
+(./Theory.aux) (./Detector.aux
+
+LaTeX Warning: Label `eq:lumi' multiply defined.
+
+))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -530,7 +544,16 @@ e
 \openout2 = `title.aux'.
 
 
-(./title.tex) [1
+(./title.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 7.
+ (/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 7.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)) [1
 
 
 
@@ -541,7 +564,8 @@ e
  (./symbols.tex)
 \openout2 = `Theory.aux'.
 
- (./Theory.tex
+
+(./Theory.tex
 Chapter 1.
 [1
 
@@ -570,40 +594,90 @@ LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.19998> not available
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <4.19998> not available
 (Font)              size <5> substituted on input line 114.
 
-[6] [7] [8] [9] [10] <Figures/Theory/MHat.png, id=52, 949.5475pt x 586.19pt>
+[6] [7] [8] [9] [10] <Figures/Theory/MHat.png, id=53, 949.5475pt x 586.19pt>
 File: Figures/Theory/MHat.png Graphic file (type png)
 
 <use Figures/Theory/MHat.png> [11] [12 <./Figures/Theory/MHat.png>]
-<Figures/Theory/higgsself.pdf, id=60, 390.45876pt x 175.65625pt>
+<Figures/Theory/higgsself.pdf, id=61, 390.45876pt x 175.65625pt>
 File: Figures/Theory/higgsself.pdf Graphic file (type pdf)
 
 <use Figures/Theory/higgsself.pdf> [13] [14 <./Figures/Theory/higgsself.pdf>]
-[15] <Figures/Theory/smcoupling.pdf, id=83, 573.14125pt x 392.46625pt>
+[15] <Figures/Theory/smcoupling.pdf, id=84, 573.14125pt x 392.46625pt>
 File: Figures/Theory/smcoupling.pdf Graphic file (type pdf)
 
 <use Figures/Theory/smcoupling.pdf>
-<Figures/Theory/susycoupling.pdf, id=84, 574.145pt x 388.45125pt>
+<Figures/Theory/susycoupling.pdf, id=85, 574.145pt x 388.45125pt>
 File: Figures/Theory/susycoupling.pdf Graphic file (type pdf)
 
 <use Figures/Theory/susycoupling.pdf> [16] [17 <./Figures/Theory/smcoupling.pdf
-> <./Figures/Theory/susycoupling.pdf>] [18]
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 345.
-
-
-(/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 345.
-
-
-(/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [19] [20]
-[21] <Figures/Theory/mSUGRA_TDR_1.pdf, id=135, 542.025pt x 520.94624pt>
+> <./Figures/Theory/susycoupling.pdf>] [18] [19] [20] [21]
+<Figures/Theory/mSUGRA_TDR_1.pdf, id=134, 542.025pt x 520.94624pt>
 File: Figures/Theory/mSUGRA_TDR_1.pdf Graphic file (type pdf)
 
 <use Figures/Theory/mSUGRA_TDR_1.pdf> [22] [23 <./Figures/Theory/mSUGRA_TDR_1.p
-df>]) [24] (./thesis.bbl
+df>]) [24]
+\openout2 = `Detector.aux'.
+
+ (./Detector.tex
+Chapter 2.
+
+LaTeX Warning: Citation `LHCDesign' on page 25 undefined on input line 5.
+
+[25
+
+
+
+]
+
+LaTeX Warning: Citation `LHCConcept' on page 26 undefined on input line 20.
+
+<Figures/Detector/lhc-schematic.jpg, id=150, 375.3222pt x 391.7034pt>
+File: Figures/Detector/lhc-schematic.jpg Graphic file (type jpg)
+
+<use Figures/Detector/lhc-schematic.jpg> [26] [27 <./Figures/Detector/lhc-schem
+atic.jpg>] <Figures/Detector/injection.png, id=157, 477.785pt x 339.2675pt>
+File: Figures/Detector/injection.png Graphic file (type png)
+
+<use Figures/Detector/injection.png> [28]
+<Figures/Detector/CMS_Structure.pdf, id=162, 845.1575pt x 597.23125pt>
+File: Figures/Detector/CMS_Structure.pdf Graphic file (type pdf)
+
+<use Figures/Detector/CMS_Structure.pdf>
+
+LaTeX Warning: Citation `CMSTDP' on page 29 undefined on input line 58.
+
+<Figures/Detector/CMS_Slice.png, id=163, 995.72pt x 507.8975pt>
+File: Figures/Detector/CMS_Slice.png Graphic file (type png)
+
+<use Figures/Detector/CMS_Slice.png> [29 <./Figures/Detector/injection.png>]
+[30 <./Figures/Detector/CMS_Structure.pdf> <./Figures/Detector/CMS_Slice.png (P
+NG copy)>] [31] [32] [33] [34]
+
+LaTeX Warning: Citation `PDG' on page 35 undefined on input line 119.
+
+
+LaTeX Warning: Citation `HCALTDR' on page 35 undefined on input line 131.
+
+[35] <Figures/Detector/HCAL.png, id=336, 641.7576pt x 373.8768pt>
+File: Figures/Detector/HCAL.png Graphic file (type png)
+
+<use Figures/Detector/HCAL.png>
+Missing character: There is no ƒ in font cmr12!
+ [36 <./Figures/Detector/HCAL.png>]
+
+LaTeX Warning: Citation `HCALTestBeam' on page 37 undefined on input line 148.
+
+
+LaTeX Warning: Citation `MuonTDR' on page 37 undefined on input line 162.
+
+[37] <Figures/Detector/MS.pdf, id=345, 437.635pt x 335.2525pt>
+File: Figures/Detector/MS.pdf Graphic file (type pdf)
+
+<use Figures/Detector/MS.pdf> [38 <./Figures/Detector/MS.pdf>]
+
+LaTeX Warning: Citation `TRIGTDR' on page 39 undefined on input line 181.
+
+[39] [40]) [41] (./thesis.bbl
 Underfull \hbox (badness 1275) in paragraph at lines 9--15
 \OT1/cmr/m/n/10.95 De-ter-mi-na-tion of the Fine Struc-ture Con-stant and Test 
 of the Quan-tum
@@ -615,16 +689,24 @@ Underfull \hbox (badness 1596) in paragraph at lines 9--15
  Let-ters\OT1/cmr/m/n/10.95 , 106(8):080801, Febru-ary 2011,
  []
 
-[25
+[42
 
 
-]) [26] (./thesis.aux (./title.aux) (./symbols.aux) (./Theory.aux))
+]
+Missing character: There is no ü in font cmr10!
+Missing character: There is no è in font cmr10!
+Missing character: There is no á in font cmr10!
+) [43] (./thesis.aux (./title.aux) (./symbols.aux) (./Theory.aux)
+(./Detector.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.90001pt have occurred.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
  )
 (\end occurred inside a group at level 1)
@@ -632,39 +714,37 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 ### simple group (level 1) entered at line 135 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 7070 strings out of 493747
- 114137 string characters out of 3143546
- 154600 words of memory out of 3000000
- 10181 multiletter control sequences out of 15000+200000
- 18133 words of font info for 61 fonts, out of 3000000 for 9000
+ 7368 strings out of 493747
+ 117837 string characters out of 3143546
+ 155623 words of memory out of 3000000
+ 10455 multiletter control sequences out of 15000+200000
+ 22260 words of font info for 87 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  38i,12n,40p,1413b,320s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/base/8r.enc
-}{/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
-</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></u
-sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
-r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
-/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
-ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
-al/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
-exlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/tex
-live/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
-e/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
-010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2010
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2010/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2010/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2010/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2010/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2010/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2010/texmf-d
-ist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2010/texmf-dis
-t/fonts/type1/urw/times/utmr8a.pfb>
-Output written on thesis.pdf (27 pages, 446101 bytes).
+{/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/cm-super/cm
+-super-ts1.enc}</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmex10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi12.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi6.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
+pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pf
+b></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></u
+sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
+local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/l
+ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/loca
+l/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
+texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
+exlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
+xlive/2010/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/loca
+l/texlive/2010/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on thesis.pdf (44 pages, 2931429 bytes).
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
+ 444 PDF objects out of 1000 (max. 8388607)
+ 279 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

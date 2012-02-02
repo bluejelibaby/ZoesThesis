@@ -4,6 +4,7 @@ The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: title.aux
 A level-1 auxiliary file: symbols.aux
 A level-1 auxiliary file: Theory.aux
+A level-1 auxiliary file: Detector.aux
 The style file: Unsrt_Eprint.bst
 Database file #1: papers.bib
 Warning--empty journal in PichSM
@@ -11,45 +12,45 @@ Warning--empty journal in HerreroSM
 Warning--empty journal in Drees
 Warning--empty journal in PeskinBSM
 Warning--empty journal in SUSYPrime
-You've used 19 entries,
+You've used 27 entries,
             1829 wiz_defined-function locations,
-            582 strings with 5747 characters,
-and the built_in function-call counts, 3553 in all, are:
-= -- 299
-> -- 128
-< -- 0
-+ -- 53
-- -- 34
-* -- 190
-:= -- 582
-add.period$ -- 58
-call.type$ -- 19
-change.case$ -- 14
+            630 strings with 7054 characters,
+and the built_in function-call counts, 5039 in all, are:
+= -- 429
+> -- 190
+< -- 1
++ -- 78
+- -- 51
+* -- 267
+:= -- 831
+add.period$ -- 86
+call.type$ -- 27
+change.case$ -- 18
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 189
-empty$ -- 399
-format.name$ -- 34
-if$ -- 798
+cite$ -- 32
+duplicate$ -- 270
+empty$ -- 562
+format.name$ -- 51
+if$ -- 1140
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 24
-newline$ -- 99
-num.names$ -- 19
-pop$ -- 80
+int.to.str$ -- 27
+missing$ -- 35
+newline$ -- 140
+num.names$ -- 27
+pop$ -- 109
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 54
+skip$ -- 74
 stack$ -- 0
-substring$ -- 161
-swap$ -- 14
-text.length$ -- 0
+substring$ -- 197
+swap$ -- 22
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 29
-width$ -- 21
-write$ -- 206
+while$ -- 39
+width$ -- 29
+write$ -- 300
 (There were 5 warnings)

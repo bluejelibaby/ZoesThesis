@@ -17,7 +17,7 @@ The definition of spin gives a second key property, known as chirality. When the
 All fundamental particles are divided into the spin-1/2 \textit{fermions} which are the building blocks for matter, and the force-mediating \textit{bosons} which must carry integer spin, usually spin-1. One consequence of this is the wave function of a bosonic system is symmetric under the swap of two of its particles, whilst that of a fermionic system is anti-symmetric. A consequence of this, as can be seen in Equation \ref{eqn:pauli} is the well-known Pauli Exclusion Principle, that two fermions may not exist in the same state. 
 
 \begin{equation}
-If \\ \psi_{f}(x_{a},x_{b}) = -\psi_{f}(x_{b},x_{a}), \quad therefore \quad \psi_{f}(x_{a},x_{a}) = 0
+\psi_{f}(x_{a},x_{b}) = -\psi_{f}(x_{b},x_{a}),  \therefore \psi_{f}(x_{a},x_{a}) = 0
 \label{eqn:pauli}
 \end{equation}
  
@@ -158,7 +158,7 @@ G^{\alpha}_{\mu \nu} (\stc) = \partial_{\mu} A^{\alpha}_{\nu} (\stc) - \partial_
 
 
 
- To describe the behaviour of the strength with decreasing distance, we define an analogous coupling constant for the strong force to that in QED, which we call $\alpha_{S} = \sfrac{g_{S}^{2}}{4\pi}$. Whilst its QED equivalent runs weaker as the distance between charges increases, as we have discussed the strong force has the opposite relationship, reflected in the running of the coupling constants with increasing energy scale, which when extrapolated could highlight an energy scale where the two are equal. When we discuss quarks in particle physics although they are free, this is as a result of the "asymptotic freedom" where when viewed at very large energies the distances are infinitely small, and the quarks behave freely. 
+ To describe the behaviour of the strength with decreasing distance, we define an analogous coupling constant for the strong force to that in QED, which we call $\alpha_{S} = \sfrac{g_{S}^{2}}{4\pi}$. Whilst its QED equivalent runs weaker as the distance between charges increases, as we have discussed the strong force has the opposite relationship, reflected in the running of the coupling constants with increasing energy scale, which when extrapolated could highlight an energy scale where the two are equal. When we discuss quarks in particle physics although they are free, this is as a result of the ``asymptotic freedom" where when viewed at very large energies the distances are infinitely small, and the quarks behave freely. 
  
  \subsubsection{The Parton Model}
  
@@ -222,7 +222,7 @@ Linear superpositions of the $W^{1}_{\mu}$ and $W^{2}_{\mu}$ give rise to the $W
 In order to give mass to the W and Z bosons whilst retaining the necessary local gauge invariance, we say that $SU(2)_{L} \times U(1)_{Y}$ must be spontaneously broken into $U(1)_{em}$, the group of symmetries representing the electromagnetic sector. The simplest way to introduce such a breaking is known as the Higgs Mechanism, and corresponds to the addition of a scalar field. The Lagrangian for such an addition has the form $\Lagr_{h} = (D^{\mu}\phi)^{\dagger}(D_{\mu}\phi) - V(\phi)$  Ensuring the change to the Lagrangian is invariant, there is a covariant derivative term and an additional potential. The potential introduced has the form 
 
 \begin{equation}
-V(\phi) = -\mu^{2}\phi^{\dagger}\phi + \lambda (\phi^{\dagger}\phi)^{2}
+V(\phi) = \mu^{2}\phi^{\dagger}\phi + \lambda (\phi^{\dagger}\phi)^{2}
 \end{equation}
 
 Choosing a potential where $\mu^{2}$ is positive leads to a minimum at $\phi = 0$, which does not solve our problem. However, if the parameter $\mu^{2}$ is chosen to be less than zero, it results in a potential colloquially known as a ``mexican hat" potential, shown in Figure \ref{fig:MexicanHat}. The minimum does not lie at $\phi$ = 0, but in 3D space in a circle around $\phi$, so there are an infinite number of minima hence introducing a degeneracy. There is a non-vanishing ground state, and as a particular state is chosen, the symmetry is broken. Interactions with the field lead to masses for the W and Z bosons. This leads to the existence of a massive scalar particle, known as the Higgs Boson, to date the only particle of the SM yet to be observed. The coupling strength of a particle to the Higgs field is thought therefor to govern its mass.
@@ -262,7 +262,9 @@ If each coupling with a fermion f has a term in the Lagrangian $-\lambda_{F} H \
 \label{eqn:HIGGQUAD}
 \end{equation}
 
-The factor $\lambda_{f}$  represents the coupling for each type of fermion, which is largest in the case of the top quark, where $\lambda_{t} \approx. 1$. The parameter $\Lambda_{UV}$ is the \textit{ultraviolet cutoff}, so named as it represents the smallest distance to probe in the calculation. It can be thought of as the scale at which the Standard Model is valid up to, as any new physics would change the theory. If there were no new physics at a lower energy, it takes the value of the Plank Scale $M_{P}$, but in this case the correction will be 30 orders of magnitude higher than the 1 TeV upper bound justified experimentally\cite{Drees}. As there exists nothing in the SM to fix the Higgs Mass, the theory requires fine-tuning, tweaking the parameters to agree with observational findings. This is generally accepted to be an inelegant method, as it requires the input of extra information, and indicates a gap in the fundamental description leading to searches for extensions to the Standard Model. 
+The factor $\lambda_{f}$  represents the coupling for each type of fermion, which is largest in the case of the top quark, where $\lambda_{t} \approx. 1$. The parameter $\Lambda_{UV}$ is the \textit{ultraviolet cutoff}, so named as it represents the smallest distance to probe in the calculation. It can be thought of as the scale at which the Standard Model is valid up to, as any new physics would change the theory.
+
+ If there were no new physics at a lower energy, it takes the value of the Plank Scale $M_{P}$, but in this case the correction will be 30 orders of magnitude higher than the 1 TeV upper bound justified experimentally\cite{Drees}. As there exists nothing in the SM to fix the Higgs Mass, the theory requires fine-tuning, tweaking the parameters to agree with observational findings. This is generally accepted to be an inelegant method, as it requires the input of extra information, and indicates a gap in the fundamental description leading to searches for extensions to the Standard Model. 
 
 \subsection{Cold Dark Matter}
 
@@ -287,7 +289,7 @@ Under this symmetry elementary particles in the SM would each have corresponding
 \label{eqn:Q}
 \end{equation}
 
-where the complex spinors that generate SUSY anti-commutate, with the following relationships where $P^{\mu}$ is the generator of space-time translations and indices are surprised:
+where the complex spinors that generate SUSY anti-commutate, with the following relationships where $P^{\mu}$ is the generator of space-time translations and indices are surpressed:
 
 
 \begin{equation}
@@ -295,9 +297,10 @@ where the complex spinors that generate SUSY anti-commutate, with the following 
 \end{equation} 
 
 
-In addition to its neat solution to the hierarchy problem SUSY has several other consequences which lead to its position as the most favoured theory for new physics at the TeV scale. The inclusion of SUSY particles to the SM has the side affect of altering the runnings of the gauge coupling constants of the three fundamental forces. Figure \ref{fig:couple} shows the previous SM couple runnings alongside those of the SUSY models. 
 
-, such that they are consistent with theories of Grand Unification, an energy scale at which the three are equal. Rather than a motivation, this is a pleasant coincidence, but lends plausibility to the theory. It also shows promising features necessary for theories to incorporate gravity, although it does not finish the job. SUSY itself cannot be the final fundamental theory of particle physics, but is an extension which shows much promise, and is a pre-requisite for many higher energy theories such as most formulations of String Theory\cite{Dine}. The final, perhaps most exciting feature of SUSY is that it can offer a candidate for the particle that represents dark matter with the introduction of a new quantum number R - Parity. 
+In addition to its neat solution to the hierarchy problem SUSY has several other consequences which lead to its position as the most favoured theory for new physics at the TeV scale. The inclusion of SUSY particles to the SM has the side affect of altering the runnings of the gauge coupling constants of the three fundamental forces. Figure \ref{fig:couple} shows the running constants from the SM alongside those with the SUSY model incorporated. Whilst the SM allowed only two to intersect at any point, SUSY alters them such that they are consistent with theories of Grand Unification, as the three are equal at the GUT scale Q $\tilde 10^{16}$ GeV. 
+
+Rather than a motivation, this is a pleasant coincidence, but lends plausibility to the theory. It also shows promising features necessary for theories to incorporate gravity, although it does not finish the job. SUSY itself cannot be the final fundamental theory of particle physics, but is an extension which shows much promise, and is a pre-requisite for many higher energy theories such as most formulations of String Theory\cite{Dine}. The final, perhaps most exciting feature of SUSY is that it can offer a candidate for the particle that represents dark matter with the introduction of a new quantum number R - Parity. 
 
 \begin{figure}
 \centering
@@ -336,27 +339,25 @@ Whilst there are money ways to construct mathematically the theory of Supersymme
 
 The particles are arranged to fit the irreducible representation of the symmetry, in \textit{supermultiplets}, each of which contains both fermions and bosons. The number of bosonic and fermionic degrees of freedom are therefore equal in any supermultiplet. There are two types of supermultiplet available, a chiral supermultiplet which describes a left-handed fermion, its right handed anti-particle, a complex boson and its conjugate, and a vector multiplet - a massless vector field and a left handed fermion, which result in the fermion and its anti-particle and two transversely polarised vectors bosons\cite{SUSYPrime}. 
 
-The names of the spin-0 bosons that partner the SM fermions are prefixed with "s-", known as squarks and sleptons, collectively the sfermions. As the SM contains a distinction between left and right handed fermions, the boson super partners have one of each too, and are labelled RH and LH, but it is important to remember this is not a description of the super partner itself, merely a label to describe the SM particle is associated with. The particles are written with a tilde above the SM symbol so the top quark t becomes the "stop" quark, $\tilde{s}$.
+The names of the spin-0 bosons that partner the SM fermions are prefixed with ``s-", known as squarks and sleptons, collectively the sfermions. As the SM contains a distinction between left and right handed fermions, the boson super partners have one of each too, and are labelled RH and LH, but it is important to remember this is not a description of the super partner itself, merely a label to describe the SM particle is associated with. The particles are written with a tilde above the SM symbol so the top quark t becomes the "stop" quark, $\tilde{s}$.
 
-The names of the fermions from the SM bosons are appended with "-ino" such as the super partners of the gluons, the gluinos. However, for the other fundamental SM bosons, identifying their super-partners is not so simple. The symmetry acts not on the results of electroweak symmetry breaking but on the fields of the $SU(2)_{L} \times U(1)_{Y}$ group. Thus there should be three Winos {W} and a Bino \~{B}. 
+The names of the fermions from the SM bosons are appended with ``-ino" such as the super partners of the gluons, the gluinos. However, for the other fundamental SM bosons, identifying their super-partners is not so simple. The symmetry acts not on the results of electroweak symmetry breaking but on the fields of the $SU(2)_{L} \times U(1)_{Y}$ group. Thus there should be three Winos {W} and a Bino \~{B}. 
 
-The Higgs receives different treatment in SUSY as from in the SM, where the scalar field gives up degrees of freedom to give mass to the vector bosons W$^{\pm}$ and Z.
-
-In SUSY, instead two supermultiplets are required, one chiral and one vector, to give mass separately to the quarks of charge \sfrac{1}{3} and the quarks of charge \sfrac{2}{3}\cite{SUSYsuch}. Where the SM has one complex doublet, the MSSM has two complex Higgs doublets, hence the sector has 8 degrees of freedom. Three are lost to give the W and Z bosons mass in electroweak symmetry breaking, leaving five which represent five Higgs boson particles: the charged Higgs bosons $H^{\pm}$, and three neutral bosons h, H and A. The corresponding super-parters are known as the higgsinos.  
+The Higgs receives different treatment in SUSY as from in the SM, where the scalar field gives up three degrees of freedom to give mass to the vector bosons W$^{\pm}$ and Z. In SUSY, instead two supermultiplets with differing quantum number are required to maintain the electroweak symmetry breaking, one chiral and one vector. These give mass respectively to the up-type quarks of charge $-\sfrac{1}{3}$ and the down-type quarks of charge$+\sfrac{2}{3}$, and thus are named $H_{u}$ and $H_{d}$\cite{SUSYsuch}. Where the SM has one complex doublet, the MSSM has two complex Higgs doublets, hence the sector has 8 degrees of freedom. Three are lost to give the W and Z bosons mass in electroweak symmetry breaking, leaving five which represent five Higgs boson particles: the charged Higgs bosons $H^{\pm}$, and three neutral bosons h, H and A. The corresponding super-parters are known as the higgsinos.  
 
 
 \subsection{Supersymmetry Breaking}
 
 In order to satisfy an exact symmetry, one would expect that each super-partner would have the same characteristics as its SM partner, including its mass. This would indicate they were within the reach of previous physics experiments, but it is clear this is not rue as there has been no experimental evidence of particles in the energy spectra previously covered by experimental research. Drawing parallels with the problem of electro-weak symmetry breaking, we say SUSY is broken by some mechanism, resulting in particles with heavier masses than their counterparts. Although the size of these masses could be theoretically anything, in order for SUSY to eliminate the hierarchy problem this breaking must occur at the Electroweak Scale, which puts an upper bound on the mass differences of ~1 TeV.  
 
-This is known as "soft" SUSY breaking, and offers the hope of discovering this new physics at the TeV scale, as is now possible for the first time with the LHC. This involves "soft" mass terms incorporated into the Lagrangian theory that do not introduce quadratic divergences that would provide a new "hierarchy problem". However, the nature of this breaking is not known and thus it is traditional to formulate it in the theory to contain all the mass and mixing terms allowed by the underlying symmetry, which gives arbitrary masses to the sparticles. As there are many unknowns this introduces a large number of parameters (>50) to the system. Not all is lost, as SUSY is still capable of making useful predictions, however to compete the theory an understanding of the nature of SUSY breaking is really required. 
+This is known as ``soft" SUSY breaking, and offers the hope of discovering this new physics at the TeV scale, as is now possible for the first time with the LHC. This involves ``soft" mass terms incorporated into the Lagrangian theory that do not introduce quadratic divergences that would provide a new "hierarchy problem". However, the nature of this breaking is not known and thus it is traditional to formulate it in the theory to contain all the mass and mixing terms allowed by the underlying symmetry, which gives arbitrary masses to the sparticles. As there are many unknowns this introduces a large number of parameters to the system. Not all is lost, as SUSY is still capable of making useful predictions, however to compete the theory an understanding of the nature of SUSY breaking is really required. 
 
 Due to electroweak symmetry and soft SUSY breaking the fermions super-partners of the $SU(2)_{L} \times U(1)_{Y}$ group are not generally the mass eigenstates. Instead the winos and bino mix with the higgsino fields to produce the mass eigenstates in two groups, the charginos $\tilde{\chi}^{\pm}_{1,2}$ and the neutralinos $\tilde{\chi}^{0}_{1,2,3,4}$
 
 
 \subsection{Minimal Supergravity and the Constrained MSSM}
 
-Even assuming a minimal particle content, the MSSM has a large number of free parameters, introduced through SUSY and Electroweak symmetry breaking, 105 more than the SM. When it comes to experimental searches, this is an unworkable number, for to examine possible behaviour of SUSY one would have to look in 105 dimensions. Thus for the purpose of making models to work with, it is desired to constrain this number in the theory. One popular GUT model is the theory of minimal SUper GRAvity, otherwise known as mSUGRA. 
+Even assuming a minimal particle content, the MSSM has a large number of free parameters, introduced through SUSY and Electroweak symmetry breaking, 105 new parameters in addition to the 19 already present in the SM. When it comes to experimental searches, this is an unworkable number, for to examine possible behaviour of SUSY one would have to look in 105 dimensions. Thus for the purpose of making models to work with, it is desired to constrain this number in the theory. One popular GUT model is the theory of minimal SUper GRAvity, otherwise known as mSUGRA. 
 
 The many parameters of the MSSM are in fact not all constants, but rather vary with the energy scale. Thus, to contain the model the we can assume that there is some ``hidden sector" (perhaps on the order of the $M_{P}$) which contains fields with no couplings to what is now thought of as the ``visible sector" of the MSSM. There should then be some messenger between the two, that allows supersymmetry braking to be mediated to the MSSM to provide the soft terms. One popular theory as to the nature of this messenger is that it is ``gravity mediated". 
 
