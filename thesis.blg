@@ -3,54 +3,49 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: title.aux
 A level-1 auxiliary file: symbols.aux
-A level-1 auxiliary file: Theory.aux
-A level-1 auxiliary file: Detector.aux
+A level-1 auxiliary file: AlphaT.aux
 The style file: Unsrt_Eprint.bst
 Database file #1: papers.bib
-Warning--empty journal in PichSM
-Warning--empty journal in HerreroSM
-Warning--empty journal in Drees
-Warning--empty journal in PeskinBSM
-Warning--empty journal in SUSYPrime
-You've used 27 entries,
+Warning--empty journal in PASaT
+You've used 6 entries,
             1829 wiz_defined-function locations,
-            630 strings with 7054 characters,
-and the built_in function-call counts, 5039 in all, are:
-= -- 429
-> -- 190
-< -- 1
-+ -- 78
-- -- 51
-* -- 267
-:= -- 831
-add.period$ -- 86
-call.type$ -- 27
-change.case$ -- 18
+            496 strings with 4663 characters,
+and the built_in function-call counts, 1416 in all, are:
+= -- 102
+> -- 98
+< -- 0
++ -- 35
+- -- 29
+* -- 111
+:= -- 253
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 6
 chr.to.int$ -- 0
-cite$ -- 32
-duplicate$ -- 270
-empty$ -- 562
-format.name$ -- 51
-if$ -- 1140
+cite$ -- 7
+duplicate$ -- 57
+empty$ -- 125
+format.name$ -- 29
+if$ -- 294
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 35
-newline$ -- 140
-num.names$ -- 27
-pop$ -- 109
+int.to.str$ -- 6
+missing$ -- 6
+newline$ -- 33
+num.names$ -- 6
+pop$ -- 14
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 74
+skip$ -- 22
 stack$ -- 0
-substring$ -- 197
-swap$ -- 22
-text.length$ -- 1
+substring$ -- 67
+swap$ -- 5
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 39
-width$ -- 29
-write$ -- 300
-(There were 5 warnings)
+warning$ -- 1
+while$ -- 10
+width$ -- 7
+write$ -- 68
+(There was 1 warning)
