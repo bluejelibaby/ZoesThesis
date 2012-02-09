@@ -1,0 +1,158 @@
+\section{Low-$P_T$ Isolation for SUSY analysis}
+%In this section the lepton isolation previously described is applied to
+%two different analysis.
+%For the Single Lepton analysis, which could be strongly affected by a high fake lepton rate, both the
+%{\bf pure} cuts and the {\bf optimal} cuts have been applied for comparison.
+%The Same Sign Dilepton analysis, for which the request of two leptons reduces significantly the background
+%efficiency, uses the {\bf efficient} cuts definition. In both analyses the results after the V+jets or the proposed selection
+%are compared.
+The results of isolation studies described in Sec.~\ref{sec:softLepIsoOpt} were applied to
+Single Lepton (SL) and Same Sign Dilepton (SSD) SUSY analyses.
+For SL analysis, which is strongly affected by a high fake lepton rate, both the
+{\bf pure} and the {\bf optimal} cuts have been applied for comparison.
+For SSDL analysis, for which the request of two same-sign leptons significantly increases  the background
+rejection, the {\bf efficient} cuts definition was used. In both cases the results 
+after applying the V+jets cuts are also shown for comparison.
+
+
+\subsection{Single Lepton analysis}
+
+The SL analysis comprise a general-purpose search for supersymmetry in events containing one-electron or one-muon in the final state, in addition to multiple jets and large missing transverse energy.
+
+The CMS SUSY group provides a set of baseline selection criteria for the single lepton analysis in the context of the Single-lepton Reference Analysis 4 (RA4)~\cite{RA4page}. For what concerns the electron and muon isolation requirements, the RA4 suggests the standard V+jets recommendations. A comparison between the recommended V+jets isolation and the proposed Soft Lepton (SL) isolation selection is presented in terms of performance of the signal-to-background ratio and signal significance. 
+ The trigger requirement of RA4 in the one-electron channel is deliberately ommitted, to allow the investigation of lowering the electron offline momentum threshold down to 5 GeV. In addition to the standard configuration of physics objects in the analysis, an official SUSY PAT Cross cleaning tool is used to correct the energy balancing for events with overlapping objects.\footnote{An electron-jet cross-cleaning is applied if an isolated electron is found close to a jet within a cone of size 0.5, whereas the muon-jet cross-cleaning is applied only if a non-isolated muon is found close to a jet (within a cone of size 0.2).}. 
+ 
+The RA4-like cut-flow used in this analysis is the following: 
+
+\begin{itemize}
+\item $N_{lepton} = 1$
+\item $N_{jets} \geq 3, \textrm{with} \;\; E_{T}^{j3} > 50 \textrm{GeV}$
+\item $CaloME_{T} > 100 \textrm{GeV}$
+\end{itemize}
+
+The Monte Carlo (MC) data samples with the corresponding statistics, are listed in Table~\ref{tab:SLsamples}. The SM background processes are produced with the Madgraph MC generator, and include W+jets, $t \bar{t}$, as well as QCD N-jet events.
+
+\begin{table}[htb]
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Sample  &  N MC events & $\sigma$ (pb) \\
+\hline
+SUSY (LM0) & 202686 & 110\\
+SUSY (LM1) & 104800 & 16.06\\
+\hline
+QCD, 250 $<\hat{pT}<$ 500 GeV  & 4874539 & 400000\\
+QCD, 500 $<\hat{pT}<$ 1000 GeV  & 4570718 & 14000\\
+QCD, $\hat{pT}>$ 1000 GeV  & 1046863 & 370 \\ \hline
+$b\bar{b}$+jets, 250 $<\hat{pT}<$ 500 GeV  & 1052158 & 15000\\
+$b\bar{b}$+jets, 500 $<\hat{pT}<$ 1000 GeV  & 985233 & 700\\
+$b\bar{b}$+jets, $\hat{pT}>$ 1000 GeV  & 327618 & 13  \\
+\hline
+W+ jets&8900000 & 40000 \\
+\hline
+$t \bar{t}$+jets& 946644& 317 \\
+\hline
+\end{tabular}
+\caption{\small{MC samples used in the SL analysis.}\label{tab:SLsamples}}
+\end{center}
+\end{table}
+
+
+In table~\ref{tab:SLres} the number of signal and background events is compared between the {\bf optimal} SL isolation selection and the one recommended by the
+V + jets group for leptons with $P_{T} > 10$ GeV. Further results are also provided for leptons with $P_{T}>5$GeV. In the final two rows the significance is reported for LM0 and LM1 respectively. The corresponding numbers when applying the {\bf pure} cuts are shown in table~\ref{tab:SLres2}.
+
+For both the electron and muon channels, the proposed {\bf pure} and {\bf optimal} SL isolation cuts produce a significant increase in the signal yield, since these cuts appear rather loose compared to the V+jets ones. The number of background events is increased as well, particularly from QCD processes. The {\bf optimal} cuts show higher significance values than the {\bf pure} for both muons and electrons.
+
+In the electron channel, the significance increases while applying the SL isolation, despite the steep increase of QCD. The muon channel shows similarly an increase in the signal significance, mainly pronounced in the LM0 case. The move to a 5GeV lepton $P_{T}$ threshold shows some improvement for muons, although this is minimal due to the reduced efficiency in the muon reconstruction (for muons below 10 GeV). In the electrons case, the significance reduces for LM0, and is barely improved for LM1. This indicates that switching to a threshold of 5GeV in the electron momentum may not be beneficial.
+
+The above event yield comparison confirms that it is possible to improve the signal significance of the single lepton analysis whilst using low-$P_{T}$ leptons. The soft lepton isolation performance shows comparable significance between the {\bf optimal} and the {\bf pure} selection. In the 1-muon channel, the attempt of lowering the muon momentum threshold to 5GeV $P_{T}$ shows a profitable gain in the signal significance, whereas in the 1-electron, the maintenance of the 10 GeV threshold may be preferable.
+
+
+\begin{table}[htb]
+\begin{center}
+\begin{tabular}{|c||c|c|c||c|c|c|}
+\hline
+Sample  & \multicolumn{3}{|c||} {$e$} & \multicolumn{3}{|c|} {$\mu$} \\
+\hline
+ & V+j$_{pt_{10}}$ & SL$_{{\bf opt}:pt_{10}}$  & SL$_{{\bf opt}:pt_{5}}$ & V+j$_{pt_{10}}$ & SL$_{{\bf opt}:pt_{10}}$  & SL$_{{\bf opt}:pt_{5}}$ \\
+\hline
+SUSY(LM0) & 364.0 & 423.1 & 426.1 & 512.5 & 604.0 & 709.8 \\
+\hline
+SUSY(LM1) & 58.5 & 73.9  & 78.4 & 87.0 & 97.7 & 124.2\\
+\hline
+$t\bar{t}$ & 278.6 & 328.8 & 334.2 & 376.7 & 424.0  & 467.7 \\
+\hline
+W+jets & 159.7 & 192.1 & 198.7 & 182.2 & 206.5 & 229.0\\
+\hline
+QCD (250-500) & 0.0 & 8.2 & 8.2 & 0.0 & 41.0 & 73.9 \\
+\hline
+QCD (500-1000) & 1.2 & 2.5 & 5.5 & 1.2 & 34.6 & 84.8 \\
+\hline
+QCD (1000-inf) & 0.5 & 0.9 & 1.3 & 0.1 & 2.5 & 8.8 \\
+\hline
+$b\bar{b}+\textrm{jets}$ (250-500) & 0.0 & 0.0 & 0.0 & 1.4 & 15.7 & 37.1 \\
+\hline 
+$b\bar{b}+\textrm{jets}$ (500-1000) & 0.1 & 0.8 & 0.5 & 0.4 & 12.4 & 28.1 \\
+\hline
+$b\bar{b}+\textrm{jets}$ (1000-inf) & 0.1 & 0.1 & 0.1 & 0.1 & 0.8 & 1.7 \\ 
+\hline
+\hline
+$S/\sqrt{S+B}$ (LM0) & 17.3  & 18.3 & 18.2 & 21.6 & 22.2 & 23.2\\
+\hline
+$S/\sqrt{S+B}$ (LM1) & 2.8 & 3.2 & 3.4 & 3.7 & 3.6& 4.1 \\
+\hline
+
+\end{tabular}
+\caption{\small{Number of events in the single electron and muon final states, for $100\textrm{pb}^{-1}$ of integrated luminosity,
+	for the V + jets and the proposed {\bf optimal} soft lepton isolation (SL).
+The lepton $p_T$ cut for the V + jets and SL$_{{\bf opt}:pt_{10}}$
+is 10 GeV while $SL_{{\bf opt}:pt_{5}}$  is 5 Gev.
+ In the last two rows the significance is reported for both LM0 and LM1}\label{tab:SLres}}
+\end{center}
+\end{table}
+
+
+
+\begin{table}[htb]
+\begin{center}
+\begin{tabular}{|c||c|c|c||c|c|c|}
+\hline
+Sample  & \multicolumn{3}{|c||} {$e$} & \multicolumn{3}{|c|} {$\mu$} \\
+\hline
+ & V+j$_{pt_{10}}$ & SL$_{{\bf pur}:pt_{10}}$  & SL$_{{\bf pur}:pt_{5}}$ & V+j$_{pt_{10}}$ & SL$_{{\bf pur}:pt_{10}}$  & SL$_{{\bf pur}:pt_{5}}$ \\
+ \hline
+SUSY(LM0) & 364.0 & 417.8 & 418.2 & 512.5 & 584.2  & 665.09 \\
+\hline
+SUSY(LM1) & 58.5 & 73.5  & 77.6 & 87.0  & 95.8 & 120.4 \\
+\hline
+$t\bar{t}$ & 278.6 &325.0 &327.8 & 376.7 & 418.2 & 456.5 \\
+\hline
+W+jets & 159.7 &192.1  & 198.7 & 182.2 & 205.6 & 226.6 \\
+\hline
+QCD (250-500) & 0.0 & 8.2 & 8.2 & 0.0 & 24.6 & 41.0 \\
+\hline
+QCD (500-1000) & 1.2 & 2.5 & 5.2 & 1.2 & 23.6 & 50.5 \\
+\hline
+QCD (1000-inf) & 0.5 & 0.9 & 1.3 & 0.1 & 1.8  & 5.8 \\
+\hline
+$b\bar{b}+\textrm{jets}$ (250-500) & 0.0 & 0.0 & 0.0 & 1.4 & 11.4 & 25.7 \\
+\hline 
+$b\bar{b}+\textrm{jets}$ (500-1000) & 0.1 & 0.5 & 0.8 & 0.4 & 8.6 & 18.7 \\
+\hline
+$b\bar{b}+\textrm{jets}$ (1000-inf) & 0.1 & 0.1 & 0.1 & 0.1 & 0.6 & 1.2 \\ 
+\hline
+\hline
+$S/\sqrt{S+B}$ (LM0) & 17.3 & 18.2 & 18. & 21.6 & 22.2 & 23.1\\
+\hline
+$S/\sqrt{S+B}$ (LM1) & 2.8 & 3.2 & 3.3 & 3.7 & 3.6 & 4.2 \\
+\hline
+
+\end{tabular}
+\caption{\small{Number of events in the single electron and muon final states, for $100\textrm{pb}^{-1}$ of integrated luminosity, 
+	for the V + jets and the proposed {\bf pure} soft lepton isolation (SL).
+The lepton $p_T$ cut for the V + jets and SL$_{{\bf pur}:pt_{10}}$
+is 10 GeV while $SL_{{\bf pur}:pt_{5}}$  is 5 Gev.
+ In the last two rows the significance is reported for both LM0 and LM1}\label{tab:SLres2}}
+\end{center}
+\end{table}

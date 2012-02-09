@@ -1,0 +1,550 @@
+This is pdfTeX, Version 3.14159-1.10b (Web2C 7.4.5) (format=pdflatex 2010.5.12)  13 JUL 2010 17:21
+**sL_BkgdEst.tex
+(./sL_BkgdEst.tex{/usr/share/texmf/pdftex/config/pdftex.cfg}
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, n
+ohyphenation, loaded.
+(/afs/cern.ch/group/zh/latex/styles/cmspaper.cls
+CMS paper style Version <0.4>, <25 Nov. 1996>
+based on Document Style 'CERNART' Version <2.1>, <1 May 1995>
+Document Class: cmspaper 1996/11/25
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2001/04/21 v1.4e Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size10.clo
+File: size10.clo 2001/04/21 v1.4e Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\c@instfoot=\count87
+
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2001/08/31 v1.1 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(/usr/share/texmf/tex/latex/graphics/pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count88
+)))
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf/tex/latex/tools/verbatim.sty
+Package: verbatim 2001/03/12 v1.5p LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks15
+\verbatim@line=\toks16
+\verbatim@in@stream=\read1
+)
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen105
+))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks18
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks19
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen114
+\epsfysize=\dimen115
+)
+(/usr/share/texmf/tex/latex/tools/array.sty
+Package: array 1998/05/13 v2.3m Tabular extension package (FMi)
+\col@sep=\dimen116
+\extrarowheight=\dimen117
+\NC@list=\toks22
+\extratabsurround=\skip46
+\backup@length=\skip47
+)
+
+LaTeX Warning: Unused global option(s):
+    [a4].
+
+(./sL_BkgdEst.aux)
+\openout1 = `sL_BkgdEst.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 20.
+ (/usr/share/texmf/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texmf/tex/context/base/supp-pdf.tex
+(/usr/share/texmf/tex/context/base/supp-mis.tex
+loading : Context Support Macros / Missing
+\protectiondepth=\count101
+\scratchcounter=\count102
+\scratchtoks=\toks23
+\scratchdimen=\dimen118
+\scratchskip=\skip48
+\scratchmuskip=\muskip11
+\scratchbox=\box28
+\scratchread=\read2
+\scratchwrite=\write3
+\zeropoint=\dimen119
+\minusone=\count103
+\thousandpoint=\dimen120
+\emptytoks=\toks24
+\nextbox=\box29
+\nextdepth=\dimen121
+\everyline=\toks25
+\!!counta=\count104
+\!!countb=\count105
+\recursecounter=\count106
+)
+loading : Context Support Macros / PDF
+\nofMPsegments=\count107
+\nofMParguments=\count108
+\everyMPtoPDFconversion=\toks26
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 32.
+ (/usr/share/texmf/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+ [1
+
+
+{/usr/share/texmf/dvips/config/pdftex.map}]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
+ (./sL_BkgdEst.toc)
+\tf@toc=\write4
+\openout4 = `sL_BkgdEst.toc'.
+
+ [1] (./Intro.tex
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 24.
+
+(/usr/share/texmf/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 62.
+ (/usr/share/texmf/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)) (./EventSel.tex [3])
+(./QCD_bkgd_est-v3.tex [4] [5]
+<Plots/caloIso_pt10_MC.png, id=60, 698.61pt x 574.145pt>
+File: Plots/caloIso_pt10_MC.png Graphic file (type png)
+
+<use Plots/caloIso_pt10_MC.png>
+<Plots/caloIso_pt20_MC.png, id=61, 698.61pt x 574.145pt>
+File: Plots/caloIso_pt20_MC.png Graphic file (type png)
+
+<use Plots/caloIso_pt20_MC.png>
+<Plots/combIso_pt10_MC.png, id=62, 698.61pt x 574.145pt>
+File: Plots/combIso_pt10_MC.png Graphic file (type png)
+
+<use Plots/combIso_pt10_MC.png>
+<Plots/combIso_pt20_MC.png, id=63, 698.61pt x 574.145pt>
+File: Plots/combIso_pt20_MC.png Graphic file (type png)
+
+<use Plots/combIso_pt20_MC.png> [6 <./Plots/caloIso_pt10_MC.png> <./Plots/caloI
+so_pt20_MC.png> <./Plots/combIso_pt10_MC.png> <./Plots/combIso_pt20_MC.png>]
+<Plots/caloIso_pt10_fakes.png, id=68, 698.61pt x 574.145pt>
+File: Plots/caloIso_pt10_fakes.png Graphic file (type png)
+
+<use Plots/caloIso_pt10_fakes.png>
+<Plots/caloIso_pt20_fakes.png, id=69, 698.61pt x 574.145pt>
+File: Plots/caloIso_pt20_fakes.png Graphic file (type png)
+
+<use Plots/caloIso_pt20_fakes.png>
+<Plots/combIso_pt10_fakes.png, id=70, 698.61pt x 574.145pt>
+File: Plots/combIso_pt10_fakes.png Graphic file (type png)
+
+<use Plots/combIso_pt10_fakes.png>
+<Plots/combIso_pt20_fakes.png, id=71, 698.61pt x 574.145pt>
+File: Plots/combIso_pt20_fakes.png Graphic file (type png)
+
+<use Plots/combIso_pt20_fakes.png>
+<Plots/ratio_control_fakesHF.png, id=72, 698.61pt x 574.145pt>
+File: Plots/ratio_control_fakesHF.png Graphic file (type png)
+
+<use Plots/ratio_control_fakesHF.png>
+<Plots/ratio_re-control_fakesHF.png, id=73, 698.61pt x 574.145pt>
+File: Plots/ratio_re-control_fakesHF.png Graphic file (type png)
+
+<use Plots/ratio_re-control_fakesHF.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7 <./Plots/caloIso_pt10_fakes.png> <./Plots/caloIso_pt20_fakes.png> <./Plots/c
+ombIso_pt10_fakes.png> <./Plots/combIso_pt20_fakes.png>]
+<Plots/jetEt_dependence.png, id=77, 698.61pt x 574.145pt>
+File: Plots/jetEt_dependence.png Graphic file (type png)
+
+<use Plots/jetEt_dependence.png>
+<Plots/dR_dependence.png, id=78, 698.61pt x 574.145pt>
+File: Plots/dR_dependence.png Graphic file (type png)
+
+<use Plots/dR_dependence.png> [8 <./Plots/ratio_control_fakesHF.png> <./Plots/r
+atio_re-control_fakesHF.png> <./Plots/jetEt_dependence.png> <./Plots/dR_depende
+nce.png>] <Plots/caloIso_pt10_conv.png, id=82, 698.61pt x 574.145pt>
+File: Plots/caloIso_pt10_conv.png Graphic file (type png)
+
+<use Plots/caloIso_pt10_conv.png>
+<Plots/caloIso_pt20_conv.png, id=83, 698.61pt x 574.145pt>
+File: Plots/caloIso_pt20_conv.png Graphic file (type png)
+
+<use Plots/caloIso_pt20_conv.png>
+<Plots/combIso_pt10_conv.png, id=84, 698.61pt x 574.145pt>
+File: Plots/combIso_pt10_conv.png Graphic file (type png)
+
+<use Plots/combIso_pt10_conv.png>
+<Plots/combIso_pt20_conv.png, id=85, 698.61pt x 574.145pt>
+File: Plots/combIso_pt20_conv.png Graphic file (type png)
+
+<use Plots/combIso_pt20_conv.png> [9 <./Plots/caloIso_pt10_conv.png> <./Plots/c
+aloIso_pt20_conv.png> <./Plots/combIso_pt10_conv.png> <./Plots/combIso_pt20_con
+v.png>] <Plots/caloIso_pt10_fit.png, id=89, 698.61pt x 574.145pt>
+File: Plots/caloIso_pt10_fit.png Graphic file (type png)
+
+<use Plots/caloIso_pt10_fit.png>
+<Plots/caloIso_pt20_fit.png, id=90, 698.61pt x 574.145pt>
+File: Plots/caloIso_pt20_fit.png Graphic file (type png)
+
+<use Plots/caloIso_pt20_fit.png>
+<Plots/combIso_pt10_fit.png, id=91, 698.61pt x 574.145pt>
+File: Plots/combIso_pt10_fit.png Graphic file (type png)
+
+<use Plots/combIso_pt10_fit.png>
+<Plots/combIso_pt20_fit.png, id=92, 698.61pt x 574.145pt>
+File: Plots/combIso_pt20_fit.png Graphic file (type png)
+
+<use Plots/combIso_pt20_fit.png> [10 <./Plots/caloIso_pt10_fit.png> <./Plots/ca
+loIso_pt20_fit.png> <./Plots/combIso_pt10_fit.png> <./Plots/combIso_pt20_fit.pn
+g>] <Plots/w_combIso_pt10_fit_MC.png, id=96, 698.61pt x 574.145pt>
+File: Plots/w_combIso_pt10_fit_MC.png Graphic file (type png)
+
+<use Plots/w_combIso_pt10_fit_MC.png>
+<Plots/w_combIso_pt10_METanticut_fit_MC.png, id=97, 698.61pt x 574.145pt>
+File: Plots/w_combIso_pt10_METanticut_fit_MC.png Graphic file (type png)
+
+<use Plots/w_combIso_pt10_METanticut_fit_MC.png>
+<Plots/w_fitprediction_pt10_METanticut_vsHT_MC.png, id=98, 698.61pt x 574.145pt
+>
+File: Plots/w_fitprediction_pt10_METanticut_vsHT_MC.png Graphic file (type png)
+
+ <use Plots/w_fitprediction_pt10_METanticut_vsHT_MC.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Plots/w_combIso_pt20_fit_MC.png, id=99, 698.61pt x 574.145pt>
+File: Plots/w_combIso_pt20_fit_MC.png Graphic file (type png)
+
+<use Plots/w_combIso_pt20_fit_MC.png>
+<Plots/w_combIso_pt20_METanticut_fit_MC.png, id=100, 698.61pt x 574.145pt>
+File: Plots/w_combIso_pt20_METanticut_fit_MC.png Graphic file (type png)
+
+<use Plots/w_combIso_pt20_METanticut_fit_MC.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Plots/w_fitprediction_pt20_METanticut_vsHT_MC.png, id=101, 698.61pt x 574.145p
+t>
+File: Plots/w_fitprediction_pt20_METanticut_vsHT_MC.png Graphic file (type png)
+
+ <use Plots/w_fitprediction_pt20_METanticut_vsHT_MC.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11 <./Plots/w_combIso_pt10_fit_MC.png> <./Plots/w_combIso_pt10_METanticut_fit_
+MC.png>]
+
+LaTeX Warning: Text page 12 contains only floats.
+
+
+Overfull \vbox (0.26091pt too high) has occurred while \output is active []
+
+
+[12 <./Plots/w_fitprediction_pt10_METanticut_vsHT_MC.png> <./Plots/w_combIso_pt
+20_fit_MC.png> <./Plots/w_combIso_pt20_METanticut_fit_MC.png> <./Plots/w_fitpre
+diction_pt20_METanticut_vsHT_MC.png>]
+Overfull \hbox (26.79565pt too wide) in paragraph at lines 206--218
+ [] 
+ []
+
+
+Overfull \hbox (19.29565pt too wide) in paragraph at lines 225--236
+ [] 
+ []
+
+<Plots/mc-alphaT-1.png, id=118, 598.235pt x 574.145pt>
+File: Plots/mc-alphaT-1.png Graphic file (type png)
+
+<use Plots/mc-alphaT-1.png>
+<Plots/mc-alphaT-2.png, id=119, 598.235pt x 574.145pt>
+File: Plots/mc-alphaT-2.png Graphic file (type png)
+
+<use Plots/mc-alphaT-2.png>
+<Plots/mc-alphaT-3.png, id=120, 598.235pt x 574.145pt>
+File: Plots/mc-alphaT-3.png Graphic file (type png)
+
+<use Plots/mc-alphaT-3.png>
+<Plots/mc-alphaT-4.png, id=121, 598.235pt x 574.145pt>
+File: Plots/mc-alphaT-4.png Graphic file (type png)
+
+<use Plots/mc-alphaT-4.png>
+<Plots/mc-alphaT-5.png, id=122, 598.235pt x 574.145pt>
+File: Plots/mc-alphaT-5.png Graphic file (type png)
+
+<use Plots/mc-alphaT-5.png>
+<Plots/mc-alphaT-6.png, id=123, 598.235pt x 574.145pt>
+File: Plots/mc-alphaT-6.png Graphic file (type png)
+
+<use Plots/mc-alphaT-6.png>
+Underfull \hbox (badness 10000) in paragraph at lines 248--256
+[][] [] []
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13] <Plots/mc-alphaTratio.png, id=133, 698.61pt x 574.145pt>
+File: Plots/mc-alphaTratio.png Graphic file (type png)
+
+<use Plots/mc-alphaTratio.png> [14 <./Plots/mc-alphaT-1.png> <./Plots/mc-alphaT
+-2.png> <./Plots/mc-alphaT-3.png> <./Plots/mc-alphaT-4.png> <./Plots/mc-alphaT-
+5.png> <./Plots/mc-alphaT-6.png> <./Plots/mc-alphaTratio.png>]
+<Plots/w-alphaT-1.png, id=137, 598.235pt x 574.145pt>
+File: Plots/w-alphaT-1.png Graphic file (type png)
+
+<use Plots/w-alphaT-1.png>
+<Plots/w-alphaT-2.png, id=138, 598.235pt x 574.145pt>
+File: Plots/w-alphaT-2.png Graphic file (type png)
+
+<use Plots/w-alphaT-2.png>
+<Plots/w-alphaT-3.png, id=139, 598.235pt x 574.145pt>
+File: Plots/w-alphaT-3.png Graphic file (type png)
+
+<use Plots/w-alphaT-3.png>
+<Plots/w-alphaT-4.png, id=140, 598.235pt x 574.145pt>
+File: Plots/w-alphaT-4.png Graphic file (type png)
+
+<use Plots/w-alphaT-4.png>
+<Plots/w-alphaT-5.png, id=141, 598.235pt x 574.145pt>
+File: Plots/w-alphaT-5.png Graphic file (type png)
+
+<use Plots/w-alphaT-5.png>
+<Plots/w-alphaT-6.png, id=142, 598.235pt x 574.145pt>
+File: Plots/w-alphaT-6.png Graphic file (type png)
+
+<use Plots/w-alphaT-6.png>
+Underfull \hbox (badness 10000) in paragraph at lines 283--291
+[][] [] []
+ []
+
+<Plots/w-alphaTratio.png, id=143, 698.61pt x 574.145pt>
+File: Plots/w-alphaTratio.png Graphic file (type png)
+
+<use Plots/w-alphaTratio.png>) (./comiss.tex [15 <./Plots/w-alphaT-1.png> <./Pl
+ots/w-alphaT-2.png> <./Plots/w-alphaT-3.png> <./Plots/w-alphaT-4.png> <./Plots/
+w-alphaT-5.png> <./Plots/w-alphaT-6.png> <./Plots/w-alphaTratio.png>]
+<Plots/d_combIso_pt10_fit.png, id=147, 698.61pt x 574.145pt>
+File: Plots/d_combIso_pt10_fit.png Graphic file (type png)
+
+<use Plots/d_combIso_pt10_fit.png>
+<Plots/d_combIso_pt10_METanticut_fit.png, id=148, 698.61pt x 574.145pt>
+File: Plots/d_combIso_pt10_METanticut_fit.png Graphic file (type png)
+
+<use Plots/d_combIso_pt10_METanticut_fit.png>
+<Plots/d_fitprediction_pt10_vsHT.png, id=149, 698.61pt x 574.145pt>
+File: Plots/d_fitprediction_pt10_vsHT.png Graphic file (type png)
+
+<use Plots/d_fitprediction_pt10_vsHT.png>
+<Plots/d_fitprediction_pt10_METanticut_vsHT.png, id=150, 698.61pt x 574.145pt>
+File: Plots/d_fitprediction_pt10_METanticut_vsHT.png Graphic file (type png)
+
+<use Plots/d_fitprediction_pt10_METanticut_vsHT.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Plots/d_combIso_pt20_fit.png, id=151, 698.61pt x 574.145pt>
+File: Plots/d_combIso_pt20_fit.png Graphic file (type png)
+
+<use Plots/d_combIso_pt20_fit.png>
+<Plots/d_combIso_pt20_METanticut_fit.png, id=152, 698.61pt x 574.145pt>
+File: Plots/d_combIso_pt20_METanticut_fit.png Graphic file (type png)
+
+<use Plots/d_combIso_pt20_METanticut_fit.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Plots/d_fitprediction_pt20_vsHT.png, id=153, 698.61pt x 574.145pt>
+File: Plots/d_fitprediction_pt20_vsHT.png Graphic file (type png)
+
+<use Plots/d_fitprediction_pt20_vsHT.png>
+<Plots/d_fitprediction_pt20_METanticut_vsHT.png, id=154, 698.61pt x 574.145pt>
+File: Plots/d_fitprediction_pt20_METanticut_vsHT.png Graphic file (type png)
+
+<use Plots/d_fitprediction_pt20_METanticut_vsHT.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16 <./Plots/d_combIso_pt10_fit.png> <./Plots/d_combIso_pt10_METanticut_fit.png
+>] [17 <./Plots/d_fitprediction_pt10_vsHT.png> <./Plots/d_fitprediction_pt10_ME
+Tanticut_vsHT.png> <./Plots/d_combIso_pt20_fit.png> <./Plots/d_combIso_pt20_MET
+anticut_fit.png> <./Plots/d_fitprediction_pt20_vsHT.png> <./Plots/d_fitpredicti
+on_pt20_METanticut_vsHT.png>]
+<Plots/d-alphaT-1.png, id=161, 598.235pt x 574.145pt>
+File: Plots/d-alphaT-1.png Graphic file (type png)
+
+<use Plots/d-alphaT-1.png>
+<Plots/d-alphaT-2.png, id=162, 598.235pt x 574.145pt>
+File: Plots/d-alphaT-2.png Graphic file (type png)
+
+<use Plots/d-alphaT-2.png>
+<Plots/d-alphaT-3.png, id=163, 598.235pt x 574.145pt>
+File: Plots/d-alphaT-3.png Graphic file (type png)
+
+<use Plots/d-alphaT-3.png>
+<Plots/d-alphaT-4.png, id=164, 598.235pt x 574.145pt>
+File: Plots/d-alphaT-4.png Graphic file (type png)
+
+<use Plots/d-alphaT-4.png>
+<Plots/d-alphaT-5.png, id=165, 598.235pt x 574.145pt>
+File: Plots/d-alphaT-5.png Graphic file (type png)
+
+<use Plots/d-alphaT-5.png>
+<Plots/d-alphaT-6.png, id=166, 598.235pt x 574.145pt>
+File: Plots/d-alphaT-6.png Graphic file (type png)
+
+<use Plots/d-alphaT-6.png>
+Underfull \hbox (badness 10000) in paragraph at lines 100--108
+[][] [] []
+ []
+
+<Plots/RaT_pt10.png, id=167, 698.61pt x 574.145pt>
+File: Plots/RaT_pt10.png Graphic file (type png)
+ <use Plots/RaT_pt10.png>
+<Plots/RaT_pt10_anticut.png, id=168, 698.61pt x 574.145pt>
+File: Plots/RaT_pt10_anticut.png Graphic file (type png)
+
+<use Plots/RaT_pt10_anticut.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./summary.tex [18 <./Plots/d-alphaT-1.png> <./Plots/d-alphaT-2.png> <./Plots
+/d-alphaT-3.png> <./Plots/d-alphaT-4.png> <./Plots/d-alphaT-5.png> <./Plots/d-a
+lphaT-6.png>]) [19 <./Plots/RaT_pt10.png> <./Plots/RaT_pt10_anticut.png>]
+[20
+
+] (./sL_BkgdEst.aux) ) 
+Here is how much of TeX's memory you used:
+ 2167 strings out of 95437
+ 30646 string characters out of 1190233
+ 78232 words of memory out of 1000001
+ 5083 multiletter control sequences out of 10000+50000
+ 26452 words of font info for 57 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 29i,11n,21p,1286b,470s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 178 PDF objects out of 300000
+ 0 named destinations out of 131072
+ 280 words of extra memory for PDF output out of 65536
+{/usr/share/texmf/dvips/tetex/aae443f0.enc}</usr/share/te
+xmf/fonts/type1/bluesky/cm/cmmi5.pfb></usr/share/texmf/fonts/type1/bluesky/cm/c
+mex10.pfb>{/usr/share/texmf/dvips/tetex/f7b6d320.enc}</usr/share/texmf/fonts/ty
+pe1/bluesky/cm/cmr9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb></us
+r/share/texmf/fonts/type1/bluesky/cm/cmmi12.pfb>{/usr/share/texmf/dvips/tetex/b
+bad153f.enc}</usr/share/texmf/fonts/type1/bluesky/cm/cmsy9.pfb></usr/share/texm
+f/fonts/type1/bluesky/cm/cmmi6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmm
+i9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr6.pfb>{/usr/share/texmf/dvip
+s/psnfss/8r.enc}</usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share
+/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/c
+m/cmsy7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/tex
+mf/fonts/type1/bluesky/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cm
+r7.pfb>
+Output written on sL_BkgdEst.pdf (21 pages, 829847 bytes).

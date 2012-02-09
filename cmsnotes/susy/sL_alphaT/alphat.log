@@ -1,0 +1,685 @@
+This is pdfTeX, Version 3.14159-1.10b (Web2C 7.4.5) (format=pdflatex 2007.11.12)  5 FEB 2010 12:45
+**alphat.tex
+(./alphat.tex{/usr/share/texmf/pdftex/config/pdftex.cfg}
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, n
+ohyphenation, loaded.
+(./cmspaper.cls
+CMS paper style Version <0.4>, <25 Nov. 1996>
+based on Document Style 'CERNART' Version <2.1>, <1 May 1995>
+Document Class: cmspaper 1996/11/25
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2001/04/21 v1.4e Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size12.clo
+File: size12.clo 2001/04/21 v1.4e Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\c@instfoot=\count87
+
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2001/08/31 v1.1 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(/usr/share/texmf/tex/latex/graphics/pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count88
+)))
+(/usr/share/texmf/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen103
+)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/share/texmf/tex/latex/tools/verbatim.sty
+Package: verbatim 2001/03/12 v1.5p LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks15
+\verbatim@line=\toks16
+\verbatim@in@stream=\read1
+)
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen106
+))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen107
+)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks18
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks19
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen115
+\epsfysize=\dimen116
+)
+(/usr/share/texmf/tex/latex/tools/array.sty
+Package: array 1998/05/13 v2.3m Tabular extension package (FMi)
+\col@sep=\dimen117
+\extrarowheight=\dimen118
+\NC@list=\toks22
+\extratabsurround=\skip46
+\backup@length=\skip47
+)
+
+LaTeX Warning: Unused global option(s):
+    [a4].
+
+(./alphat.aux
+
+LaTeX Warning: Label `fig:lm1_cor' multiply defined.
+
+
+LaTeX Warning: Label `fig:qcd_cor' multiply defined.
+
+
+LaTeX Warning: Label `fig:lm1_cor' multiply defined.
+
+
+LaTeX Warning: Label `fig:qcd_cor' multiply defined.
+
+
+LaTeX Warning: Label `fig:lm1_cor' multiply defined.
+
+
+LaTeX Warning: Label `fig:qcd_cor' multiply defined.
+
+
+LaTeX Warning: Label `fig:lm1_cor' multiply defined.
+
+
+LaTeX Warning: Label `fig:qcd_cor' multiply defined.
+
+
+LaTeX Warning: Label `fig:m$H_{T}$ov$H_{T}$' multiply defined.
+
+
+LaTeX Warning: Label `fig:$H_{T}$' multiply defined.
+
+
+LaTeX Warning: Label `fig:aT' multiply defined.
+
+
+LaTeX Warning: Label `fig:m$H_{T}$ov$H_{T}$' multiply defined.
+
+
+LaTeX Warning: Label `fig:$H_{T}$' multiply defined.
+
+
+LaTeX Warning: Label `fig:m$H_{T}$ov$H_{T}$' multiply defined.
+
+
+LaTeX Warning: Label `fig:$H_{T}$' multiply defined.
+
+
+LaTeX Warning: Label `fig:aT' multiply defined.
+
+
+LaTeX Warning: Label `fig:mht' multiply defined.
+
+
+LaTeX Warning: Label `fig:aT' multiply defined.
+
+
+LaTeX Warning: Label `fig:mht' multiply defined.
+
+)
+\openout1 = `alphat.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 20.
+ (/usr/share/texmf/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texmf/tex/context/base/supp-pdf.tex
+(/usr/share/texmf/tex/context/base/supp-mis.tex
+loading : Context Support Macros / Missing
+\protectiondepth=\count101
+\scratchcounter=\count102
+\scratchtoks=\toks23
+\scratchdimen=\dimen119
+\scratchskip=\skip48
+\scratchmuskip=\muskip11
+\scratchbox=\box28
+\scratchread=\read2
+\scratchwrite=\write3
+\zeropoint=\dimen120
+\minusone=\count103
+\thousandpoint=\dimen121
+\emptytoks=\toks24
+\nextbox=\box29
+\nextdepth=\dimen122
+\everyline=\toks25
+\!!counta=\count104
+\!!countb=\count105
+\recursecounter=\count106
+)
+loading : Context Support Macros / PDF
+\nofMPsegments=\count107
+\nofMParguments=\count108
+\everyMPtoPDFconversion=\toks26
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 32.
+ (/usr/share/texmf/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
+ [1
+
+
+{/usr/share/texmf/dvips/config/pdftex.map}]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+ (./alphat.toc)
+\tf@toc=\write4
+\openout4 = `alphat.toc'.
+
+ (./introduction.tex [2]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 17.
+
+(/usr/share/texmf/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+) (./event_selection.tex [4] [5] [6]
+<./plots/prompt_ele_eff.png, id=58, 748.7975pt x 574.145pt>
+File: ./plots/prompt_ele_eff.png Graphic file (type png)
+
+<use ./plots/prompt_ele_eff.png>
+Overfull \hbox (11.99805pt too wide) in paragraph at lines 107--108
+ [][] 
+ []
+
+<./plots/hadron_ele_eff.png, id=59, 748.7975pt x 574.145pt>
+File: ./plots/hadron_ele_eff.png Graphic file (type png)
+
+<use ./plots/hadron_ele_eff.png>
+Overfull \hbox (11.99805pt too wide) in paragraph at lines 111--112
+ [][] 
+ []
+
+
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 105--113
+[][] [] 
+ []
+
+<./plots/prompt_muon_eff.png, id=60, 748.7975pt x 574.145pt>
+File: ./plots/prompt_muon_eff.png Graphic file (type png)
+
+<use ./plots/prompt_muon_eff.png>
+Overfull \hbox (11.99805pt too wide) in paragraph at lines 120--121
+ [][] 
+ []
+
+<./plots/hadron_muon_eff.png, id=61, 748.7975pt x 574.145pt>
+File: ./plots/hadron_muon_eff.png Graphic file (type png)
+
+<use ./plots/hadron_muon_eff.png>
+Overfull \hbox (11.99805pt too wide) in paragraph at lines 124--125
+ [][] 
+ []
+
+
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 118--126
+[][] [] 
+ []
+
+[7 <./plots/prompt_ele_eff.png> <./plots/hadron_ele_eff.png> <./plots/prompt_mu
+on_eff.png> <./plots/hadron_muon_eff.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+) (./kinematics.tex [8] [9]
+<./plots/dht_njet.png, id=72, 598.235pt x 574.145pt>
+File: ./plots/dht_njet.png Graphic file (type png)
+
+<use ./plots/dht_njet.png>
+<./plots/mht_njet.png, id=73, 598.235pt x 574.145pt>
+File: ./plots/mht_njet.png Graphic file (type png)
+
+<use ./plots/mht_njet.png>
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 34--42
+[][] [] 
+ []
+
+<./plots/aT_njet.png, id=74, 598.235pt x 574.145pt>
+File: ./plots/aT_njet.png Graphic file (type png)
+ <use ./plots/aT_njet.png>
+<./plots/recoil_njet.png, id=75, 598.235pt x 574.145pt>
+File: ./plots/recoil_njet.png Graphic file (type png)
+
+<use ./plots/recoil_njet.png>
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 47--55
+[][] [] 
+ []
+
+[10 <./plots/dht_njet.png> <./plots/mht_njet.png> <./plots/aT_njet.png> <./plot
+s/recoil_njet.png>] <./plots/lm1_cor.png, id=79, 598.235pt x 574.145pt>
+File: ./plots/lm1_cor.png Graphic file (type png)
+
+<use ./plots/lm1_cor.png> <./plots/qcd_cor.png, id=80, 598.235pt x 574.145pt>
+File: ./plots/qcd_cor.png Graphic file (type png)
+
+<use ./plots/qcd_cor.png>
+Overfull \hbox (13.09587pt too wide) in paragraph at lines 94--105
+[][]   [] 
+ []
+
+) (./comparison.tex [11 <./plots/lm1_cor.png> <./plots/qcd_cor.png>]
+<./plots/aT-AllSignals.png, id=84, 598.235pt x 574.145pt>
+File: ./plots/aT-AllSignals.png Graphic file (type png)
+
+<use ./plots/aT-AllSignals.png>
+<./plots/MHT-AllSignals.png, id=85, 598.235pt x 574.145pt>
+File: ./plots/MHT-AllSignals.png Graphic file (type png)
+
+<use ./plots/MHT-AllSignals.png>
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 14--24
+[][] [] 
+ []
+
+<./plots/MHTovHT-AllSignals.png, id=86, 598.235pt x 574.145pt>
+File: ./plots/MHTovHT-AllSignals.png Graphic file (type png)
+
+<use ./plots/MHTovHT-AllSignals.png>
+<./plots/HT-AllSignals.png, id=87, 598.235pt x 574.145pt>
+File: ./plots/HT-AllSignals.png Graphic file (type png)
+
+<use ./plots/HT-AllSignals.png>
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 28--36
+[][] [] 
+ []
+
+[12 <./plots/aT-AllSignals.png> <./plots/MHT-AllSignals.png> <./plots/MHTovHT-A
+llSignals.png> <./plots/HT-AllSignals.png>] [13]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14] [15]) (./deviation.tex [16
+
+]
+<./plots/JetEta.png, id=104, 598.235pt x 574.145pt>
+File: ./plots/JetEta.png Graphic file (type png)
+ <use ./plots/JetEta.png>
+<./plots/JetEtaNorm.png, id=105, 598.235pt x 574.145pt>
+File: ./plots/JetEtaNorm.png Graphic file (type png)
+
+<use ./plots/JetEtaNorm.png>
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 14--22
+[][] [] 
+ []
+
+[17 <./plots/JetEta.png> <./plots/JetEtaNorm.png>]
+<./plots/RaT-TTbarVsQCD.png, id=109, 598.235pt x 574.145pt>
+File: ./plots/RaT-TTbarVsQCD.png Graphic file (type png)
+
+<use ./plots/RaT-TTbarVsQCD.png>
+<./plots/RaT-WVsQCD.png, id=110, 598.235pt x 574.145pt>
+File: ./plots/RaT-WVsQCD.png Graphic file (type png)
+
+<use ./plots/RaT-WVsQCD.png>
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 44--52
+[][] [] 
+ []
+
+<./plots/RaT-Bkg.png, id=111, 598.235pt x 574.145pt>
+File: ./plots/RaT-Bkg.png Graphic file (type png)
+ <use ./plots/RaT-Bkg.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./plots/RaT-LM0.png, id=112, 598.235pt x 574.145pt>
+File: ./plots/RaT-LM0.png Graphic file (type png)
+ <use ./plots/RaT-LM0.png>
+<./plots/RaT-LM1.png, id=113, 598.235pt x 574.145pt>
+File: ./plots/RaT-LM1.png Graphic file (type png)
+ <use ./plots/RaT-LM1.png>
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 72--80
+[][] [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[18 <./plots/RaT-TTbarVsQCD.png> <./plots/RaT-WVsQCD.png>] [19 <./plots/RaT-Bkg
+.png> <./plots/RaT-LM0.png> <./plots/RaT-LM1.png>]
+<./plots/aT-p0.png, id=124, 598.235pt x 574.145pt>
+File: ./plots/aT-p0.png Graphic file (type png)
+ <use ./plots/aT-p0.png>
+<./plots/aT-p1.png, id=125, 598.235pt x 574.145pt>
+File: ./plots/aT-p1.png Graphic file (type png)
+ <use ./plots/aT-p1.png>
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 114--122
+[][] [] 
+ []
+
+<./plots/aT-Dp0OvSigma.png, id=126, 598.235pt x 574.145pt>
+File: ./plots/aT-Dp0OvSigma.png Graphic file (type png)
+
+<use ./plots/aT-Dp0OvSigma.png>
+<./plots/aT-Dp1OvSigma.png, id=127, 598.235pt x 574.145pt>
+File: ./plots/aT-Dp1OvSigma.png Graphic file (type png)
+
+<use ./plots/aT-Dp1OvSigma.png>
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 128--136
+[][] [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20 <./plots/aT-p0.png> <./plots/aT-p1.png>]
+
+LaTeX Warning: Reference `tab:sum2' on page 21 undefined on input line 154.
+
+) (./systematics.tex [21 <./plots/aT-Dp0OvSigma.png> <./plots/aT-Dp1OvSigma.png
+>] <./plots/aT-NT7-Scaling.png, id=134, 598.235pt x 574.145pt>
+File: ./plots/aT-NT7-Scaling.png Graphic file (type png)
+
+<use ./plots/aT-NT7-Scaling.png>
+<./plots/MHT-NT7-Scaling.png, id=135, 598.235pt x 574.145pt>
+File: ./plots/MHT-NT7-Scaling.png Graphic file (type png)
+
+<use ./plots/MHT-NT7-Scaling.png>
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 12--21
+[][] [] 
+ []
+
+<./plots/MHTovHT-NT7-Scaling.png, id=136, 598.235pt x 574.145pt>
+File: ./plots/MHTovHT-NT7-Scaling.png Graphic file (type png)
+
+<use ./plots/MHTovHT-NT7-Scaling.png>
+<./plots/HT-NT7-Scaling.png, id=137, 598.235pt x 574.145pt>
+File: ./plots/HT-NT7-Scaling.png Graphic file (type png)
+
+<use ./plots/HT-NT7-Scaling.png>
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 26--35
+[][] [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22 <./plots/aT-NT7-Scaling.png> <./plots/MHT-NT7-Scaling.png>]
+<./plots/DNentries_Scale03.png, id=141, 598.235pt x 574.145pt>
+File: ./plots/DNentries_Scale03.png Graphic file (type png)
+
+<use ./plots/DNentries_Scale03.png>
+<./plots/DNentries_Scale05.png, id=142, 598.235pt x 574.145pt>
+File: ./plots/DNentries_Scale05.png Graphic file (type png)
+
+<use ./plots/DNentries_Scale05.png>
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 49--58
+[][] [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./plots/DNentries_Scale2.png, id=143, 598.235pt x 574.145pt>
+File: ./plots/DNentries_Scale2.png Graphic file (type png)
+
+<use ./plots/DNentries_Scale2.png>
+<./plots/DNentries_Scale3.png, id=144, 598.235pt x 574.145pt>
+File: ./plots/DNentries_Scale3.png Graphic file (type png)
+
+<use ./plots/DNentries_Scale3.png>
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 62--71
+[][] [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./summary.tex [23 <./plots/MHTovHT-NT7-Scaling.png> <./plots/HT-NT7-Scaling.
+png>] [24 <./plots/DNentries_Scale03.png> <./plots/DNentries_Scale05.png> <./pl
+ots/DNentries_Scale2.png> <./plots/DNentries_Scale3.png>]) [25] [26
+
+]
+(./alternatives.tex
+<./plots/MHT-NT7-Bkg-MCerr.pdf, id=158, 569.12625pt x 546.04pt>
+File: ./plots/MHT-NT7-Bkg-MCerr.pdf Graphic file (type pdf)
+
+<use ./plots/MHT-NT7-Bkg-MCerr.pdf>
+<./plots/MHT-NT7-Lm0-MCerr.pdf, id=159, 569.12625pt x 546.04pt>
+File: ./plots/MHT-NT7-Lm0-MCerr.pdf Graphic file (type pdf)
+
+<use ./plots/MHT-NT7-Lm0-MCerr.pdf>
+<./plots/MHT-NT7-Lm1-MCerr.pdf, id=160, 569.12625pt x 546.04pt>
+File: ./plots/MHT-NT7-Lm1-MCerr.pdf Graphic file (type pdf)
+
+<use ./plots/MHT-NT7-Lm1-MCerr.pdf>
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 24--32
+[][] [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./plots/MHTovHT-NT7-Bkg-MCerr.pdf, id=161, 569.12625pt x 546.04pt>
+File: ./plots/MHTovHT-NT7-Bkg-MCerr.pdf Graphic file (type pdf)
+
+<use ./plots/MHTovHT-NT7-Bkg-MCerr.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./plots/MHTovHT-NT7-Lm0-MCerr.pdf, id=162, 569.12625pt x 546.04pt>
+File: ./plots/MHTovHT-NT7-Lm0-MCerr.pdf Graphic file (type pdf)
+
+<use ./plots/MHTovHT-NT7-Lm0-MCerr.pdf>
+<./plots/MHTovHT-NT7-Lm1-MCerr.pdf, id=163, 569.12625pt x 546.04pt>
+File: ./plots/MHTovHT-NT7-Lm1-MCerr.pdf Graphic file (type pdf)
+
+<use ./plots/MHTovHT-NT7-Lm1-MCerr.pdf>
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 51--59
+[][] [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [27 <./plots/MHT-NT7-Bkg-MCerr.pdf, page is rotated 90 degrees>] [28 <./plots
+/MHT-NT7-Lm0-MCerr.pdf, page is rotated 90 degrees> <./plots/MHT-NT7-Lm1-MCerr.
+pdf, page is rotated 90 degrees> <./plots/MHTovHT-NT7-Bkg-MCerr.pdf, page is ro
+tated 90 degrees>] [29 <./plots/MHTovHT-NT7-Lm0-MCerr.pdf, page is rotated 90 d
+egrees> <./plots/MHTovHT-NT7-Lm1-MCerr.pdf, page is rotated 90 degrees>]
+(./meff.tex <./plots/Meff-NT7-Dist.png, id=431, 664.4825pt x 528.97626pt>
+File: ./plots/Meff-NT7-Dist.png Graphic file (type png)
+
+<use ./plots/Meff-NT7-Dist.png>
+<./plots/Meff-NT7-Bkg-MCerr.png, id=432, 548.0475pt x 473.77pt>
+File: ./plots/Meff-NT7-Bkg-MCerr.png Graphic file (type png)
+
+<use ./plots/Meff-NT7-Bkg-MCerr.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./plots/Meff-NT7-Lm0-MCerr.png, id=433, 548.0475pt x 473.77pt>
+File: ./plots/Meff-NT7-Lm0-MCerr.png Graphic file (type png)
+
+<use ./plots/Meff-NT7-Lm0-MCerr.png>
+<./plots/Meff-NT7-Lm1-MCerr.png, id=434, 548.0475pt x 473.77pt>
+File: ./plots/Meff-NT7-Lm1-MCerr.png Graphic file (type png)
+
+<use ./plots/Meff-NT7-Lm1-MCerr.png>
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 64--72
+[][] [] 
+ []
+
+[30
+
+]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./plots/Meff-NT7-p0-MCerr.png, id=438, 548.0475pt x 473.77pt>
+File: ./plots/Meff-NT7-p0-MCerr.png Graphic file (type png)
+
+<use ./plots/Meff-NT7-p0-MCerr.png>
+<./plots/Meff-NT7-p1-MCerr.png, id=439, 548.0475pt x 473.77pt>
+File: ./plots/Meff-NT7-p1-MCerr.png Graphic file (type png)
+
+<use ./plots/Meff-NT7-p1-MCerr.png>
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 78--86
+[][] [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./plots/Meff-NT7-p0-Sig.png, id=440, 548.0475pt x 473.77pt>
+File: ./plots/Meff-NT7-p0-Sig.png Graphic file (type png)
+
+<use ./plots/Meff-NT7-p0-Sig.png>
+<./plots/HT-NT7-p0-Sig.png, id=441, 548.0475pt x 473.77pt>
+File: ./plots/HT-NT7-p0-Sig.png Graphic file (type png)
+
+<use ./plots/HT-NT7-p0-Sig.png>
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 104--112
+[][] [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./plots/Meff-NT7-p1-Sig.png, id=442, 548.0475pt x 473.77pt>
+File: ./plots/Meff-NT7-p1-Sig.png Graphic file (type png)
+
+<use ./plots/Meff-NT7-p1-Sig.png>
+<./plots/HT-NT7-p1-Sig.png, id=443, 548.0475pt x 473.77pt>
+File: ./plots/HT-NT7-p1-Sig.png Graphic file (type png)
+
+<use ./plots/HT-NT7-p1-Sig.png>
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 119--127
+[][] [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [31 <./plots/Meff-NT7-Dist.png> <./plots/Meff-NT7-Bkg-MCerr.png>] [32 <./plot
+s/Meff-NT7-Lm0-MCerr.png> <./plots/Meff-NT7-Lm1-MCerr.png> <./plots/Meff-NT7-p0
+-MCerr.png> <./plots/Meff-NT7-p1-MCerr.png>] [33 <./plots/Meff-NT7-p0-Sig.png> 
+<./plots/HT-NT7-p0-Sig.png> <./plots/Meff-NT7-p1-Sig.png> <./plots/HT-NT7-p1-Si
+g.png>] (./alphat.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2171 strings out of 95437
+ 29372 string characters out of 1189054
+ 78735 words of memory out of 1000001
+ 5082 multiletter control sequences out of 10000+50000
+ 33330 words of font info for 77 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 28i,20n,21p,1646b,383s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 453 PDF objects out of 300000
+ 0 named destinations out of 131072
+ 245 words of extra memory for PDF output out of 65536
+{/usr/share/texmf/dvips/tetex/aae443f0.enc}</usr/share/texmf/fonts/type1/blue
+sky/cm/cmmi6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/shar
+e/texmf/fonts/type1/bluesky/cm/cmex10.pfb>{/usr/share/texmf/dvips/tetex/f7b6d32
+0.enc}</usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb>{/usr/share/texmf/dvip
+s/tetex/bbad153f.enc}</usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/
+share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/blue
+sky/cm/cmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi12.pfb>{/usr/shar
+e/texmf/dvips/psnfss/8r.enc}</usr/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb>
+</usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1
+/bluesky/cm/cmmib10.pfb>
+Output written on alphat.pdf (33 pages, 681503 bytes).

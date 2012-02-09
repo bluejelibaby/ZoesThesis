@@ -1,0 +1,736 @@
+This is pdfTeX, Version 3.14159-1.10b (Web2C 7.4.5) (format=pdflatex 2007.11.12)  2 NOV 2009 15:35
+**softlepton.tex
+(./softlepton.tex{/usr/share/texmf/pdftex/config/pdftex.cfg}
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, n
+ohyphenation, loaded.
+(./cmspaper.cls
+CMS paper style Version <0.4>, <25 Nov. 1996>
+based on Document Style 'CERNART' Version <2.1>, <1 May 1995>
+Document Class: cmspaper 1996/11/25
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2001/04/21 v1.4e Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size10.clo
+File: size10.clo 2001/04/21 v1.4e Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\c@instfoot=\count87
+
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2001/08/31 v1.1 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(/usr/share/texmf/tex/latex/graphics/pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count88
+)))
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks15
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+\epsfxsize=\dimen114
+\epsfysize=\dimen115
+) (./softlepton.aux)
+\openout1 = `softlepton.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 4.
+
+(/usr/share/texmf/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texmf/tex/context/base/supp-pdf.tex
+(/usr/share/texmf/tex/context/base/supp-mis.tex
+loading : Context Support Macros / Missing
+\protectiondepth=\count101
+\scratchcounter=\count102
+\scratchtoks=\toks20
+\scratchdimen=\dimen116
+\scratchskip=\skip46
+\scratchmuskip=\muskip11
+\scratchbox=\box28
+\scratchread=\read1
+\scratchwrite=\write3
+\zeropoint=\dimen117
+\minusone=\count103
+\thousandpoint=\dimen118
+\emptytoks=\toks21
+\nextbox=\box29
+\nextdepth=\dimen119
+\everyline=\toks22
+\!!counta=\count104
+\!!countb=\count105
+\recursecounter=\count106
+)
+loading : Context Support Macros / PDF
+\nofMPsegments=\count107
+\nofMParguments=\count108
+\everyMPtoPDFconversion=\toks23
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 17.
+ (/usr/share/texmf/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
+ [1
+
+
+{/usr/share/texmf/dvips/config/pdftex.map}]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 148.
+
+ (/usr/share/texmf/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 148.
+ [2]
+<pictures/genPt_recoEff_prompt/genPt_recoEff_elec_prompt.png, id=40, 598.235pt 
+x 574.145pt>
+File: pictures/genPt_recoEff_prompt/genPt_recoEff_elec_prompt.png Graphic file 
+(type png)
+ <use pictures/genPt_recoEff_prompt/genPt_recoEff_elec_prompt.png>
+<pictures/genPt_recoEff_prompt/genPt_recoEff_muon_prompt.png, id=41, 598.235pt 
+x 574.145pt>
+File: pictures/genPt_recoEff_prompt/genPt_recoEff_muon_prompt.png Graphic file 
+(type png)
+ <use pictures/genPt_recoEff_prompt/genPt_recoEff_muon_prompt.png>
+<pictures/recoPt_relIso/combIso_elec_prompt.png, id=42, 594.22pt x 546.04pt>
+File: pictures/recoPt_relIso/combIso_elec_prompt.png Graphic file (type png)
+
+<use pictures/recoPt_relIso/combIso_elec_prompt.png>
+<pictures/recoPt_relIso/combIso_muon_prompt.png, id=43, 594.22pt x 546.04pt>
+File: pictures/recoPt_relIso/combIso_muon_prompt.png Graphic file (type png)
+
+<use pictures/recoPt_relIso/combIso_muon_prompt.png>
+<pictures/recoPt_relIso/combIso_elec_nonPrompt.png, id=44, 594.22pt x 546.04pt>
+File: pictures/recoPt_relIso/combIso_elec_nonPrompt.png Graphic file (type png)
+
+<use pictures/recoPt_relIso/combIso_elec_nonPrompt.png>
+<pictures/recoPt_relIso/combIso_muon_nonPrompt.png, id=45, 594.22pt x 546.04pt>
+File: pictures/recoPt_relIso/combIso_muon_nonPrompt.png Graphic file (type png)
+
+<use pictures/recoPt_relIso/combIso_muon_nonPrompt.png>
+<pictures/recoPt_relIso/combIso_elec_fake.png, id=46, 594.22pt x 546.04pt>
+File: pictures/recoPt_relIso/combIso_elec_fake.png Graphic file (type png)
+
+<use pictures/recoPt_relIso/combIso_elec_fake.png>
+<pictures/recoPt_relIso/combIso_muon_fake.png, id=47, 594.22pt x 546.04pt>
+File: pictures/recoPt_relIso/combIso_muon_fake.png Graphic file (type png)
+
+<use pictures/recoPt_relIso/combIso_muon_fake.png> [3 <./pictures/genPt_recoEff
+_prompt/genPt_recoEff_elec_prompt.png> <./pictures/genPt_recoEff_prompt/genPt_r
+ecoEff_muon_prompt.png>] [4 <./pictures/recoPt_relIso/combIso_elec_prompt.png> 
+<./pictures/recoPt_relIso/combIso_muon_prompt.png> <./pictures/recoPt_relIso/co
+mbIso_elec_nonPrompt.png> <./pictures/recoPt_relIso/combIso_muon_nonPrompt.png>
+ <./pictures/recoPt_relIso/combIso_elec_fake.png> <./pictures/recoPt_relIso/com
+bIso_muon_fake.png>]
+<pictures/bkgdRej_sigEff/elec_nonPrompt_ptCut0_ptCut1.png, id=60, 598.235pt x 5
+74.145pt>
+File: pictures/bkgdRej_sigEff/elec_nonPrompt_ptCut0_ptCut1.png Graphic file (ty
+pe png)
+ <use pictures/bkgdRej_sigEff/elec_nonPrompt_ptCut0_ptCut1.png>
+<pictures/bkgdRej_sigEff/elec_fake_ptCut0_ptCut1.png, id=61, 598.235pt x 574.14
+5pt>
+File: pictures/bkgdRej_sigEff/elec_fake_ptCut0_ptCut1.png Graphic file (type pn
+g)
+ <use pictures/bkgdRej_sigEff/elec_fake_ptCut0_ptCut1.png>
+<pictures/bkgdRej_sigEff/muon_nonPrompt_ptCut0_ptCut1.png, id=62, 598.235pt x 5
+74.145pt>
+File: pictures/bkgdRej_sigEff/muon_nonPrompt_ptCut0_ptCut1.png Graphic file (ty
+pe png)
+ <use pictures/bkgdRej_sigEff/muon_nonPrompt_ptCut0_ptCut1.png>
+<pictures/bkgdRej_sigEff/muon_fake_ptCut0_ptCut1.png, id=63, 598.235pt x 574.14
+5pt>
+File: pictures/bkgdRej_sigEff/muon_fake_ptCut0_ptCut1.png Graphic file (type pn
+g)
+ <use pictures/bkgdRej_sigEff/muon_fake_ptCut0_ptCut1.png> [5 <./pictures/bkgdR
+ej_sigEff/elec_nonPrompt_ptCut0_ptCut1.png> <./pictures/bkgdRej_sigEff/elec_fak
+e_ptCut0_ptCut1.png> <./pictures/bkgdRej_sigEff/muon_nonPrompt_ptCut0_ptCut1.pn
+g> <./pictures/bkgdRej_sigEff/muon_fake_ptCut0_ptCut1.png>]
+<pictures/optIsoCut/trackIso_elec_pure_HF.png, id=67, 598.235pt x 574.145pt>
+File: pictures/optIsoCut/trackIso_elec_pure_HF.png Graphic file (type png)
+
+<use pictures/optIsoCut/trackIso_elec_pure_HF.png>
+<pictures/optIsoCut/trackIso_elec_pure.png, id=68, 594.22pt x 546.04pt>
+File: pictures/optIsoCut/trackIso_elec_pure.png Graphic file (type png)
+
+<use pictures/optIsoCut/trackIso_elec_pure.png>
+<pictures/optIsoCut/trackIso_elec_opt.png, id=69, 594.22pt x 546.04pt>
+File: pictures/optIsoCut/trackIso_elec_opt.png Graphic file (type png)
+
+<use pictures/optIsoCut/trackIso_elec_opt.png>
+<pictures/optIsoCut/trackIso_elec_eff.png, id=70, 594.22pt x 546.04pt>
+File: pictures/optIsoCut/trackIso_elec_eff.png Graphic file (type png)
+
+<use pictures/optIsoCut/trackIso_elec_eff.png>
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 315.
+
+<pictures/optIsoCut/trackIso_muon_pure_HF.png, id=71, 598.235pt x 574.145pt>
+File: pictures/optIsoCut/trackIso_muon_pure_HF.png Graphic file (type png)
+
+<use pictures/optIsoCut/trackIso_muon_pure_HF.png>
+<pictures/optIsoCut/trackIso_muon_pure.png, id=72, 594.22pt x 546.04pt>
+File: pictures/optIsoCut/trackIso_muon_pure.png Graphic file (type png)
+
+<use pictures/optIsoCut/trackIso_muon_pure.png>
+<pictures/optIsoCut/trackIso_muon_opt.png, id=73, 594.22pt x 546.04pt>
+File: pictures/optIsoCut/trackIso_muon_opt.png Graphic file (type png)
+
+<use pictures/optIsoCut/trackIso_muon_opt.png>
+<pictures/optIsoCut/trackIso_muon_eff.png, id=74, 598.235pt x 574.145pt>
+File: pictures/optIsoCut/trackIso_muon_eff.png Graphic file (type png)
+
+<use pictures/optIsoCut/trackIso_muon_eff.png> [6 <./pictures/optIsoCut/trackIs
+o_elec_pure_HF.png> <./pictures/optIsoCut/trackIso_elec_pure.png> <./pictures/o
+ptIsoCut/trackIso_elec_opt.png> <./pictures/optIsoCut/trackIso_elec_eff.png>]
+[7 <./pictures/optIsoCut/trackIso_muon_pure_HF.png> <./pictures/optIsoCut/track
+Iso_muon_pure.png> <./pictures/optIsoCut/trackIso_muon_opt.png> <./pictures/opt
+IsoCut/trackIso_muon_eff.png>]
+<pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut0_ptCut1.png, id=82, 602.
+25pt x 602.25pt>
+File: pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut0_ptCut1.png Graphic
+ file (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut0_ptCut1.png>
+<pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut0_ptCut1.png, id=83, 598.235pt
+ x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut0_ptCut1.png Graphic file
+ (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut0_ptCut1.png>
+<pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut0_ptCut1.png, id=84, 602.
+25pt x 602.25pt>
+File: pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut0_ptCut1.png Graphic
+ file (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut0_ptCut1.png>
+<pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut0_ptCut1.png, id=85, 598.235pt
+ x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut0_ptCut1.png Graphic file
+ (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut0_ptCut1.png>
+(./susyanalysis.tex (./singlelepton.tex [8] [9 <./pictures/trackCut/bkgdRej_sig
+Eff/elec_nonPrompt_ptCut0_ptCut1.png> <./pictures/trackCut/bkgdRej_sigEff/elec_
+fake_ptCut0_ptCut1.png> <./pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCu
+t0_ptCut1.png> <./pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut0_ptCut1.png>
+]) [10]
+Overfull \hbox (3.2103pt too wide) in paragraph at lines 19--22
+[]/ptmr7t/The CMS SUSY group pro-vides a set of base-line se-lec-tion cri-te-ri
+a for Single-lepton Ref-er-ence Anal-y-sis 5 (RA5) [[]].
+ []
+
+) (./summary.tex) [11] [12] (./tables.tex) [13] [14] (./plots.tex
+<pictures/bkgdRej_sigEff/onlyTrack_elec_fake_ptCut0_ptCut1.png, id=129, 598.235
+pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_elec_fake_ptCut0_ptCut1.png Graphic fil
+e (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_elec_fake_ptCut0_ptCut1.png>
+<pictures/bkgdRej_sigEff/onlyTrack_elec_nonPrompt_ptCut0_ptCut1.png, id=130, 59
+8.235pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_elec_nonPrompt_ptCut0_ptCut1.png Graphi
+c file (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_elec_nonPrompt_ptCut0_ptCut1.png>
+<pictures/bkgdRej_sigEff/onlyTrack_elec_fake_ptCut1_ptCut2.png, id=131, 598.235
+pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_elec_fake_ptCut1_ptCut2.png Graphic fil
+e (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_elec_fake_ptCut1_ptCut2.png>
+<pictures/bkgdRej_sigEff/onlyTrack_elec_nonPrompt_ptCut1_ptCut2.png, id=132, 59
+8.235pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_elec_nonPrompt_ptCut1_ptCut2.png Graphi
+c file (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_elec_nonPrompt_ptCut1_ptCut2.png>
+<pictures/bkgdRej_sigEff/onlyTrack_elec_fake_ptCut2_ptCut3.png, id=133, 598.235
+pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_elec_fake_ptCut2_ptCut3.png Graphic fil
+e (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_elec_fake_ptCut2_ptCut3.png>
+<pictures/bkgdRej_sigEff/onlyTrack_elec_nonPrompt_ptCut2_ptCut3.png, id=134, 59
+8.235pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_elec_nonPrompt_ptCut2_ptCut3.png Graphi
+c file (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_elec_nonPrompt_ptCut2_ptCut3.png>
+<pictures/bkgdRej_sigEff/onlyTrack_elec_fake_ptCut3_ptCut4.png, id=135, 598.235
+pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_elec_fake_ptCut3_ptCut4.png Graphic fil
+e (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_elec_fake_ptCut3_ptCut4.png>
+<pictures/bkgdRej_sigEff/onlyTrack_elec_nonPrompt_ptCut3_ptCut4.png, id=136, 59
+8.235pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_elec_nonPrompt_ptCut3_ptCut4.png Graphi
+c file (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_elec_nonPrompt_ptCut3_ptCut4.png>
+<pictures/bkgdRej_sigEff/onlyTrack_elec_fake_ptCut4_ptCut5.png, id=137, 598.235
+pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_elec_fake_ptCut4_ptCut5.png Graphic fil
+e (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_elec_fake_ptCut4_ptCut5.png>
+<pictures/bkgdRej_sigEff/onlyTrack_elec_nonPrompt_ptCut4_ptCut5.png, id=138, 59
+8.235pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_elec_nonPrompt_ptCut4_ptCut5.png Graphi
+c file (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_elec_nonPrompt_ptCut4_ptCut5.png>
+<pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut0_ptCut1.png, id=139, 598.235
+pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut0_ptCut1.png Graphic fil
+e (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut0_ptCut1.png>
+<pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut0_ptCut1.png, id=140, 59
+8.235pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut0_ptCut1.png Graphi
+c file (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut0_ptCut1.png>
+<pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut1_ptCut2.png, id=141, 598.235
+pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut1_ptCut2.png Graphic fil
+e (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut1_ptCut2.png>
+<pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut1_ptCut2.png, id=142, 59
+8.235pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut1_ptCut2.png Graphi
+c file (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut1_ptCut2.png>
+<pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut2_ptCut3.png, id=143, 598.235
+pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut2_ptCut3.png Graphic fil
+e (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut2_ptCut3.png>
+<pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut2_ptCut3.png, id=144, 59
+8.235pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut2_ptCut3.png Graphi
+c file (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut2_ptCut3.png>
+<pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut3_ptCut4.png, id=145, 598.235
+pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut3_ptCut4.png Graphic fil
+e (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut3_ptCut4.png>
+<pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut3_ptCut4.png, id=146, 59
+8.235pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut3_ptCut4.png Graphi
+c file (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut3_ptCut4.png>
+<pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut4_ptCut5.png, id=147, 598.235
+pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut4_ptCut5.png Graphic fil
+e (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut4_ptCut5.png>
+<pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut4_ptCut5.png, id=148, 59
+8.235pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut4_ptCut5.png Graphi
+c file (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut4_ptCut5.png>
+<pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut5_ptCut6.png, id=149, 598.235
+pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut5_ptCut6.png Graphic fil
+e (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut5_ptCut6.png>
+<pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut5_ptCut6.png, id=150, 59
+8.235pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut5_ptCut6.png Graphi
+c file (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut5_ptCut6.png>
+<pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut6_ptCut7.png, id=151, 598.235
+pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut6_ptCut7.png Graphic fil
+e (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut6_ptCut7.png>
+<pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut6_ptCut7.png, id=152, 59
+8.235pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut6_ptCut7.png Graphi
+c file (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut6_ptCut7.png>
+<pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut7_ptCut8.png, id=153, 598.235
+pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut7_ptCut8.png Graphic fil
+e (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut7_ptCut8.png>
+<pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut7_ptCut8.png, id=154, 59
+8.235pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut7_ptCut8.png Graphi
+c file (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut7_ptCut8.png>
+<pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut8_ptCut9.png, id=155, 598.235
+pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut8_ptCut9.png Graphic fil
+e (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut8_ptCut9.png>
+<pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut8_ptCut9.png, id=156, 59
+8.235pt x 574.145pt>
+File: pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut8_ptCut9.png Graphi
+c file (type png)
+
+<use pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut8_ptCut9.png>
+[15 <./pictures/bkgdRej_sigEff/onlyTrack_elec_fake_ptCut0_ptCut1.png> <./pictur
+es/bkgdRej_sigEff/onlyTrack_elec_nonPrompt_ptCut0_ptCut1.png>] [16 <./pictures/
+bkgdRej_sigEff/onlyTrack_elec_fake_ptCut1_ptCut2.png> <./pictures/bkgdRej_sigEf
+f/onlyTrack_elec_nonPrompt_ptCut1_ptCut2.png> <./pictures/bkgdRej_sigEff/onlyTr
+ack_elec_fake_ptCut2_ptCut3.png> <./pictures/bkgdRej_sigEff/onlyTrack_elec_nonP
+rompt_ptCut2_ptCut3.png> <./pictures/bkgdRej_sigEff/onlyTrack_elec_fake_ptCut3_
+ptCut4.png> <./pictures/bkgdRej_sigEff/onlyTrack_elec_nonPrompt_ptCut3_ptCut4.p
+ng>] [17 <./pictures/bkgdRej_sigEff/onlyTrack_elec_fake_ptCut4_ptCut5.png> <./p
+ictures/bkgdRej_sigEff/onlyTrack_elec_nonPrompt_ptCut4_ptCut5.png> <./pictures/
+bkgdRej_sigEff/onlyTrack_muon_fake_ptCut0_ptCut1.png> <./pictures/bkgdRej_sigEf
+f/onlyTrack_muon_nonPrompt_ptCut0_ptCut1.png> <./pictures/bkgdRej_sigEff/onlyTr
+ack_muon_fake_ptCut1_ptCut2.png> <./pictures/bkgdRej_sigEff/onlyTrack_muon_nonP
+rompt_ptCut1_ptCut2.png>] [18 <./pictures/bkgdRej_sigEff/onlyTrack_muon_fake_pt
+Cut2_ptCut3.png> <./pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut2_ptC
+ut3.png> <./pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut3_ptCut4.png> <./p
+ictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut3_ptCut4.png> <./pictures/
+bkgdRej_sigEff/onlyTrack_muon_fake_ptCut4_ptCut5.png> <./pictures/bkgdRej_sigEf
+f/onlyTrack_muon_nonPrompt_ptCut4_ptCut5.png>] [19 <./pictures/bkgdRej_sigEff/o
+nlyTrack_muon_fake_ptCut5_ptCut6.png> <./pictures/bkgdRej_sigEff/onlyTrack_muon
+_nonPrompt_ptCut5_ptCut6.png> <./pictures/bkgdRej_sigEff/onlyTrack_muon_fake_pt
+Cut6_ptCut7.png> <./pictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut6_ptC
+ut7.png> <./pictures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut7_ptCut8.png> <./p
+ictures/bkgdRej_sigEff/onlyTrack_muon_nonPrompt_ptCut7_ptCut8.png>] [20 <./pict
+ures/bkgdRej_sigEff/onlyTrack_muon_fake_ptCut8_ptCut9.png> <./pictures/bkgdRej_
+sigEff/onlyTrack_muon_nonPrompt_ptCut8_ptCut9.png>]
+File: pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut0_ptCut1.png Graphic file
+ (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut0_ptCut1.png>
+File: pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut0_ptCut1.png Graphic
+ file (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut0_ptCut1.png>
+<pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut1_ptCut2.png, id=176, 598.235p
+t x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut1_ptCut2.png Graphic file
+ (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut1_ptCut2.png>
+<pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut1_ptCut2.png, id=177, 598
+.235pt x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut1_ptCut2.png Graphic
+ file (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut1_ptCut2.png>
+<pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut2_ptCut3.png, id=178, 598.235p
+t x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut2_ptCut3.png Graphic file
+ (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut2_ptCut3.png>
+<pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut2_ptCut3.png, id=179, 598
+.235pt x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut2_ptCut3.png Graphic
+ file (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut2_ptCut3.png>
+<pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut3_ptCut4.png, id=180, 598.235p
+t x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut3_ptCut4.png Graphic file
+ (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut3_ptCut4.png>
+<pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut3_ptCut4.png, id=181, 598
+.235pt x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut3_ptCut4.png Graphic
+ file (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut3_ptCut4.png>
+<pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut4_ptCut5.png, id=182, 598.235p
+t x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut4_ptCut5.png Graphic file
+ (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut4_ptCut5.png>
+<pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut4_ptCut5.png, id=183, 598
+.235pt x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut4_ptCut5.png Graphic
+ file (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut4_ptCut5.png>
+File: pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut0_ptCut1.png Graphic file
+ (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut0_ptCut1.png>
+File: pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut0_ptCut1.png Graphic
+ file (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut0_ptCut1.png>
+<pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut1_ptCut2.png, id=184, 598.235p
+t x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut1_ptCut2.png Graphic file
+ (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut1_ptCut2.png>
+<pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut1_ptCut2.png, id=185, 598
+.235pt x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut1_ptCut2.png Graphic
+ file (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut1_ptCut2.png>
+<pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut2_ptCut3.png, id=186, 598.235p
+t x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut2_ptCut3.png Graphic file
+ (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut2_ptCut3.png>
+<pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut2_ptCut3.png, id=187, 598
+.235pt x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut2_ptCut3.png Graphic
+ file (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut2_ptCut3.png>
+<pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut3_ptCut4.png, id=188, 598.235p
+t x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut3_ptCut4.png Graphic file
+ (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut3_ptCut4.png>
+<pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut3_ptCut4.png, id=189, 598
+.235pt x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut3_ptCut4.png Graphic
+ file (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut3_ptCut4.png>
+<pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut4_ptCut5.png, id=190, 598.235p
+t x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut4_ptCut5.png Graphic file
+ (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut4_ptCut5.png>
+<pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut4_ptCut5.png, id=191, 598
+.235pt x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut4_ptCut5.png Graphic
+ file (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut4_ptCut5.png>
+<pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut5_ptCut6.png, id=192, 598.235p
+t x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut5_ptCut6.png Graphic file
+ (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut5_ptCut6.png>
+<pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut5_ptCut6.png, id=193, 598
+.235pt x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut5_ptCut6.png Graphic
+ file (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut5_ptCut6.png>
+<pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut6_ptCut7.png, id=194, 598.235p
+t x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut6_ptCut7.png Graphic file
+ (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut6_ptCut7.png>
+<pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut6_ptCut7.png, id=195, 598
+.235pt x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut6_ptCut7.png Graphic
+ file (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut6_ptCut7.png>
+<pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut7_ptCut8.png, id=196, 598.235p
+t x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut7_ptCut8.png Graphic file
+ (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut7_ptCut8.png>
+<pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut7_ptCut8.png, id=197, 598
+.235pt x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut7_ptCut8.png Graphic
+ file (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut7_ptCut8.png>
+<pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut8_ptCut9.png, id=198, 598.235p
+t x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut8_ptCut9.png Graphic file
+ (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut8_ptCut9.png>
+<pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut8_ptCut9.png, id=199, 598
+.235pt x 574.145pt>
+File: pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut8_ptCut9.png Graphic
+ file (type png)
+
+<use pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut8_ptCut9.png>)
+[21
+
+ <./pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut1_ptCut2.png> <./pictures/t
+rackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut1_ptCut2.png>] [22 <./pictures/track
+Cut/bkgdRej_sigEff/elec_fake_ptCut2_ptCut3.png> <./pictures/trackCut/bkgdRej_si
+gEff/elec_nonPrompt_ptCut2_ptCut3.png> <./pictures/trackCut/bkgdRej_sigEff/elec
+_fake_ptCut3_ptCut4.png> <./pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptC
+ut3_ptCut4.png> <./pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut4_ptCut5.png
+> <./pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut4_ptCut5.png>]
+[23 <./pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut1_ptCut2.png> <./picture
+s/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut1_ptCut2.png> <./pictures/trackCu
+t/bkgdRej_sigEff/muon_fake_ptCut2_ptCut3.png> <./pictures/trackCut/bkgdRej_sigE
+ff/muon_nonPrompt_ptCut2_ptCut3.png>] [24 <./pictures/trackCut/bkgdRej_sigEff/m
+uon_fake_ptCut3_ptCut4.png> <./pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_
+ptCut3_ptCut4.png> <./pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut4_ptCut5.
+png> <./pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut4_ptCut5.png> <./p
+ictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut5_ptCut6.png> <./pictures/trackC
+ut/bkgdRej_sigEff/muon_nonPrompt_ptCut5_ptCut6.png>] [25 <./pictures/trackCut/b
+kgdRej_sigEff/muon_fake_ptCut6_ptCut7.png> <./pictures/trackCut/bkgdRej_sigEff/
+muon_nonPrompt_ptCut6_ptCut7.png> <./pictures/trackCut/bkgdRej_sigEff/muon_fake
+_ptCut7_ptCut8.png> <./pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut7_p
+tCut8.png> <./pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut8_ptCut9.png> <./
+pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut8_ptCut9.png>]
+(./iso_muons.tex
+
+LaTeX Warning: Reference `???' on page 26 undefined on input line 16.
+
+) [26] (./softlepton.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2187 strings out of 95437
+ 43063 string characters out of 1189054
+ 93023 words of memory out of 1000001
+ 5090 multiletter control sequences out of 10000+50000
+ 31835 words of font info for 68 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 30i,12n,21p,990b,413s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 218 PDF objects out of 300000
+ 0 named destinations out of 131072
+ 380 words of extra memory for PDF output out of 65536
+{/usr/share/texmf/dvips/tetex/bbad153f.enc}</usr/share/texmf/fonts/type1/blue
+sky/cm/cmsy9.pfb>{/usr/share/texmf/dvips/tetex/f7b6d320.enc}</usr/share/texmf/f
+onts/type1/bluesky/cm/cmbx6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy6.
+pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr9.pfb></usr/share/texmf/fonts/t
+ype1/bluesky/cm/cmbx7.pfb>{/usr/share/texmf/dvips/tetex/0ef0afca.enc}</usr/shar
+e/texmf/fonts/type1/bluesky/cm/cmr5.pfb></usr/share/texmf/fonts/type1/bluesky/c
+m/cmr6.pfb>{/usr/share/texmf/dvips/tetex/aae443f0.enc}</usr/share/texmf/fonts/t
+ype1/bluesky/cm/cmmi6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi9.pfb></
+usr/share/texmf/fonts/type1/bluesky/cm/cmex10.pfb></usr/share/texmf/fonts/type1
+/bluesky/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr
+/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/bl
+uesky/cm/cmr10.pfb>{/usr/share/texmf/dvips/psnfss/8r.enc}</usr/share/texmf/font
+s/type1/bluesky/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr7.pfb>
+</usr/share/texmf/fonts/type1/bluesky/cm/cmmi12.pfb>
+Output written on softlepton.pdf (26 pages, 863698 bytes).

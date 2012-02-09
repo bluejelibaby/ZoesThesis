@@ -1,0 +1,22 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Analysis Framework}{3}
+\contentsline {section}{\numberline {3}Event selection}{4}
+\contentsline {subsection}{\numberline {3.1}Single-lepton Reference Analysis (RA4) baseline}{5}
+\contentsline {subsection}{\numberline {3.2}Lepton selection and isolation requirements}{5}
+\contentsline {subsection}{\numberline {3.3}Physics objects cross cleaning}{7}
+\contentsline {section}{\numberline {4}The $\alpha _{T}$ variable}{8}
+\contentsline {subsection}{\numberline {4.1}$\alpha _{T}$ in the N-jet case}{8}
+\contentsline {subsection}{\numberline {4.2}$\alpha _{T}$ in the N-jet plus 1-lepton case}{9}
+\contentsline {section}{\numberline {5}Analysis method and results}{11}
+\contentsline {subsection}{\numberline {5.1}$\alpha _{T}$ selection}{11}
+\contentsline {subsection}{\numberline {5.2}Comparison with RA4}{13}
+\contentsline {section}{\numberline {6}Establishing a deviation from the Standard Model}{16}
+\contentsline {subsection}{\numberline {6.1}Centrality of the leading jet}{17}
+\contentsline {subsection}{\numberline {6.2}The eta-$H_{T}$ kinematic method}{17}
+\contentsline {subsection}{\numberline {6.3}Fitting $R_{\alpha T}$ vs eta}{19}
+\contentsline {subsection}{\numberline {6.4}Alternatives variables to HT}{21}
+\contentsline {section}{\numberline {7}Systematic studies}{22}
+\contentsline {subsection}{\numberline {7.1}$\alpha _{T}$ stress test}{22}
+\contentsline {section}{\numberline {8}Summary}{24}
+\contentsline {section}{\numberline {A}Alternatives to the $\alpha _{T}$ approach}{27}
+\contentsline {section}{\numberline {B}$M_{eff}$ as an alternative variable choice to $H_{T}$}{30}

@@ -1,0 +1,76 @@
+\section{Introduction}
+\label{sec:intro}
+
+We present a study of two methods for predicting the QCD background contribution to the search for SUSY using a signature of one (and only one) electron plus jets.
+
+The first method employs the Isolation distribution and its description in terms of two components, one from the combination of hadronic jets and heavy-flavor ($c,b$) jets and one from photon conversions. The background due to hadronic jets is modeled using a control sample formed using an anti-selection on the $\Delta \phi$ and $\Delta \eta$ matching cuts.  The background due to photon conversions is modeled using a control sample formed using explicitly reconstructed conversions.  We then demonstrate that the two control samples can be used to predict successfully the backgrounds remaining after a tight electron selection.  
+
+The second method utilizes the kinematic $\alpha_{T}$ jet-balancing method which has been recently developed within CMS, as a generic approach to discover New Physics (most favorably supersymmetry) in the single-lepton plus missing energy channel. It is possible to extend the $\alpha_{T}$ method from the all-hadronic channels, in order to reduce the QCD background and gain reliable control over severe jet mismeasurements.  In this note we use the anti-selection Control Sample to obtain a description of the background due to QCD processes and demonstrate that the estimated value and shape of the background agrees quite well with the actual value and shape from the Monte Carlo.
+
+The methods are then ``commissioned'' with CMS data in the context of the first 1pb$^{-1}$ of pp collisions at a center-of-mass energy of 7 TeV.
+
+\section{Analysis Framework}
+\label{sec:framework}
+
+The coding structure used for this analysis has been developed in CMSSW\_3\_6\_1 releases on top of the SusyAnalysis software package \cite{susypat1}, which is itself an extension of the Physics Analysis Toolkit (PAT) \cite{susypat2}. A detailed description of the code can be found here \cite{susypat}. The PAT provides post-processing of reconstructed event data, in order to eliminate the information and condense the number of physics objects in an event for simplified physics analysis purposes. The framework comprises three layers. The initial layer reprocesses RECO or AOD data with the aim to refine the reconstructed object collections (remove duplicates for example).
+
+The second layer formulates the cleaned data into simple object collections, such as PAT::Jet, PAT::Electron, PAT::Muon etc. which are sorted in uncorrected transverse energy.  At this stage, the data are available for use in analysis. A third layer may optionally used as well, providing utilities such as cross cleaning between various object collections. %The purpose of the cross-cleaning module is to eliminate overlaps between physics objects which share energy deposits, such as jets and electrons, and correct their energy appropriately. 
+The output of the above PAT processing steps is a ROOT ntuple which is further analysed with private code as described here \cite{ICNT}.
+
+\section{Monte Carlo and Data samples}
+
+The analysis uses QCD Monte Carlo data samples for QCD background processes as well as the W + jets process -for studying signal contamination effects-, produced with the Summer09 simulation production for Physics at 7~TeV \cite{data}, with CMS. The Standard Model QCD background processes considered are listed below:
+\begin{itemize}
+\item QCD EM enriched in complete bins exclusive of $\hat{p_{T}}$  ([20,30],[30,80],[80,170]) were produced with the event generator Pythia6.
+%. MadGraph is a matrix-element event generator, where higher order effects, like the emission of extra ISR gluons, are included in the matrix-element calculation\footnote{This is opposed to parton-shower based generators, like PYTHIA, where the emission of extra jets, other than the ones emitted by the $2 \rightarrow 2$ hard scattering process, is simulated by the parton-shower model.}.
+\item QCD BC$\rightarrow e$ also in complete exclusive bins of  $\hat{p_{T}}$  ([20,30],[30,80],[80,170]) produced by Pythia6.
+\item QCD Jets in inclusive bin of $\hat{p_{T}}$ $>$ 30~GeV and 80~GeV, produced with the event generator Pythia6. These samples are exceptionally used in the Isolation template method next. 
+\item $W \rightarrow e\nu$ sample  simulated by Pythia6.
+\end{itemize}
+
+The numbers of events available in these datasets as well as the equivalent integrated luminosity they correspond to, are detailed in Table \ref{tab:datasets}. The luminosity figures give an indication of the statistics used in the study, although next the resulting plots have been normalized to 1pb$^{-1}$ of integrated luminosity, unless stated otherwise.
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Data Set & N events & $\sigma$ (pb) & Equivalent luminosity (pb$^{-1}$)\\
+\hline
+QCD BCtoE [20$<\hat{p_{T}}<$30]& 1100000  & 108330 & 10.15\\
+QCD BCtoE [30$<\hat{p_{T}}<$80] & 1000000 & 138762 & 7.21\\
+QCD BCtoE [80$<\hat{p_{T}}<$170 & 1208000 & 9422.4 & 128.21\\
+\hline
+QCD EM Enriched [20$<\hat{p_{T}}<$30] & 9714886 & 1719150 & 5.65\\
+QCD EM Enriched [30$<\hat{p_{T}}<$80] & 9683936 & 3498700 & 2.77\\
+QCD EM Enriched [80$<\hat{p_{T}}<$170] & 5494911 & 134088 & 40.98\\
+\hline
+QCDJets $\hat{p_{T}}>$170 & 3171950 & 25470 & 124.54\\
+\hline
+W + jets & 10034822 & 17830 & 415.18\\
+\hline
+\end{tabular}
+\end{center}
+\caption{\textit{The Monte Carlo datasets used to investigate the Delta ID Inversion method in QCD backgrounds. The available Lumniosity is shown, although plots produced are normalised to 1pb$^{-1}$ for the purpose of understanding the near-term reach of CMS.}}
+\label{tab:datasets}
+\end{table}
+
+The background estimation methods to be presented are finally commissioned using the following Data~\cite{PDWG} and Monte Carlo (for direct data-MC comparisons) samples: 
+\begin{itemize}
+\item 7 TeV data: 
+\begin{itemize}
+\item JetMETTau Secondary Dataset (SD)
+\begin{verbatim}
+/JetMETTau/Run2010A-PromptReco-v1/RECO 
+/JetMETTau/Run2010A-PromptReco-v2/RECO
+/MinimumBias/Commissioning10-SD_JetMETTau-v9/RECO 
+\end{verbatim}
+\item EG SD
+\begin{verbatim}
+/EG/Run2010A-PromptReco-v1/RECO 
+/EG/Run2010A-PromptReco-v2/RECO 
+/MinimumBias/Commissioning10-SD_EG-v9/RECO
+\end{verbatim}
+
+\end{itemize}
+\item 7 TeV Monte Carlo: \begin{verbatim}/QCD_Pt-15_7TeV-pythia8/Spring10-START3X_V26B-v1/GEN-SIM-RECO \end{verbatim}
+\end{itemize}

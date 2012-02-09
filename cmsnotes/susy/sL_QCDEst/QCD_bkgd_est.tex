@@ -1,0 +1,193 @@
+\section{QCD Background Estimation Methods}
+\label{sec:QCD_bkgd_est}
+
+In the context of a search for SUSY using a signature containing an electron, there are three sources of ``background electrons'', namely ``non-prompt'' electrons:
+\begin{enumerate}
+\item Jets which are either mismeasured or have very atypical hadronization, yielding ``electrons'' which pass the basic identification and selection requirements.  We refer to these as ``Jet electrons'' (Jet-e) in what follows.
+\item Photon conversions in the tracker material.  We refer to these as ``Conversion electrons'' (Conv-e) in what follows.
+\item Electrons from semileptonic decays of $c$ and $b-$ flavored hadrons.  We refer to these as ``Heavy Flavor electrons'' (HF-e) in what follows.
+\end{enumerate}
+
+There are numerous methods for estimating both the amount of background remaining a data sample after a specific set of selection cuts and the shape of this background as a function of various variables (the transverse momentum, pseudorapidity, and in some cases more complicated topological variables).  Perhaps the best-known method is the ``Isolation inversion'' method, where one uses events failing the isolation requirement and an extrapolation into the ``selection region'' to estimate the amount of background in the latter[REF to Cornell].  A crucial issue in most methods is the demonstration that the extrapolation from the ``control region'' to the ``selection region'' is either correct or, at least, its deficiencies can be estimated reliably.  There are two elements that enter this extrapolation from a control region to a selection region:
+\begin{itemize}
+\item The presence of the three different sources of background implies that each of these backgrounds may exhibit a different dependence on the variable in question.  As an example, the isolation distribution from Jet-e and Conv-e need not be (and is in fact not) the same.
+\item The actual knowledge of the full dependence of any single background on the variable in question.  As an example, concentrating on only the Jet-e background, there remains the issue of how to obtain reliably the full shape of the isolation of the Jet-e background which passes all selection cuts from some other ``control sample'' which passes a slightly different set of cuts.
+\end{itemize}
+For the sake of concreteness, in what follows we will refer to the ``Isolation variable'', even though the discussion applies equally well to essentially most variables.
+
+Of the two above issues, the second is usually tackled using Monte Carlo: one uses generator-level information to obtain the Isolation distribution for any specific background (e.g. Jet-e) and then compares this shape with that extracted from the ``control sample''.  Assuming that this comparison is favorable, i.e. that the shape from the control sample can adequately describe the shape in the selection sample, the next and final step is to compare this shape with the one extracted from data using the ``control selection''.
+
+Tackling the first issue is more complicated though. First, the presence of three sources of background (instead of two) implies more degrees of freedom in the fitting (and in general in describing) any particular variable -- e.g. the Isolation variable. Second, the relative amount of each source needs to be determined for the final selection sample.
+
+In this section, we concentrate on the following three key observations to address all of the above:
+\begin{enumerate}
+\item The isolation distributions of the Jet-e and HF-e backgrounds seem to be quite similar.
+\item A good method for identifying a control sample for the Jet-e background is the reversal of the matching cuts $\Delta\eta$ and $\Delta\phi$.  These two variables exhibit near independence from other selection variables, especially the isolation variable
+\item A fairly pure sample of Conv-e background can be identified using the existing conversion-identification tools. This sample can then be used to extract a template for other variables in question, e.g. the Isolation distribution or the $\alpha_T$ distribution.
+\end{enumerate}
+In what follows, we exploit these three observations to obtain the shapes of the total background in both the isolation and $\alpha_T$ distributions.  Moreover, a fit to the isolation distribution using different shapes (templates) for the Jet-e and Conv-e backgrounds yields an estimate of the absolute number of background events in the selection region.
+
+\subsection{The three electron backgrounds}
+
+
+\subsection{Predicting the distribution of the $\alpha{_T}$ kinematic variable by inverting Electron ID Cuts}
+
+Following the promising results of the $\alpha_{T}$ jet-balancing method previously described for the all-hadronic SUSY searches, it is a natural progression to look for extensions of this approach to the single-electron search, where a significant presence of QCD multi-jet backgrounds is expected.
+
+The $\alpha_{T}$ variable is here defined as an N-object system where the set of objects is 1 electron and N-1 jets. This definition reproduces the kinematics of a di-jet system by contructing two pseudo-jets, which balance one another in $H_{T}$. The two pseudo-jets are formed from the combination of the N objects that minimizes the $\Delta H_{T} \equiv |H_{T,1} - H_{T,2}|$ of the pseudo-jets, and the resulting  $\alpha_{T}$ is
+\begin{equation}
+\alpha_{T} = \frac{1}{2} \frac{H_{T} - \Delta H_{T}}{M_{T}} =  \frac{1}{2} \frac{H_{T} - \Delta H_{T}}{\sqrt{H_{T}^{2}-MH_{T}^{2}}}.
+\end{equation}
+
+This section is dedicated to a first approach of commissioning the alphaT observable and study its behavior in pure fake electron events. It is therefore desirable to collect a suitable control sample which will be dominated by fake electrons and eliminate sources of prompt electron events (like W events).
+
+One way to obtain such a sample is using the anti-selection method on electron ID variables which are less correlated with the missing transverse energy. In this section, we investigate the possibility of inverting the $\Delta \eta$(trk-SC) and $\Delta \phi$ (trk-SC) id cuts in the electron selection. The selected events in this method pass the pre-selection described in Section~\ref{sec:Sel}, while the anti-selected are those events which pass the selection with an electron that passes all selection id criteria except the $\Delta \phi$ (trk-SC) and $\Delta \eta$(trk-SC) ones. 
+
+In order to establish the validity of the control sample obtained by the anti-selection method above, the perfomance must be compared of the leptonic $\alpha_T$ as obtained from the control sample and the actual QCD events passing the electron criteria defined in the ``signal'' region. As mentioned previously, SUSY events are expected to have high $H_{T}$, therefore it is essential to understand how the method evolves with increasing $H_{T}$ cuts. The number of events for 1pb$^{-1}$ passing the pre-selection, and two different cuts in $H_{T}$ are shown for selected in Table \ref{tab:CF_S_20} and for anti-selected in Table \ref{tab:CF_AS_20}. 
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c||c|c|c|c|}
+\hline
+Cutflow & QCD EM enriched & QCD BC$\rightarrow e$ & QCDJets Pythia $\hat{p_{T}}$ &  W \\
+\hline
+\hline
+All events & 5351938 & 256514.4 & 25470 & 17830 \\
+N($e^{-}$) $\geq$ 1 & 15535.48 & 2529.63 & 2.26 & 2598.46\\
+N($jets$) $\geq$ 1 & 10737.67 & 1668.66 & 2.26 & 666.30\\
+HT $>$ 100 GeV & 661.13 & 69.95 & 2.26 & 68.98\\
+HT $>$ 180 GeV & 79.73 & 7.52 & 2.18 & 16.10\\
+\hline
+\end{tabular}
+\end{center}
+\caption{\textit{Cutflow for both selected events.Numbers shown for 1pb$^{-1}$ for both QCD and W samples used for the anaylsis with electron $p_{T}$ requirement set to 20GeV.}}
+\label{tab:CF_S_20}
+\end{table}
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c||c|c|c|c|}
+\hline
+Cutflow & QCD EM enriched & QCD BC$\rightarrow e$ & QCDJets Pythia $\hat{p_{T}}$ &  W \\
+\hline
+All events & 5351938 & 256514.4 & 25470 & 17830\\
+N($e^{-}$) $\geq$ 1 & 29315.47 & 480.18 & 1.51 & 139.23 \\
+N($jets$) $\geq$ 1 & 20452.26 & 325.28 & 1.51 & 33.32\\
+HT $>$ 100 GeV & 942.99 & 17.21 & 1.51 & 2.91\\
+HT $>$ 180 GeV & 79.74 & 1.64 & 1.43 & 0.66\\
+\hline
+\end{tabular}
+\end{center}
+\caption{\textit{Cutflow for anti-selected events.Numbers shown for 1pb$^{-1}$ for both QCD and W samples used for the anaylsis with electron $p_{T}$ requirement set to 20GeV.}}
+\label{tab:CF_AS_20}
+\end{table}
+
+\subsubsection{Closure test with pure QCD background sample}
+
+The control sample provided by anti-selection on the Delta ID Variables must first undergo a closure test with a pure QCD sample. This will show if there is any bias in QCD between the distribution of $\alpha_{T}$ in the selected and the anti-selected. The plots in \ref{fig:AlphaTbyHT} show the normalised shape of distributions, firstly before an $H_{T}$ cut (top left) and then as increasing cuts in $H_{T}$ are applied. The selected and anti-selected distributions show good agreement. The evolution of the $\alpha_{T}$ as $H_{T}$ cut increases shows the expected reduction in the tail for $\alpha_{T} >$ 0.55, the region of likely SUSY signal, for both selected and anti-selected.
+
+\begin{figure}[h!]
+\includegraphics[width=50mm]{Plots/mc-alphaT-1}
+\includegraphics[width=50mm]{Plots/mc-alphaT-2}
+\includegraphics[width=50mm]{Plots/mc-alphaT-3}
+\includegraphics[width=50mm]{Plots/mc-alphaT-4}
+\hspace*{3mm}
+\includegraphics[width=50mm]{Plots/mc-alphaT-5}
+\hspace*{3mm}
+\includegraphics[width=50mm]{Plots/mc-alphaT-6}
+
+\caption{\textit{The $\alpha_{T}$ distributions for selected (red) and anti-selected events (black) for the QCD multi-jet background, from inversion of the $\Delta \phi$ and $\Delta \eta$ ID Cuts, shown without HT cut (Top Left) and with progressive HT cuts (left-right, top-bottom). These distributions are normalised to unity for shape comparison. There is good agreement between the selected and anti-selected samples regardless of HT requirement, and the high $\alpha_{T}$ tails reduce as expected when moving to higher HT cuts.}}
+\label{fig:AlphaTbyHT}
+\end{figure}
+
+In order to demonstrate the power of HT in $\alpha_{T}$ tail-reduction, we introduce the variable $R_{\alpha_T}$ which is defined as the ratio of the number of events passing the $\alpha_T$ cut over the number of events failing it:
+\begin{equation}
+R_{\alpha T} = \frac{N(\alpha_{T}>0.55)}{N(\alpha_{T}<0.55)}
+\end{equation}
+The ``default'' cut value here is the value prompted from the all-hadronic analysis, 0.55. Figure \ref{fig:AlphaT_Ratio} shows a plot of $R_{\alpha_T}$ as a function of the $H_{T}$ cut applied. As the $H_{T}$ requirement increases, $R_{\alpha_T}$ decreases in an exponential manner. Thic confirms that the noticable reduction in the tail are much more pronounced than those in the peak, therefore this is not a statistical effect only. The selected and anti-selected events remain in good agreement.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=100mm]{Plots/mc-alphaTratio}
+\end{center}
+\caption{\textit{The $R_{\alpha_T}$ versus the $H_{T}$ cut applied for the QCD multi-jet background, shown for both selected and anti-selected events in the Delta ID Inversion method.}}
+\label{fig:AlphaT_Ratio}
+\end{figure}
+
+\subsubsection {Closure test with W + jets contamination in control region}
+
+Having acertained the validity of the anti-selection method to predict the QCD contribution in the selected from the QCD in the anti-selected, it is important to test whether the process will work with contamination in the control region. The method is designed for data-driven extimation, and thus must be robust to such contamination.'
+
+The closure test is repeated, with the anti-selected now from both the pure QCD sample as before, and W + jets also. The selected remains from pure QCD as a comparison. The normalised ditribution plots shown for this case are in Figure~\ref{fig:w-AlphaTbyHT}, and the plot of $R_{\alpha_T}$ as a function of the $H_{T}$ cut applied is in Figure~\ref{fig:w-AlphaT_Ratio}. 
+
+\begin{figure}[h!]
+
+\includegraphics[width=50mm]{Plots/w-alphaT-1}
+\includegraphics[width=50mm]{Plots/w-alphaT-2}
+\includegraphics[width=50mm]{Plots/w-alphaT-3}
+\includegraphics[width=50mm]{Plots/w-alphaT-4}
+\hspace*{3mm}
+\includegraphics[width=50mm]{Plots/w-alphaT-5}
+\hspace*{3mm}
+\includegraphics[width=50mm]{Plots/w-alphaT-6}
+\caption{\textit{The $\alpha_{T}$ distributions for selected (red) and anti-selected events (black) for the QCD multi-jet background, and with signal contamination from W +jets in the anti-selected only, from inversion of the $\Delta \phi$ and $\Delta \eta$ ID Cuts, shown without HT cut (Top Left) and with progressive HT cuts (left-right, top-bottom). These distributions are normalised to unity for shape comparison. There is good agreement between the selected and anti-selected samples regardless of HT requirement, and the high $\alpha_{T}$ tails reduce as expected when moving to higher HT cuts.}}
+\label{fig:w-AlphaTbyHT}
+\end{figure}
+
+ Figure \ref{fig:AlphaT_Ratio} shows a plot of $R_{\alpha_T}$ as a function of the $H_{T}$ cut applied. As the $H_{T}$ requirement increases, $R_{\alpha_T}$ decreases in an exponential manner. Thic confirms that the noticable reduction in the tail are much more pronounced than those in the peak, therefore this is not a statistical effect only. The selected and anti-selected events remain in good agreement.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=100mm]{Plots/w-alphaTratio}
+\end{center}
+\caption{\textit{The $R_{\alpha_T}$ versus the $H_{T}$ cut applied for the QCD multi-jet background, with contamination from W + jets in the anti-selected only, shown for both selected and anti-selected events in the Delta ID Inversion method.}}
+\label{fig:w-AlphaT_Ratio}
+\end{figure}
+
+Adding in contamination from the W + jets sample has no discernable effect on the shape of the $\alpha_{T}$ distribution, and the ratio remains to good agreement also. The control sample is thus robust to such a contamination, and still remains a good estimator of the shape of the QCD background for the selected events.
+
+\subsubsection{Closure test with lowered electron $P_{T}$ threshold}
+It is also important to commission $\alpha_{T}$ as the electron $p_{T}$ requirement is lowered. The study is repeated with the electron $p_{T} >$ 10 GeV. Tables \ref{tab:CF_S_10} and \ref{tab:CF_AS_10} show the numbers for selected and anti-selected cutflows respectively at $1pb^{-1}$. 
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c||c|c|c|c|}
+\hline
+Cutflow & QCD EM enriched & QCD BC$\rightarrow e$ & QCDJets Pythia $\hat{p_{T}}$ &  W \\
+\hline
+All events & 5351938 & 256514.4 & 25470 & 17830 \\
+
+N($e^{-}$) $\geq$ 1 & 22120.98 & 13117.37 & 4.37 & 2953.69\\
+
+N($jets$) $\geq$ 1 & 14783.29 & 7811.25 & 4.37 & 761.22\\
+
+HT $>$ 100 GeV & 846.64 & 312.95 & 4.37 & 78.73\\
+
+HT $>$ 180 GeV & 159.83& 36.05 & 4.29 & 18.20\\
+\hline
+\end{tabular}
+\end{center}
+\caption{\textit{Cutflow for selected events.Numbers shown for 1pb$^{-1}$ for both QCD and W samples used for the anaylsis with electron $p_{T}$ requirement set to 10GeV.}}
+\label{tab:CF_S_10}
+\end{table}
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c||c|c|c|c|}
+\hline
+Cutflow & QCD EM enriched & QCD BC$\rightarrow e$ & QCDJets Pythia $\hat{p_{T}}$ &  W \\
+\hline
+All events & 5351938 & 256514.4 & 25470 & 17830\\
+N($e^{-}$) $\geq$ 1 & 44807.39 & 1406.28 & 3.30 & 173.04\\
+N($jets$) $\geq$ 1 & 30089.89 & 920.40 & 3.30 & 43.52\\
+HT $>$ 100 GeV & 1291.41 & 51.64 & 3.29 & 4.05\\
+HT $>$ 180 GeV & 112.68 & 5.55 & 3.20 &  0.92\\
+\hline
+\end{tabular}
+\end{center}
+\caption{\textit{Cutflow for anti-selected events.Numbers shown for 1pb$^{-1}$ for both QCD and W samples used for the anaylsis with electron $p_{T}$ requirement set to 10GeV.}}
+\label{tab:CF_AS_10}
+\end{table}
+
+
+\subsection{Isolation Templates}

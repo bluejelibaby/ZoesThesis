@@ -1,0 +1,125 @@
+\documentclass[a4, 12pt]{cmspaper}
+
+\usepackage{multirow}
+%\usepackage{subfigure}
+%\usepackage{subfig}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{verbatim}
+\usepackage{amsmath}
+\usepackage{epsfig}
+\usepackage{array}% in the preamble
+
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\nn}{\nonumber}
+\newcommand{\dsn}{\displaystyle{\not}}
+
+\begin{document}
+
+%==============================================================================
+% title page for few authors
+
+\begin{titlepage}
+
+% select one of the following and type in the proper number:
+%  \internalnote{2009/000}
+%  \conferencereport{2005/000}
+   \date{\today}
+
+  \title{Performance of QCD background estimation methods in single lepton mode SUSY searches.}
+
+  \begin{Authlist}
+   O.~Buchmueller\Aref{a}, L.~Gouskos\Aref{b}, Z.~Hatherell\Aref{a}, G.~Karapostoli\Aref{a}, A.~Sparrow\Aref{a}, P.~Sphicas\Aref{b, c}
+       \Instfoot{ic}{a) Imperial College London, United Kingdom}
+       \Instfoot{uoa}{b) University of Athens, Greece}
+       \Instfoot{cern}{c) CERN, Geneva, Switzerland}
+   \end{Authlist}
+
+\begin{abstract}
+  Following the promising results of the $\alpha_{T}$ approach to all-hadronic SUSY searches, we present a generalization of the method for the search for SUSY in the exclusive single-lepton plus jets and missing energy channel.
+The main motivation for the usage of the $\alpha_T$ variable remains the reduction of the QCD background and the associated reliable control over this background, especially in the early SUSY searches.  This reduction and control of the QCD background is particularly important for the one-lepton analysis when the lepton transverse momentum is lowered to values as low as 5 GeV. The present analysis is applied to the case of an integrated luminosity of $100 \text{pb}^{-1}$ and demonstrates a possible method to establish a robust deviation of New Physics from the Standard Model expectations utilizing the centrality of the leading jet in the SUSY signal region.   
+ 
+\end{abstract}
+
+% if needed, use the following:
+%\conference{Presented at {\it Physics Rumours}, Coconut Island, April 1, 2005}
+%\submitted{Submitted to {\it Physics Rumours}}
+%\note{Preliminary version}
+
+\end{titlepage}
+
+\tableofcontents
+
+\setcounter{page}{2}%JPP
+
+\input{introduction}
+
+%\newpage
+\input{event_selection}
+
+%\newpage
+
+\input{kinematics}
+
+%\clearpage
+
+\input{comparison}
+
+%\clearpage
+
+%\newpage
+\input{deviation}
+
+\input{systematics}
+
+\input{summary}
+
+%\newpage
+%\section{Background estimation methods}
+
+%\subsection{Data-driven background estimation for $W+jets$}
+
+%\section{Summary}
+%\label{sec:Summary}
+
+\clearpage
+
+%\appendix
+
+%\newpage
+%\bibliographystyle{plain}
+%\bibliography{Bibliography}
+
+\begin{thebibliography}{9}
+\bibitem{data}{https://twiki.cern.ch/twiki/bin/view/CMS/ProductionSummer2009.}
+\bibitem{mad}{J~Alwall et al., ``MadGraph/MadEvent v4: The New Web generation'', JHEP 09 (2007) 028, arXiv:0706.2334.}
+\bibitem{lmx} {http://cmsdoc.cern.ch/cms/PRS/susybsm/msugra\_testpts/msugra\_testpts.html.}
+\bibitem{susypat1} {https://twiki.cern.ch/twiki/bin/view/CMS/SusyPat.}
+\bibitem{susypat2} {https://twiki.cern.ch/twiki/bin/view/CMS/SWGuidePAT.}
+\bibitem{susypat}{https://twiki.cern.ch/twiki/bin/view/CMS/SusyPatLayer1.}
+\bibitem{cc} {https://twiki.cern.ch/twiki/bin/view/CMS/SusyPatCrossCleaner.}
+\bibitem{ICNT}{https://twiki.cern.ch/twiki/bin/view/CMS/SusyICFNtuple.}
+\bibitem{ra4}{https://twiki.cern.ch/twiki/bin/view/CMS/SusyRA4SingleLeptonOrganization.}
+\bibitem{elecid}{\bf{CMS AN-2008/082}}{\em``A cut based method for electron identification in CMS''.}
+\bibitem{muonid}{\bf{CMS AN-2008/098}}{\em``Muon Identification in CMS''.}
+\bibitem{vjets}{https://twiki.cern.ch/twiki/bin/view/CMS/VplusJets.}
+\bibitem{iso}{Z.~Hatherell, G.~Karapostoli, M.~Pioppi, A.~Savin, A.~Sparrow, M.~Weinberg, {\em``Study of isolation properties of SUSY low-$p_{T}$ leptons.''}, CMS Analysis Note 2009/167.}
+\bibitem{lisa}{L.~Randall and D.~Tucker-Smith, {\em``Dijet searches for Supersymmetry at the LHC''}, Phys. Rev. Lett. \bf{101} (2008) 221803, arXiv:0806.1049.}
+\bibitem{njet}{H.~Flaecher, M.~Stoye, T.~Rommerskirchen, T.~Yetkin, T.~Whyntie, R.~Bainbridge, J.~Marrouche, {\em``Search for SUSY with exclusive n-jet events''}, CMS Analysis Note 2008/082. }
+%\bibitem{elecid}{\bf{CMS AN-2008/082}}{\em``A cut based method for electron identification in CMS''}
+%\bibitem{muonid}{\bf{CMS AN-2008/098}}{\em``Muon Identification in CMS''}
+%  \bibitem {NOTE000} {\bf CMS Note 2005/000},
+%    X.Somebody et al.,
+%    {\em "CMS Note Template"}.
+\end{thebibliography}
+
+\newpage
+
+\appendix
+\input{alternatives}
+\clearpage
+\input{meff}
+\end{document}

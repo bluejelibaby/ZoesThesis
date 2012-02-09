@@ -1,0 +1,110 @@
+%\section{Low-$P_T$ Isolation for SUSY analysis}
+%In this section the lepton isolation previously described is applied to
+%two different analysis.
+%The Single Lepton analysis, which could be strongly affected by a high fake lepton rate, uses the
+%{\bf pure} cuts.
+%The Same Sign Dilepton analysis, for which the request of two leptons reduces significantly the background
+%efficiency, uses the {\bf efficient} cuts definition. In both analyses the results after the V+jets or the proposed soft
+%lepton isolation ($SL$)
+%are compared.
+%\subsection{Single Lepton analysis}
+\input{singlelepton}
+\subsection{Same Sign DiLepton analysis}
+The SSDL analysis comprise a general-purpose search for supersymmetry in events containing two same sign
+leptons of any combination of flavors,
+in addition to multiple jets and large missing transverse energy. The requirement of two same sign
+leptons significantly reduces the background contribution and provides very clear signature for discovery of SUSY
+at LHC.
+
+The CMS SUSY group provides a set of baseline selection criteria for Single-lepton Reference Analysis 5 (RA5)~\cite{RA5page}.  A complete description of the SSDL analysis strategy and
+selection can be found elsewhere~\cite{ssdlnote}.
+In addition to the standard configuration of physics objects in the analysis, we introduce the usage of the official SUSY PAT Cross cleaning tool.
+
+
+To select events the following basic cuts were applied:
+\begin{itemize}
+\item MET trigger (MET $>$ 50 GeV)
+\item $HT= >$ 350 GeV
+\item $N_{lept} >$ 1
+\item First and second lepton (classified in $p_T$) with same charge
+\end{itemize}
+
+The samples used for this study are reported in Tab.~\ref{tab:SSDLsamples}.
+\begin{table}[htb]
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Sample  &  N MC events & $\sigma$ (pb) \\
+\hline
+SUSY (LM0) & 202686 & 110\\
+SUSY (LM1) & 104800 & 15.06\\
+\hline
+QCD 80 $<\hat{pt}<$ 170 GeV&3437680 & 1934640\\
+QCD 170 $<\hat{pt}<$ 300 GeV &3746780 & 62563\\
+QCD 300 $<\hat{pt}<$ 470 GeV & 1810585& 3665\\
+QCD 470 $<\hat{pt}<$ 800 GeV &2406752 & 316\\
+QCD 800 $<\hat{pt}<$ 1400 GeV &2907476	 & 11.9\\
+QCD 1400 $<\hat{pt}<$ 2200 GeV &584256 & 0.172\\
+QCD 2200 $<\hat{pt}<$ 3000 GeV &878796 & 0.00142\\
+QCD $\hat{pt}>$ 3000 GeV &567040 & 0.0000086\\
+\hline
+W+ jets&8900000 & 40000 \\
+\hline
+Z+jets& 1262816& 3700\\
+\hline
+$t \bar{t}$+jets& 946644& 317 \\
+\hline
+WW  & 204722 & 44.8 \\
+ZZ & 199810 & 17.4 \\
+WZ &246550 & 7.1\\
+WW (same sign DPS) &1000 & 0.0216\\
+\hline
+\end{tabular}
+\caption{\small{MonteCarlo samples analyzed for the search of the SSDL events.}\label{tab:SSDLsamples}}
+\end{center}
+\end{table}
+
+
+In table~\ref{tab:SSDLres} the number of signal and background events
+expected at 10 TeV with 100 pb$^{-1}$
+with the proposed lepton selection
+is compared with the results of the recommended selection by the
+V + jets group (with $P_t >$ 10 GeV).
+Final states with taus will not be considered for this comparison.
+
+\begin{table}[htb]
+\begin{center}
+\begin{tabular}{|c||c|c|c||c|c|c||c|c|c|}
+\hline
+Sample &\multicolumn{3}{|c||} {$e e$} &\multicolumn{3}{|c||} {$\mu \mu$} &\multicolumn{3}{|c|} {$ e \mu$} \\
+\hline
+ & V+j$_{pt_{10}}$ & SL$_{pt_{10}}$  & SL$_{pt_{5}}$ & V+j$_{pt_{10}}$ & SL$_{pt_{10}}$  & SL$_{pt_{5}}$ & V+j$_{pt_{10}}$ & SL$_{pt_{10}}$  & SL$_{pt_{5}}$  \\
+\hline
+SUSY(LM0) &2.44 &4.23 &4.67 &9.99 &16.28 &28.87 &10.47 &16.99 & 22.95\\
+\hline
+SUSY(LM1) &0.52 &1.10 &1.30 &2.15 &3.03&5.46 &2.84 &3.94 &5.61 \\
+\hline
+$t\bar{t}$ &0.07 &0.20 & 0.33 &0.13 &1.88 &7.20 &0.23 &1.58 & 3.75\\
+\hline
+W/Z + jets &0.00 &0.00 &0.00 &0.00 &0.00 &0.00 &0.00 & 0.00 & 0.45\\
+\hline
+diBosons &0.02 &0.02 &0.02 &0.02 &0.13 &0.03 &0.01 & 0.01 & 0.04\\
+\hline
+QCD &0.00 &0.00 &0.00 &0.00 &0.20 &5.64 &0.00 & 0.00 & 1.93\\
+\hline \hline
+$S/\sqrt{S+B}$ (LM0)  &1.5 &2.0  &2.1 &3.1 &3.8 &4.4  &3.2 &3.9  & 4.3\\
+\hline \hline
+$S/\sqrt{S+B}$ (LM1)  &0.7 &1.0 &1.0 &1.4 &1.3 &1.3  &1.6 &1.7  &1.6\\
+\hline
+\end{tabular}
+\caption{\small{Number of events in the final states $e e$, $\mu \mu$, $ e \mu$,
+	for the V + jets and the proposed soft lepton isolation (SL).
+The lepton $p_T$ cut for the V + jets and SL$_{pt_{10}}$
+is 10 GeV while SL$_{pt_{5}}$  is 5 Gev.
+ In the last row the significance is reported.}\label{tab:SSDLres}}
+\end{center}
+\end{table}
+%As can be seen from Table~\ref{tab:SSDLres} moving from V+j$_{pt_{10}}$  to SL$_{pt_{10}}$ increases 
+%significantly the signal yield....
+

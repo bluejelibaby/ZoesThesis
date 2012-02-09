@@ -1,0 +1,79 @@
+\documentclass[a4, 12pt]{cmspaper}
+
+\usepackage{multirow}
+%\usepackage{subfigure}
+%\usepackage{subfig}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{verbatim}
+\usepackage{amsmath}
+\usepackage{epsfig}
+\usepackage{array}% in the preamble
+
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\nn}{\nonumber}
+\newcommand{\dsn}{\displaystyle{\not}}
+
+\begin{document}
+
+%==============================================================================
+% title page for few authors
+
+\begin{titlepage}
+
+% select one of the following and type in the proper number:
+%  \internalnote{2009/000}
+%  \conferencereport{2005/000}
+   \date{\today}
+
+ \title{Performance of QCD background estimation methods in single-lepton mode SUSY searches.}
+
+ \begin{Authlist}
+   Z.~Hatherell\Aref{a}, G.~Karapostoli\Aref{a}
+       \Instfoot{ic}{a) Imperial College London, United Kingdom}
+  %    \Instfoot{uoa}{b) University of Athens, Greece}
+ %     \Instfoot{cern}{c) CERN, Geneva, Switzerland}
+   \end{Authlist}
+
+\begin{abstract}
+The performance of data-driven QCD background estimation methods to be used for single lepton SUSY searches is studied. The methods are contructed using Monte Carlo datasets, and the performance is studied with an X $pb^{-1}$ sample of 7 TeV LHC collisions. The data provides many events with one electron and at least one jet, with which we validate the method of predicting the disibution of the $\alpha_{T}$ jet-balancing kinematic variable. This is undertaken by inverting the cuts on $\Delta \phi$ and $\Delta \eta$ Electron ID variables. Another method utilises Isolation templates in control regions to predict the distribution in the signal region. 
+\end{abstract}
+
+
+\end{titlepage}
+
+\tableofcontents
+\newpage
+\setcounter{page}{2}
+\input{Intro}
+
+
+
+%\newpage
+\input{EventSel}
+
+
+%\clearpage
+
+\input{QCD_bkgd_est}
+
+%\clearpage
+
+%\newpage
+\input{comiss}
+
+\input{summary}
+\clearpage
+
+\begin{thebibliography}{9}
+\bibitem{data}{https://twiki.cern.ch/twiki/bin/view/CMS/ProductionSummer2009.}
+\bibitem{mad}{J~Alwall et al., ``MadGraph/MadEvent v4: The New Web generation'', JHEP 09 (2007) 028, arXiv:0706.2334.}
+\bibitem{susypat1} {https://twiki.cern.ch/twiki/bin/view/CMS/SusyPat.}
+\bibitem{susypat2} {https://twiki.cern.ch/twiki/bin/view/CMS/SWGuidePAT.}
+\bibitem{elecid}{\bf{CMS AN-2008/082}}{\em``A cut based method for electron identification in CMS''.}
+\end{thebibliography}
+
+\end{document}

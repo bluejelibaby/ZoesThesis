@@ -14,49 +14,50 @@ Warning--empty journal in HerreroSM
 Warning--empty journal in Drees
 Warning--empty journal in PeskinBSM
 Warning--empty journal in SUSYPrime
-Warning--empty journal in 1fbnote
 Warning--empty journal in PASaT
 Warning--empty journal in ANaT
 Warning--empty journal in ANnaT
-You've used 35 entries,
+Warning--empty journal in an2009_56
+Warning--empty journal in an2010_119
+You've used 33 entries,
             1829 wiz_defined-function locations,
-            678 strings with 8399 characters,
-and the built_in function-call counts, 6850 in all, are:
-= -- 554
-> -- 328
+            662 strings with 7996 characters,
+and the built_in function-call counts, 6258 in all, are:
+= -- 508
+> -- 288
 < -- 1
-+ -- 127
-- -- 92
-* -- 406
-:= -- 1152
-add.period$ -- 110
-call.type$ -- 35
-change.case$ -- 26
++ -- 113
+- -- 80
+* -- 350
+:= -- 1053
+add.period$ -- 104
+call.type$ -- 33
+change.case$ -- 24
 chr.to.int$ -- 0
-cite$ -- 44
-duplicate$ -- 345
-empty$ -- 718
-format.name$ -- 92
-if$ -- 1516
+cite$ -- 43
+duplicate$ -- 325
+empty$ -- 666
+format.name$ -- 80
+if$ -- 1392
 int.to.chr$ -- 0
-int.to.str$ -- 35
-missing$ -- 43
-newline$ -- 180
-num.names$ -- 35
-pop$ -- 133
+int.to.str$ -- 33
+missing$ -- 41
+newline$ -- 170
+num.names$ -- 33
+pop$ -- 130
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 104
+skip$ -- 98
 stack$ -- 0
-substring$ -- 264
-swap$ -- 26
+substring$ -- 215
+swap$ -- 23
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 9
-while$ -- 51
-width$ -- 37
-write$ -- 385
-(There were 9 warnings)
+warning$ -- 10
+while$ -- 46
+width$ -- 35
+write$ -- 362
+(There were 10 warnings)

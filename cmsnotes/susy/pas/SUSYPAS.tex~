@@ -1,0 +1,108 @@
+\documentclass{article}
+\setlength{\topmargin}{-.5in}
+\setlength{\textheight}{9in}
+\setlength{\textwidth}{6.25in}
+\setlength{\oddsidemargin}{.125in}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\begin{document}
+Following the success of the $\alpha_{T}$ jet-balancing method previously described for the all-hadronic SUSY searches, it is a natural progression to look for extensions of this approach to the single-electron search, as this too has significant presence of large backgrounds from QCD multi-jet.
+
+The variable is now redefined as an N-object system where the set of objects is 1 electron and N-1 jets. The new definition reproduces the kinematics of a di-jet system by contruction two pseudo-jets, which balance one another in $H_{T}$. Pseudo-jets are formed from the combination of the objects by minimising the variable $\Delta H_{T} = |H_{T,1} - H_{T,2}|$, where the definition of the $\alpha_{T}$ variable is now written as:
+
+\begin{equation}
+\alpha_{T} = \frac{1}{2} \frac{H_{T} - \Delta H_{T}}{M_{T}} =  \frac{1}{2} \frac{H_{T} - \Delta H_{T}}{\sqrt{H_{T}^{2}-MH_{T}^{2}}}
+\end{equation}
+The basic selection for single electron events in the leptonic $\alpha_{T}$ approach has the follwoing requirements:
+\begin{itemize}
+
+
+\item Exactly one electron passing requirements as follows:
+\begin{itemize}
+\item $p_{T} >$ 20 GeV
+\item $|\eta| <2.4$
+\item Passes Cut Based ID in simple robust variables $($H/E,$\Delta \phi$,$\Delta \eta$, $\sigma_{i\eta i\eta}$, Tracker Isolation, ECAL Isolation and HCAL Isolation$)$ corresponding to an 80\% efficiency for W. 
+\end{itemize}
+\item The event is vetoed if there are any muons passing the following requirements:
+\begin{itemize}
+\item $p_{T} >$ 15 GeV
+\item $|\eta| <2.1$
+\item Passes ID requirement: 
+\end{itemize}
+\end{itemize}
+
+The analysis uses data samples for the QCD multi-jet background processes produced with the full simulation production for Physics at 7TeV with CMS. The Monte Carlo datasets used are detailed in Table \ref{tab:datasets}. The available luminosity is shown, although the plots are normallised to 1pb$^{-1}$. We use the EMenriched and BCtoE samples which are designed to be enriched in electrons, in order to enhance statistics. In addition, as these samples only cover the region 20$<\hat{p_{T}}<$170 GeV/c, we include the QCD Jets sample for the region $\hat{p_{T}}>$170 GeV/c.
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Data Set & N events & $\sigma$ (pb) & Luminosity\\
+\hline
+QCD BCtoE [20$<\hat{p_{T}}<$30]& 432380  & 108330 & 3.99\\
+QCD BCtoE [30$<\hat{p_{T}}<$80] & 840100 & 138762 & 6.05\\
+QCD BCtoE [80$<\hat{p_{T}}<$170 & 682720 & 9422.4 &72.4\\
+QCD EM Enriched [20$<\hat{p_{T}}<$30] & 6169999 & 1719150 & 3.59\\
+QCD EM Enriched [30$<\hat{p_{T}}<$80] & 9054696 & 3498700 & 2.59\\
+QCD EM Enriched [80$<\hat{p_{T}}<$170] & 2492814 & 134088 & 18.59\\
+QCDJets $\hat{p_{T}}>$170 & 3132800 & 25470 & 122.99\\
+
+
+\hline
+
+\end{tabular}
+\end{center}
+\caption{\textit{The Monte Carlo datasets used to investigate the Delta ID Inversion method in QCD backgrounds. The available Lumniosity is shown, although plots produced are normalised to 1pb$^{-1}$ for the purpose of understanding near-reach of CMS.}}
+\label{tab:datasets}
+\end{table}
+
+
+
+In order to accurately predict the shape of AlphaT in this selection, it is desirable to find a suitable control sample. One way to define such a sample is using the principle of Delta ID Cut Inversion. The anti-selected events in this method pass all selection criteria except the $\Delta \phi$ and $\Delta \eta$ cuts, which are failed. 
+
+As mentioned previously, SUSY events are expected to have high H$_{T}$. Therefore it is critical in any prediction method to understand the behaviour in leptonic AlphaT as a function of HT. The plots in \ref{fig:AlphaTbyHT} show the normalised shape of distributions, both before HT cut and the evolution with HT. The selected and anti-selected agree very well.
+\begin{figure}[h!]
+
+\includegraphics[width=50mm]{Lep_aT_allHT.png}
+\includegraphics[width=50mm]{Lep_aT_HT50.png}
+\includegraphics[width=50mm]{Lep_aT_HT100.png}
+\includegraphics[width=50mm]{Lep_aT_HT150.png}
+\hspace*{3mm}
+\includegraphics[width=50mm]{Lep_aT_HT200.png}
+\hspace*{2mm}
+\includegraphics[width=50mm]{Lep_aT_HT250.png}
+\caption{\textit{The $\alpha_{T}$ distributions for selected (red) and anti-selected events (blue) from inversion of the $\Delta \phi$ and $\Delta \eta$ ID Cutts, shown without HT cut (Top Left) and with progressive HT cuts (left-right, top-bottom). Shapes are normalised to unity for ease of comparison. There is good agreement between the selected and anti-selected regardless of HT requirement, and the high $\alpha_{T}$ tails reduce as expected when moving to higher HT cuts.}}
+\label{fig:AlphaTbyHT}
+\end{figure}
+
+In order to demonstrate the power of HT in $\alpha_{T}$ tail-reduction, we introduce the variable $R_{\alpha_T}$ which is defined as the ratio of the number of events passing the $\alpha_T$ cut over the number of events failing it:
+\begin{equation}
+R_{\alpha T} = \frac{N(\alpha_{T}>0.55)}{N(\alpha_{T}<0.55)}
+\end{equation}
+The ``default'' cut value here is the value prompted from the all-hadronic analysis, 0.55. Figure \ref{fig:AlphaT_Ratio} shows a plot of $R_{\alpha_T}$ as a function of the $H_{T}$ cut applied. As the $H_{T}$ requirement increases, $R_{\alpha_T}$ decreases in an exponential manner. The selected and anti-selected events from Delta ID Inversion are to good agreement.
+
+
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=100mm]{AlphaTRatio.png}
+\end{center}
+\caption{\textit{The $R_{\alpha_T}$ versus the $H_{T}$ cut applied for the QCD multi-jet background, shown for both selected and anti-selected events in the Delta ID Inversion method.}}
+\label{fig:AlphaT_Ratio}
+\end{figure}
+
+In order to verify that the tail is not reduced proportionally to the peak, an additional set of ratios may be defined. Defining a reference istribution for low $H_{T}$ region [0,100], we can investigate distributions in higher HT bins ([100,150],[150,200],[200,250]) by dividing them by the reference distribution. These plots are shown in Figure \ref{fig:HTratios}. As the region of $H_{T}$ is increased, the difference in ratio between the peak and the tail becomes more pronounced. 
+
+\begin{figure}[h!]
+
+\includegraphics[width=50mm]{AlphaT_HTRatio_100.png}
+\includegraphics[width=50mm]{AlphaT_HTRatio_150.png}
+\includegraphics[width=50mm]{AlphaT_HTRatio_200.png}
+
+\caption{\textit{The ratio of $\alpha_{T}$ distributions in high $H_{T}$ regions(Left:[100,150] GeV ,Middle:[150,200] GeV ,Right:[200,250] GeV) to the $\alpha_{T}$ distribution in a low $H_{T}$ region([0,100] GeV). Both selected (red) and anti-selected events (blue) from inversion of the $\Delta \phi$ and $\Delta \eta$ ID Cuts are shown.}}
+\label{fig:HTratios}
+\end{figure}
+
+
+\end{document}

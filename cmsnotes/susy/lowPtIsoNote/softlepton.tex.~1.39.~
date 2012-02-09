@@ -1,0 +1,495 @@
+\documentclass{cmspaper}
+\usepackage{amsmath}
+\usepackage{epsfig}
+\begin{document}
+
+%==============================================================================
+% title page for few authors
+
+\begin{titlepage}
+
+% select one of the following and type in the proper number:
+%  \internalnote{2009/000}
+%  \conferencereport{2005/000}
+   \date{\today}
+
+%  \title{A study of isolation for SUSY low-$p_T$ leptons}
+ \title{Study of isolation properties of SUSY low-$p_T$ leptons.}
+
+  \begin{Authlist}
+    Z.~Hatherell\Aref{a}, G.~Karapostoli\Aref{a}, M.~Pioppi\Aref{a, b},\\
+ A.~Savin\Aref{c},
+    A.~Sparrow\Aref{a}, M.~Weinberg\Aref{c}
+       \Instfoot{ic}{a) Imperial College London, United Kingdom}
+       \Instfoot{perugia}{b) INFN e Dipartimento di Fisica, Perugia, Italy}
+       \Instfoot{wisconsin}{c) University of Wisconsin, Madison, United States}
+  \end{Authlist}
+
+  \begin{abstract}
+    Events with leptons in the final state will play a significant role in SUSY searches at initial
+    LHC luminosities. The energy spectra of the leptons is expected to be soft, especially in models
+    where the mass difference between the initial SUSY particle and the lightest SUSY particle (LSP)
+    is small. Optimization of isolation cuts for electrons in the transverse momentum range
+    $5 < p_T < 30~{\rm GeV}$ and for muons in the range $3 < p_T < 30~{\rm GeV}$ is discussed. The
+    results are presented in terms of SUSY lepton reconstruction efficiency and rejection of fake
+    leptons and leptons from heavy quark decays. Lepton selections for single- and double-lepton
+    SUSY final states are proposed.
+  \end{abstract}
+
+% if needed, use the following:
+%\conference{Presented at {\it Physics Rumours}, Coconut Island, April 1, 2005}
+%\submitted{Submitted to {\it Physics Rumours}}
+%\note{Preliminary version}
+
+\end{titlepage}
+
+\setcounter{page}{2}%JPP
+
+%==============================================================================
+% title page for many authors
+%
+%\begin{titlepage}
+%  \internalnote{2005/000}
+%  \title{CMS Technical Note Template}
+%
+%  \begin{Authlist}
+%    A.~Author\Iref{cern}, B.~Author\Iref{cern}, C.~Author\IAref{cern}{a},
+%    D.~Author\IIref{cern}{ieph}, E.~Author\IIAref{cern}{ieph}{b},
+%    F.~Author\Iref{ieph}
+%  \end{Authlist}
+%
+%  \Instfoot{cern}{CERN, Geneva, Switzerland}
+%  \Instfoot{ieph}{Institute of Experimental Physics, Hepcity, Wonderland}
+%  \Anotfoot{a}{On leave from prison}
+%  \Anotfoot{b}{Now at the Moon}
+%
+%  \begin{abstract}
+%    This is a template of a CMS paper, written in LaTeX,
+%    processed with {\it cmspaper.sty} style.
+%    It is based on the {\it cernart.sty} and {\it articlet.sty} styles.
+%    There are two versions of the title page.
+%    The current one is designed for many authors.
+%    The one on the previous page is for few authors.
+%    Just delete the one which you do not need.
+%  \end{abstract}
+%
+%\end{titlepage}
+%
+%==============================================================================
+
+\section{Introduction}
+\label{sec:intro}
+
+Events with leptons in the final state will play a significant role in SUSY searches already at
+initial LHC luminosities. They complement the fully-hadronic searches, providing cleaner signatures
+than those based just on jets and missing energy.
+
+SUSY models predict significant lepton production from decay of sparticles. The primary sources of
+leptons are expected to be
+
+\begin{align*}
+   \tilde{\chi}_2^0     \rightarrow l^{\pm} + \tilde{l}^{\mp} \\
+   \tilde{\chi}_1^{\pm} \rightarrow l^{\pm} + \tilde{\nu}_l   \\
+   \tilde{l}^{\pm}      \rightarrow l^{\pm} + \tilde{\chi}_1^0
+\end{align*}
+
+The $p_T$ spectrum of the resulting leptons depends strongly on the mass difference between the
+initial and final SUSY particles. For the cases in which the two SUSY particles are more nearly
+mass-degenerate, the lepton $p_T$ spectrum is expected to be soft, and therefore a high
+lepton-reconstruction efficiency and background rejection at low transverse momentum is required.
+
+The standard lepton-isolation recommendations at CMS proposed by the V + Jets Cross-PAG~\cite{vjets}
+have been shown to work well for lepton-$p_T$ above $\sim 30$ GeV/$c$. For lower-$p_T$ leptons,
+however, these cuts can have a much more pronounced impact on the efficiency. For this reason, it is
+natural to look at separate optimization of the isolation requirements for soft leptons.
+
+\section{Lepton reconstruction and isolation requirements}
+\label{sec:lepRecoIsoReq}
+The analysis was performed within the SUSY PAT framework~\cite{susypat}. From the PAT data format,
+reduced ntuples were produced using the procedure described elsewhere~\cite{ICNT}. The data samples are
+summarized in Table~\ref{tab:samples}.
+
+\begin{table}[htbp]
+   \centering
+\begin{tabular}{|c|c|c|}
+\hline
+Sample & N MC events & $\sigma$ (pb) \\
+\hline
+SUSY (LM1) & 104800 & 16.06 \\
+\hline
+QCD (Pythia) & 27267325 & 1.568 $\times 10^9$ \\
+\hline
+\end{tabular}
+   \caption{\small{MC samples used for the isolation study.}\label{tab:samples}}
+\end{table}
+
+
+For the purposes of the lepton isolation performace study, we have developed a lepton classification tool based on the Monte Carlo (MC) truth information. Reconstructed electrons and muons are matched to generator level leptons ($e$ or $\mu$'s), and split into the following categories, according to the MC mother of the generated particle: i) ``Prompt'' leptons, are identified as the ones originated by the decay of a SUSY particle, a $W/Z$ or a $\tau$. ii) ``Heavy-flavor'' leptons, are coming from the hadronic decays of heavy-flavor quarks ($b/c$ decays). iii) ``Fake'' leptons are typically identified as reconstructed leptons faked by a jet. In the case of muons, the latter category includes in-flight decays of $\pi/K$-mesons, as well as jet punch-through.
+
+
+%At generator level, ``prompt'' leptons are defined  as those coming directly from a SUSY decay or from
+%a $W$, $Z$ or $\tau$ coming from a SUSY decay, and ``Heavy Flavor (HF)'' leptons are all other leptons
+%appearing during the hadronization stage. Radiative leptons from prompt leptons were not considered
+%to avoid double counting.
+
+Matching between generated and reconstructed leptons was performed using a
+cone in ($\eta, \phi$) phase space. The distance between generated and reconstructed leptons,
+$\Delta R = \sqrt{(\Delta \eta)^2 + (\Delta \phi)^2}$, was required to be less then 0.5, and the
+closest generated lepton was associated with the corresponding reconstructed candidate. If no
+generated lepton was found within the $\Delta R$ cone the reconstructed lepton was considered to be
+a ``fake''.
+
+The leptons were reconstructed at detector level and passed identification
+procedure~\cite{elecid,muonid}. Electrons that satisfied RobustLoose and muons that satisfied
+GlobalTight identification requirements were selected. Generated and reconstructed electrons were
+required to have $p_T > 5~{\rm GeV}$ and $|\eta| < 2.5$, muons, $p_T > 3~{\rm GeV}$ and
+$|\eta| < 2.1$. In order to reduce contribution form the HF and fake leptons, additional requirements on the lepton qualiity were applied:
+\begin{itemize}
+\item Transverse impact parametere corrected for the beam spot $<$ 2 mm
+\item Normalized global $\chi^2 <$ 10 (only for muons)
+\item Number of hits in the tracker track $>$ 11 (only for muons)
+\end{itemize}
+
+Lepton reconstruction efficiency, defined as a ratio of the number of reconstructed and matched
+leptons to the total number of generated leptons, was estimated using prompt leptons from the SUSY
+LM1 sample. The efficiency is presented in Fig.~\ref{fig:genPt_recoEff_prompt} for (a) electrons and
+(b) muons as a function of generated lepton $p_T$. The efficiency decreases with
+decreasing lepton $p_T$, and corresponds to $\sim 60\%$ in the lowest $p_T$ bins considered in this
+analysis.
+
+\begin{figure}[htbp]
+   \includegraphics[width = 0.49\textwidth]{pictures/genPt_recoEff_prompt/genPt_recoEff_elec_prompt.png}
+   \includegraphics[width = 0.49\textwidth]{pictures/genPt_recoEff_prompt/genPt_recoEff_muon_prompt.png}
+   \caption{\small{Reconstruction efficiency for (a) prompt electrons and (b) prompt muons as a function of
+      generated lepton $p_T$.}
+   \label{fig:genPt_recoEff_prompt}}
+\end{figure}
+
+Isolation properties of the reconstructed leptons were studied using
+%Prompt and HF reconstructed leptons can be separated by applying additional isolation
+%requirements, which are based on the following isolation variables:
+ following isolation variables:
+
+\begin{align*}
+   \textrm{iso}_{\textrm{abs}}^{\textrm{track}} & = \sum_{\Delta R < 0.3} p_T^{\textrm{track}} \\
+   \textrm{iso}_{\textrm{abs}}^{\textrm{ECAL}}  & = \sum_{\Delta R < 0.3} E_T^{\textrm{ECAL}}  \\
+   \textrm{iso}_{\textrm{abs}}^{\textrm{HCAL}}  & = \sum_{\Delta R < 0.3} E_T^{\textrm{HCAL}}  \\
+   \textrm{iso}_{\textrm{abs}}^{\textrm{comb}}  & = \sum_{\Delta R < 0.3}\left(p_T^{\textrm{track}} + E_T^{\textrm{ECAL} + \textrm{HCAL}}\right) \\
+%   \textrm{iso}_{\textrm{rel}}^{\textrm{track}} & = \frac{\sum_{\Delta R < 0.3} p_T^{\textrm{track}}}{p_T^l} \\
+%   \textrm{iso}_{\textrm{rel}}^{\textrm{ECAL}}  & = \frac{\sum_{\Delta R < 0.3} E_T^{\textrm{ECAL}}}{p_T^l}  \\
+%   \textrm{iso}_{\textrm{rel}}^{\textrm{HCAL}}  & = \frac{\sum_{\Delta R < 0.3} E_T^{\textrm{HCAL}}}{p_T^l}  \\
+%   \textrm{iso}_{\textrm{rel}}^{\textrm{comb}}  & = \frac{\sum_{\Delta R < 0.3}\left(p_T^{\textrm{track}} + E_T^{\textrm{ECAL} + \textrm{HCAL}}\right)}{p_T^l}
+\end{align*}
+
+where $\sum_{\Delta R < 0.3} p_T^{\textrm{track}}$ is the sum of the transverse momenta of the
+tracks in a cone ($\Delta R < 0.3$) around the lepton direction.
+$\sum_{\Delta R < 0.3} E_T^{\textrm{ECAL}}$ and $\sum_{\Delta R < 0.3} E_T^{\textrm{HCAL}}$ are the
+sums of the transverse energy measured in a cone ($\Delta R < 0.3$) around the lepton direction in the
+electromagnetic and hadronic calorimeter respectively. Relative isolation was defined as a ratio of the
+absolute isolation to reconstructed transverse momentum, $p_T$, of the examined lepton.
+
+A scatter plot of combined relative isolation as a function of reconstructed lepton $p_T$ is presented in
+Fig.~\ref{fig:recoPt_combRelIso_prompt} for prompt, HF and fake leptons respectively. The V +
+Jets Cross-PAG recommended cut of 0.1 is also shown. At low $p_T$ values the cut rejects a significant
+fraction of signal events; therefore, additional optimization of the isolation procedure is
+needed. Since the isolation depends on the lepton transverse momentum, the
+optimization is done in multiple bins of lepton $p_T$.
+%. Electrons are divided into five  bins
+% of 5 GeV width
+%starting from 5 GeV (
+Five bins of 5 GeV width: 5 -- 10 GeV, 10 -- 15 GeV, ..., 25 -- 30 GeV for electrons
+% ) and Muons are divided into 9 bins of
+%3 GeV width starting from
+and nine bins of 3 GeV width: 3 -- 6 GeV, 6 -- 9 GeV, ..., 27 -- 30 GeV for muons.
+%In order to study the
+%isolation behavior of very low energy muons a smaller $p_T$ bin width was adopted. In both cases,
+Where the lower limits on the $p_T$ ranges represent the softest leptons that can be reconstructed within
+the PAT framework and bin width is choosen based on energy resolution.
+
+\begin{figure}[htbp]
+   \includegraphics[width = 0.49\textwidth]{pictures/recoPt_relIso/combIso_elec_prompt.png}
+   \includegraphics[width = 0.49\textwidth]{pictures/recoPt_relIso/combIso_muon_prompt.png} \\
+   \includegraphics[width = 0.49\textwidth]{pictures/recoPt_relIso/combIso_elec_nonPrompt.png}
+   \includegraphics[width = 0.49\textwidth]{pictures/recoPt_relIso/combIso_muon_nonPrompt.png}\\
+   \includegraphics[width = 0.49\textwidth]{pictures/recoPt_relIso/combIso_elec_fake.png}
+   \includegraphics[width = 0.49\textwidth]{pictures/recoPt_relIso/combIso_muon_fake.png}
+   \caption{\small{Combined relative isolation as a function of reconstructed $p_T$ for prompt
+(top), HF (middle) and fake (bottom) leptons. Electrons are shown on the left while muons are on the right.}
+   \label{fig:recoPt_combRelIso_prompt}}
+\end{figure}
+
+%\begin{figure}[htbp]
+%   \caption{\small{Combined relative isolation as a function of reconstructed $p_T$ for (a) hadronic
+%      electrons and (b) hadronic muons}
+%   \label{fig:recoPt_combRelIso_nonPrompt}}
+%\end{figure}
+
+%\begin{figure}[htbp]
+%   \caption{\small{Combined relative isolation as a function of reconstructed $p_T$ for (a) fake
+%      electrons and (b) fake muons}
+%   \label{fig:recoPt_combRelIso_fake}}
+%\end{figure}
+
+%\clearpage
+
+\section{Optimization of isolation requirements for low-$p_T$ leptons}
+\label{sec:softLepIsoOpt}
+%As stated in Sec.~\ref{sec:intro}, the goal of this work is
+The optimization of the isolation for
+leptons originating from SUSY processes requires
+%. For this reason,
+an additional cut $HT > 300 {\rm GeV}$, where
+$HT =\left(\sum_{\textrm{jets}}p_T + \sum_{\textrm{lep}}p_T \right) $ and the sums run over all the reconstructed leptons and all the reconstructed
+hadronic jets with a tranverse energy greater than 50 GeV.
+This cut
+defines an energy scale which is expected in SUSY production.
+%motivated by the requirement that we improve soft lepton isolation at the energy scale at which
+%SUSY processes are expected.
+
+The optimization procedure was based on a comparison of signal efficiency and background rejection.
+Efficiency as a function of isolation cut, $\textrm{eff}(x)$, was defined as the ratio of
+reconstructed leptons with isolation $< x$ to all reconstructed leptons. Rejection as a function of
+isolation cut, $\textrm{rej}(x)$, was defined as the ratio of reconstructed leptons
+with isolation $> x$ to all reconstructed leptons, i.e. for all cut values $x$,
+$\textrm{rej}(x) = 1 - \textrm{eff}(x)$. Figure~\ref{fig:Elec_PtCut0_PtCut1}
+shows prompt lepton efficiency as a function of background lepton
+rejection for each isolation variable.
+
+\begin{figure}[htbp]
+\begin{center}
+   \includegraphics[width = 0.49\textwidth]{pictures/bkgdRej_sigEff/elec_nonPrompt_ptCut0_ptCut1.png}
+   \includegraphics[width = 0.49\textwidth]{pictures/bkgdRej_sigEff/elec_fake_ptCut0_ptCut1.png} \\
+   \includegraphics[width = 0.49\textwidth]{pictures/bkgdRej_sigEff/muon_nonPrompt_ptCut0_ptCut1.png}
+   \includegraphics[width = 0.49\textwidth]{pictures/bkgdRej_sigEff/muon_fake_ptCut0_ptCut1.png}
+   \caption{\small{Prompt leptons efficiency  with respect to background rejection for HF (left) and  fake
+      leptons (right) in $p_T$ region from 5 to 10 GeV for electrons (top) and
+       in $p_T$ region from 3 to 6 GeV for muons (bottom).
+      Each point on the graph represents a different cut on absolute
+      isolation calculated from the tracker (first curve), the ECAL (second curve) or the HCAL
+      (third curve). }
+% 	Electrons are shown on the top while muons are on the bottom. }
+   \label{fig:Elec_PtCut0_PtCut1}}
+\end{center}
+\end{figure}
+
+For both electrons and muons, tracker isolation demonstrates
+greater discriminating power than ECAL or HCAL isolation.
+%, as expected for low $p_T$ leptons.
+Additionally in the LHC startup scenario,
+the low $p_T$ tracks (which mainly contribute to the soft lepton isolation)
+are expected to be more reliable
+than the low $p_T$ energy deposits in the calorimeters, therefore
+%For these reasons, we start by optimizing the tracker isolation.
+only the tracker isolation is considered in the first step of the
+optimization.
+%Only after finding the optimal tracker
+%isolation cut will we examine ECAL and HCAL isolation. Because each SUSY analysis may require a
+%different prompt lepton efficiency and purity, four different isolation cuts are defined:
+
+Since signal to background conditions differ depending on SUSY analysis four optimization
+approaches were considered:
+
+\begin{itemize}
+\item {\bf PureHF} \\
+%Cut with highest prompt efficiency for which $\textrm{rej}_{\textrm{HF}} \geq 0.9$
+Highest cut on isolation at which $\textrm{rej}_{\textrm{HF}} \geq 0.9$
+\item {\bf PureFake} \\
+%Cut with highest prompt efficiency for which $\textrm{rej}_{\textrm{fake}} \geq 0.9$
+Highest cut on isolation at which $\textrm{rej}_{\textrm{fake}} \geq 0.9$
+\item {\bf Optimal}\\
+Minimizes $x = \sqrt{(1 - \textrm{eff})^2 + (1 - \textrm{rej})^2}$
+\item {\bf Efficient} \\
+%Cut with highest background rejection for which $\textrm{eff}_{\textrm{prompt}} \geq 0.9$
+Lowest cut on isolation at which $\textrm{eff}_{\textrm{prompt}} \geq 0.9$
+\end{itemize}
+
+
+\begin{figure}[htbp]
+\begin{center}
+   \includegraphics[width = 0.49\textwidth]{pictures/optIsoCut/trackIso_elec_pure_HF.png}
+   \includegraphics[width = 0.49\textwidth]{pictures/optIsoCut/trackIso_elec_pure.png}
+   \includegraphics[width = 0.49\textwidth]{pictures/optIsoCut/trackIso_elec_opt.png}
+   \includegraphics[width = 0.49\textwidth]{pictures/optIsoCut/trackIso_elec_eff.png}
+    \caption{\small{\label{fig:optTrackIso_elec}Tracker isolation
+ cut values for electrons as a function of $p_T$ for {\bf pureHF}(top left), {\bf pureFake} (top right),
+	{\bf optimal} (bottom left) and {\bf efficient} (bottom right) optimization procedure. }}
+\end{center}
+\end{figure}
+
+Figure~\ref{fig:optTrackIso_elec} shows the optimized cut values as a function of the electron
+transverse momentum. Linear fits to the data are also shown. The lowest-$p_T$ bin for the
+{\bf pureHF}  procedure is empty, since the required 0.9 rejection power can not be achieved
+by using tracking information only. The {\bf pure} procedures demonstrate an increase of the
+isolation cat with $p_T$ increase, the {\bf efficient} requirement allows the isolation cut
+to be almost constant with $p_T$.
+%Efficient and optimal procedures show a reduced dependance on the momentum and require
+%a tracker isolation less than 2 and 3 GeV respectively.
+%The pure$_{fake}$ cut value is linearly dependent following the expression
+%$\textrm{iso}_{\textrm{abs}}^{\textrm{track}} < (0.5 GeV + 0.227 p_T)$.
+
+\begin{figure}[htbp]
+\begin{center}
+   \includegraphics[width = 0.49\textwidth]{pictures/optIsoCut/trackIso_muon_pure_HF.png}
+   \includegraphics[width = 0.49\textwidth]{pictures/optIsoCut/trackIso_muon_pure.png}
+   \includegraphics[width = 0.49\textwidth]{pictures/optIsoCut/trackIso_muon_opt.png}
+   \includegraphics[width = 0.49\textwidth]{pictures/optIsoCut/trackIso_muon_eff.png}
+   \caption{\small{\label{fig:optTrackIso_muon} Tracker isolation
+ cut values for muons as a function of $p_T$ for {\bf pureHF} (top left), {\bf pureFake} (top right),
+	{\bf optimal} (bottom left), {\bf efficient} (bottom right) optimization procedure. }}
+\end{center}
+\end{figure}
+
+The optimization results for muons are presented in
+Fig.~\ref{fig:optTrackIso_muon}.
+% shows the optimized cut values as a function of the muon
+%transverse momentum.
+%Only the efficient cut values ($\textrm{iso}_{\textrm{abs}}^{\textrm{track}} < 5 GeV$) is independent
+%from the momentum.
+%In general the requests for muons are much less stringent than the corresponding requests
+%for electrons.
+The results demonstrate behaviour similar to those for muons but in general the cuts are less
+stringent.
+
+The results of the optimization procedure are summarized in App.~\ref{app:tables} and App.~\ref{app:plots_tk}.
+
+
+%In App.~\ref{app:tables} for each $p_T$ bin  the optimal cut is reported with the corresponding values
+%of prompt lepton  efficiency and fake and HF lepton rejection.
+%Tables are provided for all the optimization procedures described above.
+%In App.~\ref{app:plots_tk} for each $p_T$ bin the curves of prompt efficiency versus the background rejection are shown.
+
+%\input{caloisol}
+
+
+\section{Optimization of ECAL isolation after applying cuts on tracker isolation}
+\label{sec:caloIsoAfterTrackCut}
+
+An additonal background rejection power of the isolation procedure can be achieved by applying the ECAL
+isolation after the tracking isolation was applied. The {\bf efficient} tracking procedure
+as shown in Figs.~\ref{fig:optTrackIso_elec} and~\ref{fig:optTrackIso_muon} was chosen.
+For simplicity the tracking isolation was set
+to 3 GeV for electrons and 5 GeV for muons.
+%A comparison with the corresponding pure cuts shows that in almost all cases the efficient cut on
+%tracker isolation is lower than the pure cut (with the sole exception being electrons from 5 -- 10
+%GeV). This lower cut value corresponds to a tighter requirement on isolation, so in addition to
+%efficiencies of $\sim$ 90\% for prompt leptons, these cut values yield rejection rates of $>$ 90\%
+%for both HF and fake leptons. Therefore, we first impose the efficient cut on tracker isolation and
+%then examine the effect of this cut on ECAL isolation to determine if it can be improved by the
+%addition of calorimeter-based isolation cuts.
+
+Prompt lepton efficiency with respect to the background lepton rejection is shown in
+Fig.~\ref{fig:trackCut_bkgdRej_sigEff_ptCut0_ptCut1} for different cuts on ECAL isolation
+for leptons in the lowest $p_T$ bin.
+The complete set of plots for each $p_T$ bin is given in App.~\ref{sec:ecalplots}.
+ It is demonstrated that by using the ECAL
+isolation after tracking isolation any background rejection power
+can be achieved for electrons but efficiency of the prompt electrons drop significantly
+as rejection power increases.
+For muons it is not the case and there is a limit on rejection power which can not
+be exeeded,  dependence of the prompt muons efficiency on the isolation is much
+weaker than those observed for electrons.
+
+% for low-$p_T$ leptons passing the tracker
+%isolation cut. For electrons, it is possible to combine the tracker isolation cut with an ECAL
+%isolation cut yielding high rejection of both heavy-flavor and fake leptons. For muons this is not
+%possible for all $p_T$ bins, as shown.
+
+\begin{figure}[htbp]
+\begin{center}
+   \includegraphics[width = 0.49\textwidth]{pictures/trackCut/bkgdRej_sigEff/elec_nonPrompt_ptCut0_ptCut1.png}
+   \includegraphics[width = 0.49\textwidth]{pictures/trackCut/bkgdRej_sigEff/elec_fake_ptCut0_ptCut1.png}
+   \includegraphics[width = 0.49\textwidth]{pictures/trackCut/bkgdRej_sigEff/muon_nonPrompt_ptCut0_ptCut1.png}
+   \includegraphics[width = 0.49\textwidth]{pictures/trackCut/bkgdRej_sigEff/muon_fake_ptCut0_ptCut1.png}
+   \caption{\small{\label{fig:trackCut_bkgdRej_sigEff_ptCut0_ptCut1}
+      Prompt lepton efficiency with respect to HF (left) and fake (right) leptons rejection
+      for different cuts on ECAL isolation. Top plots are for electrons in $p_T$ range 5 -- 10 GeV after a
+      tracker isolation cut of 3 GeV. Bottom plots are for  muons in $p_T$ range 3 -- 6 GeV after a tracker
+      isolation cut of 5 GeV.}}
+\end{center}
+\end{figure}
+
+%Figures~\ref{fig:trackCut_optEcalIsoCut_elec} and~\ref{fig:trackCut_optEcalIsoCut_muon} show
+%optimized cut values as a function of the lepton transverse momentum. Here the pure$_{HF}$ and
+%pure$_{fake}$ values are to be interpreted as the cuts which reject at least 90\% of the
+%\textit{remaining} background leptons, after the track cut. Similarly, the efficient cut retains at
+%least 90\% of the prompt leptons surviving the track cut. Thus, the overall efficiency can be
+%obtained by convolving this efficiency with the efficiency of the original track cuts, shown in
+%Table ???.
+%
+%\begin{figure}[htbp]
+%\begin{center}
+%   \includegraphics[width = 0.49\textwidth]{pictures/trackCut/optIsoCut/ecalIso_elec_pure_HF.png}
+%   \includegraphics[width = 0.49\textwidth]{pictures/trackCut/optIsoCut/ecalIso_elec_pure.png}
+%   \\
+%   \includegraphics[width = 0.49\textwidth]{pictures/trackCut/optIsoCut/ecalIso_elec_opt.png}
+%   \includegraphics[width = 0.49\textwidth]{pictures/trackCut/optIsoCut/ecalIso_elec_eff.png}
+%   \caption{\small{\label{fig:trackCut_optEcalIsoCut_elec}
+%      ECAL isolation cut values for electrons as a function of $p_T$-bin for pure$_{HF}$ (top left),
+%      pure$_{fake}$ (top right), optimal (bottom left) and efficient (bottom right) optimization
+%      procedures.}}
+%\end{center}
+%\end{figure}
+
+%\begin{figure}[htbp]
+%\begin{center}
+%   \includegraphics[width = 0.49\textwidth]{pictures/trackCut/optIsoCut/ecalIso_muon_pure_HF.png}
+%   \includegraphics[width = 0.49\textwidth]{pictures/trackCut/optIsoCut/ecalIso_muon_pure.png}
+%   \\
+%   \includegraphics[width = 0.49\textwidth]{pictures/trackCut/optIsoCut/ecalIso_muon_opt.png}
+%   \includegraphics[width = 0.49\textwidth]{pictures/trackCut/optIsoCut/ecalIso_muon_eff.png}
+%   \caption{\small{\label{fig:trackCut_optEcalIsoCut_muon}
+%      ECAL isolation cut values for muons as a function of $p_T$-bin for pure$_{HF}$ (top left),
+%      pure$_{fake}$ (top right), optimal (bottom left) and efficient (bottom right) optimization
+%      procedures.}}
+%\end{center}
+%\end{figure}
+
+%\clearpage
+
+
+
+%\newpage
+
+\input{susyanalysis}
+
+%\newpage
+
+
+
+\input{summary}
+
+
+\appendix
+
+%\clearpage
+
+%\input{appendix}
+
+%\newpage
+%\bibliographystyle{plain}
+%\bibliography{Bibliography}
+
+\begin{thebibliography}{9}
+\bibitem{vjets}{https://twiki.cern.ch/twiki/bin/view/CMS/VplusJets}
+\bibitem{susypat}{https://twiki.cern.ch/twiki/bin/view/CMS/SusyPatLayer1}
+\bibitem{ICNT}{https://twiki.cern.ch/twiki/bin/view/CMS/SusyICFNtuple}
+\bibitem{elecid}{\bf{CMS AN-2008/082}}{\em``A cut based method for electron identification in CMS''}
+\bibitem{muonid}{\bf{CMS AN-2008/098}}{\em``Muon Identification in CMS''}
+\bibitem{RA4page}{https://twiki.cern.ch/twiki/bin/view/CMS/SusyRA4SingleLeptonOrganization}
+\bibitem{RA5page}{https://twiki.cern.ch/twiki/bin/view/CMS/SusyRA5SSDiLeptonOrganization}
+\bibitem{ssdlnote} Analysis note in preparation {\em``Search for Supersymmetry in the Same-Sign
+Dilepton Final States''}
+%\bibitem{vjets}{dsds}sadas{\em "https://twiki.cern.ch/twiki/bin/view/CMS/VplusJets"}.
+%  \bibitem {NOTE000} {\bf CMS Note 2005/000},
+%    X.Somebody et al.,
+%    {\em "CMS Note Template"}.
+\end{thebibliography}
+
+\newpage
+
+\input{tables}
+\newpage
+\input{plots}
+\newpage
+\input{iso_muons}
+\end{document}

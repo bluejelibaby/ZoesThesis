@@ -1,0 +1,46 @@
+\section{Event selection}
+\label{sec:evtsel}
+\subsection{Pre-selection for single electron $\alpha_{T}$ analysis}
+A single-electron event for searches with $alpha_{T}$ is defined through a series of requirements on basic physics objects. The selection used by this analysis  is as follows:
+\begin{itemize}
+\item Exactly one electron of the following definition:
+\begin{itemize}
+\item Reconstructed with the PixelMatchGsfElectron algorithm.
+\item $p_{T} >$ 20 GeV
+\item $|\eta| <2.4$
+\item Passes the Cut Based ID formed by simple, yet robust, variables (these are the $H/E$, the super-cluster (SC) - track matching variables $\Delta \phi$,$\Delta \eta$, and shower shape variable $\sigma_{i\eta i\eta}$, Tracker Isolation, ECAL Isolation and HCAL Isolation\footnote{The cut based ID selection cuts are chosen to correspond to an 80\% efficiency in the $W\rightarrow e\nu$ analysis.}). 
+\end{itemize}
+\item The event is vetoed if there are any muons of the following definition:
+\begin{itemize}
+\item $p_{T} >$ 15 GeV
+\item $|\eta| <2.1$
+\item Passes ID requirement: GlobalMuon
+\end{itemize}
+\item A jet is rejected if it is found close to a tight and isolated electron within $\Delta R$=0.5.
+ The jet selection is as follows:
+\begin{itemize}
+\item $p_{T} >$ 20 GeV
+\item $|\eta| <5$
+\item EMF $<$0.9
+\end{itemize}
+
+\end{itemize}
+
+
+\subsection{Simple Cut Based Electron Selection}
+\ref{sec:EID}
+Efficient electron selection is important in physics analyses with electron final states to enhance the selection of signal. This is especially crucial when the $E_{T}$ threshold is low, as is characteristic of many SUSY searches, as the background and fake rate increase. In the era of LHC start-up, it is essential to use simple and robust variables.
+
+The electron selection used in this study follows the EGAMMA groups recommendations\ref{}. Simple cuts are made on a small number of robust variables suitable for early data taking at the LHC. Different cuts are applied to electrons in the ECAL barrel to those in the ECAL endcap. Aside from this no categorisation is applied. 
+
+The Electron Selection  variables can be described in three groups: 
+\begin{itemize}
+\item Typical electron ID variables ($\Delta \phi$, $\Delta \eta$, $\sigma_{i\eta i\eta}$ and H/E).
+\item Isolation variables (Tracker Isolation, HCAL Isolation and ECAL Isolation)
+\item Conversion Rejection Tool (First 
+\end{itemize}
+
+We apply this electron selection with values at a working point corresponding to 80\% efficiency for the W$\rightarrow e$ analysis. One of the advantages of this new cut based selection is thiat it allows the inversion of one or more of the variables, a common tool in background-subtraction and signal extraction methods.
+
+
+

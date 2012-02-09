@@ -1,0 +1,89 @@
+<!--Copyright (c) 2000-2003 Microsoft Corporation. All rights reserved.-->
+<!--CURRENT FILE== "NON-IE5" "NON-WIN32" editrecipientnote -->
+<!--CURRENT TEMPLATE == IPM.Note.07040000 -->
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=iso-8859-1">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="0">
+<HTML>
+<HEAD>
+<SCRIPT src="/exchweb/6.5.7651.60/controls/dl_misc.js"></SCRIPT>
+<SCRIPT language='JavaScript'>
+var g_fIsEditRecipForm = false;
+function CustomOnload()
+{
+InitEditRecip();
+}
+</SCRIPT>
+<STYLE type="text/css">
+A:link	{ color: 0;text-decoration: none}
+A:visited	{ color: 0;text-decoration: none}
+A:active	{ color: 0;text-decoration: none}
+</STYLE>
+<SCRIPT>
+var szParentFolder = "https://mmm.cern.ch/exchange/z.hatherell/Sent%20Items";
+var g_fIsMac = false;
+var g_fAllowAttachments = true;
+var g_szAttachmentsNotAllowed = "Access to all attachments has been blocked.";
+var g_szMaxDuration = "Please enter a shorter duration.";
+var L_SaveAttToDsk = "To open this attachment, you must save it to your disk. Right-click the link, and then click Save. With a single-button mouse, hold the button down over the link, and then click Save.";
+var g_szBase = "https://mmm.cern.ch/exchange/z.hatherell";
+var g_fIsDelegate = false;
+var g_fIsPublicFolder = false;
+var g_bAutoSignatureOn = false;
+</SCRIPT>
+<SCRIPT src="/exchweb/6.5.7651.60/controls/dl_composecommon.js"></SCRIPT>
+
+
+<BASE href="https://mmm.cern.ch/exchange/z.hatherell/Sent%20Items/RE:%20Chamonix:%20The%20Final%20Chalet!!!-10.EML/" >
+<LINK rel="stylesheet" type="text/css" href="/exchweb/6.5.7651.60/controls/owastyledl.css">
+</HEAD>
+<BODY class="bdyForm" onload="StartCompose();" margintop="2">
+<FORM name="MainForm"
+action="https://mmm.cern.ch/exchange/z.hatherell/Sent%20Items/RE:%20Chamonix:%20The%20Final%20Chalet!!!-10.EML"
+METHOD="post">
+<TABLE border=0 cellpadding=0 cellspacing=0 width=645>
+<TR>
+<TD nowrap width="100%" valign="middle" align="right">
+<TABLE border=0 cellpadding=0 cellspacing=0 width="100%">
+<TR>
+<TD width="100%"></TD>
+<TD nowrap valign="middle" align="center" width="1%"><A href=https://mmm.cern.ch/exchweb/help/USA/ie3/Two_B2.htm target="__OutlookWebAccessHelp"><IMG align=absmiddle src="https://mmm.cern.ch/exchweb/img/help.gif" border="0" alt="" width="16" height="16"></A></TD>
+<TD nowrap valign="middle" align="left" width="1%"><A href=https://mmm.cern.ch/exchweb/help/USA/ie3/Two_B2.htm target="__OutlookWebAccessHelp"><NOBR><FONT size=2> Help</FONT></NOBR></A></TD>
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+<BR>
+<TABLE width=645 cellpadding=2 cellspacing=2><COLGROUP><COL width=100><COL width=72><COL width=80><COL width=70><COL width=100><COL width=73><COL width=80><COL width=70></COLGROUP><TR><TD nowrap colspan="8" class="trDlgDesc"><FONT size=3 color="#FFFFFF"><B><NOBR>James Michael Keaveney Properties</NOBR></B></FONT></TD></TR><TR><TD align="left" valign="top"  noWrap><FONT color="#000000" size="2"><NOBR>First Name:</NOBR></FONT></TD><TD align="left" valign="top" bgcolor="#ffffff" ><FONT color="#000000" size="2">James Michael&nbsp;</FONT></TD><TD align="left" valign="top"  noWrap><FONT color="#000000" size="2"><NOBR>Initials:</NOBR></FONT></TD><TD align="left" valign="top" bgcolor="#ffffff" ><FONT color="#000000" size="2">&nbsp;</FONT></TD><TD align="left" valign="top"  noWrap><FONT color="#000000" size="2"><NOBR>Last Name:</NOBR></FONT></TD><TD align="left" valign="top" bgcolor="#ffffff" colspan=3><FONT color="#000000" size="2">Keaveney&nbsp;</FONT></TD></TR>
+<TR><TD align="left" valign="top"  noWrap><FONT color="#000000" size="2"><NOBR>Display Name:</NOBR></FONT></TD><TD align="left" valign="top" bgcolor="#ffffff" colspan=3><FONT color="#000000" size="2">James Michael Keaveney&nbsp;</FONT></TD><TD align="left" valign="top"  noWrap><FONT color="#000000" size="2"><NOBR>Alias:</NOBR></FONT></TD><TD align="left" valign="top" bgcolor="#ffffff" colspan=3><FONT color="#000000" size="2">keaveney&nbsp;</FONT></TD></TR>
+<TR><TD align="left" valign="top" rowspan=2 noWrap><FONT color="#000000" size="2"><NOBR>Address:</NOBR></FONT></TD><TD align="left" valign="top" bgcolor="#ffffff" rowspan=2 colspan=3><FONT color="#000000" size="2">&nbsp;</FONT></TD><TD align="left" valign="top"  noWrap><FONT color="#000000" size="2"><NOBR>Title:</NOBR></FONT></TD><TD align="left" valign="top" bgcolor="#ffffff" colspan=3><FONT color="#000000" size="2">&nbsp;</FONT></TD></TR>
+<TR><TD align="left" valign="top"  noWrap><FONT color="#000000" size="2"><NOBR>Company:</NOBR></FONT></TD><TD align="left" valign="top" bgcolor="#ffffff" colspan=3><FONT color="#000000" size="2">University College Dublin School of Physics (UCD)&nbsp;</FONT></TD></TR>
+<TR><TD align="left" valign="top"  noWrap><FONT color="#000000" size="2"><NOBR>City:</NOBR></FONT></TD><TD align="left" valign="top" bgcolor="#ffffff" colspan=3><FONT color="#000000" size="2">&nbsp;</FONT></TD><TD align="left" valign="top"  noWrap><FONT color="#000000" size="2"><NOBR>Department:</NOBR></FONT></TD><TD align="left" valign="top" bgcolor="#ffffff" colspan=3><FONT color="#000000" size="2">PH/ULB&nbsp;</FONT></TD></TR>
+<TR><TD align="left" valign="top"  noWrap><FONT color="#000000" size="2"><NOBR>State:</NOBR></FONT></TD><TD align="left" valign="top" bgcolor="#ffffff" colspan=3><FONT color="#000000" size="2">&nbsp;</FONT></TD><TD align="left" valign="top"  noWrap><FONT color="#000000" size="2"><NOBR>Office:</NOBR></FONT></TD><TD align="left" valign="top" bgcolor="#ffffff" colspan=3><FONT color="#000000" size="2">15 S-023&nbsp;</FONT></TD></TR>
+<TR><TD align="left" valign="top"  noWrap><FONT color="#000000" size="2"><NOBR>Postal Code:</NOBR></FONT></TD><TD align="left" valign="top" bgcolor="#ffffff" colspan=3><FONT color="#000000" size="2">&nbsp;</FONT></TD><TD align="left" valign="top"  noWrap><FONT color="#000000" size="2"><NOBR>Phone:</NOBR></FONT></TD><TD align="left" valign="top" bgcolor="#ffffff" colspan=3><FONT color="#000000" size="2">+41227673305&nbsp;</FONT></TD></TR>
+<TR><TD align="left" valign="top"  noWrap><FONT color="#000000" size="2"><NOBR>Country/Region:</NOBR></FONT></TD><TD align="left" valign="top" bgcolor="#ffffff" colspan=3><FONT color="#000000" size="2">&nbsp;</FONT></TD><TD align="left" valign="top"  noWrap><FONT color="#000000" size="2"><NOBR>Mobile Phone:</NOBR></FONT></TD><TD align="left" valign="top" bgcolor="#ffffff" colspan=3><FONT color="#000000" size="2">&nbsp;</FONT></TD></TR>
+</TABLE>
+<INPUT type="hidden" name="DisplayName" value="James Michael Keaveney">
+<INPUT type="hidden" name="EmailAddressDisplay" value=""><INPUT type="hidden" name="EmailAddress" value="james.keaveney@ucdconnect.ie">
+
+<BR>
+<TABLE border=0 cellpadding=0 cellspacing=3 width=645 cols=1 rows=1><TR><TD align=center valign=middle noWrap><INPUT type=button value="Close" width=85 style='width:85;' onclick="OnCmd_Click(1)"></TD></TR><TR><TD colspan=2 noWrap><HR width=645></TD></TR></TABLE>
+<INPUT type="hidden" name="Cmd" value="contents" >
+<INPUT type="hidden" name="CmdReferring" value="editrecipient" >
+<INPUT type="hidden" name="MsgID" value="/Sent%20Items/RE:%20Chamonix:%20The%20Final%20Chalet!!!-10.EML" >
+<INPUT type="hidden" name="Embedded" value="0" >
+<INPUT type="hidden" name="ReadForm" value="1" >
+<INPUT type="hidden" name="MsgClass" value="IPM.Note" >
+<INPUT type="hidden" name="Type" value="instance" >
+<INPUT type="hidden" name="Index" value="7" >
+<INPUT type="hidden" name="Action" value="Cancel" >
+</FORM>
+<FORM name="AnrFormData">
+<TABLE border=0 cellpadding=0 cellspacing=0 width=645><TR><TD colspan=4><INPUT type="hidden" name="DefaultType" value=1></TD></TR></TABLE>
+</FORM>
+<FORM name="OrigRecipForm">
+<INPUT type="hidden" name="DisplayName" value="James Michael Keaveney" >
+</FORM>
+</BODY>
+</HTML>

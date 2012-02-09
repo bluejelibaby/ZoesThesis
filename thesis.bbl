@@ -151,31 +151,6 @@ Sergio Cittolin, Attila R‡cz, and Paris Sphicas.
   Report}.
 \newblock Technical Design Report CMS. CERN, Geneva, 2002.
 
-\bibitem{PRL1fb}
-S.~{Chatrchyan}, V.~{Khachatryan}, A.~M. {Sirunyan}, A.~{Tumasyan}, W.~{Adam},
-  T.~{Bergauer}, M.~{Dragicevic}, J.~{Er{\"o}}, C.~{Fabjan}, M.~{Friedl}, and
-  et~al.
-\newblock {Search for Supersymmetry at the LHC in Events with Jets and Missing
-  Transverse Energy}.
-\newblock {\em Physical Review Letters}, 107(22):221804, November 2011,
-  1109.2352.
-
-\bibitem{DawsonSearch}
-Sally Dawson, E.~Eichten, and C.~Quigg.
-\newblock Search for supersymmetric particles in hadron-hadron collisions.
-\newblock {\em Phys. Rev. D}, 31:1581--1637, Apr 1985.
-
-\bibitem{1fbnote}
-R~Bainbridge, B~Betchart, O~Buchmueller, D~Burton, H~Flaecher, Z~Hatherell,
-  E~Laird, B~Mathias, P~Sphicas, and M~Stoye.
-\newblock Search for supersymmetry with the $\alpha_{T}$ variable.
-\newblock CMS AN-2011/244, 2011.
-
-\bibitem{aTHTdepstuart}
-Paul Geffert and David Stuart.
-\newblock {$\alpha_{T}$ and its $H_{T}$ Dependence in 7 TeV Data}.
-\newblock {\em CMS}, 2010.
-
 \bibitem{Randall}
 Lisa Randall and David Tucker-Smith.
 \newblock {Dijet Searches for Supersymmetry at the LHC}.
@@ -189,7 +164,7 @@ The~CMS Collaboration.
 \bibitem{ANaT}
 Henning Flaecher, John Jones, Tanja Rommerskirchen, Benjamin Sinclair, and
   Markus Stoye.
-\newblock Susy searches with diet events.
+\newblock Susy searches with dijet events.
 \newblock CMS AN-2008/071, 2008.
 
 \bibitem{ANnaT}
@@ -198,5 +173,18 @@ T~Whyntie, O~Buchm¬uller, O~Fl¬acher, J~Jones, T~Rommerskirchen, M~Stoye, and
 \newblock Extending the early susy search with all-hadronic dijet events to
   n-jet topologies.
 \newblock CMS AN-2008/114, 2008.
+
+\bibitem{an2009_56}
+H~Fl¬acher, M~Stoye, T~Rommerskirchen, R~Bainbridge, J~Marrouche, T~Whyntie,
+  and T~Yetkin.
+\newblock Search for susy with exclusive n-jet events.
+\newblock CMS AN-2009/056, 2009.
+
+\bibitem{an2010_119}
+R~Bainbridge, B~Betchart, H~Fl¬acher, E~Laird, B~Mathias, T~Rommerskirchen, and
+  M~Stoye.
+\newblock Performance of variables used in jets + missing energy searches in 7
+  tev data.
+\newblock CMS AN-2009/056, 2009.
 
 \end{thebibliography}

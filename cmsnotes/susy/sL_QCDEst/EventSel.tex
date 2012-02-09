@@ -1,0 +1,66 @@
+\section{Event selection}
+\label{sec:evtsel}
+
+\subsection{Pre-selection for single electron analysis}
+%A single-electron event for searches with $\alpha_{T}$ is defined through a series of requirements on basic physics objects. 
+The current analysis follows a series of requirements on the basic physics objects to define events with 1-electron in the final state. The baseline selection is:
+\begin{itemize}
+\item The High Level Trigger (HLT) requirement is HLT\_Jet15U, which is currently the lowest threshold unprescaled trigger. %HLT\_Ele15\_SW\_L1R.
+\item Exactly one electron of the following definition:
+\begin{itemize}
+\item Reconstructed with the PixelMatchGsfElectron algorithm.
+\item $p_{T} >$ 10 GeV, 20 GeV\footnote{The Analysis is targeting to commission the background estimation methods for electron $P_{T}$ threshold at 10 GeV; however, a 20 GeV threshold is always checked to allow synchronization with the Egamma POG recommendations and EWK PAG analyses of CMS.  }
+\item $|\eta| <2.4$
+\item Passes the Cut Based ID formed by simple, yet robust, variables (these are the $H/E$, the super-cluster (SC) - track matching variables $\Delta \phi$,$\Delta \eta$, and shower shape variable $\sigma_{i\eta i\eta}$ and the combined relative Isolation\footnote{The cut based ID selection cuts are chosen to correspond to an 80\% efficiency in the $W\rightarrow e\nu$ analysis.}). 
+\end{itemize}
+\item The event is vetoed if there are any muons of the following definition:
+\begin{itemize}
+\item $p_{T} >$ 15 GeV
+\item $|\eta| <2.1$
+\item Passes ID requirement: GlobalMuon
+\end{itemize}
+\item Jets are reconstructed with ak5jet algorithm run on standard Calorimeter Jets.  The jet selection is as follows:
+\begin{itemize}
+\item $p_{T} >$ 20 GeV (corrected energy)
+\item $|\eta| <5$
+\item EMF $<$0.9 (in the MC only); a jet can be further rejected if it is found close to a tight and isolated electron within $\Delta R$=0.3 and the ratio of electron to jet energy is $p_{T}(e)/p_{T}(jet) > 0.7$. 
+\item in real data, in order to reject noise from the calorimeters, jets are furthermore required to pass \textit{loose jet ID} (identification) criteria which are summarised as:
+\begin{itemize}
+\item  $|\eta| > 2.6$ or EMF $>0.01$
+\item  fHPD (fraction of energy contributed by the highest hybrid photo-diode readout in the HCAL) $< 0.98$
+\item  n90Hits (number of RecHits contributing 90\% of the jet energy) $> 1$
+ \end{itemize}
+\end{itemize}
+
+\end{itemize}
+
+According to the standard recommendations for a global \textit{event cleaning} when running on the Data, the following requirements have been imposed as well: 
+\begin{itemize}
+\item L1 technical trigger bit 0 is active: to ensure consistent timing with LHC bunch crossing.
+\item HLT PhysicsDeclared bit is ON; which indicates that all CMS systems were operational with stable beams in the accelerator.
+\item At least one good vertex (excluding fake) with number of degrees of freedom, $N_{\text{dof}}>=5$, and vertex position along the beam direction of $|z_{\text{vtx}}| < 15$~cm. 
+\item Remove events with many fake tracks (also known as monster events) by requiring the ratio of HighPurity tracks over the total number of tracks to be greater than 25\% in events that have 10 or more tracks.
+\end{itemize}
+
+\subsection{Simple Cut-Based Electron Selection}
+\label{sec:EID}
+Efficient electron selection is important in physics analyses with electron final states to enhance the selection of signal. This is especially crucial when the $E_{T}$ threshold is low, as is characteristic of many SUSY searches, as the background and fake rate increase. In the era of LHC start-up, it is essential to use simple and robust variables.
+
+The electron selection used in this study follows the recommendations of the e-gamma group\cite{elsel}. Simple cuts are made on a small number of robust variables suitable for early data taking at the LHC. Different cuts are applied to electrons in the ECAL barrel to those in the ECAL endcap. Aside from this no categorisation is applied. 
+
+The Electron Selection  variables can be described in three groups: 
+\begin{itemize}
+\item Typical electron ID variables ( $\sigma_{i\eta i\eta}$, $\Delta \phi$, $\Delta \eta$ and H/E).
+\begin{itemize}
+\item $\sigma_{i\eta, i\eta}$ measures the RMS shower width in the eta direction.
+\item $\Delta \phi_{\textrm{in}}$ and $\Delta \eta_{\textrm{in}}$ give the geometric match, in $\phi$ and $\eta$ respectively between the GSF track trajectory and the ECAL supercluster.
+\item Tracker, ECAL and HCAL isolation formed respectively from the sume of ECAL RecHits, HCAL RecHits and track $p_{\textrm{T}}$ in a cone of $\Delta R < 0.4$. The centre of the cone is taken to be the supercluster for the calorimeter isolations and the track direction at the vertex for the tracker.
+\item $H/E$ is the ratio of the energy deposited in the HCAL behind the electron seed to the energy of the supercluster.
+
+\end{itemize}
+\item Isolation variables (Tracker Isolation, HCAL Isolation and ECAL Isolation)
+\item Conversion Rejection Tools; photon conversions are rejected initially by requiring that the track associated to the electron has a hit in the first pixel layer pf tracker pixels. Additional rejection power against converted photons is achieved by using the variables described here~\cite{conv}.
+\end{itemize}
+
+We apply this electron selection with values at a working point corresponding to 80\% efficiency for the W$\rightarrow e$ analysis. One of the advantages of this new cut based selection is thiat it allows the inversion of one or more of the variables, a common tool in background-subtraction and signal extraction methods.
+
