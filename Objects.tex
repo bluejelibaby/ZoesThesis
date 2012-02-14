@@ -1,5 +1,24 @@
-\chapter{Reconstruction and Selection of Physics Objects}
+\chapter{Event Reconstruction}
 
+The data stored directly from the CMS detector readout contains only the most basic level of information of a collision. As the particles created in the event pass through the detector they create signals at each point they interact, and these signals are locally reconstructed a s a series of ``hits". This raw data is stored in CMS as the data format RAW. In order to undertake physics analyses the information is needed in terms of the four-vectors of particles. In order to interpret the raw data in terms of these physics objects a computational process known as object reconstruction is applied to the data. Using knowledge of the behaviour of each type of object and understanding of the detector, the objects are built from the hits, in such a way that optimises the efficiency for each type of object. Varying sets of requirements called ``identification" or ID can then be applied to these objects at the analyses level to achieve the level of purity required. 
+
+The reconstruction of physics objects happens both within a sub-detector, and also by combining information from two or more sub detectors. The reconstruction is performed under the CMS Software framework (CMSSW) and the reconstructed data is stored in RECO format for use by individual analyses. The analysis in this thesis requires the use of jets, \met, muons,  and photons, with electrons required for a veto.  
+
+\section{Tracks}
+
+Whilst not a physics object in its own right, one of the most important elements of object reconstructions involves the identification of tracks left by charged particles in the inner tracker. There can then be used along with other sub detectors when reconstructing charged physics objects. In addition these tracks allow a precision identification of the vertex of interaction. In CMS an algorithm called the Combinatoral Track Finder (CTF) is used to construct tracks from their representative hits. 
+
+The reconstruction of a track starts with the construction of a ``seed", an initial candidate track. It contains only a small subset of the available information from the tracker, but must be made up of at least 3 hits, or two hits and an additional beam constraint. The seed represents the initial estimate of the track's trajectory, from which to collect its additional hits. In order to achieve the best possible estimate, the seed is built from hits in the innermost area of the tracker, for three important reasons. Although in general the average occupancy decreases with r, the high-density nature of the pixel detector ensures the inner layer of pixel detectors has an occupancy lower than that of the outermost strip detectors. In addition, the pixel detectors give a better estimate of the trajectory due to their truly 2D measurements, and constructing them in the innermost layer minimises the material budget encountered, as not all particles will reach the outer layers. 
+
+The next element of CTF is a patter recognition module based on a Kalman Filter, that proceeds from the seed outwards and includes any additional hits associated with the basic estimated trajectory. As each new measurement is incorporated to the track the trajectory becomes more accurate. This proceeds for each track candidate in parallel, and where several hits are compatible several new candidates are created. In order to safeguard against reconstructing one particle as more than one track, an ambiguity resolution mechanism is needed Given any pair of track-candidates, the fraction of shared hits in the candidate with the fewest hits is examined, and if found to be greater than 50$\%$ this track is removed. If the number of hits is identical then that of the lower $\chi^{2}$ remains while the other is removed. 
+
+
+Once all compatible hits have been incorporated the tack parameters can be extracted using 
+
+
+
+
+\section{Vertex}
 \section{Electrons}
 
 \section{Muon}

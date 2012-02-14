@@ -19,36 +19,37 @@ Warning--empty journal in ANaT
 Warning--empty journal in ANnaT
 Warning--empty journal in an2009_56
 Warning--empty journal in an2010_119
-You've used 33 entries,
+Warning--empty journal in an2009_188
+You've used 34 entries,
             1829 wiz_defined-function locations,
-            662 strings with 7996 characters,
-and the built_in function-call counts, 6258 in all, are:
-= -- 508
-> -- 288
+            666 strings with 8203 characters,
+and the built_in function-call counts, 6466 in all, are:
+= -- 520
+> -- 308
 < -- 1
-+ -- 113
-- -- 80
-* -- 350
-:= -- 1053
-add.period$ -- 104
-call.type$ -- 33
-change.case$ -- 24
++ -- 120
+- -- 86
+* -- 365
+:= -- 1092
+add.period$ -- 107
+call.type$ -- 34
+change.case$ -- 25
 chr.to.int$ -- 0
-cite$ -- 43
-duplicate$ -- 325
-empty$ -- 666
-format.name$ -- 80
-if$ -- 1392
+cite$ -- 45
+duplicate$ -- 334
+empty$ -- 682
+format.name$ -- 86
+if$ -- 1434
 int.to.chr$ -- 0
-int.to.str$ -- 33
-missing$ -- 41
-newline$ -- 170
-num.names$ -- 33
-pop$ -- 130
+int.to.str$ -- 34
+missing$ -- 42
+newline$ -- 175
+num.names$ -- 34
+pop$ -- 134
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 98
+skip$ -- 102
 stack$ -- 0
 substring$ -- 215
 swap$ -- 23
@@ -56,8 +57,8 @@ text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 10
-while$ -- 46
-width$ -- 35
-write$ -- 362
-(There were 10 warnings)
+warning$ -- 11
+while$ -- 47
+width$ -- 36
+write$ -- 372
+(There were 11 warnings)
