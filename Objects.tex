@@ -4,7 +4,7 @@ The data stored directly from the CMS detector readout contains only the most ba
 
 The reconstruction of physics objects happens both within a sub-detector, and also by combining information from two or more sub detectors. The reconstruction is performed under the CMS Software framework (CMSSW) and the reconstructed data is stored in RECO format for use by individual analyses. The main focus of the analysis in this thesis requires well constructed jets and \met, while electron, muon and photon objects are also required for vetoes and control samples. 
 
-\secton{Beamspot}
+\section{Beamspot}
 
 The beamspot represents the locus of the region of beam collision in the detector, where the two bunches of protons meet. It is not an event-by-event measurement, but rather a property of a given physics run, measured over time. It is an important component of reconstruction, as it is used an estimate of the primary vertex, which is the position a given pair of  protons interact to produce an event.
 
@@ -25,9 +25,7 @@ In order to safeguard against reconstructing one particle as more than one track
 
 Once all compatible hits have been incorporated the most accurate value of the track parameters can be extracted using a final fit. At this point any hits assigned to the track but otherwise not compatible with the track, based on the $\chi^{2}$ of the expected residual, are deemed outliers and discarded before refitting. From the tracks selected, many will be fakes, known as ``ghost" tracks, removed through a set of criteria based upon quality of fit ($\chi^{2}$), the transverse and longitudinal impact parameters $d_{0}$ and $d_{z}$ and the compatibility of the track with what is identified as the interaction vertex. 
 
-The fully CTF algorithm is used iteratively, starting with a pool of all hits identified in that event. After one iteration those hits that have been assigned to a track are removed from the pool, successful tracks are stored, and the process continues with the remaining hits. This process has 6 iterations, decided by the type of seed built. The first two are three-pixel seed and two-pixel seeds respectively, and pick up the high p_{T} tracks of an event. The second and third are also three and two pixel seeds, but with quality criterial loosened as most of the hits have been taken previously. The fifth and sixth iterations allow a seed to be built from strip detectors to include treks which are not covered by the pixel volume.
-
-
+The fully CTF algorithm is used iteratively, starting with a pool of all hits identified in that event. After one iteration those hits that have been assigned to a track are removed from the pool, successful tracks are stored, and the process continues with the remaining hits. This process has 6 iterations, decided by the type of seed built. The first two are three-pixel seed and two-pixel seeds respectively, and pick up the high $p_{T}$ tracks of an event. The second and third are also three and two pixel seeds, but with quality criterial loosened as most of the hits have been taken previously. The fifth and sixth iterations allow a seed to be built from strip detectors to include treks which are not covered by the pixel volume.
 
 \section{Vertex}
 
@@ -39,31 +37,49 @@ The exact location of the initial p-p collision of a given event is not necessar
  
  At a hadron collider such as the LHC hadronic processes are abundant, and thus the method of defining and reconstructing these jets is crucial to and physics analyses. In CMS there are types of reconstructed jets available, based on the sub-detectors used: Calomieter Jets (CaloJets) use only the ECAL and HCAL, Jet Plus Tracks (JPT) Jets include also information from the tracker, and Particle Flow (PF) Jets use information from the whole detector whilst reconstructing all particles in parallel. The analysis in this thesis uses CaloJets, the reconstruction of which is discussed in more detail below. 
  
- The purpose of jet reconstruction is to group a set of boosted particles together, achieved by an algorithm that "clusters" the information from the calorimeters. The energy deposited in ECAL and HCAL cells are first combined into what are known as ``calorimeter towers", consisting of one or more HCAL cells combined with the ECAL cells which geographically align to the HCAL cell. These towers form the input to the clustering algorithm, which for CMS is the anti-k$_{T}$
+ The purpose of jet reconstruction is to group a set of boosted particles together, achieved by an algorithm that "clusters" the information from the calorimeters. The energy deposited in ECAL and HCAL cells are first combined into what are known as ``calorimeter towers", consisting of one or more HCAL cells combined with the ECAL cells which geographically align to the HCAL cell. The tower energy is defined by the sum of cell energies passing an energy threshold to protect against electronic noise. Towers that fulfil the requirement of $E_{T} > 0.3 GeV$ then form the input to the clustering algorithm used by CMS, anti-k$_{T}$~\cite{jetroundup}.
 
 \subsection{The anti-k$_{T}$ jet clustering method}
 
 Due to the expected levels of hadronic activity at the LHC, the jet clustering algorithm must be fast. In addition, it must be stable against the addition of soft particles, called ``infra-red safe", as partons may emit soft gluons. It must also be ``collinear safe", meaning it yields the same jets if a parton were to split into two collinear partons, so that they would both end up in the same jet. These two conditions are essential so that the experimental data may be compared to theoretical calculations regardless of the order they are performed at. 
 
-The anti-k$_{T}$ clustering method is a sequential recombination algorithm that fulfils these criteria, working pair-wise to combine nearby towers starting with those highest in $p_{T}$  first. The decision of which order to combine pairs in is achieved with the use of two distance metrics, the distance $d_{ij}$ between two towers $i$ and $j$, and the distance $d_{iB}$ between the $i$th tower and the beam. Considering all possible combinations of both metrics, the smallest is identified. 
+The anti-k$_{T}$ clustering method \cite{akt} is a sequential recombination algorithm that fulfils these criteria \cite{aktrecom}, working pair-wise to combine nearby towers starting with those highest in $p_{T}$  first. The decision of which order to combine pairs in is achieved with the use of two distance metrics, the distance $d_{ij}$ between two towers $i$ and $j$, and the distance $d_{iB}$ between the $i$th tower and the beam. Considering all possible combinations of both metrics, the smallest is identified. 
 
-If this smallest value is the first case, the two towers i and j are combined into one prototype jet, whose position is weighted by the momenta of its parts. If it is the second case, the tower i is identified as a jet and removed from the list. This process is continued with the updated towers and prototype jets, until all towers have been combined. The definition of the metrics are seen in Equations \ref{eqn:dm1) and \ref{eqn:dm2} where $\Delta_{ij}^{2} = (y_{i}-y_{j})^{2} + (\phi_{i}-\phi_{j})^{2}$. 
+If this smallest value is the first case, the two towers i and j are combined into one prototype jet, whose position is weighted by the momenta of its parts. If it is the second case, the tower i is identified as a jet and removed from the list. This process is continued with the updated towers and prototype jets, until all towers have been combined. The definition of the metrics are seen in Equations \ref{eqn:dm1} and \ref{eqn:dm2} where $\Delta_{ij}^{2} = (y_{i}-y_{j})^{2} + (\phi_{i}-\phi_{j})^{2}$. 
 
  \begin{equation}
 d_{ij} = min(k_{ti}^{2p},k_{tj}^{2p})\frac{\Delta_{ij}^{2}}{R^{2}}
-\label{dm1}
+\label{eqn:dm1}
 \end{equation}
 \begin{equation}
 d_{iB} = k_{ti}^{2p}
-\label{dm2}
+\label{eqn:dm2}
 \end{equation}
 
-Tower $i$ has transverse momentum $k_{ti}$, rapidity $y_{i}$ and azimuth $\phi_{i}$. The variable R is analogous to the cone radius definition described above, and for this analysis R = 0.5. This general form of the metrics governs several types of jet algorithm of this family, differing in the value of power $p$. This is the parameter responsible for the relative importance of momenta and distance, and for anti-k$_{T}$ p = -1 placing the importance on the momenta, and giving the ``anti" in its name (after another variant, the k$_{T}$ algorithm for which p = +1).
+Tower $i$ has transverse momentum $k_{ti}$, rapidity $y_{i}$ and azimuth $\phi_{i}$. The variable R is analogous to the cone radius definition described above, and for this analysis R = 0.5. This general form of the metrics governs several types of jet algorithm of this family, differing in the value of power $p$. This is the parameter responsible for the relative importance of momenta and distance, and for anti-k$_{T}$ p = -1 placing the importance on the momenta, and giving the ``anti" in its name (after another variant, the k$_{T}$ algorithm for which p = +1~\cite{kt}).
 
 In this algorithm a hard particle creating a large energy deposit with no other hard deposits surrounding it will gather in the soft particle deposits. If another hard particle is found within 2R then the soft deposits are shared between them with weights relative to the hard particle momenta, unless they are within R of one another in which case they are identified as one jet. 
 
-The shape of the jet is defined alone by the cone about the hard particle, resulting in a perfectly conical jet except in the case where more than one hard particle exists within 2R. If the two hard jets are within R or one another, the shape is either dominated by the hardest if there is a significant difference in the momenta, or if they are similar, defined by the total area covered by both cones. If the jets are not within R but within 2R, there is not space for each jet to be conical, so either the hardest jet is conical and the softer is missing a piece, or if they have similar momenta each has a chunk missing with a boundary line down the middle of the shared area. 
+The shape of the jet is defined alone by the cone about the hard particle, resulting in a perfectly conical jet except in the case where more than one hard particle exists within 2R. If the two hard jets are within R or one another, the shape is either dominated by the hardest if there is a significant difference in the momenta, or if they are similar, defined by the total area covered by both cones. If the jets are not within R but within 2R, there is not space for each jet to be conical, so either the hardest jet is conical and the softer is missing a piece, or if they have similar momenta each has a chunk missing with a boundary line down the middle of the shared area. Figure \ref{fig:akt} shows in the y-$\phi$ plane jets reconstructed by anti-k$_{T}$ for a sample event (generated by Herwig) in which many soft deposits exist. Many coloured circular jet patterns are seen, representing conical jets, as well as the cases with close hard deposits demonstrating the shared and clipped jet area shapes. 
 
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{Figures/Objects/akt}
+\caption{\label{fig:act}Illustration of the reconstructed jets for a sample Herwig generated event, with many soft deposits. Each coloured area represents the shape of the jet reconstructed, illustrating the trend to a conical nature of anti-k$_{T}$, and the behaviour of the algorithm where two hard deposits are close. Taken from \cite{akt}.}
+\end{figure}
+
+Contamination from both pileup and underlying events can contribute soft energy deposits which may affect the momenta of jets reconstructed, the effect of which is known as the ``back reaction". One of the major advantages of the anti-k$_{T}$ algorithm is that due to the relative importance of hard deposits over softer deposits this effect is suppressed, allowing more accurate measurement of jet momenta than other comparable models, leading to its selection by CMS.
+\subsection{Jet Energy Scale Corrections}
+
+The jets reconstructed in the detector using the method above typically have an energy that is different to that we would measure in a perfect situation. This is due to the nature of the reponse of the calorimeters, which is non-linear and non-uniform, as well as any residual effect contributed from pileup and underlying events (although this is small as mentioned above). For this reason, reconstructed jets must undergo energy corrections before they can be used in physics analyses. 
+
+The aim of these Jet Energy Scale (JES) corrections is to relate the energy measured in the detector to the energy of the underlying jet particles through knowledge of the detector response. This is achivied in CMS by the following three levels of correction.
+
+\begin{description}
+\item[L1 - Offset]{}
+\item[Relative]{}
+item [Absolute]{}
+\end{description}
 \section{Missing Energy}
 
 \section{Electrons}

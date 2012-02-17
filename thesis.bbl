@@ -1,196 +1,24 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 
-\bibitem{Rolnick}
-William~B Rolnick.
-\newblock {\em {The Fundamnetal Particles and Their Interactions}}.
-\newblock Addison-Wesley, 1994.
+\bibitem{jetroundup}
+{Xavier Janssen for the CMS Collaboration}.
+\newblock {Underlying event and jet reconstruction in CMS}.
+\newblock CMS CR-2011/012, 2011.
 
-\bibitem{qedalpha}
-R.~{Bouchendira}, P.~{Clad{\'e}}, S.~{Guellati-Kh{\'e}lifa}, F.~{Nez}, and
-  F.~{Biraben}.
-\newblock {New Determination of the Fine Structure Constant and Test of the
-  Quantum Electrodynamics}.
-\newblock {\em Physical Review Letters}, 106(8):080801, February 2011,
-  1012.3627.
+\bibitem{akt}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock The anti-k\_t jet clustering algorithm.
+\newblock {\em JHEP}, 0804:063, 2008.
 
-\bibitem{PichSM}
-Antonio Pich.
-\newblock {The Standard model of electroweak interactions}.
-\newblock 2007, 0705.4264.
+\bibitem{aktrecom}
+V~Chetluru, F~Pandolfi, P~Schieferdecker, and M~Zelinski.
+\newblock {Jet Reconstruction Performance at CMS}.
+\newblock CMS AN-2009/067, 2009.
 
-\bibitem{HerreroSM}
-M.~Herrero.
-\newblock {The Standard model}.
-\newblock 1998, hep-ph/9812242.
-
-\bibitem{Glashow}
-S.~L. Glashow.
-\newblock {Partial Symmetries of Weak Interactions}.
-\newblock {\em Nucl. Phys.}, 22:579--588, 1961.
-
-\bibitem{Breaking}
-Jeffrey Goldstone, Abdus Salam, and Steven Weinberg.
-\newblock Broken symmetries.
-\newblock {\em Phys. Rev.}, 127:965--970, Aug 1962.
-
-\bibitem{MexHat}
-Luis Alvarez-Gaume and John Ellis.
-\newblock {Eyes on a prize particle}.
-\newblock {\em Nat Phys}, 7(1):2--3, 2011.
-
-\bibitem{PeskinSch}
-Michael Peskin and Daniel Schroeder.
-\newblock {\em {An Introduction to Quantum Field Theory}}.
-\newblock Westview Press, 1995.
-
-\bibitem{WWHMass}
-Benjamin~W. Lee, C.~Quigg, and H.~B. Thacker.
-\newblock Weak interactions at very high energies: The role of the higgs-boson
-  mass.
-\newblock {\em Phys. Rev. D}, 16:1519--1531, Sep 1977.
-
-\bibitem{Drees}
-Manuel Drees.
-\newblock {An Introduction to supersymmetry}.
-\newblock 1996, hep-ph/9611409.
-
-\bibitem{zwicky}
-F.~{Zwicky}.
-\newblock {Die Rotverschiebung von extragalaktischen Nebeln}.
-\newblock {\em Helvetica Physica Acta}, 6:110--127, 1933.
-
-\bibitem{WMAP5}
-E.~Komatsu et~al.
-\newblock {Five-Year Wilkinson Microwave Anisotropy Probe (WMAP)
-  Observations:Cosmological Interpretation}.
-\newblock {\em Astrophys. J. Suppl.}, 180:330--376, 2009, 0803.0547.
-
-\bibitem{Dine}
-Michael Dine.
-\newblock {\em {Supersymmetry and String Theory}}.
-\newblock Cambridge University Press, 2007.
-
-\bibitem{PeskinBSM}
-Michael~E. Peskin.
-\newblock {Beyond the standard model}.
-\newblock 1997, hep-ph/9705479.
-
-\bibitem{terning}
-John Terning.
-\newblock {\em Modern Supersymmetry}.
-\newblock Clarendon Press, 2006.
-
-\bibitem{SUSYPrime}
-Stephen~P. Martin.
-\newblock {A Supersymmetry primer}.
-\newblock 1997, hep-ph/9709356.
-
-\bibitem{SUSYsuch}
-S.~Dawson.
-\newblock {SUSY and such}.
-\newblock {\em NATO Adv.Study Inst.Ser.B Phys.}, 365:33--80, 1997,
-  hep-ph/9612229.
-
-\bibitem{early}
-Albert de~Roeck.
-\newblock Early physics with atlas and cms.
-\newblock {\em Pramana Journal of Physics}, 2007.
-
-\bibitem{CMSTDRII}
-A~de~Roeck, A~Ball, M~Della~Negra, L~Foa, and A~Petrilli.
-\newblock {\em {CMS} {P}hysics: {T}echnical {D}esign {R}eport {V}olume {II},
-  {P}hysics {P}erformance}.
-\newblock CERN, Geneva, 2006.
-\newblock revised version submitted on 2006-09-22 17:44:47.
-
-\bibitem{LHCDesign}
-Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
-  Poole, and Paul Proudlock.
-\newblock {\em LHC Design Report}.
-\newblock CERN, Geneva, 2004.
-
-\bibitem{LHCConcept}
-Thomas~Sven Pettersson and P~Lefèvre.
-\newblock {T}he {L}arge {H}adron {C}ollider: {C}onceptual {D}esign.
-\newblock Technical Report CERN-AC-95-05 LHC, CERN, Geneva, Oct 1995.
-
-\bibitem{CMSTDP}
-{The {CMS} Collaboration}.
-\newblock {T}he {C}ompact {M}uon {S}olenoid {T}echnical {P}roposal.
-\newblock {\em CERN/LHCC}, 94-38, 1994.
-
-\bibitem{PDG}
-K~et~al. Nakamura.
-\newblock Review of particle physics, 2010-2011. review of particle properties.
-\newblock {\em J. Phys. G}, 37(7A):075021, 2010.
-\newblock The 2010 edition of Review of Particle Physics is published for the
-  Particle Data Group by IOP Publishing as article number 075021 in volume 37
-  of Journal of Physics G: Nuclear and Particle Physics. This edition should be
-  cited as: K Nakamura et al (Particle Data Group) 2010 J. Phys. G: Nucl. Part.
-  Phys. 37 075021.
-
-\bibitem{HCALTDR}
-The~CMS Collaboration.
-\newblock {\em The CMS hadron calorimeter project: Technical Design Report}.
-\newblock Technical Design Report CMS. CERN, Geneva, 1997.
-
-\bibitem{HCALTestBeam}
-Efe Yazgan.
-\newblock {The CMS barrel calorimeter response to particle beams from 2-GeV/c
-  to 350-GeV/c}.
-\newblock {\em J. Phys. Conf. Ser.}, 160:012056, 2009.
-
-\bibitem{MuonTDR}
-The~CMS Collaboration.
-\newblock {\em The CMS muon project: Technical Design Report}.
-\newblock Technical Design Report CMS. CERN, Geneva, 1997.
-
-\bibitem{TRIGTDR}
-Sergio Cittolin, Attila Rácz, and Paris Sphicas.
-\newblock {\em CMS trigger and data-acquisition project: Technical Design
-  Report}.
-\newblock Technical Design Report CMS. CERN, Geneva, 2002.
-
-\bibitem{Randall}
-Lisa Randall and David Tucker-Smith.
-\newblock {Dijet Searches for Supersymmetry at the LHC}.
-\newblock {\em Phys. Rev. Lett.}, 101:221803, 2008, 0806.1049.
-
-\bibitem{PASaT}
-The~CMS Collaboration.
-\newblock Susy searches with diet events.
-\newblock CMS PAS SUS-08-005, 2008.
-
-\bibitem{ANaT}
-Henning Flaecher, John Jones, Tanja Rommerskirchen, Benjamin Sinclair, and
-  Markus Stoye.
-\newblock Susy searches with dijet events.
-\newblock CMS AN-2008/071, 2008.
-
-\bibitem{ANnaT}
-T~Whyntie, O~Buchm¨uller, O~Fl¨acher, J~Jones, T~Rommerskirchen, M~Stoye, and
-  A~Tapper.
-\newblock Extending the early susy search with all-hadronic dijet events to
-  n-jet topologies.
-\newblock CMS AN-2008/114, 2008.
-
-\bibitem{an2009_56}
-H~Fl¨acher, M~Stoye, T~Rommerskirchen, R~Bainbridge, J~Marrouche, T~Whyntie,
-  and T~Yetkin.
-\newblock Search for susy with exclusive n-jet events.
-\newblock CMS AN-2009/056, 2009.
-
-\bibitem{an2010_119}
-R~Bainbridge, B~Betchart, H~Fl¨acher, E~Laird, B~Mathias, T~Rommerskirchen, and
-  M~Stoye.
-\newblock Performance of variables used in jets + missing energy searches in 7
-  tev data.
-\newblock CMS AN-2009/056, 2009.
-
-\bibitem{an2009_188}
-O~Buchm¨uller, L~Gouskos, Z~Hatherell, G~Karapostoli, A~Sparrow, and P~Sphicas.
-\newblock An application of the \alt jet-balancing method to the single-lepton
-  mode susy searches.
-\newblock CMS AN-2009/188, 2009.
+\bibitem{kt}
+S.~Catani, Yuri~L. Dokshitzer, M.~H. Seymour, and B.~R. Webber.
+\newblock {Longitudinally invariant K(t) clustering algorithms for hadron
+  hadron collisions}.
+\newblock {\em Nucl. Phys.}, B406:187--224, 1993.
 
 \end{thebibliography}
