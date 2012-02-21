@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  17 FEB 2012 16:33
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  21 FEB 2012 16:40
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -569,27 +569,20 @@ Chapter 1.
 
 
 
-] [2] [3]
-
-LaTeX Warning: Citation `jetroundup' on page 4 undefined on input line 40.
-
-[4] [5]
+] [2] [3] [4] [5]
 
 LaTeX Warning: Reference `fig:akt' on page 6 undefined on input line 63.
 
 <Figures/Objects/akt.pdf, id=31, 796.9775pt x 574.145pt>
 File: Figures/Objects/akt.pdf Graphic file (type pdf)
 
-<use Figures/Objects/akt.pdf> [6]) [7 <./Figures/Objects/akt.pdf>]
-(./thesis.bbl) [8
+<use Figures/Objects/akt.pdf> [6] [7 <./Figures/Objects/akt.pdf>]) [8]
+(./thesis.bbl) [9
 
 
 ] (./thesis.aux (./title.aux) (./symbols.aux) (./Objects.aux))
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  )
 (\end occurred inside a group at level 1)
@@ -599,11 +592,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Here is how much of TeX's memory you used:
  7181 strings out of 493747
  114387 string characters out of 3143546
- 152822 words of memory out of 3000000
+ 152825 words of memory out of 3000000
  10293 multiletter control sequences out of 15000+200000
  15909 words of font info for 60 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,11n,40p,1088b,274s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,11n,40p,1088b,307s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmmi10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/c
@@ -616,10 +609,10 @@ b></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb
 ></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><
 /usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (9 pages, 251389 bytes).
+Output written on thesis.pdf (10 pages, 253524 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -21,7 +21,7 @@ In order to achieve the best possible estimate, the seed is built from hits in t
 
 The next element of CTF is a patter recognition module based on a Kalman Filter, that proceeds from the seed outwards and includes any additional hits associated with the basic estimated trajectory. As each new measurement is incorporated to the track the trajectory becomes more accurate. This proceeds for each track candidate in parallel, and where several hits are compatible several new candidates are created. 
 
-In order to safeguard against reconstructing one particle as more than one track, an ambiguity resolution mechanism is needed Given any pair of track-candidates, the fraction of shared hits in the candidate with the fewest hits is examined, and if found to be greater than 50$\%$ this track is removed. If the number of hits is identical then that of the lower $\chi^{2}$ remains while the other is removed. 
+In order to safeguard against reconstructing one particle as more than one track, an ambiguity resolution mechanism is needed. Given any pair of track-candidates, the fraction of shared hits in the candidate with the fewest hits is examined, and if found to be greater than 50$\%$ this track is removed. If the number of hits is identical then that of the lower $\chi^{2}$ remains while the other is removed. 
 
 Once all compatible hits have been incorporated the most accurate value of the track parameters can be extracted using a final fit. At this point any hits assigned to the track but otherwise not compatible with the track, based on the $\chi^{2}$ of the expected residual, are deemed outliers and discarded before refitting. From the tracks selected, many will be fakes, known as ``ghost" tracks, removed through a set of criteria based upon quality of fit ($\chi^{2}$), the transverse and longitudinal impact parameters $d_{0}$ and $d_{z}$ and the compatibility of the track with what is identified as the interaction vertex. 
 
@@ -71,16 +71,28 @@ The shape of the jet is defined alone by the cone about the hard particle, resul
 Contamination from both pileup and underlying events can contribute soft energy deposits which may affect the momenta of jets reconstructed, the effect of which is known as the ``back reaction". One of the major advantages of the anti-k$_{T}$ algorithm is that due to the relative importance of hard deposits over softer deposits this effect is suppressed, allowing more accurate measurement of jet momenta than other comparable models, leading to its selection by CMS.
 \subsection{Jet Energy Scale Corrections}
 
-The jets reconstructed in the detector using the method above typically have an energy that is different to that we would measure in a perfect situation. This is due to the nature of the reponse of the calorimeters, which is non-linear and non-uniform, as well as any residual effect contributed from pileup and underlying events (although this is small as mentioned above). For this reason, reconstructed jets must undergo energy corrections before they can be used in physics analyses. 
+The jets reconstructed in the detector using the method above typically have an energy that is different to that we would measure in a perfect situation. This is due to the nature of the response of the calorimeters, which is non-linear and non-uniform, as well as any residual effect contributed from pileup and underlying events (although this is small as mentioned above). For this reason, reconstructed jets must undergo energy corrections before they can be used in physics analyses. 
 
-The aim of these Jet Energy Scale (JES) corrections is to relate the energy measured in the detector to the energy of the underlying jet particles through knowledge of the detector response. This is achivied in CMS by the following three levels of correction.
+The aim of these Jet Energy Scale (JES) corrections is to relate the energy measured in the detector to the energy of the underlying jet particles through knowledge of the detector response. This is achievied by the following three levels of correction 
 
 \begin{description}
-\item[L1 - Offset]{}
-\item[Relative]{}
-item [Absolute]{}
+\item[L1 - Offset]{An offset is subtracted to remove the energy contributions that are not associated with the event but rather from electronic noise and pileup events.  }
+\item[L2 - Relative]{Next the value is multiplied by a factor which is a function of a given pseudorapidity $\eta$ to correct the relative differences in repines in different regions of the calorimeters.}
+\item [L3 - Absolute]{Finally the value is multiplied by a second factor, which corrects the variable response to different jet p$_{T}$. The response to a given particle never returns the entire proportion of energy, and the percentage returned depends heavily on the momenta of the particle.}
 \end{description}
+
+
+
+Initially an estimate of the correction is calculated with the help of Monte Carlo truth information, representing the major portion of the calibration. Here instead of separating the three levels, an all-together approach is used. Events generated by \textsc{PYTHIA} are passed through the full CMS detector simulation \textsc{GEANT 4}, in order to identify the reconstructed jets. In addition, full information for the real physical jets, \textit{generator} jets is retained. Each reconstructed jet is matched its own generator jet in the $\eta - \phi$ plane, making a requirement on the cone radius R < 0.25 to avoid mis-matching. A comparison of the momenta of the reconstructed jet and the generator jet allows a calibration factor to be extracted relative to the jet's $\eta$ and $\phi$. 
+
+Having calibrated the momenta using Monte-Carlo data-driven corrections of the relative and absolute calibrations are made. The relative correction is extracted using di-jet events balanced in $p_{T}$ where one is detected in the central region, and the other may have any $\eta$ value. The measurement of the second jet energy is compared to the well-defined measurement of the central region (chosen as the control region as it delivers the best performance for high p$_{T}$ jets) in order to return the correction factor dependant on $\eta$.  Having applied this correction, another is performed for the absolute using an events where a photon lies back to back with a jet. Comparing the momenta of the two gives an understanding of the distribution of the percentage of energy that has been included in a jet yielding the required factor.
+
+With the application of the three levels of correction, the total energy of the particles within the jet has been recovered to an acceptable level required by the physics analyses of CMS. The jet used in this analysis correspond to a calibration with precision corresponding to an $3 - 6 \%$ uncertainty of the jet energy scale (JES) for jet momenta ranging from 30 GeV up to 2TeV~\cite{JME_10_010}.
+
 \section{Missing Energy}
+
+As previously mentioned the LSP if it exists would not react, meaning its typical signature in a detector is that of energy gone undetected. This is observed as a momentum imbalance, or ``missing energy" of the observed particles, the transverse component of which is the preferred search variable, \met. 
+
 
 \section{Electrons}
 
