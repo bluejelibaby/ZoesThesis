@@ -12,6 +12,7 @@ The beamspot represents the locus of the region of beam collision in the detecto
  
  
 \section{Tracks}
+\label{sec:trk}
 
 Whilst not a physics object in its own right, one of the most important elements of object reconstructions involves the identification of tracks left by charged particles in the inner tracker. There can then be used along with other sub detectors when reconstructing charged physics objects. In addition these tracks allow a precision identification of the vertex of interaction. In CMS an algorithm called the Combinatorial Track Finder (CTF) is used to construct tracks from their representative hits. 
 
@@ -19,7 +20,7 @@ The reconstruction of a track starts with the construction of a ``seed", an init
 
 In order to achieve the best possible estimate, the seed is built from hits in the innermost area of the tracker, for three important reasons. Although in general the average occupancy decreases with r, the high-density nature of the pixel detector ensures the inner layer of pixel detectors has an occupancy lower than that of the outermost strip detectors. In addition, the pixel detectors give a better estimate of the trajectory due to their truly 2D measurements, and constructing them in the innermost layer minimises the material budget encountered, as not all particles will reach the outer layers. 
 
-The next element of CTF is a patter recognition module based on a Kalman Filter, that proceeds from the seed outwards and includes any additional hits associated with the basic estimated trajectory. As each new measurement is incorporated to the track the trajectory becomes more accurate. This proceeds for each track candidate in parallel, and where several hits are compatible several new candidates are created. 
+The next element of CTF is a patter recognition module based on a Kalman Filter~\cite{Kalman}, that proceeds from the seed outwards and includes any additional hits associated with the basic estimated trajectory. As each new measurement is incorporated to the track the trajectory becomes more accurate. This proceeds for each track candidate in parallel, and where several hits are compatible several new candidates are created. 
 
 In order to safeguard against reconstructing one particle as more than one track, an ambiguity resolution mechanism is needed. Given any pair of track-candidates, the fraction of shared hits in the candidate with the fewest hits is examined, and if found to be greater than 50$\%$ this track is removed. If the number of hits is identical then that of the lower $\chi^{2}$ remains while the other is removed. 
 
@@ -70,7 +71,7 @@ The shape of the jet is defined alone by the cone about the hard particle, resul
 
 Contamination from both pileup and underlying events can contribute soft energy deposits which may affect the momenta of jets reconstructed, the effect of which is known as the ``back reaction". One of the major advantages of the anti-k$_{T}$ algorithm is that due to the relative importance of hard deposits over softer deposits this effect is suppressed, allowing more accurate measurement of jet momenta than other comparable models, leading to its selection by CMS.
 \subsection{Jet Energy Scale Corrections}
-
+\label{sec:JES}
 The jets reconstructed in the detector using the method above typically have an energy that is different to that we would measure in a perfect situation. This is due to the nature of the response of the calorimeters, which is non-linear and non-uniform, as well as any residual effect contributed from pileup and underlying events (although this is small as mentioned above). For this reason, reconstructed jets must undergo energy corrections before they can be used in physics analyses. 
 
 The aim of these Jet Energy Scale (JES) corrections is to relate the energy measured in the detector to the energy of the underlying jet particles through knowledge of the detector response. This is achievied by the following three levels of correction 
@@ -87,13 +88,75 @@ Initially an estimate of the correction is calculated with the help of Monte Car
 
 Having calibrated the momenta using Monte-Carlo data-driven corrections of the relative and absolute calibrations are made. The relative correction is extracted using di-jet events balanced in $p_{T}$ where one is detected in the central region, and the other may have any $\eta$ value. The measurement of the second jet energy is compared to the well-defined measurement of the central region (chosen as the control region as it delivers the best performance for high p$_{T}$ jets) in order to return the correction factor dependant on $\eta$.  Having applied this correction, another is performed for the absolute using an events where a photon lies back to back with a jet. Comparing the momenta of the two gives an understanding of the distribution of the percentage of energy that has been included in a jet yielding the required factor.
 
-With the application of the three levels of correction, the total energy of the particles within the jet has been recovered to an acceptable level required by the physics analyses of CMS. The jet used in this analysis correspond to a calibration with precision corresponding to an $3 - 6 \%$ uncertainty of the jet energy scale (JES) for jet momenta ranging from 30 GeV up to 2TeV~\cite{JME_10_010}.
+With the application of the three levels of correction, the total energy of the particles within the jet has been recovered to an acceptable level required by the physics analyses of CMS. The jet used in this analysis correspond to a calibration with precision corresponding to an $3 - 6 \%$ uncertainty of the jet energy scale (JES) for jet momenta ranging from 30 GeV up to 2TeV~\cite{JME-10-010}.
 
 \section{Missing Energy}
 
-As previously mentioned the LSP if it exists would not react, meaning its typical signature in a detector is that of energy gone undetected. This is observed as a momentum imbalance, or ``missing energy" of the observed particles, the transverse component of which is the preferred search variable, \met. 
+Alongside reconstruction of physics objects comes the calculation of ``missing energy", an important signal. In the Standard Model, neutrinos pass through the detector without interacting and therefore are responsible for energy ``gone missing", alone of the known particles. However in some New Physics models, most notably SUSY, there are suggestions of other more massive particles that would exhibit this signature. 
+ 
+As previously mentioned the LSP if it exists would not react, meaning its typical signature in a detector is that of energy gone undetected. This is observed as a momentum imbalance, or ``missing energy" of the observed particles. In an ideally hermetic detector this would be a simple measurement through a vectorial sum of all existing energy deposits. However, even the best detector design cannot avoid the requirement of an opening through which the beams enter the detector, and thus any particles moving toward this forward region may escape detection, thus spoiling the accuracy of the missing energy constraint. 
 
+Although these particles may have considerable momenta in the direction of the beam axis, in order to have an $\eta$ outside the range of the calorimeters $ -5 < \eta < 5$ its momentum transverse to the beam $p_{T}$ must be less than 0.013E where E is its total energy. This ensures the transverse momentum lost to particles outside the acceptance is very small, thus an imbalance can indicate a particle leaving no deposit. The imbalance is referred to as \textit{missing transverse energy}, \met, the magnitude of the 2D vector of missing $p_{T}$, which is written as $\vec{\met}$. The reconstruction of these in CMS can occur in several ways, but the construction of calorimeter \met  (caloMET) involves the summation of all $n$ calorimeter towers in an event given in Equation \ref{eqn:metvec}, the scalar sum of which is given in Equation \ref{eqn:met}, reduced to a reliance only on the energy deposits and the azimuthal angle $\phi$. 
+
+\begin{equation}
+\vec{\met} = - \sum_{n} E_{n} (sin \theta_{n} cos \phi_{n} \mathbf{\hat{i}} + sin \theta_{n} sin \phi_{n}  \mathbf{\hat{j}})
+\label{eqn:metvec}
+\end{equation}
+
+\begin{equation}
+\met = | \vec{\met} | = \sum_{n} E_{n} sin \theta_{n}
+\label{eqn:met}
+\end{equation}
+
+\subsection{\met Corrections}
+
+The energy deposits from the calorimeter towers summed are the uncorrected values, which like before in the jet reconstruction also require corrections, separated into two types. Type I corrections take into account the JES  corrections described earlier in Section \ref{sec:JES}, as well as corrections to take care of muons and hadronic taus in an event. Type II  accounts for effects from pile-up or underlying soft events.
+ 
+\subsubsection{Type I Corrections}
+The Type I corrections account for corrections associated with physics object measurements. Firstly, as the JES corrections for jets are relevant to the \met reconstruction also, a correction must be applied to bring \met in line with the true energy of the jets. The relevant correction described in Section \ref{sec:JES} to each jet that has a corrected $p_{T} \geq 20 $GeV and an Electromagnetic Fraction (EMF) < 0.9 is used to modify $\vec{\met}$. The requirement on the EMF prevents applying the corrections in the case of an electron reconstructed as a jet, as this will have a high fraction of electromagnetic  energy.
+
+The \met measured in the calorimeters must be then corrected for any muon present, as a muon would pass through the calorimeter volume without depositing much of its energy. The information regarding a muon in the event is measured and reconstructed accurately using both the tracker and the muon system (see below). Having added any deposits the muon has made to the calorimeter to the $\vec{\met}$ the $p_{T}$ of the muon can then be subtracted to remove the effect of the missed muon on the \met. This is done for each reconstructed muon. 
+
+An additional correction is needed to account for the case of a tau that decays hadronically, as these tau-jets have differing characteristics from other jets. They are likely to have a low particle multiplicity where each product carries a significant energy, as opposed to the usual case of high-multiplicity soft products. In the region used for jet reconstruction R < 0.5 about the tau, $\vec{\met}$ is summed, and the true energy of the tau removed from it in order to yield the correction necessary.  
+
+\subsubsection{Type II Corrections}
+
+Having corrected all the hard jets this second step of corrections adresses the jets outside the type I acceptance and any energy deposits not clustered into jets, to remove the effects of underlying events and pile-up. This is obtained using a Monte Carlo control samples of events with a Z decay to two electrons, as characteristically the Z has low $p_{T}$ and there is much unclustered energy.The sum of momenta of the towers unclustered into jets $\vec{U}$is obtained by taking the uncorrected $E_{T}$ of an event, removing the momenta of the uncorrected jets and of the electrons. $\vec{U}$ is then corrected using the Monte Carlo truth information. 
+
+
+\subsection{Using Jets for Missing Energy - \MHT}
+
+Another type of \met reconstruction is possible, when the hadronic missing energy is created using the vectorial sum of the reconstructed jets of an event. This type is known as \MHT, defined in Equation \ref{eqn:MHT} where $p_{T}^{n}$ is the transverse momentum of the $n$th jet.  In a hadronic event with no other standard physics objects other than jets is analogous to a \met measurement, albeit relying only on the jet reconstruction. 
+\begin{equation}
+\MHT = | - \sum_{n} p_{T}^{n}|
+\label{eqn:mht}
+\end{equation}
+
+The advantage of using \MHT is that unclustered energy is automatically not a part of the sum, so automatically this variable is less sensitive to detector effects and pile-up than \met, and therefore more robust, making it desirable for early measurements at the LHC. However through the same logic, it may fail to include real jets that are below the threshold, or unclustered energy that did belong to the event, factors which affect its resolution. 
+
+\section{Muon}
+
+Muons are reconstructed in CMS by combining the information recorded in the muon systems with reconstructed tracks from the tracker. The small number of deposits made by muons in the calorimeter systems are not used in reconstruction although are used in muon identification criteria. The reconstruction of tracker tracks have been described already in Section  \ref{sec:trk}. 
+
+In the muon chambers a local reconstruction occurs also, creating a \textit{standalone muon track}~\cite{muonperf}. Seeds are generated from track segments created by fitting adjacent hits within the layers of the DT or CSC detectors. As in the tracker, the seed suggests an initial estimate of the muon four-vector, and the fit is then extended to include segments from all the sub detector types, again using a Kalman Filter. Duplicates known as ghosts exist where one muon gives rise to more than one seed, thus tracks that share hits are compared and the best kept. Tracks are then constrained by the beam spot position within uncertainty in order to improve momentum measurement. 
+
+Once local reconstruction in the tracker and muon chapters is complete, they are passed to global muon reconstruction. There are two algorithms of muon reconstruction which are both used in parallel to create two type of candidate muons, depending on the direction of the extrapolation between tracker and muon systems. 
+
+\begin{description}
+\item[Global Muons]{These muons are reconstructed from the ``outside - in". Starting with a standalone muon, a match is made back to a reconstructed track before a fit is made to the combination. This works especially well for muons that carry high $p_{T}$, greater than 200~GeV, as within this limit the muon systems have greater resolution and thus are superior to the tracker information.}
+\item[Tracker Muons]{These muons reconstructed from the ``inside-out". Here, all tracks of $p_{T}$ > 0.5 GeV are treated as if they possibly came from muons. Each of these muon candidates is followed through to the muon system, allowing for possible energy losses and scattering.  If any muon segment track is identified as a match, then the resulting track is considered a muon. As this only requires one single segment in the muon system this reconstruction method is most accurate for low momentum muons where the full volume of the muon system is not reached.}
+
+\end{description}
+
+Providing they carry significant momentum muons in CMS collisions are mainly reconstructed as one of these types, and may often be reconstructed as both. However, about 1\% of muons produce a standalone muon track only, and no matching tracker track is found. These are also retained. 
+
+The muon collection contains candidates from all three cases. Where the same track from the tracker has been involved in the reconstruction of both a Global and a Tracker muon, they are merged into one.  The standalone muon tracks only included in the case where no other reconstruction used any of the muon segments. Combining the algorithms gives the best efficiency for the muon collection, and requirements of which to allow for analysis can be set later in Muon Identification criteria~\cite{MUO-10-002}. 
 
 \section{Electrons}
 
-\section{Muon}
+The reconstruction of electrons in CMS combines the information from the energy deposits in the ECAL and the information from the tracker. First the hits in the ECAL are combined into a SuperCluster. As the electron travels in the detector, it loses energy through bremsstrahlung and the corresponding photons are emitted tangentially to its curved trajectory. This leads to a characteristic energy pattern spread out in $\phi$ as the trail of photons is left but narrow in $\eta$. The algorithm responsible for generating electron superclusters takes advantage of this, combining individual hits into clusters, and then combining clusters within a narrow path in $\phi$. 
+
+The tracker tracks left by electrons cannot be merely reconstructed using the method described above, as the high percentage of energy loss due to Bremsstrahlung makes the use of a Kalman Filter unsuitable, as the energy loss is non-Gaussian.  Instead, a variant known as the Gaussian Sum Filter (GSF)~\cite{gsf} is more suitable, although slower. A supercluster is matched to a seed in the inner tracker, and the electron track reconstructed by extrapolation and fitted with the GSF.  
+
+
+
