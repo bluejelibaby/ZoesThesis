@@ -1,20 +1,136 @@
 \chapter{Searching for Supersymmetry with $\alpha_{T}$ in all-hadronic events}
-The analysis presented here represents a model-independent search for new physics in the all-hadronic channel. Designed to search for signs of supersymmetry whilst remaining sensitive to other new physics models, the strategy centers around a selection of events which fit a topology of heavy new particles pair-produced in p-p collisions, which decay through a chain with an end product which is stable and undetectable. This is achieved in the detector by identifying several jets with a large quantity of missing energy. 
+The analysis presented here represents a model-independent search for new physics in the all-hadronic channel, where the final state is defined by the presence of jets and missing energy. Designed to search for signs of supersymmetry whilst remaining sensitive to other new physics models, an inclusive strategy is used imposing restrictions only on the final state.  Events are chosen based on their compatibility with a topology of heavy new particles pair-produced in p-p collisions, which decay through a chain with an end product which is stable and undetectable. 
+
+Isolating these new physics events from Standard Model background processes is essential in order to identify an excess. Controlling the dominant background from QCD Multijet processed is the central feature of the strategy, implementing use of the powerful discriminant, the \alt variable described in Chapter \ref{ch:at}. The remaining backgrounds from electroweak processes may then be accounted for using data-driven estimation techniques in muon and photon control samples. 
 
 
 
-\section{Monte-Carlo Samples}
+\section{Samples}
+This analysis uses datasets both from Monte Carlo simulation (MC) and of data recorded by the CMS detector in 2011.
+
+\subsection{Monte Carlo Simulation}
+Datasets of simulated events with calculated cross-sections are required for any analysis at the LHC. Due to the hadron-collider nature these rely on the PDF's 
+\subsubsection{Standard Model Background}
+\subsubsection{CMSSM SUSY Signal}
+For the purpose of understanding the possible yields from CMSSM SUSY, two mSUGRA parameter points are used. CMS has a dedicated set of 10 Low Mass(LM) points designed for initial data-taking from which we have chosen LM4 and LM6, the values of which are found in Table~\ref{tab:LM}. 
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{c c c c c c }
+\hline
+\hline
+\textbf{mSUGRA Point} & $m_{0}$ & $m_{1/2}$ & $A_{0}$ & tan $\beta$ & sign$(\mu) $  \\
+\hline
+\hline
+\textbf{LM4} & 210 GeV & 285 GeV  & 0 & 10 & + \\
+\textbf{LM6} & 85 GeV & 400 GeV & 0 & 10 & +\\
+\hline
+\end{tabular}
+\caption{\label{tab:LM}The two CMSSM SUSY signal points used and their corresponding mSUGRA parameter values.}
+\end{table}
+
+These points are chosen for their existence above the exclusion limit set previously, shown in Figure~\ref{fig:lm35limit} on the exclusion plot from the 2010 iteration of this analysis\cite{35paper}.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.70\textwidth]{Figures/Analysis/LM46on35limit}
+\caption{\label{fig:lm35limit}The exclusion limit set in the previous incarnation of this analysis with the 35pb$^{-1}$ 2010 CMS dataset shown in the $m_{0}-m_{1/2}$ plane with tan $\beta$ = 10, $A_{0}$ = 0 and sign$(\mu)$ = +. Reference points LM4 and LM6 to be used in the 2011 analysis are illustrated, in the region yet to be excluded. Previously used reference points LM0 and LM1 are shown below the limit already excluded~\cite{35paper}.}
+\end{figure}
+
+The 
+\subsection{Data Sample}
+This analysis considers data collected by CMS at $\sqrt{s} = 7$~TeV in 2011 between March and June, during the data-taking period known locally as Run2011A. Analyses use only the data taken whilst CMS was fully operational, and thus the data used were specified by the certified list of ``good runs" that correspond to 1.1$fb^{-1}$ of integrated luminosity. 
+
+As described previously, loose requirements on the types of triggers passed allow the sorting of the data into each Primary Dataset (PD). For the hadronic analysis the HT dataset is used, with basic low-threshold $\HT$ triggers required. Higher threshold triggers are applied subsequently as part of the analysis selection, detailed in Section~\ref{sec:trig}. 
+
+For the data-driven estimation techniques muon and photon control samples are defined. For the muon control sample, the HT PD is also used, as a low muon $p_{T}$ requirement makes this better suited than the dedicated Muon PD. However the photon control sample uses the dedicated Photon PD that requires some basic threshold photon triggers to be passed. 
 
 
 
 \section{Trigger}
-In order to select the signal events and minimise the contamination from backgrounds, a set of selection criteria is applied. As described previously in Section TRIGG, data collected by the CMS detector is stored and organised according to the L1 and HLT trigger paths passed. Each given dataset then  undergoes the offline event reconstruction described in Chapter RECON/IDEN, after which n-tuples are constructed from which we apply cuts on objects and analysis variables. 
+\label{sec:trig}
+In order to select the signal events and minimise the contamination from backgrounds, a set of selection criteria is applied. As described previously in Section , data collected by the CMS detector is stored and organised according to the L1 and HLT trigger paths passed. Each given dataset then undergoes the offline event reconstruction described in Chapter RECON/IDEN, after which n-tuples are constructed from which we apply cuts on objects and analysis variables. 
 
-Previous incarnations of this analysis for the 2010 dataset REFF used a set of pure \HT triggers, however these are unsuitable for the 2011 analysis as these have too high thresholds for the analysis due to the increase in instantaneous luminosity. The use of cross-object triggers is now  employed, requiring events that pass thresholds in both \HT and \mht for the signal region, and using the lowest un-prescaled thresholds available to ensure signal yields are accurate. As this analysis makes use of those events which fail the selection criteria also, the hadronic control sample, the pre-scaled \HT triggers are still used taking into account the pre-scaled factors. In the muon control sample, due to the low \Pt threshold we use the same triggers as for the hadronic signal sample, and the photon sample makes use of the single photon trigger paths. 
+Previous incarnations of this analysis for the 2010 dataset REFF used a set of pure \HT triggers, however these are unsuitable for the 2011 analysis as these have too high thresholds for the analysis due to the increase in instantaneous luminosity. The use of cross-object triggers is now  employed, requiring events that pass thresholds in both \HT and \mht for the signal region, and using the lowest un-prescaled thresholds available to ensure signal yields are accurate. 
+
+As this analysis makes use of those events which fail the selection criteria also, the hadronic control sample, the pre-scaled \HT triggers are still used taking into account the pre-scaled factors. In the muon control sample, due to the low \Pt threshold we use the same triggers as for the hadronic signal sample, and the photon sample makes use of the single photon trigger paths. 
+
+
+
 
 Having passed one of the un-prescaled triggers the events are subjected to a series of cuts on objects and analysis variables in order to select the event topologies required and minimise the background contamination. 
+\section{Object Definitions}
 
-\subsection{Pre-Selection}
+\subsection{Jets}
+The jets used in this analysis are Calo Jets, reconstructed as described in Section~\ref{sec:reconjet} using the anti-k$_{T}$ jet clustering algorithm. In addition, a reconstructed jet must pass an additional selection in order to be considered for the analysis:
+\begin{itemize}
+\item Corrected jet transverse momentum requirement of \Pt $>$ 50~GeV 
+\item Jet pseudo-rapidity $|\eta| < 3$ required to ensure within the fiducial range of the calorimeter systems. 
+\item Passes``loose" jet identification criteria to reject jets resulting from unphysical energy using cuts in Table \ref{tab:jetid}. 
+\end{itemize}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{ m{6.6cm}  c  c }
+\hline
+\hline
+ \centering Definition & Variable & ID Cut \\
+\hline
+\hline
+ \centering Fraction of jet energy contributed by the ``hottest" hybrid photo-diode &  $f_{HPD}$ & $< 0.98$ \\
+ \hline
+ \centering Minimum number of cells required to contribute 90\% of the jet energy & $N^{90}_{cells}$ & $\leq$ 2 \\
+ \hline
+ \centering Fraction of jet energy contributed by deposits in ECAL & $f_{EM}$ & $> 0.01$ \\
+ \hline
+\multirow{2}{6.9cm}{Balance of the energy measured in the short($E_{S}$) and long$(E_{L})$ HF fibers.} &  $R_{HF} = \frac{(E_{S} - E_{L})}{ (E_{S} + E_{L})}$ & $R_{HF} > - 0.9$\\
+& (if  $p_{T}^{jet}>$ 80~GeV)  &             ($-0.9 < R_{HF} < 1$)\\
+\hline
+\end{tabular}
+\caption{\label{tab:jetid} Set of cuts applied in ``loose" CaloJet ID used to reject jets resulting from fake calorimeter deposits representing unphysical energy. Devised using cosmic run data as a pure sample of non-collider ``fake" jets, full details of which can be found in \cite{JME-09-008}}
+\end{table}
+
+
+Any jet which pass the $\Et$ and $\eta$ requirements but fails the ``loose" identification criteria is noted, and the event is marked as containing an ``odd" jet, as the presence of such a particle reflects an event whose kinematics are poorly understood and may therefore lead to a misleading \MHT.
+
+\subsection{Muons} 
+Although muons are not required by the analysis, a veto on them must be employed, based on muons that satisfy the following set of criteria:
+\begin{itemize}
+\item $\Pt^{\mu} >$ 10~GeV
+\item $| \eta|$ $<$ 2.5
+\item Relative Combined Isolation = $(Iso_{tracker} + Iso_{ECAL} + Iso_{HCAL}) / p^{\mu}_{T} < $0.15\footnotemark
+\item Passes ``tight" muon identification, using cuts shown in Table~\ref{tab:muid}.
+\end{itemize}
+\footnotetext{The components $Iso_{tracker}$($Iso_{ECAL}, Iso_{HCAL})$ represent the sum of \Pt($E_{T}$) in the relevant detector component, calculated in a cone of R = 0.3 in $\eta-\phi$ around there muon trajectory. The track hits used to reconstruct the muon are not used and any muon deposit in the calorimeters is removed via a smaller veto cone.}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{ m{8.9cm}  c  c }
+\hline
+\hline
+ \centering Definition & Variable & ID Cut \\
+\hline
+\hline
+ Reconstructed with outside-in algorithm & Global Muon & Required\\
+  %\hline
+Reconstructed with inside-out algortithm & Tracker Muon & Required\\
+% \hline
+ Global muon track fit quality & $\chi^{2}$ & $< 10$ \\ 
+ %\hline
+Number of hits in the silicon tracker included in track & $N_{\textit{trk hits}}$ &$ >$ 10\\
+%\hline
+Transverse impact parameter with respect to vertex & $d_{xy}$ & $< $2~mm\\
+\hline
+\end{tabular}
+\caption{\label{tab:muid} Set of cuts applied in ``tight" Muon ID}
+\end{table}
+
+
+
+\subsection{Electrons}
+\subsection{Photons}sat
+
+\section{Pre-Selection}
 
 The events selected must be identified as good events from the CMS detector, using a pre-selection. It is required that events have at least one good primary vertex that is not fake, with $N_{dof}$ > 4 and a vertex position along he beam axis of |$z_{vtx}$| $<$ 24 cm and perpendicular to the axis of $\rho$ < 2 cm. Events that have many fake tracks are identified as monester events and removed, by requiring that the ratio of High Purity tracks to the total number be greater than 25\% in events with more than 9 tracks. 
 
@@ -31,15 +147,16 @@ Events are then selected according to the following preselection:
 }
 \end{itemize}
 
-\subsection {Object Requirements and Vetoes}
-\subsubsection{Jets}
-\subsubsection{Muons}
-\subsubsection{Electrons}
-\subsubsection{Photons}
-\subsubsection{CutFlow}
 
 
-\subsection{Trigger}
+
+\section{An $\HT$ Shape Analysis}
+
+Previous iterations of this analysis strategy with the 35pb$^{-1}$ 2010 LHC dataset \cite{35paper} used a cut-and-count strategy for all events passing the selection, defining the signal region by an $\HT > 375$ and using lower regions in \HT as control regions. The 2011 analysis follows the same selection but motivated by the increasing luminosity is undertaken as a Shape Analysis in bins of \HT, using the whole range $\HT > $275 GeV as a signal region. This allows greater sensitivity to states of higher mass. 
+
+The set of lower bin edges are as follows: [275,325,375,475,574,675,775,875], where each bin is exclusive with an upper limit corresponding to the lower edge of the next bin, except in the case of the final bin which is inclusive $\HT > $875. The background estimation techniques employed from data therefore are designed to identify the contribution in each distinct bin. 
+
+In order to include the two lowest bins in \HT is is necessary to scale the jet thresholds stated in Section \ref{sec:press} in order to maintain even event kinematics allowing a shape analysis approach. The background from $t\bar{t}$ + jets carries a bias to higher jet multiplicities compared to the other EWK components, and thus with identical jet definitions exhibits a turn on behaviour in \HT. In order to remedy this, the lowest two bins have the two jet energy requirements scaled by $\sfrac{l}{375.}$ where $l$ represents the bin lower edge in question.
 
 
 \section{Data to Monte-Carlo Comparisons }

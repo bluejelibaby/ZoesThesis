@@ -1,122 +1,19 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 \newcommand{\enquote}[1]{``#1''}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{}\fi
 
-\bibitem{CTF}
-Wolfgang Adam, Boris Mangano, Thomas Speer \& Teddy Todorov.
-\newblock \enquote{Track Reconstruction in the CMS tracker}.
-\newblock Technical Report CMS-NOTE-2006-041, CERN, Geneva (2006).
-
-\bibitem{Kalman}
-R~Frühwirth.
-\newblock \enquote{Application of Kalman filtering to track and vertex
-  fitting}.
-\newblock {\em Nucl. Instrum. Methods Phys. Res., A\/}, {\bf 262},
-  HEPHY-PUB-503 (1987) 444. 19 p.
-
-\bibitem{AVF}
-R~Frühwirth, Wolfgang Waltenberger \& Pascal Vanlaer.
-\newblock \enquote{Adaptive Vertex Fitting}.
-\newblock Technical Report CMS-NOTE-2007-008, CERN, Geneva (2007).
-
-\bibitem{TRK-10-005}
+\bibitem{JME-09-008}
 The~CMS Collaboration.
-\newblock \enquote{Tracking and Primary Vertex Results in First 7 TeV
-  Collisions}.
-\newblock {\bf CMS-PAS-TRK-10-005}.
+\newblock \enquote{Calorimeter Jet Quality Criteria for the First CMS Collision
+  Data}.
+\newblock {\bf CMS-PAS-JME-09-008}.
 
-\bibitem{jetroundup}
-{Xavier Janssen for the CMS Collaboration}.
-\newblock \enquote{{Underlying event and jet reconstruction in CMS}}.
-\newblock {\bf CMS CR-2011/012}.
-
-\bibitem{akt}
-Matteo Cacciari, Gavin Salam \& Gregory Soyez.
-\newblock \enquote{The anti-k$_{t}$ jet clustering algorithm}.
-\newblock {\em JHEP\/}, {\bf 0804} (2008) 063.
-
-\bibitem{aktrecom}
-V~Chetluru, F~Pandolfi, P~Schieferdecker \& M~Zelinski.
-\newblock \enquote{{Jet Reconstruction Performance at CMS}}.
-\newblock {\bf CMS AN-2009/067}.
-
-\bibitem{kt}
-S.~Catani, Yuri~L. Dokshitzer, M.~H. Seymour \& B.~R. Webber.
-\newblock \enquote{{Longitudinally invariant K(t) clustering algorithms for
-  hadron hadron collisions}}.
-\newblock {\em Nucl. Phys.\/}, {\bf B406} (1993) 187--224.
-
-\bibitem{HERWIG}
-G.~Corcella, I.G. Knowles, G.~Marchesini, S.~Moretti, K.~Odagiri et~al.
-\newblock \enquote{{HERWIG 6.5 release note}}.
-\newblock {hep-ph/0210213}.
-
-\bibitem{PYTHIA64}
-Torbjorn Sjostrand, Stephen Mrenna \& Peter~Z. Skands.
-\newblock \enquote{{PYTHIA 6.4 Physics and Manual}}.
-\newblock {\em JHEP\/}, {\bf 0605} (2006) 026, {hep-ph/0603175}.
-
-\bibitem{GEANT4}
-{The Geant4 Collaboration}.
-\newblock \enquote{{Geant4-A Simulation Toolkit}}.
-\newblock {\em Nuclear Instruments and Methods in Physics Research A\/}, {\bf
-  506} (2003) 250--303.
-
-\bibitem{JME-10-010}
-The~CMS Collaboration.
-\newblock \enquote{Jet Energy Corrections determination at 7 TeV}.
-\newblock {\bf CMS-PAS-JME-10-010}.
-
-\bibitem{metrecon}
-S~Esen, G~Landsberg, M~Titov, A~DeRoeck, M~Spiropolu, M~Tytgat, D~Puigh,
-  P~Wittich, K~Terashi, A~Gurrola, T~Kamon, C.~N. Nguyen, A~Safonov, J.~W.
-  Gary, F~Liu, H~Nguyen, J~Sturdy, R~Cavanaugh, R~Remington, M~Schmitt,
-  B~Scurlock, E.A. Albayrak, T~Yetkin \& M~Zielinski.
-\newblock \enquote{{\met Performance in CMS}}.
-\newblock {\bf CMS AN-2007/041}.
-
-\bibitem{etmissnote}
-Greg Landsberg \& Filip Moortgat.
-\newblock \enquote{MET Reconstruction, Performance, and Validation}.
-\newblock {\bf CMS AN-2008/089}.
-
-\bibitem{JME-10-004}
-The~CMS Collaboration.
-\newblock \enquote{Missing Transverse Energy Performance in Minimum-Bias andJet
-  Events from Proton-Proton Collisions at $\sqrt{s} = 7$ TeV}.
-\newblock {\bf CMS-PAS-JME-10-004}.
-
-\bibitem{muonperf}
-{The CMS Collaboration}.
-\newblock \enquote{Performance of CMS Muon Reconstruction in Cosmic-Ray
-  Events}.
-\newblock {\em J. Instrum.\/}, {\bf 5}, arXiv:0911.4994. CMS-CFT-09-014 (2009)
-  T03022 . 47 p.
-
-\bibitem{MUO-10-002}
-The~CMS Collaboration.
-\newblock \enquote{Performance of muon identification in pp collisions at
-  $\sqrt{s}$ = 7 TeV}.
-\newblock {\bf CMS-PAS-MUO-10-002}.
-
-\bibitem{EGM-10-005}
-The~CMS Collaboration.
-\newblock \enquote{Photon reconstruction and identification at sqrt(s) = 7
-  TeV}.
-\newblock {\bf CMS-PAS-EGM-10-005}.
-
-\bibitem{gsf}
-Wolfgang Adam, R~Frühwirth, Are Strandlie \& T~Todor.
-\newblock \enquote{Reconstruction of Electrons with the Gaussian-Sum Filter in
-  the CMS Tracker at the LHC}.
-\newblock Technical Report CMS-NOTE-2005-001, CERN, Geneva (2005).
-
-\bibitem{EGM-10-004}
-The~CMS Collaboration.
-\newblock \enquote{Electron reconstruction and identification at sqrt(s) = 7
-  TeV}.
-\newblock {\bf CMS-PAS-EGM-10-004}.
+\bibitem{35paper}
+Vardan Khachatryan et~al.
+\newblock \enquote{{Search for Supersymmetry in pp Collisions at 7 TeV in
+  Events with Jets and Missing Transverse Energy}}.
+\newblock {\em Phys.Lett.\/}, {\bf B698} (2011) 196--218, {1101.1628}.
 
 \end{thebibliography}

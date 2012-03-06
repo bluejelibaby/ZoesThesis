@@ -11,7 +11,22 @@
 
 %\documentclass[11pt,a4paper]{book} % double-sided
 \documentclass[12pt,a4paper]{report}
-\usepackage{subfigure,epsfig,amstext,floatfig,alltt,fancyhdr,setspace,xspace,amsmath,slashed,xfrac,amssymb}
+\usepackage{subfigure,epsfig,amstext,floatfig,alltt,fancyhdr,setspace,xspace,amsmath,slashed,xfrac,amssymb,multirow,array}
+% Different font in captions
+\newcommand{\captionfonts}{\it}
+
+\makeatletter  % Allow the use of @ in command names
+\long\def\@makecaption#1#2{%
+  \vskip\abovecaptionskip
+  \sbox\@tempboxa{{\captionfonts #1: #2}}%
+  \ifdim \wd\@tempboxa >\hsize
+    {\captionfonts #1: #2\par}
+  \else
+    \hbox to\hsize{\hfil\box\@tempboxa\hfil}%
+  \fi
+  \vskip\belowcaptionskip}
+\makeatother   % Cancel the effect of \makeatletter
+
 \include{macros}
 \initfloatingfigs
 
@@ -90,8 +105,8 @@
 
 %\ \newpage		% Newpage needed if printing double sided.
 
-%\addcontentsline{toc}{chapter}{Contents}
-%\tableofcontents
+\addcontentsline{toc}{chapter}{Contents}
+\tableofcontents
 
 %\ \newpage		% Newpage needed if printing double sided.
 %\ \newpage		% Newpage needed if printing double sided.
@@ -120,9 +135,9 @@
 %\include{Introduction}
 %\include{Theory}
 %\include{Detector}
-\include{Objects}
-%include{AlphaT}
-%\include{RA1}
+%\include{Objects}
+%\include{AlphaT}
+\include{RA1}
 %\include{RA4}
 %\include{Conclusion}
 
@@ -132,7 +147,7 @@
 %\appendix
 %\include{appA}
 
-\small{
+
 \singlespacing
  
 %% And finally the references
