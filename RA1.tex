@@ -62,6 +62,7 @@ Having passed one of the un-prescaled triggers the events are subjected to a ser
 \section{Object Definitions}
 
 \subsection{Jets}
+\label{sec:jetsel}
 The jets used in this analysis are Calo Jets, reconstructed as described in Section~\ref{sec:reconjet} using the anti-k$_{T}$ jet clustering algorithm. In addition, a reconstructed jet must pass an additional selection in order to be considered for the analysis:
 \begin{itemize}
 \item Corrected jet transverse momentum requirement of \Pt $>$ 50~GeV 
@@ -74,15 +75,15 @@ The jets used in this analysis are Calo Jets, reconstructed as described in Sect
 \begin{tabular}{ m{6.6cm}  c  c }
 \hline
 \hline
- \centering Definition & Variable & ID Cut \\
+ \centering Definition & Variable & Cut \\
 \hline
 \hline
  \centering Fraction of jet energy contributed by the ``hottest" hybrid photo-diode &  $f_{HPD}$ & $< 0.98$ \\
- \hline
+ %\hline
  \centering Minimum number of cells required to contribute 90\% of the jet energy & $N^{90}_{cells}$ & $\leq$ 2 \\
- \hline
+ %\hline
  \centering Fraction of jet energy contributed by deposits in ECAL & $f_{EM}$ & $> 0.01$ \\
- \hline
+ %\hline
 \multirow{2}{6.9cm}{Balance of the energy measured in the short($E_{S}$) and long$(E_{L})$ HF fibers.} &  $R_{HF} = \frac{(E_{S} - E_{L})}{ (E_{S} + E_{L})}$ & $R_{HF} > - 0.9$\\
 & (if  $p_{T}^{jet}>$ 80~GeV)  &             ($-0.9 < R_{HF} < 1$)\\
 \hline
@@ -92,11 +93,13 @@ The jets used in this analysis are Calo Jets, reconstructed as described in Sect
 
 
 Any jet which pass the $\Et$ and $\eta$ requirements but fails the ``loose" identification criteria is noted, and the event is marked as containing an ``odd" jet, as the presence of such a particle reflects an event whose kinematics are poorly understood and may therefore lead to a misleading \MHT.
+\subsection{$\HT$ and \MHT}
+The calculation of both \HT and \MHT is performed using only the jets selected by the selection above in Section~\ref{sec:jetsel}.
 
 \subsection{Muons} 
 Although muons are not required by the analysis, a veto on them must be employed, based on muons that satisfy the following set of criteria:
 \begin{itemize}
-\item $\Pt^{\mu} >$ 10~GeV
+\item $p^{\mu}_{T} >$ 10~GeV
 \item $| \eta|$ $<$ 2.5
 \item Relative Combined Isolation = $(Iso_{tracker} + Iso_{ECAL} + Iso_{HCAL}) / p^{\mu}_{T} < $0.15\footnotemark
 \item Passes ``tight" muon identification, using cuts shown in Table~\ref{tab:muid}.
@@ -108,7 +111,7 @@ Although muons are not required by the analysis, a veto on them must be employed
 \begin{tabular}{ m{8.9cm}  c  c }
 \hline
 \hline
- \centering Definition & Variable & ID Cut \\
+ \centering Definition & Variable & Cut \\
 \hline
 \hline
  Reconstructed with outside-in algorithm & Global Muon & Required\\
@@ -117,34 +120,97 @@ Reconstructed with inside-out algortithm & Tracker Muon & Required\\
 % \hline
  Global muon track fit quality & $\chi^{2}$ & $< 10$ \\ 
  %\hline
-Number of hits in the silicon tracker included in track & $N_{\textit{trk hits}}$ &$ >$ 10\\
+Number of hits in the silicon tracker included in track & $N^{hits}_{\textit{trk}}$ &$ >$ 10\\
 %\hline
-Transverse impact parameter with respect to vertex & $d_{xy}$ & $< $2~mm\\
+Number of pixel hits in $N^{hits}_{trk}$ & $N^{hits}_{\textit{pixel}}$ & $ > $ 0\\
+Number of hits in muon system included in Global Muon & $N^{hits}_{\textit{muon}}$ & $\geq $ 1\\
+Transverse impact parameter with respect to vertex & $d_{xy}$ & $< $ 2~mm\\
 \hline
 \end{tabular}
-\caption{\label{tab:muid} Set of cuts applied in ``tight" Muon ID}
+\caption{\label{tab:muid} Set of cuts applied in ``tight" Muon ID, taken from \cite{MUO-10-002}}
 \end{table}
 
 
 
 \subsection{Electrons}
-\subsection{Photons}sat
-
-\section{Pre-Selection}
-
-The events selected must be identified as good events from the CMS detector, using a pre-selection. It is required that events have at least one good primary vertex that is not fake, with $N_{dof}$ > 4 and a vertex position along he beam axis of |$z_{vtx}$| $<$ 24 cm and perpendicular to the axis of $\rho$ < 2 cm. Events that have many fake tracks are identified as monester events and removed, by requiring that the ratio of High Purity tracks to the total number be greater than 25\% in events with more than 9 tracks. 
-
-Events where noise has been identified in the HCAL are removed also, using an algorithm which checks for Photodetectors which have at east 17 out of 18 channels with an E > 1.5 GeV.
-
-Events are then selected according to the following preselection:
+Similarly electrons are also defined for veto purposes, with the definition of an electron in the analysis as that passing the following cuts:
 
 \begin{itemize}
-\item{Require events with N$_{jet}$ $\geq$ 2}
-\item{N$_{muon}$, N$_{electron}$, N$_{photon}$ = 0 where \Pt$_{\mu,e}$ $\geq$ 10 GeV, $\Pt_{\gamma} \geq$ 25 GeV}
-\item{\HT $\geq$ 275 GeV }
+\item $E^{e}_{T} > 10 GeV$
+\item $|\eta| < 2.5$
+\item Combined Isolation = $(\sum_{tracker} p_{T} + \sum_{ECAL}E_{T} + \sum_{HCAL}E_{T})/p^{e}_{T} < 0.15$
+\item Pass WP95 electron identification implemented using cuts in Table~\ref{tab:eid}.
+\end{itemize}
 
+\begin{table}[htbp]
+\centering
+\begin{tabular}{ m{6.9cm}  c  c  c}
+\hline
+\hline
+ \centering Definition & Variable & Barrel Cut & End-Cap Cut \\
+\hline
+\hline
+RMS of the width in $\eta$ of the crystals about the most energetic crystal in the seed& $\sigma_{i \eta i \eta}$ & $<$ 0.01 & $<$ 0.03\\
+Difference in $\phi$ between track and supercluster&$\Delta \phi_{vtx}$& $<$ 0.8 & $<$ 0.7 \\
+Difference in $\eta$ between track and supercluster& $\Delta \eta_{vtx}$& $<$ 0.007 & $<$ 0.01\\
+Ratio of HCAL energy in $\Delta R = 0.15$ to ECAL seed energy & H / E & $<$ 0.15 & $<$ 0.07\\
+\hline
+\end{tabular}
+\caption{\label{tab:eid} Set of cuts applied in ``WP95" Electron ID, taken from \cite{AN-10-116} corresponding to an intended 95\% efficiency for signal electrons in W events for electrons with $p_{T} > 20$~GeV.}
+\end{table}
+\footnotetext{where electron $p_{T} > 20$~GeV, measured with a sample of $W \ra e$ events.}
+\subsection{Photons}
+
+Photons in the analysis are defined by the following set of requirements:
+\begin{itemize}
+\item $p_{T}^{\gamma} > $ 25~GeV
+\item $|\eta| < 2.5$
+\item Passes ``tight" photon cut-based identification (including isolation) using cuts shown in Table~\ref{tab:pid}.
+\end{itemize}
+
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{ m{6.9cm}  c  c  c}
+\hline
+\hline
+ \centering Definition & Variable & Barrel Cut & End-Cap Cut \\
+\hline
+\hline
+Tracker Isolation in a cone of R=0.4 & $Iso_{trk}$ & \multicolumn{2}{c}{$< (2.0 GeV + 0.001E_{T}^{\gamma})$}\\
+ECAL Isolation in an outer cone of R=0.4 (inner cone R=0.06 removed). & $Iso_{ECAL}$ & \multicolumn{2}{c}{$< (4.2 GeV + 0.006E_{T}^{\gamma})$}\\
+
+HCAL Isolation in an outer cone of R=0.4 (inner cone R=0.15 removed). & $Iso_{HCAL}$ & \multicolumn{2}{c}{$< (2.2 GeV + 0.0025E_{T}^{\gamma})$}\\
+
+RMS of the width in $\eta$ of the crystals about the most energetic crystal in the seed& $\sigma_{i \eta i \eta}$ & $<$ 0.013 & $<$ 0.030\\
+Ratio of HCAL energy in $\Delta R = 0.15$ to ECAL seed energy & H / E & $<$ 0.05 & $<$ 0.05\\
+\hline
+\end{tabular}
+\caption{\label{tab:pid} Set of cuts applied in ``tight" Photon ID, taken from \cite{EGM-10-006}}
+\end{table}
+
+\section{Pre-Selection}
+A basic selection of events used for comparison of distributions between data and monte-carlo events shall be known as "pre-selection",  following the details set out in this section.
+
+\begin{description}
+\item[Vertex Requirement]{It is required that events have at least one non-fake good primary vertex with $N_{dof}$ $>$ 4. Constraints on the vertex position along the beam axis $|z_{vtx}| <$ 24 cm and perpendicular to the axis of $\rho <$ 2 cm must be satisfied. Events that have many fake tracks are identified as monster events and removed, by requiring that the ratio of High Purity tracks to the total number be greater than 25\% in events with more than 9 tracks. }
+
+\item[HCAL Barrel and End-cap (HBHE) Noise Fiter]{Events where noise has been identified in the HCAL are removed also, using an algorithm which checks for Photodetectors which have at east 17 out of 18 channels with an E $>$ 1.5 GeV.}
+\end{description}
+Following these conditions events are then selected by the following criteria, using the definitions of physics objects according to the criteria stated previously:
+
+\begin{itemize}
+\item Pass triggers as detailed in Section~\ref{sec:trig}
+\item{Require events with N$_{jet}$ $\geq$ 2}
+\item N$_{muon}$ = N$_{electron}$ = 0 to reduce the effects of missing energy from neutrinos.
+\item N$_{photon}$ = 0 to ensure a pure hadronic set of events.
+\item Events with $>$ 0 ``odd" jets are vetoed.
+\item Additional constraint on the transverse momentum of the two leading jets $p^{j1}_{T},p^{j2}_{T} >$ 100~GeV.
+\item Additional constraint on the leading jet pseudorapidity $|\eta^{j1}| <$ 2.5.
+\item \HT $\geq$ 275 GeV 
 \item{To protect the quantity \alt from the scenario where many jets exist below the momentum acceptance threshold, the missing energy variable \mht estimated from jet measurment is compared to the quantity \met measured from the calorimters. If the ratio R$_{miss}$ = \mht / \met $>$ 1.25, the event is rejected. 
 }
+\item \alt $>$ 0.55
 \end{itemize}
 
 
@@ -156,8 +222,23 @@ Previous iterations of this analysis strategy with the 35pb$^{-1}$ 2010 LHC data
 
 The set of lower bin edges are as follows: [275,325,375,475,574,675,775,875], where each bin is exclusive with an upper limit corresponding to the lower edge of the next bin, except in the case of the final bin which is inclusive $\HT > $875. The background estimation techniques employed from data therefore are designed to identify the contribution in each distinct bin. 
 
-In order to include the two lowest bins in \HT is is necessary to scale the jet thresholds stated in Section \ref{sec:press} in order to maintain even event kinematics allowing a shape analysis approach. The background from $t\bar{t}$ + jets carries a bias to higher jet multiplicities compared to the other EWK components, and thus with identical jet definitions exhibits a turn on behaviour in \HT. In order to remedy this, the lowest two bins have the two jet energy requirements scaled by $\sfrac{l}{375.}$ where $l$ represents the bin lower edge in question.
+In order to include the two lowest bins in \HT is is necessary to scale the jet thresholds stated in Section \ref{sec:press} in order to maintain even event kinematics allowing a shape analysis approach. The background from $t\bar{t}$ + jets carries a bias to higher jet multiplicities compared to the other EWK components, and thus with identical jet definitions exhibits a turn on behaviour in \HT. In order to remedy this, the lowest two bins have the two jet energy requirements scaled by $\sfrac{l}{375.}$ where $l$ represents the bin lower edge in question. This leads to the thresholds in Table~\ref{tab:thresh}.
 
+\begin{table}[htpb]
+\centering
+\begin{tabular}{c c c}
+\hline
+\hline
+\HT Region & Jet Definition & Second-Leading Jet Cut \\
+\hline
+\hline
+275 $<$ \HT $<$ 325 & $p_{T} >$ 36.7~GeV & $p^{j1}_{T}, p^{j2}_{T} >$  73.3~GeV\\
+325 $<$ \HT $<$ 375 & $p_{T} >$ 43.3~GeV & $p^{j1}_{T}, p^{j2}_{T} >$ 86.7~GeV\\
+\HT $>$ 375 & $p_{T} >$ 50~GeV & $p^{j1}_{T}, p^{j2}_{T} >$  100~GeV\\
+\hline
+\end{tabular}
+\caption{\label{tab:thresh}The three different regions of jet scaling, with values indicated both for the basic definition of a jet used in the analysis, and the second-to-leading jet energy cut. The former is especially important as this alters the value of \HT as this is calculated using the jets in the event.}
+\end{table}
 
 \section{Data to Monte-Carlo Comparisons }
 

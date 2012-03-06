@@ -4,16 +4,34 @@
   \def\url#1{{\tt #1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{}\fi
 
+\bibitem{35paper}
+Vardan Khachatryan et~al.
+\newblock \enquote{{Search for Supersymmetry in pp Collisions at 7 TeV in
+  Events with Jets and Missing Transverse Energy}}.
+\newblock {\em Phys.Lett.\/}, {\bf B698} (2011) 196--218, {1101.1628}.
+
 \bibitem{JME-09-008}
 The~CMS Collaboration.
 \newblock \enquote{Calorimeter Jet Quality Criteria for the First CMS Collision
   Data}.
 \newblock {\bf CMS-PAS-JME-09-008}.
 
-\bibitem{35paper}
-Vardan Khachatryan et~al.
-\newblock \enquote{{Search for Supersymmetry in pp Collisions at 7 TeV in
-  Events with Jets and Missing Transverse Energy}}.
-\newblock {\em Phys.Lett.\/}, {\bf B698} (2011) 196--218, {1101.1628}.
+\bibitem{MUO-10-002}
+The~CMS Collaboration.
+\newblock \enquote{Performance of muon identification in pp collisions at
+  $\sqrt{s}$ = 7 TeV}.
+\newblock {\bf CMS-PAS-MUO-10-002}.
+
+\bibitem{AN-10-116}
+N.~Adam et~al.
+\newblock \enquote{Measurements of Inclusive W and Z Cross Sections in pp
+  Collisions at $\sqrt{s}$ = 7 TeV}.
+\newblock {\bf CMS AN 2010/116}.
+
+\bibitem{EGM-10-006}
+The~CMS Collaboration.
+\newblock \enquote{Isolated Photon Reconstruction and Identification at at
+  sqrt(s) = 7 TeV}.
+\newblock {\bf CMS-PAS-EGM-10-006}.
 
 \end{thebibliography}
