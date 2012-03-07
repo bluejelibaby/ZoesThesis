@@ -11,6 +11,12 @@ This analysis uses datasets both from Monte Carlo simulation (MC) and of data re
 \subsection{Monte Carlo Simulation}
 Datasets of simulated events with calculated cross-sections are required for any analysis at the LHC. Due to the hadron-collider nature these rely on the PDF's 
 \subsubsection{Standard Model Background}
+\begin{description}
+\item[QCD Multijet]{}
+\item[W + jets]{}
+\item[Z $\ra \nu\bar{\nu}$ + jets]{}
+\item[t$\bar{\textrm{t}}$]{}
+\end{description}
 \subsubsection{CMSSM SUSY Signal}
 For the purpose of understanding the possible yields from CMSSM SUSY, two mSUGRA parameter points are used. CMS has a dedicated set of 10 Low Mass(LM) points designed for initial data-taking from which we have chosen LM4 and LM6, the values of which are found in Table~\ref{tab:LM}. 
 
@@ -37,8 +43,8 @@ These points are chosen for their existence above the exclusion limit set previo
 \caption{\label{fig:lm35limit}The exclusion limit set in the previous incarnation of this analysis with the 35pb$^{-1}$ 2010 CMS dataset shown in the $m_{0}-m_{1/2}$ plane with tan $\beta$ = 10, $A_{0}$ = 0 and sign$(\mu)$ = +. Reference points LM4 and LM6 to be used in the 2011 analysis are illustrated, in the region yet to be excluded. Previously used reference points LM0 and LM1 are shown below the limit already excluded~\cite{35paper}.}
 \end{figure}
 
-The 
 \subsection{Data Sample}
+\label{sec:datasam}
 This analysis considers data collected by CMS at $\sqrt{s} = 7$~TeV in 2011 between March and June, during the data-taking period known locally as Run2011A. Analyses use only the data taken whilst CMS was fully operational, and thus the data used were specified by the certified list of ``good runs" that correspond to 1.1$fb^{-1}$ of integrated luminosity. 
 
 As described previously, loose requirements on the types of triggers passed allow the sorting of the data into each Primary Dataset (PD). For the hadronic analysis the HT dataset is used, with basic low-threshold $\HT$ triggers required. Higher threshold triggers are applied subsequently as part of the analysis selection, detailed in Section~\ref{sec:trig}. 
@@ -46,20 +52,90 @@ As described previously, loose requirements on the types of triggers passed allo
 For the data-driven estimation techniques muon and photon control samples are defined. For the muon control sample, the HT PD is also used, as a low muon $p_{T}$ requirement makes this better suited than the dedicated Muon PD. However the photon control sample uses the dedicated Photon PD that requires some basic threshold photon triggers to be passed. 
 
 
+\section{Analysis Framework}
+
+For the purpose of the analysis private ntuples are generated fro the RECO samples using the CMSSW framework and CMS's Physics Analysis Toolkit (PAT), retaining all variables from the intermediate step of PAT-tuples recommended by the CMS SUSY group. Followng this private code is used on the ntuples to perform the analysis.   
+
+
 
 \section{Trigger}
 \label{sec:trig}
-In order to select the signal events and minimise the contamination from backgrounds, a set of selection criteria is applied. As described previously in Section , data collected by the CMS detector is stored and organised according to the L1 and HLT trigger paths passed. Each given dataset then undergoes the offline event reconstruction described in Chapter RECON/IDEN, after which n-tuples are constructed from which we apply cuts on objects and analysis variables. 
-
-Previous incarnations of this analysis for the 2010 dataset REFF used a set of pure \HT triggers, however these are unsuitable for the 2011 analysis as these have too high thresholds for the analysis due to the increase in instantaneous luminosity. The use of cross-object triggers is now  employed, requiring events that pass thresholds in both \HT and \mht for the signal region, and using the lowest un-prescaled thresholds available to ensure signal yields are accurate. 
-
-As this analysis makes use of those events which fail the selection criteria also, the hadronic control sample, the pre-scaled \HT triggers are still used taking into account the pre-scaled factors. In the muon control sample, due to the low \Pt threshold we use the same triggers as for the hadronic signal sample, and the photon sample makes use of the single photon trigger paths. 
+In order to select the signal events and minimise the contamination from backgrounds, a set of selection criteria is applied. As described previously in Section~\ref{sec:detrig}, data collected by the CMS detector is stored and organised according to the L1 and HLT trigger paths passed. While the datasets chosen in Section~\ref{datasam} have some basic level trigger requirements, we also require a more stringent set of requirements. 
 
 
+In the previous iteration of this analysis for the 2010 dataset, a set of pure \HT triggers was used. However these are unsuitable for the 2011 analysis as due to the increase in instantaneous luminosity the rate of triggers with desirable thresholds have become too high and become prescaled, rendering them unsuitable for the signal selection, although they will play a part in the control region. Moving to higher \HT thresholds is also undesirable as it would reduce a significant portion of the search region. 
+
+The use of cross-object triggers is now employed, requiring events that pass thresholds in both \HT and \mht for the signal region. As the era of data-taking progressed there were several menu-changes, during which time we required the lowest un-prescaled thresholds available at a given time to ensure signal yields are accurate, some of which are implemented in the menu under different versions, the relevant paths appended with \verb!_v*!. 
+
+The first set of runs in the 2011 dataset correspond to a trigger used with thresholds in [\HT,\MHT] = [260,60]~GeV.  After this the CMS standard thresholds were shifted down by 10~GeV, relevant for the major portion of data taking. For all runs henceforth the lowest unprescaled cross-trigger had an \HT threshold of 250 GeV, during which time the \MHT thresholds of the lowest unprescaled evolve through 60, 70 and 90 GeV. 
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{c}
+\hline
+\hline
+HLT Trigger Path\\ 
+\hline
+\hline
+\verb!HLT_HT260_MHT60_v2!\\
+\verb!HLT_HT250_MHT60_v2!\\\verb!HLT_HT250_MHT60_v3!\\\verb!HLT_HT250_MHT60_v4!\\\verb!HLT_HT250_MHT70_v1!\\\verb!HLT_HT250_MHT70_v3!\\\verb!HLT_HT250_MHT70_v4!\\\verb!HLT_HT250_MHT90_v1!\\
+\hline
+\end{tabular}
+\caption{\label{tab:sigtrig}List of HLT trigger paths for the signal selection from which the lowest unprescaled was used or any given run.}
+\end{table}
+
+The quantities \HT and \MHT used in the trigger requirements differ from those used in the analysis. The trigger uses jets built in online reconstruction with uncorrected energy to form these quantities, whereas those quantities in our analysis use only jets passing the object requirements and with corrected energy. Thus it is not the case that an \HT trigger of threshold X is efficient for events with \HT > X in the analysis. It is necessary to ensure the trigger is efficient with regard to analysis cuts in both \HT and \MHT. 
+
+In this two step process, the efficiencies of pure \HT triggers of thresholds 250 and 260 are identified through comparison to an orthogonal sample, using a Muon \HT cross trigger. These triggers can be considered 100\% efficient by an offline \HT cut of 275 GeV, and thus this is selected for the analysis. Having made this cut the efficiency of the \MHT part may be tested, with reference to \alt (which is analogous to a cut on MHT). In the lowest bin of the analysis, $275 < \HT < 325$~GeV a small inefficiency was measured of 0.99$^{+0.01}_{0.02}$, and in all other bins $\HT > 325$ the analysis is measured as fully efficient - 1.0$^{+0.00}_{-0.03}$.  
+
+This analysis makes use of those events which fail the \alt selection criteria also, as the hadronic bulk control sample. In this region the chosen signal triggers would not be efficient as we wish to use the events with low \MHT which would not pass that element of the trigger requirement. Here the pre-scaled \HT triggers are suitable for use, taking into account the prescale factors to gain yields in this bulk sample, an approach which is suitable due to the high statistics from QCD events. The lowest prescale of the trigger thresholds chosen for each \HT bin, shown in Table~\ref{tab:bulktrig}, are used at each point in the evolution of the trigger menu.  
 
 
-Having passed one of the un-prescaled triggers the events are subjected to a series of cuts on objects and analysis variables in order to select the event topologies required and minimise the background contamination. 
+\begin{table}[htbp]
+\centering
+\begin{tabular}{ c c }
+\hline
+\hline
+Analysis $H_{T}$ Region & HLT Trigger Paths\\
+\hline
+\hline
+$275 < \HT < 325$ & \verb!HLT_HT250_v*, HLT_HT260_v* !\\
+$325 < \HT < 375$ & \verb!HLT_HT300_v*!\\
+$375 < \HT < 475$ & \verb!HLT_HT300_v*, HLT_HT350_v* !\\
+$475 < \HT < 575$ &\verb!HLT_HT440_v*, HLT_HT450_v* !\\
+$\HT > 575$ & \verb! HLT_HT520_v*, HLT_HT550_v*!\\
+\hline
+\end{tabular}
+\caption{\label{tab:bulk trig}The prescaled HLT trigger paths used for each $\HT$ region of the hadronic control sample, where \alt < 0.55.  N.B. The $\HT$ that defines the region is built from jets with corrected energy that pass the requirements of the analysis, while the \HT quoted in the trigger definition is uncorrected and built using online reconstruction jets available to the trigger.}
+\end{table}
+
+
+
+In the muon control sample, due to the low $p^{\mu}_{T}$ = 10~GeV threshold we use the same triggers as for the hadronic signal sample. The photon sample makes use of the single photon trigger paths shown in Table~\ref{tab:photrig}, using the lowest unprescaled threshold available for each given run in the data.
+\begin{table}[htbp]
+\centering
+\begin{tabular}{ c }
+\hline
+\hline
+HLT Trigger Paths\\
+\hline
+\hline
+\verb!HLT_Photon75_CaloIdVL!\\\verb!HLT_Photon75_CaloIdVL_IsoL!\\ 
+\verb!HLT_Photon90_CaloIdVL!\\
+\verb!HLT_Photon90_CaloIdVL_IsoL!\\
+\hline
+\end{tabular}
+\caption{\label{tab:photrig}The list of HLT trigger paths available used to select the events for the Photon Control sample from which the lowest unprescaled photon threshold is selected in any given run.}
+\end{table}
+
+
+Events passing the relevant triggers proceed into the analysis selection.
+
 \section{Object Definitions}
+\subsection{Good Event Definition}
+\label{sec:good}
+In order for an event to be considered suitable for use in physics analyses, it must be defined as a ``Good Event". Such an event is required to have at least one non-fake good primary vertex with $N_{dof}$ $>$ 4. Constraints on the vertex position along the beam axis $|z_{vtx}| <$ 24 cm and perpendicular to the axis of $\rho <$ 2 cm must be satisfied. Events that have many fake tracks are identified as monster events and removed, by requiring that the ratio of High Purity tracks to the total number be greater than 25\% in events with more than 9 tracks. 
+
 
 \subsection{Jets}
 \label{sec:jetsel}
@@ -92,7 +168,7 @@ The jets used in this analysis are Calo Jets, reconstructed as described in Sect
 \end{table}
 
 
-Any jet which pass the $\Et$ and $\eta$ requirements but fails the ``loose" identification criteria is noted, and the event is marked as containing an ``odd" jet, as the presence of such a particle reflects an event whose kinematics are poorly understood and may therefore lead to a misleading \MHT.
+Any jet which passes the $\Et$ and $\eta$ requirements but fails the ``loose" identification criteria is noted, and the event is marked as containing an ``odd" jet, as the presence of such a particle reflects an event whose kinematics are poorly understood and may therefore lead to a misleading \MHT.
 \subsection{$\HT$ and \MHT}
 The calculation of both \HT and \MHT is performed using only the jets selected by the selection above in Section~\ref{sec:jetsel}.
 
@@ -193,14 +269,15 @@ Ratio of HCAL energy in $\Delta R = 0.15$ to ECAL seed energy & H / E & $<$ 0.05
 A basic selection of events used for comparison of distributions between data and monte-carlo events shall be known as "pre-selection",  following the details set out in this section.
 
 \begin{description}
-\item[Vertex Requirement]{It is required that events have at least one non-fake good primary vertex with $N_{dof}$ $>$ 4. Constraints on the vertex position along the beam axis $|z_{vtx}| <$ 24 cm and perpendicular to the axis of $\rho <$ 2 cm must be satisfied. Events that have many fake tracks are identified as monster events and removed, by requiring that the ratio of High Purity tracks to the total number be greater than 25\% in events with more than 9 tracks. }
+
 
 \item[HCAL Barrel and End-cap (HBHE) Noise Fiter]{Events where noise has been identified in the HCAL are removed also, using an algorithm which checks for Photodetectors which have at east 17 out of 18 channels with an E $>$ 1.5 GeV.}
 \end{description}
 Following these conditions events are then selected by the following criteria, using the definitions of physics objects according to the criteria stated previously:
 
 \begin{itemize}
-\item Pass triggers as detailed in Section~\ref{sec:trig}
+\item Pass triggers as detailed in Section~\ref{sec:trig}.
+\item Pass Good Event selection as detailed in Section~\ref{sec:good}.
 \item{Require events with N$_{jet}$ $\geq$ 2}
 \item N$_{muon}$ = N$_{electron}$ = 0 to reduce the effects of missing energy from neutrinos.
 \item N$_{photon}$ = 0 to ensure a pure hadronic set of events.
@@ -208,9 +285,19 @@ Following these conditions events are then selected by the following criteria, u
 \item Additional constraint on the transverse momentum of the two leading jets $p^{j1}_{T},p^{j2}_{T} >$ 100~GeV.
 \item Additional constraint on the leading jet pseudorapidity $|\eta^{j1}| <$ 2.5.
 \item \HT $\geq$ 275 GeV 
-\item{To protect the quantity \alt from the scenario where many jets exist below the momentum acceptance threshold, the missing energy variable \mht estimated from jet measurment is compared to the quantity \met measured from the calorimters. If the ratio R$_{miss}$ = \mht / \met $>$ 1.25, the event is rejected. 
-}
+\end{itemize}
+
+
+
+\section{Final Signal Selection}
+
+After the preselection a final set of cuts is applied, including the \alt cut that defines the signal region alongside cleaning cuts which remove events that may lead to inaccurate results. 
+
+\begin{itemize}
 \item \alt $>$ 0.55
+\item{If the ratio R$_{miss}$ = \mht / \met $>$ 1.25, the event is rejected. This protect the quantity \alt from the scenario where many jets fail the $p_{T}$ = 50~GeV threshold thus resulting in fake \mht and thus misleading values of \alt. }
+\item{To prevent against fake missing energy resulting from dead or masked cells in the ECAL or the gap between the barrel and end-caps the following procedure is used: The jet most likely to be responsible for the \MHT is found. If the angle $\phi$ between this jet and the vector $\vec{\MHT}$ (known as $\Delta \phi*$) less than 0.5 then the $\eta-\phi$ distance between the jet and the nearest masked ECAL cell is computed, along with the distance from the detector gap. If either distance is smaller than 0.3 then the event is rejected. }
+
 \end{itemize}
 
 
@@ -222,7 +309,7 @@ Previous iterations of this analysis strategy with the 35pb$^{-1}$ 2010 LHC data
 
 The set of lower bin edges are as follows: [275,325,375,475,574,675,775,875], where each bin is exclusive with an upper limit corresponding to the lower edge of the next bin, except in the case of the final bin which is inclusive $\HT > $875. The background estimation techniques employed from data therefore are designed to identify the contribution in each distinct bin. 
 
-In order to include the two lowest bins in \HT is is necessary to scale the jet thresholds stated in Section \ref{sec:press} in order to maintain even event kinematics allowing a shape analysis approach. The background from $t\bar{t}$ + jets carries a bias to higher jet multiplicities compared to the other EWK components, and thus with identical jet definitions exhibits a turn on behaviour in \HT. In order to remedy this, the lowest two bins have the two jet energy requirements scaled by $\sfrac{l}{375.}$ where $l$ represents the bin lower edge in question. This leads to the thresholds in Table~\ref{tab:thresh}.
+In order to include the two lowest bins in \HT is is necessary to scale the jet thresholds stated in Section \ref{sec:press} in order to maintain even event kinematics allowing a shape analysis approach. The background from $t\bar{t}$ + jets carries a bias to higher jet multiplicities compared to the other EWK components, and thus with identical jet definitions exhibits a turn on behaviour in \HT. In order to remedy this, the lowest two bins have both the \Pt threshold required by definition and the additional second jet \Pt requirement scaled. The scale factor is $\sfrac{l}{375.}$ where $l$ represents the bin lower edge in question, leading to the thresholds shown in Table~\ref{tab:thresh}.
 
 \begin{table}[htpb]
 \centering
@@ -240,46 +327,59 @@ In order to include the two lowest bins in \HT is is necessary to scale the jet 
 \caption{\label{tab:thresh}The three different regions of jet scaling, with values indicated both for the basic definition of a jet used in the analysis, and the second-to-leading jet energy cut. The former is especially important as this alters the value of \HT as this is calculated using the jets in the event.}
 \end{table}
 
+
+
 \section{Data to Monte-Carlo Comparisons }
 
+Distributions of the 2011 data with MC samples alongside are shown in this section. The MC samples are normalised to 1.1fb$^{-1}$ for shape comparison and to illustrate the accuracy of modelling provided, although these are not used in background estimation as data control samples are used later. 
 
+In Figure ~\ref{fig:preselplot} distributions of \HT, the jet multiplicity (NJet) and \alt are shown for events that pass the pre-selection with an additional cut of $\MHT >$ 100~GeV to ensure trigger efficiency. For simplicity only bins with $H_{T} > $375~GeV have been included in the plots, so as to maintain one set of jet thresholds. There is good agreement in all three variables. Figure \ref{fig:figures_AlphaT_all} shows the high discriminatory power of the \alt variable between the QCD ``fake" \MET background and signal events with real \MET. The region $0.46 < \alt < 0.6$ is expended in Figure~\ref{fig:figures_AlphaT_Zoomed_all}, illustrating the rapid QCD fall-off to zero that motivates the chosen cut value of 0.55.
 
-
-\begin{figure}[h]
+\begin{figure}[htpb]
 \centering
-\subfigure[Comparison of $H_{T}$ between data and MC for the hadronic selection for $H_{T}$ $\geq$ 375 GeV and MHT $>$ 100 GeV.]{\label{fig:figures_HT_all}\includegraphics[width=0.40\textwidth]{Figures/Analysis/PAS/HT_all.pdf}}
-\subfigure[Comparison of the jet multiplicity between data and MC for the hadronic selection, for $H_{T}$ $\geq$ 375 GeV and MHT $>$ 100 GeV.]{\label{fig:figures_JetMultiplicity_all}
-\includegraphics[width=0.40\textwidth]{Figures/Analysis/PAS/JetMultiplicity_all.pdf}
+\begin{minipage}[b]{1.\linewidth}
+\centering
+\subfigure[]{\label{fig:figures_HT_all}\includegraphics[width=0.45\textwidth]{Figures/Analysis/PAS/HT_all.pdf}}
+\hspace{0.2cm}
+\subfigure[]{\label{fig:figures_JetMultiplicity_all}
+\includegraphics[width=0.45\textwidth]{Figures/Analysis/PAS/JetMultiplicity_all.pdf}
 }
- \newline
-\subfigure[Comparison of the $\alpha_{T}$ distribution between data and MC for the hadronic selection, for $H_{T}$ $\geq$ 375 GeV and MHT $>$ 100 GeV.
-]{\label{fig:figures_AlphaT_all}
-\includegraphics[width=0.40\textwidth]{Figures/Analysis/PAS/AlphaT_all.pdf}
+\end{minipage}
+\newline
+\begin{minipage}[b]{1.\textwidth}
+\centering
+\subfigure[]{\label{fig:figures_AlphaT_all}
+\includegraphics[width=0.45\textwidth]{Figures/Analysis/PAS/AlphaT_all.pdf}
 }
-\hspace{0.3cm}
-  \subfigure[Comparison of the $\alpha_{T}$ distribution highlighting the agreement on the sharply falling edge between Data and Monte Carlo for the hadronic selection, in the region $H_{T}$ $\geq$ 375 GeV.]{\label{fig:figures_AlphaT_Zoomed_all}
-          \includegraphics[width=0.40\textwidth]{Figures/Analysis/PAS/AlphaT_Zoomed_all.pdf}
+\hspace{0.2cm}
+  \subfigure[]{\label{fig:figures_AlphaT_Zoomed_all}
+          \includegraphics[width=0.45\textwidth]{Figures/Analysis/PAS/AlphaT_Zoomed_all.pdf}
      }
-    \caption{Comparisons of 1.1 \fb 2011 7TeV CMS Data and equivalently weighted Monte-Carlo in basic kinematic quantities prior to the $\alpha_{T}$ selection cut.}
+     \end{minipage}
+    \caption{\label{fig:preselplot}Distributions of (a) \HT, (b) NJet, (c) \alt showing comparisons of 1.1 \fb 2011 7TeV CMS Data and equivalently weighted Monte-Carlo prior to the $\alpha_{T}$ selection cut, for $\HT \geq 375$~GeV and \MHT $>$ 100~GeV. The \alt distribution is also shown zoomed (d) in the region $0.46 < \alt < 0.6$. SUSY Signal reference points LM4 \& LM6 shown for illustration of potential yields.}
 \end{figure}
-\begin{figure}[h]
+
+
+The distributions of jet multiplicity, $\Delta \phi^{*}$ and $M_{eff}$ after the final selection cuts are applied can be seen respectively in Figure~\ref{afterat}. Data shows a good overall comparison to the Standard Model MC, although here statistics are more limited accounting for fluctuations. The $\Delta \phi^{*}$ distribution in Figure~\ref{fig:fig:BiasedDeltaPhi_after_alphaT_55_all} is consistent with the expectation that the \alt cut completely eradicate contamination from QCD events, as any evidence of such would lead to a peak at low values, instead of the flat behaviour seen. In addition no notable excess can be seen of data over MC although this observation is merely an aside, as a more detailed shape analysis will be used to evaluate this quantitatively in later sections. 
+
+\begin{figure}[htbp]
     \centering
-     \subfigure[$\Delta \Phi^{*}$ distribution after $\alpha_{T}$ selection.]{
-          \label{fig:BiasedDeltaPhi_after_alphaT_55_all}
-          \includegraphics[width=0.46\textwidth]{Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf}
-     }
-\hspace{0.3cm}
-    \subfigure[The effective mass distribution, $M_{\rm eff}$ = $H_{T}$ +
-    MHT, of the events passing the $\alpha_{T}$ selection.]{
-          \label{fig:EffectiveMass_after_alphaT_55_all}
-          \includegraphics[width=0.46\textwidth]{Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf}
-     }
-    \newline
-    \subfigure[Jet multiplicity after $\alpha_{T}$ selection.]{
+     \subfigure[]{
           \label{fig:JetMultiplicityAfterAlphaT_all}
-          \includegraphics[width=0.46\textwidth]{Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf}
+          \includegraphics[width=0.45\textwidth]{Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf}
      }
-\caption{Comparisons of 1.1 \fb 2011 7TeV CMS Data and equivalently weighted Monte-Carlo in basic kinematic quantities after the $\alpha_{T}$ selection cut.}
+    \subfigure[]{
+          \label{fig:EffectiveMass_after_alphaT_55_all}
+          \includegraphics[width=0.45\textwidth]{Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf}
+     }
+     \newline
+     \subfigure[]{
+          \label{fig:BiasedDeltaPhi_after_alphaT_55_all}
+          \includegraphics[width=0.45\textwidth]{Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf}
+     }
+
+   
+\caption{\label{fig:after at}Distributions of (a) Jet Multiplicity, (b) $M_{\rm eff}$( = $H_{T}$ + \MHT) and (c) $\Delta \phi^{*}$ showing comparisons of 1.1 \fb 2011 7TeV CMS Data and equivalently weighted Standard Model Monte-Carlo in basic kinematic quantities after the full $\alpha_{T}$ selection. SUSY Signal reference points LM4 \& LM6 shown for illustration of potential yields.}
 \end{figure}
 
 \subsection{Dependence of $R_{\alpha_{T}}$ on $H_{T}$}

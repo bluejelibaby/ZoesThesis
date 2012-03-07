@@ -4,6 +4,7 @@ The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: title.aux
 A level-1 auxiliary file: symbols.aux
 A level-1 auxiliary file: RA1.aux
+A level-1 auxiliary file: appA.aux
 The style file: thesis.bst
 Database file #1: papers.bib
 Warning--empty journal in JME-09-008
@@ -12,7 +13,7 @@ Warning--empty journal in AN-10-116
 Warning--empty journal in EGM-10-006
 You've used 5 entries,
             2232 wiz_defined-function locations,
-            567 strings with 5016 characters,
+            568 strings with 5024 characters,
 and the built_in function-call counts, 875 in all, are:
 = -- 67
 > -- 24
