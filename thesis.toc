@@ -19,15 +19,14 @@
 \contentsline {section}{\numberline {1.6}Final Signal Selection}{12}
 \contentsline {section}{\numberline {1.7}An $\ensuremath {H_{T} \xspace }$ Shape Analysis}{12}
 \contentsline {section}{\numberline {1.8}Data to Monte-Carlo Comparisons }{13}
-\contentsline {subsection}{\numberline {1.8.1}Dependence of $R_{\alpha _{T}}$ on $H_{T}$}{17}
+\contentsline {subsection}{\numberline {1.8.1}$R_{\alpha _{T}}$ on $H_{T}$}{15}
 \contentsline {section}{\numberline {1.9}Data-Driven Background Estimation}{17}
-\contentsline {subsection}{\numberline {1.9.1}Total background prediction}{17}
-\contentsline {subsection}{\numberline {1.9.2}Estimating EWK background using high $p_{T}$ using W+Jets events}{17}
-\contentsline {subsubsection}{Types of decay contributing to Muon Control Sample}{17}
-\contentsline {subsection}{\numberline {1.9.3}Estimation Z $\nu \mathaccentV {bar}016{\nu }$ + jets background using photon + jets events}{17}
-\contentsline {section}{\numberline {1.10}Systematic Uncertainties}{17}
-\contentsline {section}{\numberline {1.11}Simultaneous Fit}{17}
-\contentsline {section}{\numberline {1.12}Limits}{17}
-\contentsline {section}{\numberline {1.13}Conclusion}{17}
-\contentsline {chapter}{\numberline {A}}{24}
-\contentsline {chapter}{Bibliography}{25}
+\contentsline {subsection}{\numberline {1.9.1}Composition of Selected \ensuremath {\rm {t}\mathaccentV {bar}016{\rm {t}} + jets}\xspace and \ensuremath {\rm W + jets}\xspace Background Events}{17}
+\contentsline {subsection}{\numberline {1.9.2}Estimating Electroweak Backgrounds with a high $p_{T}$ control sample using W+Jets events}{18}
+\contentsline {subsubsection}{$\mu $ Control Sample Selection}{18}
+\contentsline {subsection}{\numberline {1.9.3}Estimation Z $\nu \mathaccentV {bar}016{\nu }$ + jets background using photon + jets events}{20}
+\contentsline {section}{\numberline {1.10}Systematic Uncertainties}{20}
+\contentsline {section}{\numberline {1.11}Simultaneous Fit}{20}
+\contentsline {section}{\numberline {1.12}Limits}{20}
+\contentsline {section}{\numberline {1.13}Conclusion}{20}
+\contentsline {chapter}{Bibliography}{26}

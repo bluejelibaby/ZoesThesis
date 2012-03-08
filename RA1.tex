@@ -106,7 +106,7 @@ $475 < \HT < 575$ &\verb!HLT_HT440_v*, HLT_HT450_v* !\\
 $\HT > 575$ & \verb! HLT_HT520_v*, HLT_HT550_v*!\\
 \hline
 \end{tabular}
-\caption{\label{tab:bulk trig}The prescaled HLT trigger paths used for each $\HT$ region of the hadronic control sample, where \alt < 0.55.  N.B. The $\HT$ that defines the region is built from jets with corrected energy that pass the requirements of the analysis, while the \HT quoted in the trigger definition is uncorrected and built using online reconstruction jets available to the trigger.}
+\caption{\label{tab:bulk trig}The prescaled HLT trigger paths used for each $\HT$ region of the hadronic control sample, where \alt $<$ 0.55.  N.B. The $\HT$ that defines the region is built from jets with corrected energy that pass the requirements of the analysis, while the \HT quoted in the trigger definition is uncorrected and built using online reconstruction jets available to the trigger.}
 \end{table}
 
 
@@ -333,7 +333,7 @@ In order to include the two lowest bins in \HT is is necessary to scale the jet 
 
 Distributions of the 2011 data with MC samples alongside are shown in this section. The MC samples are normalised to 1.1fb$^{-1}$ for shape comparison and to illustrate the accuracy of modelling provided, although these are not used in background estimation as data control samples are used later. 
 
-In Figure ~\ref{fig:preselplot} distributions of \HT, the jet multiplicity (NJet) and \alt are shown for events that pass the pre-selection with an additional cut of $\MHT >$ 100~GeV to ensure trigger efficiency. For simplicity only bins with $H_{T} > $375~GeV have been included in the plots, so as to maintain one set of jet thresholds. There is good agreement in all three variables. Figure \ref{fig:figures_AlphaT_all} shows the high discriminatory power of the \alt variable between the QCD ``fake" \MET background and signal events with real \MET. The region $0.46 < \alt < 0.6$ is expended in Figure~\ref{fig:figures_AlphaT_Zoomed_all}, illustrating the rapid QCD fall-off to zero that motivates the chosen cut value of 0.55.
+In Figure~\ref{fig:preselplota} distributions of $\HT$ and the jet multiplicity (NJet) are shown for events that pass the pre-selection with an additional cut of $\MHT >$ 100~GeV to ensure trigger efficiency. For simplicity only bins with $H_{T} > $375~GeV have been included in the plots, so as to maintain one set of jet thresholds. There is good agreement in both cases variables, with no noticeable shape disagreement. Using events with the same selection, Figure \ref{fig:figures_AlphaT_all} shows the high discriminatory power of the \alt variable between the QCD ``fake" \MET background and signal events with real \MET. The region $0.46 < \alt < 0.6$ is expended in Figure~\ref{fig:figures_AlphaT_Zoomed_all}, illustrating the rapid QCD fall-off to zero that motivates the chosen cut value of 0.55.
 
 \begin{figure}[htpb]
 \centering
@@ -345,7 +345,11 @@ In Figure ~\ref{fig:preselplot} distributions of \HT, the jet multiplicity (NJet
 \includegraphics[width=0.45\textwidth]{Figures/Analysis/PAS/JetMultiplicity_all.pdf}
 }
 \end{minipage}
-\newline
+    \caption{\label{fig:preselplota}Distributions of (a) \HT, (b) NJet,showing comparisons of 1.1 \fb 2011 7TeV CMS Data and equivalently weighted Monte-Carlo prior to the $\alpha_{T}$ selection cut, for $\HT \geq 375$~GeV and \MHT $>$ 100~GeV.SUSY Signal reference points LM4 \& LM6 shown for illustration of potential yields.}
+\end{figure}
+
+\begin{figure}[htpb]
+\centering
 \begin{minipage}[b]{1.\textwidth}
 \centering
 \subfigure[]{\label{fig:figures_AlphaT_all}
@@ -356,7 +360,7 @@ In Figure ~\ref{fig:preselplot} distributions of \HT, the jet multiplicity (NJet
           \includegraphics[width=0.45\textwidth]{Figures/Analysis/PAS/AlphaT_Zoomed_all.pdf}
      }
      \end{minipage}
-    \caption{\label{fig:preselplot}Distributions of (a) \HT, (b) NJet, (c) \alt showing comparisons of 1.1 \fb 2011 7TeV CMS Data and equivalently weighted Monte-Carlo prior to the $\alpha_{T}$ selection cut, for $\HT \geq 375$~GeV and \MHT $>$ 100~GeV. The \alt distribution is also shown zoomed (d) in the region $0.46 < \alt < 0.6$. SUSY Signal reference points LM4 \& LM6 shown for illustration of potential yields.}
+    \caption{\label{fig:preselplotb}Distributions of \alt showing comparisons of 1.1 \fb 2011 7TeV CMS Data and equivalently weighted Monte-Carlo prior to the $\alpha_{T}$ selection cut, for $\HT \geq 375$~GeV and \MHT $>$ 100~GeV. The \alt distribution is shown fully (left) and also shown zoomed (b) in the region $0.46 < \alt < 0.6$. SUSY Signal reference points LM4 \& LM6 shown for illustration of potential yields.}
 \end{figure}
 
 
@@ -382,9 +386,11 @@ The distributions of jet multiplicity, $\Delta \phi^{*}$ and $M_{eff}$ after the
 \caption{\label{fig:after at}Distributions of (a) Jet Multiplicity, (b) $M_{\rm eff}$( = $H_{T}$ + \MHT) and (c) $\Delta \phi^{*}$ showing comparisons of 1.1 \fb 2011 7TeV CMS Data and equivalently weighted Standard Model Monte-Carlo in basic kinematic quantities after the full $\alpha_{T}$ selection. SUSY Signal reference points LM4 \& LM6 shown for illustration of potential yields.}
 \end{figure}
 
-\subsection{Dependence of $R_{\alpha_{T}}$ on $H_{T}$}
+\subsection{$R_{\alpha_{T}}$ on $H_{T}$}
 
+Rather than a simple cut-and-count experiment a shape analysis in \HT bins as defined in Section~{sec:shape} is desirable to look simultaneously in a large signal region in \HT. This is performed using the properties of the \RaT variable, as discussed in Section~\ref{sec:at rat}, due to its unique properties separating the three possible components in its numerator: contamination from QCD, EWK backgrounds and SUSY signal events. 
 
+While the numerator is defined by the final selection defined previously the denominator, which shall be known as the hadronic bulk control region, is defined by the pre-selection only, with the additional change of triggers essential as the cross triggers would put an inadvertent \MHT cut, biasing the \alt distribution. Here, as it is a control region we use a suite of pre scaled \HT triggers described previously. It is important to remove not just the \alt cut but all cuts of the final level selection as the cleaning cuts specifically select events with 
 
 
 \begin{figure}[h]
@@ -405,8 +411,56 @@ The distributions of jet multiplicity, $\Delta \phi^{*}$ and $M_{eff}$ after the
 
 
 \section{Data-Driven Background Estimation}
-\subsection{Total background prediction}
-\subsection{Estimating EWK background using high $p_{T}$ using W+Jets events}
+Having eliminated the QCD component of the background, the remaining background stems from electroweak processes where real missing energy is created in the from of neutrinos. There are three major backgrounds relevant, Z + jets, W + jets and t$\bar{\textrm{t}}$. Events with  Z + jets form a true irreducible background with decay to $\nu \bar{\nu}$ producing a true event with jets and missing energy, and hence requires a method of estimation to quantify its contribution to the yield. A data-driven method is used with the construction of a $\gamma$ + jets control sample.
+
+It can be seen that there is also an irreducible background from W + jets  and t$\bar{\textrm{t}}$ events, both of which in the kinematic space of the final selection concern the decays of boosted W's. It is interesting to understand the composition of the decays responsible, as these should be leptonic and therefore easy to identify and eliminate with our vetoes. 
+
+\subsection{Composition of Selected \ttj and \wj Background Events}
+
+Figure~\ref{fig:ttwtype} shows the breakdown of the decays. The category responsible for the greatest number of events involves the decay $W \ra \tau \nu$, where the tau lepton decays hadronically. In this case the tau is identified as a jet and as such the event fulfils the selection criteria.
+
+
+
+where the W decays to $l \nu$, predominantly in the case where $l = \tau$ and the $\tau$ decays hadronically and is identified as a jet. In the \ttj events, the next highest contribution is the fully leptonic decay - that where both W's decay leptonically. There is also some contribution where $l = e, \mu$ but the $e, \mu$ is outside the $p_{T}$ and $|\eta|$ acceptance of the analysis. The remainder of events represent the veto inefficiency where the W decays to  $e, \mu$ within this acceptance but failing the quality criteria required (isolation, ID). 
+
+
+\begin{figure}[htbp]
+\begin{center}
+
+\subfigure[\label{fig:muon_types_275W}] {\includegraphics[width=0.35\textwidth, angle=0]{Figures/Analysis/Types/2011_275_W_Pie}}
+\subfigure[\label{fig:muon_types_275TT}]{\includegraphics[width=0.35\textwidth, angle=0]{Figures/Analysis/Types/2011_275_TT_Pie}}
+
+\subfigure[\label{fig:muon_types_325W}] {\includegraphics[width=0.35\textwidth, angle=0]{Figures/Analysis/Types/2011_325_W_Pie}}
+\subfigure[\label{fig:muon_types_325TT}]{\includegraphics[width=0.35\textwidth, angle=0]{Figures/Analysis/Types/2011_325_TT_Pie}}
+
+\subfigure[\label{fig:muon_types_allW}] {\includegraphics[width=0.35\textwidth, angle=0]{Figures/Analysis/Types/2011_unsca375_W_Pie}}
+\subfigure[\label{fig:muon_types_allTT}]{\includegraphics[width=0.35\textwidth, angle=0]{Figures/Analysis/Types/2011_unsca375_TT_Pie}}
+
+\caption{\label{fig:ttwtype} Type breakdown of decays resulting in a \wj or \ttj event selected by the hadronic signal selection. Shown using Monte-Carlo truth information separately for \wj (left) and \ttj (right) events. The breakdown is made separately for each jet-scale case: 275 \less \HT \less 325 GeV (top), 325 \less \HT \less 375 GeV (middle), and \HT \more 375 GeV (bottom). }
+\end{center}
+\end{figure}
+
+
+\subsection{Estimating Electroweak Backgrounds with a high $p_{T}$ control sample using W+Jets events}
+
+In order to estimate the background contribution resulting from these boosted W decays from \wj and \ttj events, a control sample is used. Here energetic W bosons that decay through a muon-neutrino pair are selected in the kinematic region of the search in order to extrapolate the expected yield in the hadronic selection. 
+\subsubsection{$\mu$ Control Sample Selection}
+
+The aim of the $\mu$ control selection is to select events kinematically similar to those serving as background to the hadronic signal sample, but in the case of a well-identified muon, ensuring orthogonality with the signal selection. 
+
+
+The prediction of the W boson decay contribution to the hadronic signal yield in the data, W$^{had}_{data}$, can be made from the analogous muon control yield W$^{\mu}_{data}$ providing the ratio between the hadronic and $\mu$ selections R$^{had}_{\mu}$ is known. This is taken from the events passing each selection in the \ttj and \wj Monte Carlo simulations W$^{had}_{MC}$ and W$^{\mu}_{MC}$, such that the estimation is made using Equation~\ref{eq:mupred}. 
+
+\begin{equation}
+W^{had}_{data} = W^{\mu}_{data}\times R^{had}_{\mu} = W^{\mu}_{data}\times (\frac{W^{had}_{MC}}{W^{\mu}_{MC}})
+\label{eq:mupred}
+\end{equation}
+
+Calculating the contribution separately for each hadronic bin in this way results in the values for the ratio R$^{had}_{\mu}$ as shown in Table~\ref{}. As there are low MC statistics in the highest bins the errors become large, which affects the error of a prediction made. In addition, the values seem to have no trend, as expected as the behaviour of the backgrounds is not expected to change in \HT. Thus in order to improve results, one ratio R$^{had}_{\mu}$ is calculated for \HT $>$ 375~GeV and used in the six highest bins, to provide six individual bin estimates. The two lowest bin estimates are calculated using exclusive ratios, as the MC statistics are sufficient. 
+
+
+
+
 \begin{figure}[h]
 \begin{center}
 \subfigure[\label{fig:muon_beforeat_mupt}]{\includegraphics[width=0.45\textwidth, angle=0]{Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_beforeaT.pdf}}
@@ -448,22 +502,7 @@ The distributions of jet multiplicity, $\Delta \phi^{*}$ and $M_{eff}$ after the
 \end{center}
 \end{figure}
 
-\subsubsection{Types of decay contributing to Muon Control Sample}
 
-\begin{figure}[h]
-\begin{center}
-\subfigure[\label{fig:muon_types_275TT}]{\includegraphics[width=0.40\textwidth, angle=0]{Figures/Analysis/Types/2011_275_TT_Pie}}
-\subfigure[\label{fig:muon_types_275W}] {\includegraphics[width=0.40\textwidth, angle=0]{Figures/Analysis/Types/2011_275_W_Pie}}
-\newline
-\subfigure[\label{fig:muon_types_325TT}]{\includegraphics[width=0.40\textwidth, angle=0]{Figures/Analysis/Types/2011_325_TT_Pie}}
-\subfigure[\label{fig:muon_types_325W}] {\includegraphics[width=0.40\textwidth, angle=0]{Figures/Analysis/Types/2011_325_W_Pie}}
-\newline
-\subfigure[\label{fig:muon_types_allTT}]{\includegraphics[width=0.40\textwidth, angle=0]{Figures/Analysis/Types/2011_unsca375_TT_Pie}}
-\subfigure[\label{fig:muon_types_allW}] {\includegraphics[width=0.40\textwidth, angle=0]{Figures/Analysis/Types/2011_unsca375_W_Pie}}
-
-\caption{\label{fig:muon_types} Type breakdown of decays resulting in an event selected by the Muon Control selection, shown using Monte-Carlo truth information separately for \ttj (left) and \wj (right) events. The breakdown is made separately for each jet-scale case: 275 \less \HT \less 325 GeV (top), 325 \less \HT \less 375 GeV (middle), and \HT \more 375 GeV (bottom). }
-\end{center}
-\end{figure}
 
 \subsection{Estimation Z  $\nu \bar{\nu}$ + jets background using photon + jets events}
 
