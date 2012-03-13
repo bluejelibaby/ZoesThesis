@@ -56,6 +56,8 @@
 %% the table of contents
 %\pagestyle{empty}
 %
+\pagenumbering{arabic}
+\setcounter{page}{1}
 \include{title}
 %\ \newpage		% Newpage needed if doing double sided.
 
@@ -83,8 +85,7 @@
 %-----------------------------------------------------------------------------
 
 
-\pagenumbering{roman}
-\setcounter{page}{1}
+
 \include{symbols}
 \onehalfspacing
 
@@ -128,24 +129,24 @@
 %% Now the body of the text - note that parskip has to be reset after the TOC
 
 \onehalfspacing
-\pagenumbering{arabic}
+%\pagenumbering{arabic}
 
-\setcounter{page}{1}
+%\setcounter{page}{1}
 %% Add chapters here %%
-%\include{Introduction}
-%\include{Theory}
-%\include{Detector}
-%\include{Objects}
-%\include{AlphaT}
+\include{Introduction}
+\include{Theory}
+\include{Detector}
+\include{Objects}
+\include{AlphaT}
 \include{RA1}
 %\include{RA4}
-%\include{Conclusion}
+\include{Conclusion}
 
 \renewcommand{\chaptername}[1]{Appendix A. }
 \renewcommand{\chaptermark}[1]{\markboth{\chaptername \ #1}{}} 
 
 \appendix
-%\include{appA}
+\include{appA}
 
 
 \singlespacing
