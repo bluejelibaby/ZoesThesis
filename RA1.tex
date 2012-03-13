@@ -476,7 +476,7 @@ To test the sensitivity of the shape of $\RaT$ to the cross-sections used in SM 
   \end{center}
 \end{figure}
 
-Having eliminated the QCD component of the background, the remaining background stems from electroweak processes where real missing energy is created in the from of neutrinos. There are three major backgrounds relevant, Z + jets, W + jets and t$\bar{\textrm{t}}$. Events with  Z + jets form a true irreducible background with decay to $\nu \bar{\nu}$ producing a true event with jets and missing energy, and hence requires a method of estimation to quantify its contribution to the yield. A data-driven method is used with the construction of a $\gamma$ + jets control sample.
+Having confirmed the elimination of the QCD component of the background, the selection is left with a remaining background stemming from electroweak processes where real missing energy is created in the from of neutrinos. There are three major backgrounds relevant, Z + jets, W + jets and t$\bar{\textrm{t}}$. Events with  Z + jets form a true irreducible background with decay to $\nu \bar{\nu}$ producing a true event with jets and missing energy, and hence requires a method of estimation to quantify its contribution to the yield. A data-driven method is used with the construction of a $\gamma$ + jets control sample.
 
 It can be seen that there is also an irreducible background from W + jets  and t$\bar{\textrm{t}}$ events, both of which in the kinematic space of the final selection concern the decays of boosted W's. It is interesting to understand the composition of the decays responsible, as these should be leptonic and therefore easy to identify and eliminate with our vetoes. 
 
@@ -676,7 +676,7 @@ The conservative estimate of the systematic uncertainty floods is in accord with
 \begin{itemize}
 \item The largest contribution to the overall uncertainty is from the uncertainty of the probability $p$ for a W decay to pass the lepton veto, divided into individual uncertainties on each type of decay weighted by the frequency of that decay as described earlier in Section~\ref{sec:ttwcomp}. Overall this contributes 33\%.  
 \item The effect of acceptance $a$ and efficiency $\epsilon$  $\sfrac{1}{a \times \epsilon}$ is predicted using the MC, but there is an uncertainty resulting from the difference in this between MC and data, which when measured for W and Z cross sections contributes 1.6\%, and for t$\bar{\textrm{t}}$ it is 6.1\%. Conservatively we chose 6.1\% which represents an overestimate as the proportion of W events in reality reduces this component. 
-\item
+\item There is an uncertainty on the assumption the that the control sample is pure, i.e. that the fraction of events $f$ in the sample that come from W and t$\bar{\textrm{t}}$ decays is 1. From Monte Carlo we have observed the contamination from QCD to be negligible, but to allow for poor QCD MC modelling assign a conservative uncertainty of 200\% on the expected QCD yield, still only contributing a 3\% uncertainty on $f$. 
 \item
 \end{itemize}
 
@@ -695,8 +695,10 @@ The $\gamma$ control sample is defined similarly to that of the $\mu$ control sa
 \begin{itemize}
 \item $p^{\gamma}_{T} > $100~GeV putting the photon momentum above the mass of the Z~(91.2~GeV) to enhance the similarity of kinematics.
 \item $| \eta^{\gamma}| <$ 1.45
-\item $\Delta \textrm{R}(\gamma, \textrm{jet})$ > 1
+\item $\Delta \textrm{R}(\gamma, \textrm{jet})$ $>$ 1
 \end{itemize}
+
+The \alt and Jet Multiplicity distributions of the $\gamma$ control sample selection events prior to the \alt cut are shown in Figure~\ref{fig:photon_plots} for the bins in the region $\HT > $375~GeV for data and MC from QCD and $\gamma$ + jets events, taken from MADGRAPH. The distributions show good shape agreement although the total yield in data is higher than in MC. As the method will only use MC to make a comparison ratio between the two selections any inaccuracies of the cross-section have no relevance to the estimation and therefore the method is still valid. 
 
 
 \begin{figure}[h]
@@ -707,7 +709,20 @@ The $\gamma$ control sample is defined similarly to that of the $\mu$ control sa
 \end{center}
 \end{figure}
 
+After the \alt cut the $\gamma$ control sample is mainly free from QCD although there is a small number of events remaining, resulting in a purity factor of 0.92 and 0.97 in the two lowest bins and 0.99 in all other bins. 
 
+\subsection{Prediction Calculation}
+
+In a similar way to the t$\bar{\textrm{t}}$-W prediction, it is possible to extrapolate the prediction for the Z component of the hadronic signal yield, Z$^{pred}_{data}$ from the measured  yield of events in the $\gamma$ + jets control sample $\gamma^{mess}_{data}$, using as a translation factor the ratio R$^{MC}_{Z/\gamma}$. This is described in Equation~\ref{eq:phopred}, where the ratio R$^{MC}_{Z/\gamma}$ is created using the hadronic signal yield from Z + jets MC events, Z$_{MC}$ and the $\gamma$ control selection yield in $\gamma$ + jets MC, $\gamma_{MC}$. The purity of the $\gamma$ selection $p$ is included as a multiplicative factor to correct for the QCD contamination in $\gamma^{meas}_{data}$, i.e. $\gamma^{corr}_{data}$ = $p \gamma^{meas}_{data}$.
+
+\begin{equation}
+Z^{pred}_{data} = p \times \gamma^{meas}_{data}\times R^{MC}_{Z/\gamma} = \gamma^{corr}_{data}\times (\frac{Z_{MC}}{\gamma_{MC}})
+\label{eq:phopred}
+\end{equation}
+
+The calculation for the ratio R$^{MC}_{Z/\gamma}$ is performed once in each of the two lowest signal bins, whilst the six higher bins use one shared ratio as in the $\mu$ control method. The variation of the shapes with $\HT$ are minimal and this approach minimises the error from MC statistics that will be passed on to the prediction in the highest bins. 
+
+The bin-by-bin results including prediction are shown in Table~\ref{tab:respho}, with the normalised MC event yields that contribute to R$^{had}_{\mu}$ per bin and the yields in data for the $\gamma$ selection at 1.1fb$^{-1}$. On the prediction both statistical errors and systematic errors are quoted, the latter corresponding to a 40\% uncertainty used in the previous analysis, the components of which are listed below.
 
 \begin{table}[htbp!]
 
@@ -764,7 +779,7 @@ Sample Purity           & 0.99                           & 0.99                 
 \end{tabular*}
 \end{minipage}
 \caption{Bin-by-bin prediction of Z $\ra \nu \bar{\nu}$ irreducible background after final selection, using $\gamma$ + jets control sample with 1.1fb$^{-1}$ 2011 data.}
-\label{tab:phopred}
+\label{tab:respho}
 \end{table}
 
 

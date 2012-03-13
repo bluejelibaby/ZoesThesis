@@ -3,82 +3,54 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: title.aux
 A level-1 auxiliary file: symbols.aux
-A level-1 auxiliary file: Introduction.aux
-A level-1 auxiliary file: Theory.aux
-A level-1 auxiliary file: Detector.aux
-A level-1 auxiliary file: Objects.aux
-A level-1 auxiliary file: AlphaT.aux
 A level-1 auxiliary file: RA1.aux
-A level-1 auxiliary file: Conclusion.aux
 A level-1 auxiliary file: appA.aux
 The style file: thesis.bst
 Database file #1: papers.bib
-Warning--empty journal in PichSM
-Warning--empty journal in HerreroSM
-Warning--empty journal in Drees
-Warning--empty journal in PeskinBSM
-Warning--empty journal in SUSYPrime
-Warning--empty journal in TRK-10-005
-Warning--empty journal in jetroundup
-Warning--empty journal in aktrecom
-Warning--empty journal in HERWIG
-Warning--empty journal in JME-10-010
-Warning--empty journal in metrecon
-Warning--empty journal in etmissnote
-Warning--empty journal in JME-10-004
-Warning--empty journal in MUO-10-004
-Warning--empty journal in EGM-10-005
-Warning--empty journal in EGM-10-004
-Warning--empty journal in PASaT
-Warning--empty journal in ANaT
-Warning--empty journal in ANnaT
-Warning--empty journal in an2009_56
-Warning--empty journal in an2010_119
-Warning--empty journal in an2009_188
 Warning--empty journal in JME-09-008
 Warning--empty journal in MUO-10-002
 Warning--empty journal in AN-10-116
 Warning--empty journal in EGM-10-006
 Warning--empty journal in SUS-10-001
-You've used 61 entries,
+You've used 7 entries,
             2232 wiz_defined-function locations,
-            902 strings with 12771 characters,
-and the built_in function-call counts, 12555 in all, are:
-= -- 957
-> -- 587
-< -- 4
-+ -- 227
-- -- 166
-* -- 977
-:= -- 2017
-add.period$ -- 188
-call.type$ -- 61
-change.case$ -- 2
+            580 strings with 5317 characters,
+and the built_in function-call counts, 1321 in all, are:
+= -- 99
+> -- 48
+< -- 0
++ -- 20
+- -- 13
+* -- 95
+:= -- 216
+add.period$ -- 21
+call.type$ -- 7
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 88
-duplicate$ -- 718
-empty$ -- 1289
-format.name$ -- 194
-if$ -- 2680
+cite$ -- 12
+duplicate$ -- 83
+empty$ -- 139
+format.name$ -- 15
+if$ -- 274
 int.to.chr$ -- 0
-int.to.str$ -- 61
-missing$ -- 66
-newline$ -- 314
-num.names$ -- 61
-pop$ -- 333
+int.to.str$ -- 7
+missing$ -- 7
+newline$ -- 42
+num.names$ -- 7
+pop$ -- 34
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 198
+skip$ -- 27
 stack$ -- 0
-substring$ -- 384
-swap$ -- 196
-text.length$ -- 4
+substring$ -- 39
+swap$ -- 20
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 27
-while$ -- 82
-width$ -- 63
-write$ -- 610
-(There were 27 warnings)
+warning$ -- 5
+while$ -- 9
+width$ -- 8
+write$ -- 73
+(There were 5 warnings)
