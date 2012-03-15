@@ -677,15 +677,70 @@ Data $\mu +$~jets & 17 & 5 & 0 & 0 \\
 Although the prediction is data-driven the reliance on the ratio R$^{had}_{MC}$ which is taken from Monte Carlo introduces sources of uncertainty based not he accuracy of modelling, and thus we apply conservative 
 \subsubsection{Dependance of the Prediction Calculation}
 
-The number of events measured in data W$^{\mu}_{data, meas}$ is related to the actual total number of W $\ra \mu \nu$ events W$^{\mu}_{actual}$ by the relation in Equation~\ref{eq:Wa} where the purity $p$ represents the fraction of measured events 
+The number of events measured in data W$^{\mu}_{data, meas}$ is related to the actual total number of W $\ra \mu \nu$ events W$^{\mu}_{data, actual}$ by the relation in Equation~\ref{eq:Wa} where the purity $p$ represents the fraction of events in the control sample that originate from W + Jets and \tto processes, and $f_{X}, a_{X}$ and $\epsilon_{X}$ are the fraction of events, acceptance and efficiency of each process X = W, \tto. 
 
 \begin{equation}
-W^{\mu}_{data, actual} = W^{\mu}_{data, meas} \times 
+W^{\mu}_{data, actual} = W^{\mu}_{data, meas} \times (\frac{f_{W}}{a_{W} \times \epsilon_{W}} + \frac{f_{\tto}}{a_{\tto} \times \epsilon_{\tto}}) \times p
 \label{eq:Wa}
 \end{equation}
 
+The purity is assumed to be 1 due to the lack of QCD contamination demonstrated in MC. 
 
-\subsubsection{}
+In addition, the prediction of W$^{had}_{data}$ in Equation~\ref{eq:mupred} can be rewritten in Equation~\ref{eq:Wb} in terms of W$^{\mu}_{data, actual}$ and the probabilities P$^{had}_{X}$ of an W $\ra l \nu$ event from process X passing the hadronic signal selection as the charged lepton was not identified by the lepton vetoes. 
+
+
+\begin{equation}
+W^{had}_{data} = W^{\mu}_{data, actual } \times (\frac{W^{had}_{MC}}{W^{\mu}_{MC, actual}}) = W^{\mu}_{data, actual } \times (f_{W} P^{had}_{W} + f_{\tto} P^{had}_{\tto})
+\label{eq:Wb}
+\end{equation}
+
+Using these two equations together yields the full dependence of the ratio R$^{had}_{W}$ in Equation~\ref{eq:Wc}, analogous with Equation~|ref{eq:mupred} where we assume p = 1 and the other factors of which are taken directly from the MC yields.
+
+\begin{equation}
+W^{had}_{data} = W^{\mu}_{data, meas} \times (\frac{f_{W}}{a_{W} \times \epsilon_{W}} + \frac{f_{\tto}}{a_{\tto} \times \epsilon_{\tto}}) \times (f_{W} P^{had}_{W} + f_{\tto} P^{had}_{\tto}) \times p
+\label{eq:Wc}
+\end{equation}
+
+ Multiplying out the full dependence introduces quadratic terms in the fractions pertaining to each component, $f_{W}$, $f_{\tto}$ which multiply the factors P$^{had}_{W}/(a_{W} \times \epsilon_{W}$ and P$^{had}_{W}/(a_{W} \times \epsilon_{W}$. This can be calculated in MC by dividing the yield in the MC of each component of the full hadronic signal selection without the lepton veto with that once the lepton veto has been applied. Yields normalised to 1.1fb$^{-1}$ are shown in Table~\ref{tab:pae} without and with the lepton veto, and the corresponding values of P$^{had}/(a \times \epsilon)$. 
+ 
+ \begin{table}
+ \footnotesize
+ \centering
+ \begin{tabular}{c c c}
+ \multicolumn{3}{c}{All Bins, \HT $>$ 275~GeV}\\
+ \hline
+ \hline
+ X & W + Jets & \tto + jets \\
+ \hline
+ \hline
+ Before e,$\mu$ vetoes & 2161.86 & 1035.50 \\
+ After e,$\mu$ vetoes & 594.24 & 227.53\\
+ \hline
+ \hline
+ $P^{had}_{X}/(a_{X} \times \epsilon_{X}$) & 0.27 & 0.22\\
+ \hline
+ \hline
+ \end{tabular}
+\hspace{0.25cm}
+ \begin{tabular}{c c c}
+ \multicolumn{3}{c}{6 High Bins, \HT $>$ 375~GeV}\\
+ \hline
+ \hline
+ X & W + Jets & \tto + jets \\
+ \hline
+ \hline
+ Before e,$\mu$ vetoes & 568.34 & 283.92\\
+ After e,$\mu$ vetoes & 126.62 & 58.91\\
+ \hline
+ \hline
+ $P^{had}_{X}/(a_{X} \times \epsilon_{X}$) & 0.24 & 0.23 \\
+ \hline
+ \hline
+ \end{tabular}
+ 
+ \caption{\label{tab:pae} \tto -W MC yields having passed all the hadronic signal final selection cuts without and with the lepton vetoes, normalised for 1.1fb$^{-1}$. The factor P^{had}_{X}/(a_{X} \times \epsilon_{X}) for each process X is calculated from the division of the yield with vetoes by the yield before the vetoes are applied}
+ \end{table}
+\subsubsection{Components of the Overall Uncertainty}
 
 
 The conservative estimate of the systematic uncertainty floods is in accord with that developed for the previous iteration of this analysis, with the following contributory factors:
@@ -729,7 +784,7 @@ The \alt and Jet Multiplicity distributions of the $\gamma$ control sample selec
 
 After the \alt cut the $\gamma$ control sample is mainly free from QCD although there is a small number of events remaining, resulting in a purity factor of 0.92 and 0.97 in the two lowest bins and 0.99 in all other bins.
 
-\subsection{\tto + W Background Prediction Calculation}
+\subsection{Z Background Prediction Calculation}
 
 In a similar way to the t$\bar{\textrm{t}}$-W prediction, it is possible to extrapolate the prediction for the Z component of the hadronic signal yield, Z$^{pred}_{data}$ from the measured yield of events in the $\gamma$ + jets control sample $\gamma^{mess}_{data}$, using as a translation factor the ratio R$^{MC}_{Z/\gamma}$. This is described in Equation~\ref{eq:phopred}, where the ratio R$^{MC}_{Z/\gamma}$ is created using the hadronic signal yield from Z + jets MC events, Z$_{MC}$ and the $\gamma$ control selection yield in $\gamma$ + jets MC, $\gamma_{MC}$. The purity of the $\gamma$ selection $p$ is included as a multiplicative factor to correct for the QCD contamination in $\gamma^{meas}_{data}$, i.e. $\gamma^{corr}_{data}$ = $p \gamma^{meas}_{data}$.
 
