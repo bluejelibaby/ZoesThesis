@@ -9,14 +9,15 @@ Isolating these new physics events from Standard Model background processes is e
 This analysis uses datasets both from Monte Carlo simulation (MC) and of data recorded by the CMS detector in 2011.
 
 \subsection{Monte Carlo Simulation}
-Datasets of simulated events with calculated cross-sections are required for any analysis at the LHC. Due to the hadron-collider nature these rely on the PDF's
+Datasets of simulated events with calculated cross-sections are required for any analysis at the LHC. The following samples are used, full details of which can be found in Appendix A.
 \subsubsection{Standard Model Background}
-\begin{description}
-\item[QCD Multijet]{}
-\item[W + jets]{}
-\item[Z $\ra \nu\bar{\nu}$ + jets]{}
-\item[t$\bar{\textrm{t}}$]{}
-\end{description}
+\begin{itemize}
+\item QCD Multijet
+\item W + jets
+\item Z $\ra \nu\bar{\nu}$ + jets
+\item t$\bar{\textrm{t}}$ + jets
+\end{itemize}
+
 \subsubsection{CMSSM SUSY Signal}
 For the purpose of understanding the possible yields from CMSSM SUSY, two mSUGRA parameter points are used. CMS has a dedicated set of 10 Low Mass(LM) points designed for initial data-taking from which we have chosen LM4 and LM6, the values of which are found in Table~\ref{tab:LM}.
 
@@ -400,6 +401,7 @@ The distributions of jet multiplicity, $\Delta \phi^{*}$ and $M_{eff}$ after the
 
 Rather than a simple cut-and-count experiment a shape analysis in \HT bins as defined in Section~{sec:shape} is desirable to look simultaneously in a large signal region in \HT. This is performed using the properties of the \RaT variable, as discussed in Section~\ref{sec:atrat}, due to its unique properties separating the three possible components in its numerator: contamination from QCD, EWK backgrounds and SUSY signal events.
 
+\subsubsection{Hadronic Bulk Control Selection}
 While the numerator is defined by the final selection defined previously the denominator, which shall be known as the hadronic bulk control region, is defined by the pre-selection only, with the additional change of triggers essential as the cross triggers would put an inadvertent \MHT cut, biasing the \alt distribution. Here, as it is a control region we use a suite of pre scaled \HT triggers described previously. It is important to remove not just the \alt cut but all cuts of the final level selection as the cleaning cuts may introduce a bias to high missing energy. The bin-by-bin 1.1fb$^{-1}$ yields for the hadronic signal and hadronic bulk selections are found in Table~\ref{tab:hadyield}, along with each corresponding value for \RaT.
 
 \begin{table}[ht!]
@@ -905,14 +907,14 @@ The number of events predicted are compatible with those measured in data within
 
 \section{Signal Region Systematic Uncertainties}
 
-A number of experimental systematic uncertainties have an effect on the efficiencies of potential signsl, which are detailed here. 
+A number of experimental systematic uncertainties have an effect on the efficiencies of potential signal, which are detailed here. 
 
 \subsubsection{Luminosity}
 The measurement of luminosity taken propagates through to an uncertainty on the signal event yield when considering any new physics model, which is currently 6\%~\cite{EWK-11-001}
 \subsubsection{Effect of dead ECAL cut}
 The cut that removes events where a jet points towards a region with masked ECAL towers has varying efficiencies for different signal models. This introduces an uncertainty based on the distribution about the mean. A study using several points in the CMSSM yields a standard deviation $\sim$ 2\%. In addition there is a contribution to the uncertainty due to the resolution of $\Delta$R, 0.05 for jets with $\Pt >$100~GeV. Such a variation corresponds to 2.2\%, and the overall uncertainty for this cut is therefore 3\%
 \subsubsection{Effect of e/$\mu$/$\gamma$ Vetoes}
-The rejection of leptons and photons have efficiencies that agree in data very well with QCD Monte Carlo using three different generators (\textsc{Pythia6, pythia8, Madgraph}), the variation of which is at maximum 0.8\% for the total effect which rejects \sim 5\% of events. We choose to assign half this value, 2.5\% representing 50\% of the total veto inefficiency.
+The rejection of leptons and photons have efficiencies that agree in data very well with QCD Monte Carlo using three different generators (\textsc{Pythia6, pythia8, Madgraph}), the variation of which is at maximum 0.8\% for the total effect which rejects $\sim$ 5\% of events. We choose to assign half this value, 2.5\% representing 50\% of the total veto inefficiency.
 
 \subsubsection{Jet Energy Scale and Resolution}
 Fluctuations of the JES affect the jets that pass the \Pt and \HT requirement, which has an effect on the overall result. Varying this in accordance with results described in Section~\ref{sec:JES} show variations on yields of CMSSM points within +1.9\% and -2.2\%, of which a systematic of 2\% is chosen as the latter would not artificially improve the yield. The resolution from MC is found to be 10-15\% better than in data, and our correction for that yields a 1\% uncertainty on signal yield. Overall 2.5\& is contributed from JES and resolution.
@@ -923,8 +925,103 @@ In addition to the experimental uncertainties listed above, there is a theoretic
 
 Adding all these sources of uncertainty in quadrature gives an overall uncertainty of 12.5\%, which is carried onwards to the limit calculation. 
 
-\section{Statistical Interpretation Simultaneous Fit}
+\section{Statistical Interpretation}
 
+Having obtained the yields and predictions as detailed in previous sections, it is desirable to quantify and interpret the results of the three selections simultaneously with respect to the SM only hypothesis and also possible CMSSM SUSY signal. The results in all 3 selections are used simultaneously together in order to draw conclusions. A likelihood model is used for each of the three samples describing the relevant results along with the uncertainties, with the number of observed events in each assumed to have a Poisson Distribution Pois($n | \mu$) where the number of expected events is $\mu$ as in Equation~\ref{eq:poiss}.
+
+\begin{equation}
+Pois(n | \mu)  = \frac{\mu^{n}}{n!} e^{-\mu}
+\label{eq:poiss} 
+\end{equation}
+
+The likelihood of $\mu$ being the number of expected events given the outcome n can then be expressed in terms of this probability distribution. Where $\mu$ depends on a set of unknown parameters maximising L provides estimates for the models parameters. The N=8 measurements corresponding to each $\HT$ bin enter the likelihood distinctly and simultaneously through a product of Poisson distributions. It does not distinguish between bins of differing width. 
+
+\subsection{Hadronic Signal Selection Liklehood}
+
+Given a set of observed event yields for the hadronic signal selection n$^{i}$ in i=1,...,N $ \HT$ bins, the likelihood L$_{had}$ is described by:
+
+\begin{equation}
+L_{had} = \prod_{i} \textrm{Pois}(n^{i}|b^{i} + s^{i}) \equiv \prod_{i} \textrm{Pois}(n^{i} | b^{i}_{ewk} + b^{i}_{qcd} + s^{i})
+\label{eq:Lhad1}
+\end{equation}
+
+where the expected yields are composed of $s^{i}$ the expected number of signal events in the $i$th bin, and $b^{i}$ the expected Standard Model background, assuming $b^{i} \equiv b^{i}_{ewk} + b^{i}_{qcd}$ where $b^{i}_{ewk}$ is the expected yield from electroweak processes, and $b^{i}_{qcd}$ the expected yield from QCD. 
+
+\subsection{Expression of b$^{i}$ using \RaT evolution in \HT}
+
+The separation of b$^{i}$ into electroweak and QCD components allows the expression of each in terms of its characteristic behaviour of \RaT as $\HT$ evolves. 
+
+The hypothesis of \RaT exponentially falling with increasing $\HT$ can be expressed as a function of two parameters A and k in the following way:
+
+\begin{equation}
+\RaT(\HT) = Ae^{-k\HT},
+\label{eq:rat1}
+\end{equation}
+
+This can be used to express a hypothesis of flat behaviour also, by setting k = 0. A further observation is introduced, $m^{i}$ which represents the observation of the hadronic bulk selection (where \alt $<$ 0.55). It is then possible to express the expected background $b^{i}_{p}$ from a process p in terms of the \HT distribution of these bulk events, $\sfrac{dN}{d\HT}$:
+
+\begin{equation}
+b^{i}_{p} = \int_{x_{i}}^{x_{i+1}} \frac{dN}{d\HT}Ae^{-k\HT} d\HT,
+\label{eq:rat2}
+\end{equation}
+
+where x$_{i}$ is the lower bin edge in \HT, and x$_{i+1}$ represents the upper edge ($\infty$ in the case of the final bin). To simplify this continuous distribution the assumption is made that the full distribution of a given bin occurs at the mid-point of the bin, the mean $\langle \HT \angle^{i}$, allowing the expression in terms of $m^{i}$:
+
+\begin{equation}
+\frac{dN}{d\HT} = \sum_{i} m^{i} \delta(x - \langle \HT \rangle^{i}),
+\label{eq:rat3}
+\end{equation}
+yielding the full dependence of b$^{i}_{p}$ in Equation~\ref{eq:rat4}. 
+
+
+\begin{equation}
+b^{i}_{p} = \int_{x_{i}}^{x_{i+1}} m^{i} \delta(x - \langle \HT \rangle^{i}) Ae^{-k\HT} d\HT
+\label{eq:rat4}
+\end{equation}
+
+This allows the expression in Equation~\ref{bicomp} of the two components of $b^{i}$, in which the knowledge that \RaT is flat in electroweak processes, and therefore $k_{ewk}$ = 0 is used.
+\begin{equation}
+b^{i}_{ewk} = m^{i} A_{ewk} \qquad
+b^{i}_{qcd} = m^{i} A_{qcd} e^{-k_{qcd} \langle \HT \rangle^{i}}.
+\label{eq:bicomp}
+\end{equation}
+
+The full set of the background expectations $b^{i}$ now depends on three nuisance parameters, $A_{ewk}, A_{qcd}$ and $k_{qcd}$. 
+
+\subsection{Electroweak Control Likelihoods}
+The electroweak component of the background $b^{i}_{ewk}$ can additionally be expressed in terms of the expected number of Z and $\tto$W components $b^{i}_{Z}$ and  $b^{i}_{\tto}$. As $b^{i}_{ewk} = b^{i}_{Z} + b^{i}_{\tto W}$, this can be re-expressed by introducing a set of fit parameters $f^{i}_{Z}$, the fraction of electroweak events that are Z in the $i$th bin:
+
+\begin{equation}
+b^{i}_{Z}= f^{i}_{Z} \times b^{i}_{ewk} \qquad b^{i}_{\tto W}= (1 - f^{i}_{Z}) \times b^{i}_{ewk}
+\label{eq:ewk1}
+\end{equation}
+ Each of these components has an observational measurement n$_{\gamma}$ and $n_{\mu}$ taken from the event yield in the photon and muon control samples respectively. Corresponding yields in simulation $MC^{i}_{\gamma}$ and $MC^{i}_{\mu}$ are also known, along with the value in simulation of the expected amounts of Z and \tto W in the hadronic signal region $MC^{i}_{Z}$ and $MC^{i}_{\tto W}$, which combine to define the ratios $r^{i}_{\gamma}$ and $r^{i}_{\mu}$ as follows:
+ 
+ \begin{equation}
+ r^{i}_{\gamma} = \frac{MC^{i}_{\gamma}}{MC^{i}_{Z}} \qquad  r^{i}_{\mu} = \frac{MC^{i}_{\mu}}{MC^{i}_{\tto W}} 
+ \label{eq:ewk2}
+ \end{equation}
+
+The likelihoods regarding the two measured yields $n^{i}_{\gamma}, n^{i}_{\mu}$ can then be fully expressed as in Equation~\ref{eq:ewk3} with the representing the correction factors $\rho^{Z}_{\gamma}$ and $\rho^{\tto W}_{\mu}$ that account for the systematic uncertainties associated with the prediction constraints. 
+
+\begin{equation}
+\begin{split}
+L_{\gamma} = \textrm{Gaus}(1.0|\rho^{Z}_{\gamma}, \sigma^{Z}_{\gamma})  \prod_{i} \textrm{Pois}(n^{i}_{\gamma}|\rho^{Z}_{\gamma}r^{i}_{\gamma} b^{i}_{Z})\\
+L_{\mu} = \textrm{Gaus}(1.0|\rho^{\tto W}_{\mu}, \sigma^{\tto W}_{\mu})  \prod_{i} \textrm{Pois}(n^{i}_{\mu}|\rho^{\tto W}_{\mu}r^{i}_{\mu} b^{i}_{\tto W} + s^{i}_{\mu})
+\end{split}
+  \label{eq:ewk3}
+ \end{equation}
+
+The parameter $s^{i}_{\mu}$ represents the expected signal events contaminating the muon control sample for a given signal model. 
+
+\subsection{Total Likelihood}
+
+The total likelihood is then expressed as a product of the individual liklohod functions described previously
+
+\begin{equation}
+L_{tot} = L_{had} \times L_{\gamma} \times L_{\mu}
+\label{eq:fulll}
+\end{equation}
 
 
 

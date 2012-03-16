@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  16 MAR 2012 14:53
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  16 MAR 2012 19:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -467,7 +467,8 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 
 No file macros.tex.
 ** Make sure \initfloatingfigs being called immediately
-   after \begin{document} !! ** (./thesis.aux)
+   after \begin{document} !! ** (./thesis.aux (./title.aux) (./symbols.aux)
+(./RA1_2.aux) (./appA.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
@@ -569,255 +570,137 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \openout2 = `symbols.aux'.
 
  (./symbols.tex)
-(./thesis.toc)
+(./thesis.toc [2
+
+
+
+
+])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [2
-
-
-
-
-]
+ [3]
 \openout2 = `RA1_2.aux'.
 
  (./RA1_2.tex
 Chapter 1.
 
-LaTeX Warning: Reference `ch:at' on page 3 undefined on input line 4.
+LaTeX Warning: Reference `ch:at' on page 4 undefined on input line 4.
+
+[4
 
 
-LaTeX Warning: Citation `35paper' on page 3 undefined on input line 4.
-
-[3
-
-
-]
-
-LaTeX Warning: Reference `tab:LM' on page 4 undefined on input line 21.
-
-
-LaTeX Warning: Reference `fig:lm35limit' on page 4 undefined on input line 38.
-
-
-LaTeX Warning: Citation `35paper' on page 4 undefined on input line 38.
-
-<Figures/Analysis/LM46on35limit.png, id=18, 924.5742pt x 674.52pt>
+] <Figures/Analysis/LM46on35limit.png, id=26, 924.5742pt x 674.52pt>
 File: Figures/Analysis/LM46on35limit.png Graphic file (type png)
 
-<use Figures/Analysis/LM46on35limit.png>
+<use Figures/Analysis/LM46on35limit.png> [5] [6 <./Figures/Analysis/LM46on35lim
+it.png>]
 
-LaTeX Warning: Citation `35paper' on page 4 undefined on input line 43.
+LaTeX Warning: Reference `sec:detrig' on page 7 undefined on input line 64.
 
+[7] [8] [9]
 
-LaTeX Warning: Citation `35paper' on page 4 undefined on input line 43.
-
-
-LaTeX Warning: Citation `EWK-11-001' on page 4 undefined on input line 48.
-
-[4]
-
-LaTeX Warning: Reference `sec:trig' on page 5 undefined on input line 50.
-
-[5 <./Figures/Analysis/LM46on35limit.png>]
-
-LaTeX Warning: Reference `sec:detrig' on page 6 undefined on input line 63.
+LaTeX Warning: Reference `sec:reconjet' on page 10 undefined on input line 150.
 
 
-LaTeX Warning: Reference `sec:datasam' on page 6 undefined on input line 63.
 
-[6]
-
-LaTeX Warning: Reference `tab:bulktrig' on page 7 undefined on input line 97.
-
-[7]
-
-LaTeX Warning: Reference `tab:photrig' on page 8 undefined on input line 120.
-
-[8]
-
-LaTeX Warning: Reference `sec:reconjet' on page 9 undefined on input line 149.
-
-
-LaTeX Warning: Reference `tab:jetid' on page 9 undefined on input line 153.
-
-
-Overfull \hbox (8.53548pt too wide) in paragraph at lines 170--170
+Overfull \hbox (8.53548pt too wide) in paragraph at lines 171--171
 []|[]| 
  []
 
-
-LaTeX Warning: Citation `JME-09-008' on page 9 undefined on input line 174.
-
-
-LaTeX Warning: Citation `JME-09-008' on page 9 undefined on input line 174.
-
-
-LaTeX Warning: Reference `sec:jetsel' on page 9 undefined on input line 180.
-
-[9]
-
-LaTeX Warning: Reference `tab:muid' on page 10 undefined on input line 188.
-
-
-Underfull \hbox (badness 1122) in paragraph at lines 210--210
+[10]
+Underfull \hbox (badness 1122) in paragraph at lines 211--211
 []|\OT1/cmr/m/n/12 Transverse im-pact pa-ram-e-ter with re-spect to
  []
 
-
-LaTeX Warning: Citation `MUO-10-002' on page 10 undefined on input line 213.
-
-
-LaTeX Warning: Reference `tab:eid' on page 10 undefined on input line 225.
-
-[10]
-Underfull \hbox (badness 1199) in paragraph at lines 237--237
+[11]
+Underfull \hbox (badness 1199) in paragraph at lines 238--238
 []|\OT1/cmr/m/n/12 Difference in $\OML/cmm/m/it/12 ^^^$ \OT1/cmr/m/n/12 be-twee
 n track and
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 238--238
+Underfull \hbox (badness 1320) in paragraph at lines 239--239
 []|\OT1/cmr/m/n/12 Difference in $\OML/cmm/m/it/12 ^^Q$ \OT1/cmr/m/n/12 be-twee
 n track and
  []
 
 
-LaTeX Warning: Citation `AN-10-116' on page 11 undefined on input line 242.
-
-
-LaTeX Warning: Citation `AN-10-116' on page 11 undefined on input line 242.
-
-
-Underfull \hbox (badness 1354) in paragraph at lines 242--242
+Underfull \hbox (badness 1383) in paragraph at lines 243--243
 []\OT1/cmr/m/it/12 Table 1.7: []Set of cuts ap-plied in ``WP95" Elec-tron ID, t
 aken from [[]]
  []
 
-[11]
-
-LaTeX Warning: Reference `tab:pid' on page 12 undefined on input line 251.
-
-
-Overfull \hbox (0.61237pt too wide) in paragraph at lines 257--272
+[12]
+Overfull \hbox (0.61237pt too wide) in paragraph at lines 258--273
  [][] 
  []
 
-
-LaTeX Warning: Citation `EGM-10-006' on page 12 undefined on input line 272.
-
-
-LaTeX Warning: Reference `sec:trig' on page 12 undefined on input line 287.
-
-
-LaTeX Warning: Reference `sec:good' on page 12 undefined on input line 288.
-
-[12]
-
-LaTeX Warning: Citation `35paper' on page 13 undefined on input line 316.
-
-[13]
-
-LaTeX Warning: Reference `sec:press' on page 14 undefined on input line 320.
-
-LaTeX Font Info:    Calculating math sizes for size <8.39996> on input line 320
+[13] [14]
+LaTeX Font Info:    Calculating math sizes for size <8.39996> on input line 321
 .
 
+
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.19998> not available
-(Font)              size <5> substituted on input line 320.
+(Font)              size <5> substituted on input line 321.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.19998> not available
-(Font)              size <5> substituted on input line 320.
+(Font)              size <5> substituted on input line 321.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.19998> not available
-(Font)              size <5> substituted on input line 320.
+(Font)              size <5> substituted on input line 321.
 
-
-LaTeX Warning: Reference `tab:thresh' on page 14 undefined on input line 320.
-
-[14]
-
-LaTeX Warning: Reference `fig:preselplota' on page 15 undefined on input line 3
-46.
-
-
-LaTeX Warning: Reference `fig:figures_AlphaT_all' on page 15 undefined on input
- line 346.
-
-
-LaTeX Warning: Reference `fig:figures_AlphaT_Zoomed_all' on page 15 undefined o
-n input line 346.
-
-<Figures/Analysis/PAS/HT_all.pdf, id=69, 569.12625pt x 558.085pt>
+[15] <Figures/Analysis/PAS/HT_all.pdf, id=73, 569.12625pt x 558.085pt>
 File: Figures/Analysis/PAS/HT_all.pdf Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/HT_all.pdf>
-<Figures/Analysis/PAS/JetMultiplicity_all.pdf, id=70, 569.12625pt x 558.085pt>
+<Figures/Analysis/PAS/JetMultiplicity_all.pdf, id=74, 569.12625pt x 558.085pt>
 File: Figures/Analysis/PAS/JetMultiplicity_all.pdf Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/JetMultiplicity_all.pdf>
-<Figures/Analysis/PAS/AlphaT_all.pdf, id=71, 569.12625pt x 558.085pt>
+<Figures/Analysis/PAS/AlphaT_all.pdf, id=75, 569.12625pt x 558.085pt>
 File: Figures/Analysis/PAS/AlphaT_all.pdf Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/AlphaT_all.pdf>
-<Figures/Analysis/PAS/AlphaT_Zoomed_all_zoe.pdf, id=72, 581.17125pt x 558.085pt
+<Figures/Analysis/PAS/AlphaT_Zoomed_all_zoe.pdf, id=76, 581.17125pt x 558.085pt
 >
 File: Figures/Analysis/PAS/AlphaT_Zoomed_all_zoe.pdf Graphic file (type pdf)
- <use Figures/Analysis/PAS/AlphaT_Zoomed_all_zoe.pdf>
-
-LaTeX Warning: Reference `fig:afterat' on page 15 undefined on input line 377.
-
-
-LaTeX Warning: Reference `fig:BiasedDeltaPhi_after_alphaT_55_all' on page 15 un
-defined on input line 377.
-
-[15 <./Figures/Analysis/PAS/HT_all.pdf> <./Figures/Analysis/PAS/JetMultiplicity
-_all.pdf>]
-<Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf, id=108, 569.12625pt x
+ <use Figures/Analysis/PAS/AlphaT_Zoomed_all_zoe.pdf> [16 <./Figures/Analysis/P
+AS/HT_all.pdf> <./Figures/Analysis/PAS/JetMultiplicity_all.pdf>]
+<Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf, id=112, 569.12625pt x
  558.085pt>
 File: Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf Graphic file (typ
 e pdf)
  <use Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf>
-<Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf, id=109, 569.12625p
+<Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf, id=113, 569.12625p
 t x 558.085pt>
 File: Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf Graphic file (
 type pdf)
 
 <use Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf>
-<Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf, id=110, 569.12625
+<Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf, id=114, 569.12625
 pt x 558.085pt>
 File: Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf Graphic file 
 (type pdf)
 
 <use Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf>
 
-LaTeX Warning: Reference `sec:atrat' on page 16 undefined on input line 401.
+LaTeX Warning: Reference `sec:atrat' on page 17 undefined on input line 402.
 
-
-LaTeX Warning: Reference `tab:hadyield' on page 16 undefined on input line 403.
-
-
-[16 <./Figures/Analysis/PAS/AlphaT_all.pdf, page is rotated 90 degrees> <./Figu
-res/Analysis/PAS/AlphaT_Zoomed_all_zoe.pdf>] [17 <./Figures/Analysis/PAS/JetMul
+[17 <./Figures/Analysis/PAS/AlphaT_all.pdf, page is rotated 90 degrees> <./Figu
+res/Analysis/PAS/AlphaT_Zoomed_all_zoe.pdf>] [18 <./Figures/Analysis/PAS/JetMul
 tiplicityAfterAlphaT_all.pdf, page is rotated 90 degrees> <./Figures/Analysis/P
 AS/EffectiveMass_after_alphaT_55_all.pdf, page is rotated 90 degrees> <./Figure
 s/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf, page is rotated 90 degre
 es>]
-
-LaTeX Warning: Reference `fig:mainrat' on page 18 undefined on input line 459.
-
-
-LaTeX Warning: Reference `fig:ratvary' on page 18 undefined on input line 461.
-
-
-<Figures/Analysis/PAS/Ratio_Multi2Incl_AlphaT55.pdf, id=297, 569.12625pt x 408.
+<Figures/Analysis/PAS/Ratio_Multi2Incl_AlphaT55.pdf, id=300, 569.12625pt x 408.
 52625pt>
 File: Figures/Analysis/PAS/Ratio_Multi2Incl_AlphaT55.pdf Graphic file (type pdf
 )
  <use Figures/Analysis/PAS/Ratio_Multi2Incl_AlphaT55.pdf>
-<Figures/Analysis/PAS/Syst_Multi2Incl_AlphaT55.pdf, id=298, 569.12625pt x 408.5
+<Figures/Analysis/PAS/Syst_Multi2Incl_AlphaT55.pdf, id=301, 569.12625pt x 408.5
 2625pt>
 File: Figures/Analysis/PAS/Syst_Multi2Incl_AlphaT55.pdf Graphic file (type pdf)
 
@@ -825,126 +708,104 @@ File: Figures/Analysis/PAS/Syst_Multi2Incl_AlphaT55.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18]
-
-LaTeX Warning: Reference `fig:ttwtype' on page 19 undefined on input line 485.
-
-[19 <./Figures/Analysis/PAS/Ratio_Multi2Incl_AlphaT55.pdf, page is rotated 90 d
-egrees> <./Figures/Analysis/PAS/Syst_Multi2Incl_AlphaT55.pdf, page is rotated 9
-0 degrees>]
-<Figures/Analysis/Types/2011_all_W_Pie.png, id=395, 698.61pt x 674.52pt>
+[19] [20 <./Figures/Analysis/PAS/Ratio_Multi2Incl_AlphaT55.pdf, page is rotated
+ 90 degrees> <./Figures/Analysis/PAS/Syst_Multi2Incl_AlphaT55.pdf, page is rota
+ted 90 degrees>]
+<Figures/Analysis/Types/2011_all_W_Pie.png, id=398, 698.61pt x 674.52pt>
 File: Figures/Analysis/Types/2011_all_W_Pie.png Graphic file (type png)
 
 <use Figures/Analysis/Types/2011_all_W_Pie.png>
-<Figures/Analysis/Types/2011_all_TT_Pie.png, id=396, 561.7788pt x 542.5068pt>
+<Figures/Analysis/Types/2011_all_TT_Pie.png, id=399, 561.7788pt x 542.5068pt>
 File: Figures/Analysis/Types/2011_all_TT_Pie.png Graphic file (type png)
 
 <use Figures/Analysis/Types/2011_all_TT_Pie.png>
-<Figures/Analysis/Types/2011_ttWall_Pie.png, id=397, 561.7788pt x 542.5068pt>
+<Figures/Analysis/Types/2011_ttWall_Pie.png, id=400, 561.7788pt x 542.5068pt>
 File: Figures/Analysis/Types/2011_ttWall_Pie.png Graphic file (type png)
 
-<use Figures/Analysis/Types/2011_ttWall_Pie.png> [20] [21 <./Figures/Analysis/T
+<use Figures/Analysis/Types/2011_ttWall_Pie.png> [21] [22 <./Figures/Analysis/T
 ypes/2011_all_W_Pie.png (PNG copy)> <./Figures/Analysis/Types/2011_all_TT_Pie.p
 ng> <./Figures/Analysis/Types/2011_ttWall_Pie.png>]
-
-LaTeX Warning: Reference `fig:kin' on page 22 undefined on input line 522.
-
-
-LaTeX Warning: Reference `fig:muon_beforeat_mt' on page 22 undefined on input l
-ine 524.
-
-
-LaTeX Warning: Reference `fig:kinafter' on page 22 undefined on input line 526.
-
-
-
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_beforeaT.pdf, id
-=407, 569.12625pt x 467.7475pt>
+=410, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_beforeaT.pd
 f Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_beforeaT.pdf
 >
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_beforeaT.pdf, id
-=408, 569.12625pt x 467.7475pt>
+=411, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_beforeaT.pd
 f Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_beforeaT.pdf
 >
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT.pdf, id
-=409, 569.12625pt x 467.7475pt>
+=412, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT.pd
 f Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT.pdf
 >
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_beforeaT.pdf, id=4
-10, 569.12625pt x 467.7475pt>
+13, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_beforeaT.pdf 
 Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_beforeaT.pdf>
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_beforeaT.pdf, i
-d=411, 569.12625pt x 467.7475pt>
+d=414, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_beforeaT.p
 df Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_beforeaT.pd
 f>
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_beforeaT.pdf, id=4
-12, 569.12625pt x 467.7475pt>
+15, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_beforeaT.pdf 
 Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_beforeaT.pdf>
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_afteraT.pdf, id=
-413, 569.12625pt x 467.7475pt>
+416, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_afteraT.pdf
  Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_afteraT.pdf>
 
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_afteraT.pdf, id=
-414, 569.12625pt x 467.7475pt>
+417, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_afteraT.pdf
  Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_afteraT.pdf>
 
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT.pdf, id=
-415, 569.12625pt x 467.7475pt>
+418, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT.pdf
  Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT.pdf>
 
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_afteraT.pdf, id=41
-6, 569.12625pt x 467.7475pt>
+9, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_afteraT.pdf G
 raphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_afteraT.pdf>
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_afteraT.pdf, id
-=417, 569.12625pt x 467.7475pt>
+=420, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_afteraT.pd
 f Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_afteraT.pdf
 >
-<Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_afteraT.pdf, id=41
-8, 569.12625pt x 467.7475pt>
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_afteraT.pdf, id=42
+1, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_afteraT.pdf G
 raphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_afteraT.pdf>
-
-LaTeX Warning: Reference `eq:mupred' on page 22 undefined on input line 584.
-
-
-LaTeX Warning: Reference `tab:muratio' on page 22 undefined on input line 591.
-
-[22] [23 <./Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_befor
+[23] [24 <./Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_befor
 eaT.pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/muon_plots/spring1
 1NoLogYnJetMuonControl_beforeaT.pdf, page is rotated 90 degrees> <./Figures/Ana
 lysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT.pdf, page is rotate
@@ -952,7 +813,7 @@ d 90 degrees> <./Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_be
 foreaT.pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/muon_plots/spri
 ng11NoLogYMuCsoMuonControl_beforeaT.pdf, page is rotated 90 degrees> <./Figures
 /Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_beforeaT.pdf, page is rota
-ted 90 degrees>] [24 <./Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonC
+ted 90 degrees>] [25 <./Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonC
 ontrol_afteraT.pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/muon_pl
 ots/spring11NoLogYnJetMuonControl_afteraT.pdf, page is rotated 90 degrees> <./F
 igures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT.pdf, page 
@@ -961,28 +822,109 @@ ontrol_afteraT.pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/muon_pl
 ots/spring11NoLogYMuCsoMuonControl_afteraT.pdf, page is rotated 90 degrees> <./
 Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_afteraT.pdf, page i
 s rotated 90 degrees>]
-
-LaTeX Warning: Reference `tab:resmu' on page 25 undefined on input line 623.
-
-
-Underfull \hbox (badness 1946) in paragraph at lines 672--672
+Underfull \hbox (badness 1946) in paragraph at lines 674--674
 \OT1/cmr/m/it/12 cor-re-spond to sta-tis-ti-cal er-rors and an ad-di-tional con
 -ser-va-tive sys-tem-atic
  []
 
+[26] [27]
 
-LaTeX Warning: Reference `eq:Wa' on page 25 undefined on input line 680.
+LaTeX Warning: Citation `WZXS' on page 28 undefined on input line 748.
 
-[25]
+[28] [29] [30]
+<Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf, id=968, 
+569.12625pt x 541.02126pt>
+File: Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf Grap
+hic file (type pdf)
 
-LaTeX Warning: Reference `eq:mupred' on page 26 undefined on input line 689.
+<use Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf>
+<Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf, id=969, 569.12
+625pt x 541.02126pt>
+File: Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf Graphic fi
+le (type pdf)
+
+<use Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[31] [32 <./Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pd
+f> <./Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf>]
+
+LaTeX Warning: Citation `mad graph' on page 33 undefined on input line 867.
+
+[33]
+Underfull \hbox (badness 10000) in alignment at lines 884--901
+[][][][][] 
+ []
+
+[34]
+
+LaTeX Warning: Reference `sec:JES' on page 35 undefined on input line 920.
+
+[35] [36]
+
+LaTeX Warning: Reference `bicomp' on page 37 undefined on input line 982.
+
+[37] [38]
+<Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_fit_logy.pdf, id=104
+8, 569.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_fit_logy.pdf Gr
+aphic file (type pdf)
+
+<use Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_fit_logy.pdf>
+<Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.pdf, 
+id=1049, 569.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.
+pdf Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.p
+df>
+<Figures/Analysis/PAS/stats_plots/RQcdZero/muon_control_fit_logy.pdf, id=1050, 
+569.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdZero/muon_control_fit_logy.pdf Graph
+ic file (type pdf)
+
+<use Figures/Analysis/PAS/stats_plots/RQcdZero/muon_control_fit_logy.pdf>
+<Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf, id=
+1051, 569.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf
+ Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `eq:Wb' on page 26 undefined on input line 689.
+<Figures/Analysis/PAS/stats_plots/RQcdZero/photon_control_fit_logy.pdf, id=1052
+, 569.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdZero/photon_control_fit_logy.pdf Gra
+phic file (type pdf)
 
-[26]
+<use Figures/Analysis/PAS/stats_plots/RQcdZero/photon_control_fit_logy.pdf>
+<Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.pdf, i
+d=1053, 569.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.p
+df Graphic file (type pdf)
 
-LaTeX Warning: Reference `eq:Wc' on page 27 undefined on input line 697.
+<use Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.pd
+f>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `tab:pae' on page 27 undefined on in
+<Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_alphaT_ratio.pdf, id
+=1054, 569.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_alphaT_ratio.pd
+f Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_alphaT_ratio.pdf
+>
+<Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_ratio.p
+df, id=1055, 569.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_ra
+tio.pdf Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_rat
+io.pdf>
+
+LaTeX Warning: `h
