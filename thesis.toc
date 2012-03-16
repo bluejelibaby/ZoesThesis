@@ -18,21 +18,28 @@
 \contentsline {section}{\numberline {1.5}Pre-Selection}{13}
 \contentsline {section}{\numberline {1.6}Final Signal Selection}{14}
 \contentsline {section}{\numberline {1.7}An $\ensuremath {H_{T} \xspace }$ Shape Analysis}{14}
-\contentsline {section}{\numberline {1.8}Data to Monte-Carlo Comparisons }{15}
-\contentsline {subsection}{\numberline {1.8.1}$R_{\alpha _{T}}$ on $H_{T}$}{17}
-\contentsline {subsection}{\numberline {1.8.2}Composition of Selected \ensuremath {\rm {t}\mathaccentV {bar}016{\rm {t}} + jets}\xspace and \ensuremath {\rm W + jets}\xspace Background Events}{20}
-\contentsline {section}{\numberline {1.9}Estimation of t$\mathaccentV {bar}016{\textrm {t}}$ and W + Jets Backgrounds with a high $p_{T}$ control sample using W $\ensuremath {\rightarrow }\mu \nu $ events.}{22}
-\contentsline {subsection}{\numberline {1.9.1}$\mu $ Control Sample Selection}{22}
+\contentsline {section}{\numberline {1.8}Hadronic Signal Region Results}{15}
+\contentsline {subsection}{\numberline {1.8.1}Data to Monte-Carlo Comparisons }{15}
+\contentsline {subsection}{\numberline {1.8.2}$R_{\alpha _{T}}$ on $H_{T}$}{17}
+\contentsline {subsection}{\numberline {1.8.3}Composition of Selected \ensuremath {\rm {t}\mathaccentV {bar}016{\rm {t}} + jets}\xspace and \ensuremath {\rm W + jets}\xspace Background Events}{20}
+\contentsline {section}{\numberline {1.9}Estimation of t$\mathaccentV {bar}016{\textrm {t}}$ and W + Jets Backgrounds with a high $p_{T}$ control sample using W $\ensuremath {\rightarrow }\mu \nu $ events.}{21}
+\contentsline {subsection}{\numberline {1.9.1}$\mu $ Control Sample Selection}{21}
 \contentsline {subsection}{\numberline {1.9.2}Prediction Calculation}{23}
 \contentsline {subsection}{\numberline {1.9.3}$\mu $ Control Sample Systematic Uncertainty}{26}
-\contentsline {subsubsection}{Dependance of the Prediction Calculation}{26}
-\contentsline {subsubsection}{}{28}
-\contentsline {subsection}{\numberline {1.9.4}Full electroweak background prediction cross check}{29}
-\contentsline {section}{\numberline {1.10}Estimation of Z $\ensuremath {\rightarrow }\nu \mathaccentV {bar}016{\nu }$ + jets background using photon + jets events}{29}
+\contentsline {subsubsection}{Dependance of the Prediction Calculation}{27}
+\contentsline {subsubsection}{Components of the Overall Uncertainty}{29}
+\contentsline {subsection}{\numberline {1.9.4}Full electroweak background prediction cross check}{30}
+\contentsline {section}{\numberline {1.10}Estimation of Z $\ensuremath {\rightarrow }\nu \mathaccentV {bar}016{\nu }$ + jets background using photon + jets events}{31}
 \contentsline {subsection}{\numberline {1.10.1}Z Background Prediction Calculation}{31}
-\contentsline {section}{\numberline {1.11}Systematic Uncertainties}{31}
-\contentsline {section}{\numberline {1.12}Simultaneous Fit}{31}
-\contentsline {section}{\numberline {1.13}Limits}{31}
-\contentsline {section}{\numberline {1.14}Conclusion}{31}
-\contentsline {chapter}{\numberline {A}}{35}
-\contentsline {chapter}{Bibliography}{37}
+\contentsline {subsection}{\numberline {1.10.2}$\gamma $ Control Sample Systematic Uncertainty}{33}
+\contentsline {subsection}{\numberline {1.10.3}Cross-Prediction between Control Samples}{34}
+\contentsline {section}{\numberline {1.11}Signal Region Systematic Uncertainties}{35}
+\contentsline {subsubsection}{Luminosity}{35}
+\contentsline {subsubsection}{Effect of dead ECAL cut}{35}
+\contentsline {subsubsection}{Effect of e/$\mu $/$\gamma $ Vetoes}{35}
+\contentsline {subsubsection}{Jet Energy Scale and Resolution}{35}
+\contentsline {section}{\numberline {1.12}Simultaneous Fit}{35}
+\contentsline {section}{\numberline {1.13}Limits}{35}
+\contentsline {section}{\numberline {1.14}Conclusion}{35}
+\contentsline {chapter}{\numberline {A}}{39}
+\contentsline {chapter}{Bibliography}{41}

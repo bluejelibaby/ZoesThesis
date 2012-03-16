@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  15 MAR 2012 19:37
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  16 MAR 2012 14:24
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -667,24 +667,25 @@ File: Figures/Analysis/PAS/AlphaT_all.pdf Graphic file (type pdf)
 <Figures/Analysis/PAS/AlphaT_Zoomed_all_zoe.pdf, id=75, 581.17125pt x 558.085pt
 >
 File: Figures/Analysis/PAS/AlphaT_Zoomed_all_zoe.pdf Graphic file (type pdf)
- <use Figures/Analysis/PAS/AlphaT_Zoomed_all_zoe.pdf>
-<Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf, id=76, 569.12625pt x 
-558.085pt>
+ <use Figures/Analysis/PAS/AlphaT_Zoomed_all_zoe.pdf> [16 <./Figures/Analysis/P
+AS/HT_all.pdf> <./Figures/Analysis/PAS/JetMultiplicity_all.pdf>]
+<Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf, id=111, 569.12625pt x
+ 558.085pt>
 File: Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf Graphic file (typ
 e pdf)
  <use Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf>
-<Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf, id=77, 569.12625pt
- x 558.085pt>
+<Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf, id=112, 569.12625p
+t x 558.085pt>
 File: Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf Graphic file (
 type pdf)
- <use Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf>
-<Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf, id=78, 569.12625p
-t x 558.085pt>
+
+<use Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf>
+<Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf, id=113, 569.12625
+pt x 558.085pt>
 File: Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf Graphic file 
 (type pdf)
 
-<use Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf> [16 <./Figure
-s/Analysis/PAS/HT_all.pdf> <./Figures/Analysis/PAS/JetMultiplicity_all.pdf>]
+<use Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf>
 
 LaTeX Warning: Reference `sec:atrat' on page 17 undefined on input line 401.
 
@@ -721,9 +722,9 @@ File: Figures/Analysis/Types/2011_all_TT_Pie.png Graphic file (type png)
 <Figures/Analysis/Types/2011_ttWall_Pie.png, id=400, 561.7788pt x 542.5068pt>
 File: Figures/Analysis/Types/2011_ttWall_Pie.png Graphic file (type png)
 
-<use Figures/Analysis/Types/2011_ttWall_Pie.png> [21 <./Figures/Analysis/Types/
-2011_all_W_Pie.png (PNG copy)> <./Figures/Analysis/Types/2011_all_TT_Pie.png> <
-./Figures/Analysis/Types/2011_ttWall_Pie.png>] [22]
+<use Figures/Analysis/Types/2011_ttWall_Pie.png> [21] [22 <./Figures/Analysis/T
+ypes/2011_all_W_Pie.png (PNG copy)> <./Figures/Analysis/Types/2011_all_TT_Pie.p
+ng> <./Figures/Analysis/Types/2011_ttWall_Pie.png>]
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_beforeaT.pdf, id
 =410, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_beforeaT.pd
@@ -826,29 +827,45 @@ Underfull \hbox (badness 1946) in paragraph at lines 672--672
 -ser-va-tive sys-tem-atic
  []
 
-[26] [27] [28] [29]
-<Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf, id=965, 
+[26] [27] [28]
+
+LaTeX Warning: Citation `WZXS' on page 29 undefined on input line 746.
+
+[29] [30]
+<Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf, id=968, 
 569.12625pt x 541.02126pt>
 File: Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf Grap
 hic file (type pdf)
 
 <use Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf>
-<Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf, id=966, 569.12
+<Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf, id=969, 569.12
 625pt x 541.02126pt>
 File: Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf Graphic fi
 le (type pdf)
 
-<use Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf> [30 <./Fig
-ures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf> <./Figures/A
-nalysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf>]
-<Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_fit_logy.pdf, id=102
-0, 569.12625pt x 385.44pt>
+<use Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[31] [32 <./Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pd
+f> <./Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf>]
+
+LaTeX Warning: Citation `mad graph' on page 33 undefined on input line 865.
+
+[33]
+Underfull \hbox (badness 10000) in alignment at lines 882--899
+[][][][][] 
+ []
+
+[34]
+<Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_fit_logy.pdf, id=103
+4, 569.12625pt x 385.44pt>
 File: Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_fit_logy.pdf Gr
 aphic file (type pdf)
 
 <use Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_fit_logy.pdf>
 <Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.pdf, 
-id=1021, 569.12625pt x 385.44pt>
+id=1035, 569.12625pt x 385.44pt>
 File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.
 pdf Graphic file (type pdf)
 
@@ -858,14 +875,14 @@ df>
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<Figures/Analysis/PAS/stats_plots/RQcdZero/muon_control_fit_logy.pdf, id=1022, 
+<Figures/Analysis/PAS/stats_plots/RQcdZero/muon_control_fit_logy.pdf, id=1036, 
 569.12625pt x 385.44pt>
 File: Figures/Analysis/PAS/stats_plots/RQcdZero/muon_control_fit_logy.pdf Graph
 ic file (type pdf)
 
 <use Figures/Analysis/PAS/stats_plots/RQcdZero/muon_control_fit_logy.pdf>
 <Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf, id=
-1023, 569.12625pt x 385.44pt>
+1037, 569.12625pt x 385.44pt>
 File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf
  Graphic file (type pdf)
 
@@ -874,14 +891,14 @@ File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<Figures/Analysis/PAS/stats_plots/RQcdZero/photon_control_fit_logy.pdf, id=1024
+<Figures/Analysis/PAS/stats_plots/RQcdZero/photon_control_fit_logy.pdf, id=1038
 , 569.12625pt x 385.44pt>
 File: Figures/Analysis/PAS/stats_plots/RQcdZero/photon_control_fit_logy.pdf Gra
 phic file (type pdf)
 
 <use Figures/Analysis/PAS/stats_plots/RQcdZero/photon_control_fit_logy.pdf>
 <Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.pdf, i
-d=1025, 569.12625pt x 385.44pt>
+d=1039, 569.12625pt x 385.44pt>
 File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.p
 df Graphic file (type pdf)
 
@@ -892,14 +909,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 <Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_alphaT_ratio.pdf, id
-=1026, 569.12625pt x 385.44pt>
+=1040, 569.12625pt x 385.44pt>
 File: Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_alphaT_ratio.pd
 f Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_alphaT_ratio.pdf
 >
 <Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_ratio.p
-df, id=1027, 569.12625pt x 385.44pt>
+df, id=1041, 569.12625pt x 385.44pt>
 File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_ra
 tio.pdf Graphic file (type pdf)
 
@@ -909,7 +926,7 @@ io.pdf>
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf, id=1028, 569.12625pt x
+<Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf, id=1042, 569.12625pt x
  408.52625pt>
 File: Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf Graphic file (type
  pdf)
@@ -917,31 +934,31 @@ File: Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf Graphic file (type
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [31] [32 <./Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_fit_log
+) [35] [36 <./Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_fit_log
 y.pdf> <./Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_l
-ogy.pdf>] [33 <./Figures/Analysis/PAS/stats_plots/RQcdZero/muon_control_fit_log
-y.pdf> <./Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy
-.pdf> <./Figures/Analysis/PAS/stats_plots/RQcdZero/photon_control_fit_logy.pdf>
+ogy.pdf> <./Figures/Analysis/PAS/stats_plots/RQcdZero/muon_control_fit_logy.pdf
+> <./Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf>
+] [37 <./Figures/Analysis/PAS/stats_plots/RQcdZero/photon_control_fit_logy.pdf>
  <./Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.pdf
->] [34 <./Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_alphaT_rati
-o.pdf> <./Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alpha
-T_ratio.pdf> <./Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf, page is
+> <./Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_alphaT_ratio.pdf
+> <./Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_rat
+io.pdf>] [38 <./Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf, page is
  rotated 90 degrees>]
 \openout2 = `appA.aux'.
 
  (./appA.tex
 Appendix A.
-[35
+[39
 
 
 
-]) [36] (./thesis.bbl
+]) [40] (./thesis.bbl
 Underfull \hbox (badness 1622) in paragraph at lines 49--53
 []\OT1/cmr/m/n/12 The CMS Col-lab-o-ra-tion.  ``Per-for-mance of Meth-ods for D
 ata-Driven
  []
 
-) [37
+) [41
 
 
 ] (./thesis.aux (./title.aux) (./symbols.aux) (./RA1_2.aux) (./appA.aux))
@@ -952,23 +969,21 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 7624 strings out of 493747
- 129487 string characters out of 3143546
- 164249 words of memory out of 3000000
- 10670 multiletter control sequences out of 15000+200000
- 29429 words of font info for 115 fonts, out of 3000000 for 9000
+ 7630 strings out of 493747
+ 129545 string characters out of 3143546
+ 162274 words of memory out of 3000000
+ 10675 multiletter control sequences out of 15000+200000
+ 29730 words of font info for 116 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,16n,40p,1537b,362s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,17n,40p,1537b,376s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
 /usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></u
 sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></
+usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
 usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
 sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
@@ -992,10 +1007,10 @@ nts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2010/texmf-dist/font
 s/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2010/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2010/texmf-dist/fonts/
 type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (37 pages, 1798468 bytes).
+Output written on thesis.pdf (41 pages, 1824221 bytes).
 PDF statistics:
- 1230 PDF objects out of 1440 (max. 8388607)
- 620 compressed objects within 7 object streams
+ 1246 PDF objects out of 1440 (max. 8388607)
+ 631 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
  181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

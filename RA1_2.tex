@@ -338,8 +338,8 @@ In order to include the two lowest bins in \HT is is necessary to scale the jet 
 
 
 
-
-\section{Data to Monte-Carlo Comparisons }
+\section{Hadronic Signal Region Results}
+\subsection{Data to Monte-Carlo Comparisons }
 
 Distributions of the 2011 data with MC samples alongside are shown in this section. The MC samples are normalised to 1.1fb$^{-1}$ for shape comparison and to illustrate the accuracy of modelling provided, although these are not used in background estimation as data control samples are used later.
 
@@ -859,7 +859,7 @@ Sample Purity & 0.99 & 0.99 & 0.99 & 0.99 \\
 \label{tab:respho}
 \end{table}
 
-\section{Systematic Uncertainties}
+\subsection{$\gamma$ Control Sample Systematic Uncertainty}
 As in the $\mu$ control sample, the data-driven estimation techniques rely on a Monte Carlo ratio, and so we treat all factors that affect this ratio conservatively when assigning uncertainties. The values chosen are in accord with that developed for the previous iteration of this analysis, with the following contributory factors:
 \begin{itemize}
 \item As the Madgraph MC samples used are different in the numerator and denominator a factor of theoretical uncertainty exists on the relative cross-sections, taken conservatively as 30\%~\cite{gamjetNLO} from \textsc{MADGRAPH}~\cite{mad graph}.
@@ -869,11 +869,53 @@ As in the $\mu$ control sample, the data-driven estimation techniques rely on a 
 
 Combining these events in quadrature and rounding to the nearest 10\% yields an overall uncertainty of 40\%
 \subsection{Cross-Prediction between Control Samples}
-A cross-prediction can be made between the two control samples, providing a cross-check in order to validate the methods and assigned systematics. The number of W + jets events with $\mu$ decays N$^{W}_{data}$ can be predicted from the $\gamma$ control sample, exploiting the similarities between the kinematics of W $\ra \mu \nu$ + jets and Z $\ra \nu \bar{\nu}$ + jets. In order to ensure the sample is not contaminated by events from \tto production, an additional requirement that the jet multiplicity is constrained to 2 is made in both selections. The prediction proceeds using the same MC ratio strategy, as in Equation~\ref{eq:2jet}.
+A cross-prediction can be made between the two control samples, providing a cross-check in order to validate the methods and assigned systematics. The number of W + jets events with $\mu$ decays N$^{W}_{data, pred}$ can be predicted from the $\gamma$ control sample, exploiting the similarities between the kinematics of W $\ra \mu \nu$ + jets and Z $\ra \nu \bar{\nu}$ + jets. In order to ensure the sample is not contaminated by events from \tto production, an additional requirement that the jet multiplicity is constrained to 2 is made in both selections. The prediction proceeds using the same MC ratio strategy, as in Equation~\ref{eq:2jet}.
 \begin{equation}
-N^{W}_{data} = N^{\gamma}_{data} \times (\frac{N^{W}_{MC}}{N^{\gamma}_{MC}})
+N^{W}_{pred} = N^{\gamma}_{data} \times (\frac{N^{W}_{MC}}{N^{\gamma}_{MC}})
 \label{eq:2jet}
 \end{equation} 
+The ratio $\sfrac{N^{W}_{MC}}{N^{\gamma}_{MC}}$ is found to be independent of \HT and therefore one factor 0.42 $\pm$ 0.04 is extracted for the whole set of bins. The results of the prediction are shown in Table~\ref{tab:Wgam} alongside the number of W + jets events N$^{W}_{data, meas}$ found in data from the selection with MC statistical errors and systematic uncertainties in line with those described for the two control samples. 
+
+\begin{table}[ht!]
+\centering
+%\footnotesize
+\begin{tabular*}{0.97\linewidth}{ c c c c c }
+\hline
+\hline
+\HT & $N_{\rm data}^{\gamma}$ & $N_{\rm MC}^W/N_{\rm MC}^{\rm phot}$ & $N^{W}_{\rm pred}$ &$N^{W}_{\rm obs}$ \\
+\hline
+\hline
+%275     &  336   &    0.42 $\pm$ 0.07  &  141.2 $\pm$ 7.7 (stat)  $\pm$ 22.1 (MC stat) $\pm$  56.5 (syst)&  128\\
+%325     &  127  &     0.44 $\pm$ 0.06 &  55.7 $\pm$  4.9 (stat) $\pm$  7.7 (MC stat)  $\pm$  22.3 (syst)&    37\\
+%375     &  136    &   0.66 $\pm$ 0.09 &  90.3 $\pm$  7.7 (stat) $\pm$  12.7 (MC stat)  $\pm$  36.1 (syst)&    50\\
+
+275    &    336  &     0.42 $\pm 0.04_{\rm MCstat}$ & 141.8 $\pm 7.7_{\rm stat} \pm 14.6_{\rm MCstat} \pm  56.7_{\rm syst}$&  128\\
+325    &    127  &     0.42 $\pm 0.04_{\rm MCstat}$ &   53.6 $\pm 4.8_{\rm stat} \pm  5.5_{\rm MCstat} \pm  21.4_{\rm syst}$&    37\\
+375    &      96  &     0.42 $\pm 0.04_{\rm MCstat}$ &   40.5 $\pm 4.1_{\rm stat} \pm  4.2_{\rm MCstat} \pm  16.2_{\rm syst}$ &   36\\
+475    &      27  &     0.42 $\pm 0.04_{\rm MCstat}$ &   11.4 $\pm 2.2_{\rm stat} \pm  1.2_{\rm MCstat} \pm  4.6_{\rm syst}$&   12\\
+575    &       13 &     0.42 $\pm 0.04_{\rm MCstat}$ &     5.5 $\pm 1.5_{\rm stat} \pm  0.6_{\rm MCstat} \pm   2.2_{\rm syst}$&    2 \\
+\hline
+\hline
+\end{tabular*}
+\caption{\label{tab:Wgam}Predictions of W $\ra \mu \nu$ + 2 jets events using the $\gamma$ + jets sample at 1.1fb$^{-1}$, including statistical errors and a systematic uncertainty of 40\% as used in the Z + Jets prediction.}
+\end{table}
+
+
+The number of events predicted are compatible with those measured in data within the uncertainties estimated by the techniques. 
+
+\section{Signal Region Systematic Uncertainties}
+
+A number of experimental systematic uncertainties have an effect on the efficiencies of potential signsl, which are detailed here. 
+
+\subsubsection{Luminosity}
+The measurement of luminosity taken propagates through to an uncertainty on the signal event yield when considering any new physics model, which is currently 6\%~\cite{EWK-11-001}
+\subsubsection{Effect of dead ECAL cut}
+The cut that removes events where a jet points towards a region with masked ECAL towers has varying efficiencies for different signal models. This introduces an uncertainty based on the distribution about the mean. A study using several points in the CMSSM yields a standard deviation $\sim$ 2\%. In addition there is a contribution to the uncertainty due to the resolution of $\Delta$R, 0.05 for jets with $\Pt >$100~GeV. Such a variation corresponds to 2.2\%, and the overall uncertainty for this cut is therefore 3\%
+\subsubsection{Effect of e/$\mu$/$\gamma$ Vetoes}
+The rejection of leptons and photons have efficiencies that agree in data very well with QCD Monte Carlo using three different generators (\textsc{Pythia6, pythia8, Madgraph}), the variation of which is at maximum 0.8\% for the total effect which rejects \sim 5\% of events. We choose to assign half this value, 2.5\% representing 50\% of the total veto inefficiency.
+
+\subsubsection{Jet Energy Scale and Resolution}
+Fluctuations of the JES affect the jets that pass the \Pt and \HT requirement, which has an effect on the overall result. Varying this in accordance with results in \cite{}
 
 \section{Simultaneous Fit}
 
