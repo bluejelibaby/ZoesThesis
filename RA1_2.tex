@@ -581,7 +581,7 @@ In Figure~\ref{fig:kinafter} the distributions are shown after the \alt cut, sho
 \end{figure}
 \subsection{Prediction Calculation}
 
-The prediction of the W boson decay contribution to the hadronic signal yield in the data, W$^{had}_{data}$, can be made from the analogous muon control yield W$^{\mu}_{data}$ providing the ratio between the hadronic and $\mu$ selections R$^{had}_{\mu}$ is known. This is taken from the events passing each selection in the \ttj and \wj Monte Carlo simulations W$^{had}_{MC}$ and W$^{\mu}_{MC}$, such that the estimation is made using Equation~\ref{eq:mupred}.
+The prediction of the W boson decay contribution to the hadronic signal yield in the data, W$^{had}_{data}$, can be made from the analogous muon control yield W$^{\mu}_{data}$ providing the ratio between the hadronic and $\mu$ selections R$^{had}_{\mu}$ is known. This is taken from the events passing each selection in the \ttj and \wj Monte Carlo simulations W$^{had}_{MC}$ and W$^{\mu}_{MC}$, which corrects for the selection efficiencies and acceptance. The full estimation is made using Equation~\ref{eq:mupred}.
 
 \begin{equation}
 W^{had}_{data} = W^{\mu}_{data}\times R^{had}_{\mu} = W^{\mu}_{data}\times (\frac{W^{had}_{MC}}{W^{\mu}_{MC}})
@@ -701,9 +701,9 @@ W^{had}_{data} = W^{\mu}_{data, meas} \times (\frac{f_{W}}{a_{W} \times \epsilon
 \label{eq:Wc}
 \end{equation}
 
- Multiplying out the full dependence introduces quadratic terms in the fractions pertaining to each component, $f_{W}$, $f_{\tto}$ which multiply the factors P$^{had}_{W}/(a_{W} \times \epsilon_{W}$ and P$^{had}_{W}/(a_{W} \times \epsilon_{W}$. This can be calculated in MC by dividing the yield in the MC of each component of the full hadronic signal selection without the lepton veto with that once the lepton veto has been applied. Yields normalised to 1.1fb$^{-1}$ are shown in Table~\ref{tab:pae} without and with the lepton veto, and the corresponding values of P$^{had}/(a \times \epsilon)$. 
+ Multiplying out the full dependence introduces quadratic terms in the fractions pertaining to each component, $f_{W}$, $f_{\tto}$ which multiply the factors P$^{had}_{W}/(a_{W} \times \epsilon_{W})$ and P$^{had}_{W}/(a_{W} \times \epsilon_{W})$. This can be calculated in MC by dividing the yield in the MC of each component of the full hadronic signal selection without the lepton veto with that once the lepton veto has been applied. Yields normalised to 1.1fb$^{-1}$ are shown in Table~\ref{tab:pae} without and with the lepton veto, and the corresponding values of P$^{had}/(a \times \epsilon)$, indicating these are similar. Using the full \HT range (left) there is a small difference not seen in the 2010 analysis which is reduced by using the highest 6 bins only. The similarity between these two factors indicates that fluctuations in the fractions of W and \tto events have little effect despite their quadratic nature, allowing a linear treatment of the uncertainties on the remaining factors. 
  
- \begin{table}
+ \begin{table}[htbp]
  \footnotesize
  \centering
  \begin{tabular}{c c c}
@@ -738,20 +738,24 @@ W^{had}_{data} = W^{\mu}_{data, meas} \times (\frac{f_{W}}{a_{W} \times \epsilon
  \hline
  \end{tabular}
  
- \caption{\label{tab:pae} \tto -W MC yields having passed all the hadronic signal final selection cuts without and with the lepton vetoes, normalised for 1.1fb$^{-1}$. The factor P^{had}_{X}/(a_{X} \times \epsilon_{X}) for each process X is calculated from the division of the yield with vetoes by the yield before the vetoes are applied}
+ \caption{\label{tab:pae} \tto -W MC yields having passed all the hadronic signal final selection cuts without and with the lepton vetoes, normalised for 1.1fb$^{-1}$. The factor P$^{had}_{X}/(a_{X} \times \epsilon_{X}$) for each process X is calculated from the division of the full selection yield by the yield before the vetoes are applied.}
  \end{table}
 \subsubsection{Components of the Overall Uncertainty}
-
-
-The conservative estimate of the systematic uncertainty floods is in accord with that developed for the previous iteration of this analysis, with the following contributory factors:
+A;though the estimation technique is data-driven the use of the ratio R$^{had}_{MC}$ places a reliance on Monte Carlo, and so we treat all factors that affect this ratio conservatively when assigning uncertainties. The values chosen are in accord with that developed for the previous iteration of this analysis, with the following contributory factors:
 \begin{itemize}
-\item The largest contribution to the overall uncertainty is from the uncertainty of the probability $p$ for a W decay to pass the lepton veto, divided into individual uncertainties on each type of decay averaged whils weighted by the frequency of that decay as described earlier in Section~\ref{sec:ttwcomp}. Overall this contributes 23\%.
-\item The effect of acceptance $a$ and efficiency $\epsilon$ $\sfrac{1}{a \times \epsilon}$ is predicted using the MC, but there is an uncertainty resulting from the difference in this between MC and data, which when measured for W and Z cross sections contributes 1.6\%, and for t$\bar{\textrm{t}}$ it is 6.1\%. Conservatively we chose 6.1\% which represents an overestimate as the proportion of W events in reality reduces this component.
+\item The largest contribution to the overall uncertainty is from the uncertainty of the probability $p$ for a W decay to pass the lepton veto, divided into individual uncertainties on each type of decay averaged whilst weighted by the frequency of that decay as described earlier in Section~\ref{sec:ttwcomp}. Overall this contributes 23\%, consisting of the following components assigned in conduction with 2010 W and Z cross-section measurements~\cite{WZXS}:
+\begin{itemize}
+\item Events surviving due to hadronic tau decays are governed by the tau-jet response. In order to obtain the uncertainty the response was varied by $\pm$ 10\%, a conservative amount given the JES it at its greatest 6\%. The MC yield from such decays changed by 7\% under this variation, and so we choose this for our uncertainty. 
+\item Events out of acceptance rely on accurate modelling of $a$. The properties of W are found to be well modelled but the measurement is performed for higher \Pt than we use in this analysis, therefore we apply a conservative 10\%. 
+\item The inefficiency of lepton ID requirements measured in electrons has a 30\% under-estimation from MC in data. In muons the under-estimate is slight, but the uncertainty from Isolation requirements is not well understood, as unknown pile-up effects could alter this drastically. Therefore a conservative 100\% estimate is applied to remain above measured discrepancies, given the small proportion of events this effects. 
+\item The small number of fully leptonic \tto decays is dominated by di-$\tau$ events. The expected uncertainty should take into account all the above effects, as all are relevant and responsible for some of these events remaining. In this case we assign a 50\% uncertainty .
+\end{itemize}
+\item The effect of acceptance $a$ times efficiency $\epsilon$ $\sfrac{1}{a \times \epsilon}$ is predicted using the MC, but there is an uncertainty resulting from the difference in this between MC and data, which when measured for W and Z cross sections contributes 1.6\%, and for t$\bar{\textrm{t}}$ it is 6.1\%. Conservatively we chose 6.1\% which represents an overestimate as the proportion of W events in reality reduces this component.
 \item There is an uncertainty on the assumption the that the control sample is pure, i.e. that the fraction of events $f$ in the sample that come from W and t$\bar{\textrm{t}}$ decays is 1. From Monte Carlo we have observed the contamination from QCD to be negligible, but to allow for poor QCD MC modelling assign a conservative uncertainty of 200\% on the expected QCD yield, still only contributing a 3\% uncertainty on $f$.
-\item
 \end{itemize}
 
 The overall uncertainty is then achieved by adding these components in quadrature, which yields a value of 24\%. Whilst lower than the value taken from the 2010 analysis, 30\%, it is consistent and shows there is not an under-estimate. The error is reduced due to the inclusion of the two low \HT bins which reduces the overall percentage contributed from the lepton veto inefficiency, which propagates the highest error. Excluding the lower two bins brings this calculation in line with ~30\% and as the overall sensitivity is lowest in these two bins the outcome of introducing an over-estimate of the uncertainty will have little effect on the limit. 
+
 
 
 \subsection{Full electroweak background prediction cross check}
@@ -855,9 +859,22 @@ Sample Purity & 0.99 & 0.99 & 0.99 & 0.99 \\
 \label{tab:respho}
 \end{table}
 
-
-
 \section{Systematic Uncertainties}
+As in the $\mu$ control sample, the data-driven estimation techniques rely on a Monte Carlo ratio, and so we treat all factors that affect this ratio conservatively when assigning uncertainties. The values chosen are in accord with that developed for the previous iteration of this analysis, with the following contributory factors:
+\begin{itemize}
+\item As the Madgraph MC samples used are different in the numerator and denominator a factor of theoretical uncertainty exists on the relative cross-sections, taken conservatively as 30\%~\cite{gamjetNLO} from \textsc{MADGRAPH}~\cite{mad graph}.
+\item The acceptance $a$ is assigned an uncertainty of 5\%, given the understanding of $\gamma$ + jets processes is good. The efficiency $\epsilon$ is assigned a conservative 20\% as although the ID variables are validated with tag-and-probe~\cite{} the tests are not reformed in the high \HT 
+\item The purity P is assigned an 20\% uncertainty to take into account the uncertainty in the modelling of QCD MC which is used to estimate contamination. 
+\end{itemize}
+
+Combining these events in quadrature and rounding to the nearest 10\% yields an overall uncertainty of 40\%
+\subsection{Cross-Prediction between Control Samples}
+A cross-prediction can be made between the two control samples, providing a cross-check in order to validate the methods and assigned systematics. The number of W + jets events with $\mu$ decays N$^{W}_{data}$ can be predicted from the $\gamma$ control sample, exploiting the similarities between the kinematics of W $\ra \mu \nu$ + jets and Z $\ra \nu \bar{\nu}$ + jets. In order to ensure the sample is not contaminated by events from \tto production, an additional requirement that the jet multiplicity is constrained to 2 is made in both selections. The prediction proceeds using the same MC ratio strategy, as in Equation~\ref{eq:2jet}.
+\begin{equation}
+N^{W}_{data} = N^{\gamma}_{data} \times (\frac{N^{W}_{MC}}{N^{\gamma}_{MC}})
+\label{eq:2jet}
+\end{equation} 
+
 \section{Simultaneous Fit}
 
 
