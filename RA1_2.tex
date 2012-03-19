@@ -1003,7 +1003,7 @@ b^{i}_{Z}= f^{i}_{Z} \times b^{i}_{ewk} \qquad b^{i}_{\tto W}= (1 - f^{i}_{Z}) \
  \label{eq:ewk2}
  \end{equation}
 
-The likelihoods regarding the two measured yields $n^{i}_{\gamma}, n^{i}_{\mu}$ can then be fully expressed as in Equation~\ref{eq:gail} and \ref{eq:mul} with an additional parameter $s^{i}_{\mu}$ represents the expected signal events contaminating the muon control sample for a given signal model. 
+The likelihoods regarding the two measured yields $n^{i}_{\gamma}, n^{i}_{\mu}$ can then be fully expressed as in Equation~\ref{eq:gaml} and \ref{eq:mul} with an additional parameter $s^{i}_{\mu}$ represents the expected signal events contaminating the muon control sample for a given signal model. 
 
 \begin{equation}
 L_{\gamma} = \textrm{Gaus}(1.0|\rho^{Z}_{\gamma}, \sigma^{Z}_{\gamma})  \prod_{i} \textrm{Pois}(n^{i}_{\gamma}|\rho^{Z}_{\gamma}r^{i}_{\gamma} b^{i}_{Z})
@@ -1054,25 +1054,33 @@ The parameters of the full likelihood are then the \RaT components:$A_{ewk}$, $A
 
 \section{Testing the SM-only hypothesis}
 
-Dropping contributions from possible signal to the likelihood (setting $s^{i} = s^{i}_{\mu} = 0$) allows consideration of the background-only hypothesis. The likelihood is maximised over all of the parameters with the tools Minuit~\cite{minuit} and RooFit for the data observations, the value of which is recorded ($L^{data}_{max}$). The values of the parameters at this maximum value are maximum likelihood estimates (MLEs). 
+Dropping contributions from possible signal to the likelihood (setting $s^{i} = s^{i}_{\mu} = 0$) allows consideration of the SM background-only hypothesis. Given the observations in data the likelihood is maximised over all of the parameters with the tools Minuit~\cite{minuit} and RooFit, and the maximum is recorded ($L^{data}_{max}$). The values of the parameters at this maximum value are known as maximum likelihood estimates (MLEs). 
 
 The likelihood function with the MLEs plugged in is then used as a p.d.f for observations, and many pseudo-experiments are generated from it. Starting with the observations in each pseudo-experiment, the likelihood is then re-maximised over all parameters in order to generate a distribution of the valleys of L at maximum, $L_{max}$. The p-value of the actual observation is found to be 0.56, obtained by examining the quantile of $L^{data}_{max}$ in this distribution. 
 
-The results of the fit are shown in Figure~\ref{fig:fit}
+The results of the fit are shown in Figure~\ref{fig:fit} separately for the three samples, each with the actual yields from data (black) compared to the fit results (blue). The hadronic signal results (top) are shown alongside the predictions from the $\mu$ and $\gamma$ control samples. For the hadronic and muon (middle) samples where signal (when present) would contribute, the distribution of SM with LM6 signal present is shown also for illustration purposes, although this does not enter the fit or affect the results. 
 
  \begin{figure}[htbp]
    \begin{center}
 
- \includegraphics[width = 0.66\textwidth]{Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.pdf}
- \includegraphics[width = 0.66\textwidth]{Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf}
- \includegraphics[width = 0.66\textwidth]{Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.pdf}
-
-
+\includegraphics[width = 0.66\textwidth]{Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.pdf}
+\includegraphics[width = 0.66\textwidth]{Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf}
+\includegraphics[width = 0.66 \textwidth]{Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.pdf} 
          
      \caption{\label{fig:fit} SM-only goodness of fit results for events in the hadronic (top), muon (middle) and photon (bottom) samples. Each \scalht bin shows data observation (black points) and the outcome of the fit (blue line). For hadronic selection the breakdown of the individual background contributions as predicted by the control samples is shown also. Signal contribution from benchmark point LM6 is shown stacked with SM for illustration (pink line) but has no role in the fit.}
    \end{center}
  \end{figure}
  
+ All three samples show good agreement between the data and fit results, indicating the measured yields are compatible with the SM-only hypothesis. In Figure~\ref{fig:fitrat} the \RaT distribution is shown by dividing the hadronic sample data and fit results by the measured bulk yields $m^{i}$. The electroweak component is flat as was required for the fit. The QCD component exhibits falling behaviour with MLEs $k = (5.2 \pm 5.6) \times 10^{-3}$ and $A_{qcd} = (1.4 \pm 1.9) \times 10^{-5}$, consistent with the concept of negligible QCD contamination. Although the presence of QCD was specified in the fit, a cross-check setting the QCD component to zero returns a p-value from the fit of 0.41 confirming the aprroach. 
+ 
+ \begin{figure}[htbp]
+   \begin{center}
+      \includegraphics[width = 0.70\textwidth]{Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_ratio.pdf}
+     \caption{\label{fig:fitrat} \RaT as a function of \scalht as observed in data (black points) and the results of the fit (blue) both divided through by the bulk observations. The components of the background are shown also, where the electroweak was fixed as flat during the fit whilst qcd was allowed to fall exponentially. }
+   \end{center}
+ \end{figure}
+ 
+The good agreement between data and the Standard Model indicates a lack of signal, in which case the inclusion of signal in the likelihood is used to interpret the results in the plane of the CMSSM. The method of this is described in the following section. 
  
 \begin{table}[ht!]
 
@@ -1115,16 +1123,23 @@ Data                    & 21                             & 6                    
 \end{table}
 
 
-\begin{figure}[h]
-   \begin{center}
-      \includegraphics[width = 0.70\textwidth]{Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_ratio.pdf}
-     \caption{\label{fig:rat} \RaT as a function of \scalht as observed in data (black points) and the results of the fit assuming different scenarios: a) (left) and b) (right) .}
-   \end{center}
- \end{figure}
 
-\section{Limits}
 
-\begin{figure}[h]
+\section{Excluding Signal in the CMSSM Plane}
+
+Using the full likelihood with the signal contribution as detailed previously and maximising gives the likelihood $L(\hat{f}, \hat{\theta)})$ where \hat{f} is the MLE of f the parameter of primary interest, and \hat{theta} the set of MLEs of all the nuisance parameters. The maximum likelihood for a given $f$ L(f, \theta_{\mu}) is defined by the conditional set of MLEs for the nuisance parameters, and the ratio between these two is known as the profile likelihood $\lambda(f}$:
+
+\begin{equation}
+\lambda(f) = \frac{L(f, \theta_{\mu})}{L(\hat{f}, \hat{\theta})}
+\label{eq:PLrat}
+\end{equation}
+
+The parameter f represents a factor applied to the nominal cross section of a signal model, such that when it values unity no correction is made. In order to set a limit a test statistic is defined for use in the CLs method
+
+
+
+
+\begin{figure}[htbp]
   \begin{center}
     \includegraphics[width = 0.90\textwidth]{Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf}
     \caption{\label{fig:cmssm} Observed and expected 95\% CL exclusion

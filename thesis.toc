@@ -47,6 +47,6 @@
 \contentsline {subsection}{\numberline {1.12.4}Presence of Signal}{39}
 \contentsline {subsection}{\numberline {1.12.5}Total Likelihood}{39}
 \contentsline {section}{\numberline {1.13}Testing the SM-only hypothesis}{40}
-\contentsline {section}{\numberline {1.14}Limits}{42}
+\contentsline {section}{\numberline {1.14}Excluding Signal in the CMSSM Plane}{42}
 \contentsline {section}{\numberline {1.15}Conclusion}{42}
-\contentsline {chapter}{Bibliography}{44}
+\contentsline {chapter}{Bibliography}{45}
