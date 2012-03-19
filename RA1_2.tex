@@ -16,6 +16,7 @@ Datasets of simulated events with calculated cross-sections are required for any
 \item W + jets
 \item Z $\ra \nu\bar{\nu}$ + jets
 \item t$\bar{\textrm{t}}$ + jets
+\item $\gamma$ + jets
 \end{itemize}
 
 \subsubsection{CMSSM SUSY Signal}
@@ -460,7 +461,7 @@ $\RaT (10^{-5})$ & $1.18 \pm 0.26_{\rm stat}$ & $0.87 \pm 0.36_{\rm stat}$ & $1.
 
 The behaviour of \RaT over the range of \HT bins is further explored in Figure~\ref{fig:mainrat}, showing the values measured from data (black) alongside those derived from SM MC simulation events in three cases: without SUSY signal (red), with LM4 signal (blue) and with LM6 signal (green). The data is consistent with a hypothesis of a flat line with a p-value of 0.29, as is the MC SM only with a p-value of 0.50. The inclusion of the LM4(LM6) signal MC events renders the distribution non-consistent with a flat hypothesis, as expected. As it is known that QCD contamination in the numerator leads to an exponentially falling \RaT as \HT increases we find the data consistent with our hypothesis that the signal sample is free of QCD contamination.
 
-To test the sensitivity of the shape of $\RaT$ to the cross-sections used in SM MC, Figure~\ref{fig:ratvary} shows the \HT dependence with the effective cross-sections of the major EWK backgrounds varied individually by $\pm$ 15\%, to encompass the level of our current certainty of their values. In all cases the behaviour continues to be consistent with a flat hypothesis, the worst case p-value of which is 0.47 confirming the validity of the conclusion of flat behaviour.
+To test the sensitivity of the shape of $\RaT$ to the cross-sections used in SM MC, Figure~\ref{fig:ratvary} shows the \HT dependence with the effective cross-sections of the major EWK backgrounds varied individually by $\pm$ 15\%, to encompass the level of our current certainty of their values. In all cases the behaviour continues to be consistent with a flat hypothesis, the worst case p-value of which is 0.47 confirming the validity of the conclusion of flat behaviour. As results support the theory that \alt has removed the QCD background, no dedicated background estimation technique is needed, although a small QCD contribution will be allowed in the eventual fit to ensure that there is no bias and to account for any small remaining contribution. 
 
 \begin{figure}[h]
   \begin{center}
@@ -478,7 +479,7 @@ To test the sensitivity of the shape of $\RaT$ to the cross-sections used in SM 
   \end{center}
 \end{figure}
 
-Having confirmed the elimination of the QCD component of the background, the selection is left with a remaining background stemming from electroweak processes where real missing energy is created in the from of neutrinos. There are three major backgrounds relevant, Z + jets, W + jets and t$\bar{\textrm{t}}$. Events with Z + jets form a true irreducible background with decay to $\nu \bar{\nu}$ producing a true event with jets and missing energy, and hence requires a method of estimation to quantify its contribution to the yield. A data-driven method is used with the construction of a $\gamma$ + jets control sample.
+Having eradicated the majority of the QCD background the selection is left with a remaining dominating background stemming from electroweak processes where real missing energy is created in the from of neutrinos. There are three major backgrounds relevant, Z + jets, W + jets and t$\bar{\textrm{t}}$. Events with Z + jets form a true irreducible background with decay to $\nu \bar{\nu}$ producing a true event with jets and missing energy, and hence requires a method of estimation to quantify its contribution to the yield. A data-driven method is used with the construction of a $\gamma$ + jets control sample.
 
 It can be seen that there is also an irreducible background from W + jets and t$\bar{\textrm{t}}$ events, both of which in the kinematic space of the final selection concern the decays of boosted W's. It is interesting to understand the composition of the decays responsible, as these should be leptonic and therefore easy to identify and eliminate with our vetoes.
 
@@ -1043,7 +1044,7 @@ s^{i}_{\mu} = f \rho_{sig} x l \epsilon^{i}_{\mu}
 
 \subsection{Total Likelihood}
 
-The total likelihood is then expressed in Equation~\ref{eq:full}, as a product of the individual likelihood functions described previously.
+The total likelihood is then expressed in Equation~\ref{eq:fulll}, as a product of the individual likelihood functions described previously.
 \begin{equation}
 L_{tot} = L_{had} \times L_{\gamma} \times L_{\mu} \times L_{signal}
 \label{eq:fulll}
@@ -1053,38 +1054,70 @@ The parameters of the full likelihood are then the \RaT components:$A_{ewk}$, $A
 
 \section{Testing the SM-only hypothesis}
 
-Setting $s^{i} = s^{i}_{\mu} = 0$ allows the use of the likelihood to consider the background-only hypothesis. Finding the maximum of the likelihood for the observation from data ($L^{data}_{max}$) allows values of the parameters at maximum to be found, and these values are used to generate a probability distribution function. From this it is possible to generate a set of pseudo-experiments, and maximise the likelihood for each. This yields a distribution of the value of the maximum L_{max}, from which the $p$-value of the $L^{data}_{max}$ can be found using its quantile. 
+Dropping contributions from possible signal to the likelihood (setting $s^{i} = s^{i}_{\mu} = 0$) allows consideration of the background-only hypothesis. The likelihood is maximised over all of the parameters with the tools Minuit~\cite{minuit} and RooFit for the data observations, the value of which is recorded ($L^{data}_{max}$). The values of the parameters at this maximum value are maximum likelihood estimates (MLEs). 
 
- \begin{figure}[h]
+The likelihood function with the MLEs plugged in is then used as a p.d.f for observations, and many pseudo-experiments are generated from it. Starting with the observations in each pseudo-experiment, the likelihood is then re-maximised over all parameters in order to generate a distribution of the valleys of L at maximum, $L_{max}$. The p-value of the actual observation is found to be 0.56, obtained by examining the quantile of $L^{data}_{max}$ in this distribution. 
+
+The results of the fit are shown in Figure~\ref{fig:fit}
+
+ \begin{figure}[htbp]
    \begin{center}
-     \includegraphics[width = 0.48\textwidth]{Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_fit_logy.pdf}
-     \includegraphics[width = 0.48\textwidth]{Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.pdf}
-     \caption{\label{fig:hadronic} \scalht distribution for events in the hadronic signal sample for scenario a) (left) and scenario b) (right). Shown are the events observed in data (black points), the outcome of the fit (blue line) and a breakdown of the individual background contributions as predicted by the control samples. A possible signal contribution from benchmark point LM6 is indicated as well (yellow line).}
+
+ \includegraphics[width = 0.66\textwidth]{Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.pdf}
+ \includegraphics[width = 0.66\textwidth]{Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf}
+ \includegraphics[width = 0.66\textwidth]{Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.pdf}
+
+
+         
+     \caption{\label{fig:fit} SM-only goodness of fit results for events in the hadronic (top), muon (middle) and photon (bottom) samples. Each \scalht bin shows data observation (black points) and the outcome of the fit (blue line). For hadronic selection the breakdown of the individual background contributions as predicted by the control samples is shown also. Signal contribution from benchmark point LM6 is shown stacked with SM for illustration (pink line) but has no role in the fit.}
    \end{center}
  \end{figure}
+ 
+ 
+\begin{table}[ht!]
 
- \begin{figure}[h]
-   \begin{center}
-     \includegraphics[width = 0.48\textwidth]{Figures/Analysis/PAS/stats_plots/RQcdZero/muon_control_fit_logy.pdf}
-     \includegraphics[width = 0.48\textwidth]{Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf}
-     \caption{\label{fig:muon} \scalht distribution for events selected in the muon control sample for scenario a) (left) and scenario b) (right).
-  Shown are the events observed in data (black points), the outcome of the fit (blue line) and the MC expectation (dashed line). A possible signal
- contribution from benchmark point LM6 is indicated as well (yellow line).}
-   \end{center}
- \end{figure}
+\centering
+\footnotesize
+\begin{tabular*}{0.95\linewidth}{@{\extracolsep{\fill}} c c c c c }
+\hline
+\hline
+\scalht Bin (GeV)       & 275--325                       & 325--375                       & 375--475                       & 475--575                       \\ [0.5ex]
+\hline
+\hline
+W + $\ttNew$ background & 363.7                          & 152.2                          &  88.9                          &  28.8                          \\ 
+$\znunu$ background     & 251.4                          & 103.1                          &  86.4                          &  26.6                          \\ 
+QCD background          & 172.4                          &  55.1                          &  26.9                          &   5.0                          \\ \hline
+Total Background        & 787.4$^{+32}_{-22}$                          & 310.4$^{+8}_{-12}$                          & 202.1$^{+9}_{-9}$                          &  60.4                          \\ 
+Data                    & 782                            & 321                            & 196                            & 62                             \\ 
+\hline
+\hline
+\end{tabular*}
+\newline
+\newline
+\newline
+\begin{tabular*}{0.95\linewidth}{@{\extracolsep{\fill}} c c c c c }
+\hline
+\hline
+\scalht Bin (GeV)       & 575--675                       & 675--775                       & 775--875                       & 875--$\infty$                  \\ [0.5ex]
+\hline
+\hline
+W + $\ttNew$ background &  10.6                          &   3.1                          &   0.6                          &   0.6                          \\ 
+$\znunu$ background     &   8.7                          &   4.3                          &   2.5                          &   2.2                          \\ 
+QCD background          &   1.0                          &   0.2                          &   0.1                          &   0.0                          \\ \hline
+Total Background        &  20.3                          &   7.7                          &   3.2                          &   2.9                          \\ 
+Data                    & 21                             & 6                              & 3                              & 1                              \\ 
+\hline
+\hline
+\end{tabular*}
+\caption{Fit results for 1.1fb$^{-1}$ with data observations. Since the QCD fit parameters are compatible with zero (see text), the listed QCD contributions in this table are also compatible with zero.}
+\label{tab:results-fit}
 
- \begin{figure}[h]
-   \begin{center}
-     \includegraphics[width = 0.48\textwidth]{Figures/Analysis/PAS/stats_plots/RQcdZero/photon_control_fit_logy.pdf}
-     \includegraphics[width = 0.48\textwidth]{Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.pdf}
-     \caption{\label{fig:photon} \scalht distribution for events selected in the photon control sample for scenario a) (left) and scenario b) (right). Shown are the events observed in data (black points), the outcome of the fit (blue line) and the MC expectation (dashed line).}
-   \end{center}
- \end{figure}
+\end{table}
 
- \begin{figure}[h]
+
+\begin{figure}[h]
    \begin{center}
-     \includegraphics[width = 0.48\textwidth]{Figures/Analysis/PAS/stats_plots/RQcdZero/hadronic_signal_alphaT_ratio.pdf}
-     \includegraphics[width = 0.48\textwidth]{Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_ratio.pdf}
+      \includegraphics[width = 0.70\textwidth]{Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_ratio.pdf}
      \caption{\label{fig:rat} \RaT as a function of \scalht as observed in data (black points) and the results of the fit assuming different scenarios: a) (left) and b) (right) .}
    \end{center}
  \end{figure}
