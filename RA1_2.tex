@@ -864,7 +864,7 @@ Sample Purity & 0.99 & 0.99 & 0.99 & 0.99 \\
 \subsection{$\gamma$ Control Sample Systematic Uncertainty}
 As in the $\mu$ control sample, the data-driven estimation techniques rely on a Monte Carlo ratio, and so we treat all factors that affect this ratio conservatively when assigning uncertainties. The values chosen are in accord with that developed for the previous iteration of this analysis, with the following contributory factors:
 \begin{itemize}
-\item As the Madgraph MC samples used are different in the numerator and denominator a factor of theoretical uncertainty exists on the relative cross-sections, taken conservatively as 30\%~\cite{gamjetNLO} from \textsc{MADGRAPH}~\cite{mad graph}.
+\item As the Madgraph MC samples used are different in the numerator and denominator a factor of theoretical uncertainty exists on the relative cross-sections, taken conservatively as 30\%~\cite{gamjetNLO} from \textsc{MADGRAPH}~\cite{madgraph}.
 \item The acceptance $a$ is assigned an uncertainty of 5\%, given the understanding of $\gamma$ + jets processes is good. The efficiency $\epsilon$ is assigned a conservative 20\% as although the ID variables are validated with tag-and-probe~\cite{} the tests are not reformed in the high \HT 
 \item The purity P is assigned an 20\% uncertainty to take into account the uncertainty in the modelling of QCD MC which is used to estimate contamination. 
 \end{itemize}
@@ -936,7 +936,7 @@ Pois(n | \mu)  = \frac{\mu^{n}}{n!} e^{-\mu}
 
 The likelihood of $\mu$ being the number of expected events given the outcome n can then be expressed in terms of this probability distribution. Where $\mu$ depends on a set of unknown parameters maximising L provides estimates for the models parameters. The N=8 measurements corresponding to each $\HT$ bin enter the likelihood distinctly and simultaneously through a product of Poisson distributions. It does not distinguish between bins of differing width. 
 
-\subsection{Hadronic Signal Selection Liklehood}
+\subsection{Hadronic Signal Selection Likelihood}
 
 Given a set of observed event yields for the hadronic signal selection n$^{i}$ in i=1,...,N $ \HT$ bins, the likelihood L$_{had}$ is described by:
 
@@ -965,7 +965,7 @@ b^{i}_{p} = \int_{x_{i}}^{x_{i+1}} \frac{dN}{d\HT}Ae^{-k\HT} d\HT,
 \label{eq:rat2}
 \end{equation}
 
-where x$_{i}$ is the lower bin edge in \HT, and x$_{i+1}$ represents the upper edge ($\infty$ in the case of the final bin). To simplify this continuous distribution the assumption is made that the full distribution of a given bin occurs at the mid-point of the bin, the mean $\langle \HT \angle^{i}$, allowing the expression in terms of $m^{i}$:
+where x$_{i}$ is the lower bin edge in \HT, and x$_{i+1}$ represents the upper edge ($\infty$ in the case of the final bin). To simplify this continuous distribution the assumption is made that the full distribution of a given bin occurs at the mid-point of the bin, the mean $\langle \HT \rangle^{i}$, allowing the expression in terms of $m^{i}$:
 
 \begin{equation}
 \frac{dN}{d\HT} = \sum_{i} m^{i} \delta(x - \langle \HT \rangle^{i}),
@@ -986,10 +986,10 @@ b^{i}_{qcd} = m^{i} A_{qcd} e^{-k_{qcd} \langle \HT \rangle^{i}}.
 \label{eq:bicomp}
 \end{equation}
 
-The full set of the background expectations $b^{i}$ now depends on three nuisance parameters, $A_{ewk}, A_{qcd}$ and $k_{qcd}$. 
+The likelihood of the full set of the background expectations $b^{i}$ now depends on three nuisance parameters, $A_{ewk}, A_{qcd}$ and $k_{qcd}$. 
 
-\subsection{Electroweak Control Likelihoods}
-The electroweak component of the background $b^{i}_{ewk}$ can additionally be expressed in terms of the expected number of Z and $\tto$W components $b^{i}_{Z}$ and  $b^{i}_{\tto}$. As $b^{i}_{ewk} = b^{i}_{Z} + b^{i}_{\tto W}$, this can be re-expressed by introducing a set of fit parameters $f^{i}_{Z}$, the fraction of electroweak events that are Z in the $i$th bin:
+\subsection{Electroweak Control Sample Likelihoods}
+The electroweak component of the background $b^{i}_{ewk}$ can additionally be decomposed into terms of the expected number of Z and $\tto$W components $b^{i}_{Z}$ and  $b^{i}_{\tto}$. Reversing $b^{i}_{ewk} = b^{i}_{Z} + b^{i}_{\tto W}$ by introducing a set of fit parameters $f^{i}_{Z}$, the fraction of electroweak events that are Z in the $i$th bin, each component can be expressed as follows:
 
 \begin{equation}
 b^{i}_{Z}= f^{i}_{Z} \times b^{i}_{ewk} \qquad b^{i}_{\tto W}= (1 - f^{i}_{Z}) \times b^{i}_{ewk}
@@ -1002,27 +1002,54 @@ b^{i}_{Z}= f^{i}_{Z} \times b^{i}_{ewk} \qquad b^{i}_{\tto W}= (1 - f^{i}_{Z}) \
  \label{eq:ewk2}
  \end{equation}
 
-The likelihoods regarding the two measured yields $n^{i}_{\gamma}, n^{i}_{\mu}$ can then be fully expressed as in Equation~\ref{eq:ewk3} with the representing the correction factors $\rho^{Z}_{\gamma}$ and $\rho^{\tto W}_{\mu}$ that account for the systematic uncertainties associated with the prediction constraints. 
+The likelihoods regarding the two measured yields $n^{i}_{\gamma}, n^{i}_{\mu}$ can then be fully expressed as in Equation~\ref{eq:gail} and \ref{eq:mul} with an additional parameter $s^{i}_{\mu}$ represents the expected signal events contaminating the muon control sample for a given signal model. 
 
 \begin{equation}
-\begin{split}
-L_{\gamma} = \textrm{Gaus}(1.0|\rho^{Z}_{\gamma}, \sigma^{Z}_{\gamma})  \prod_{i} \textrm{Pois}(n^{i}_{\gamma}|\rho^{Z}_{\gamma}r^{i}_{\gamma} b^{i}_{Z})\\
+L_{\gamma} = \textrm{Gaus}(1.0|\rho^{Z}_{\gamma}, \sigma^{Z}_{\gamma})  \prod_{i} \textrm{Pois}(n^{i}_{\gamma}|\rho^{Z}_{\gamma}r^{i}_{\gamma} b^{i}_{Z})
+\label{eq:gaml}
+\end{equation}
+\begin{equation}
 L_{\mu} = \textrm{Gaus}(1.0|\rho^{\tto W}_{\mu}, \sigma^{\tto W}_{\mu})  \prod_{i} \textrm{Pois}(n^{i}_{\mu}|\rho^{\tto W}_{\mu}r^{i}_{\mu} b^{i}_{\tto W} + s^{i}_{\mu})
-\end{split}
-  \label{eq:ewk3}
+  \label{eq:mul}
  \end{equation}
 
-The parameter $s^{i}_{\mu}$ represents the expected signal events contaminating the muon control sample for a given signal model. 
+
+In addition to the Poisson product an additional Gaussian has been incorporated to account for the systematic error, in which $\rho^{Z}_{\gamma},\rho^{\tto W}_{\mu}$ are the correction factors that account for the systematic uncertainties $\sigma^{Z}_{\gamma},\sigma^{\tto W}_{\mu}$ associated with the respective prediction constraints. We assume the uncertainties are fully correlated across the range of bins. 
+
+These two electroweak likelihoods add an additional dependance on the N parameters $f^{i}_{Z}$ as well as two uncertainty correction factors $\rho^{Z}_{\gamma},\rho^{\tto W}_{\mu}$. 
+
+\subsection{Presence of Signal}
+
+Where the hypothesis includes presence of signal events the likelihood requires an additional component, representing the effect of systematic uncertainties associated with signal efficiency, $\sigma^{sig}$. This is treated with a Gaussian as in the electroweak cases, and introduces the correction factor $\rho^{sig}$:
+
+\begin{equation}
+L_{signal} = Gaus(1.0 | \rho^{sig}, \sigma^{sig})
+\label{ew:lsig}
+\end{equation}
+
+With the inclusion of this uncertainty correction in the full likelihood the signal contribution $s^{i}$ in Equation~\ref{eq:Lhad1} can be rewritten in terms of the cross-section $x$ of the model and the measured luminosity $l$, using the efficiency of the analysis in bin $i, \epsilon^{i}_{had}$. 
+
+\begin{equation}
+s^{i} = f \rho_{sig} x l \epsilon^{i}_{had}
+\label{eq:sig}
+\end{equation}
+
+This introduces the multiplicative factor $f^{x}$ to be applied to the cross section. This represents the parameter of interest for which we shall determine an allowed interval. Analogously the signal contamination in the muon control region $s^{i}_{\mu}$ in Equation~\ref{eq:jul} is also written using these factors and the muon selection efficiency for signal $\epsilon^{i}_{\mu}$:
+
+\begin{equation}
+s^{i}_{\mu} = f \rho_{sig} x l \epsilon^{i}_{\mu}
+\label{eq:sig}
+\end{equation}
 
 \subsection{Total Likelihood}
 
-The total likelihood is then expressed as a product of the individual likelihood functions described previously
-
+The total likelihood is then expressed in Equation~\ref{eq:full}, as a product of the individual likelihood functions described previously.
 \begin{equation}
-L_{tot} = L_{had} \times L_{\gamma} \times L_{\mu}
+L_{tot} = L_{had} \times L_{\gamma} \times L_{\mu} \times L_{signal}
 \label{eq:fulll}
 \end{equation}
 
+The parameters of the full likelihood are then the \RaT components:$A_{ewk}$, $A_{qcd}$ and $k_{qcd}$, the N factors $\{f^{i}_{Z}\}$, the three uncertainty corrections $\rho^{sig}$, $\rho^{Z}_{\gamma}$ and $\rho^{\tto W}_{\mu}$ and the strength of the signal $f_{x}$. These number 7 + N in total with $f _{x}$ the primary parameter of interest whilst the other 6 + N are regarded as nuisance parameters.
 
 
  \begin{figure}[h]
