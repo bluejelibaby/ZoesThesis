@@ -3,55 +3,88 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: title.aux
 A level-1 auxiliary file: symbols.aux
+A level-1 auxiliary file: Introduction.aux
+A level-1 auxiliary file: Theory.aux
+A level-1 auxiliary file: Detector.aux
+A level-1 auxiliary file: Objects.aux
+A level-1 auxiliary file: AlphaT.aux
 A level-1 auxiliary file: RA1_2.aux
+White space in argument---line 187 of file RA1_2.aux
+ : \citation{mad
+ :               graph}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: Conclusion.aux
 A level-1 auxiliary file: appA.aux
 The style file: thesis.bst
 Database file #1: papers.bib
+Warning--empty journal in PichSM
+Warning--empty journal in HerreroSM
+Warning--empty journal in Drees
+Warning--empty journal in PeskinBSM
+Warning--empty journal in SUSYPrime
+Warning--empty journal in TRK-10-005
+Warning--empty journal in jetroundup
+Warning--empty journal in aktrecom
+Warning--empty journal in HERWIG
+Warning--empty journal in JME-10-010
+Warning--empty journal in metrecon
+Warning--empty journal in etmissnote
+Warning--empty journal in JME-10-004
+Warning--empty journal in MUO-10-004
+Warning--empty journal in EGM-10-005
+Warning--empty journal in EGM-10-004
+Warning--empty journal in PASaT
+Warning--empty journal in ANaT
+Warning--empty journal in ANnaT
+Warning--empty journal in an2009_56
+Warning--empty journal in an2010_119
+Warning--empty journal in an2009_188
 Warning--empty journal in EWK-11-001
 Warning--empty journal in JME-09-008
 Warning--empty journal in MUO-10-002
 Warning--empty journal in AN-10-116
 Warning--empty journal in EGM-10-006
+Warning--empty journal in WZXS
 Warning--empty journal in SUS-10-001
-You've used 8 entries,
+You've used 63 entries,
             2232 wiz_defined-function locations,
-            585 strings with 5453 characters,
-and the built_in function-call counts, 1468 in all, are:
-= -- 110
-> -- 52
-< -- 0
-+ -- 22
-- -- 14
-* -- 102
-:= -- 240
-add.period$ -- 24
-call.type$ -- 8
-change.case$ -- 0
+            910 strings with 13022 characters,
+and the built_in function-call counts, 12849 in all, are:
+= -- 979
+> -- 595
+< -- 4
++ -- 231
+- -- 168
+* -- 991
+:= -- 2065
+add.period$ -- 194
+call.type$ -- 63
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 94
-empty$ -- 156
-format.name$ -- 16
-if$ -- 305
+cite$ -- 92
+duplicate$ -- 740
+empty$ -- 1323
+format.name$ -- 196
+if$ -- 2742
 int.to.chr$ -- 0
-int.to.str$ -- 8
-missing$ -- 8
-newline$ -- 47
-num.names$ -- 8
-pop$ -- 40
+int.to.str$ -- 63
+missing$ -- 68
+newline$ -- 324
+num.names$ -- 63
+pop$ -- 345
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 31
+skip$ -- 206
 stack$ -- 0
-substring$ -- 39
-swap$ -- 22
-text.length$ -- 0
+substring$ -- 384
+swap$ -- 200
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
-while$ -- 10
-width$ -- 9
-write$ -- 82
-(There were 6 warnings)
+warning$ -- 29
+while$ -- 84
+width$ -- 65
+write$ -- 628
+(There was 1 error message)
