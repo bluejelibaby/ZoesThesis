@@ -1,4 +1,5 @@
-\chapter{Searching for Supersymmetry with $\alpha_{T}$ in all-hadronic events}
+\chapter{All-Hadronic Analysis}
+\label{ch:RA1}
 The analysis presented here represents a model-independent search for new physics in the all-hadronic channel, where the final state is defined by the presence of jets and missing energy. Designed to search for signs of supersymmetry whilst remaining sensitive to other new physics models, an inclusive strategy is used imposing restrictions only on the final state. Events are chosen based on their compatibility with a topology of heavy new particles pair-produced in p-p collisions, which decay through a chain with an end product which is stable and undetectable.
 
 Isolating these new physics events from Standard Model background processes is essential in order to identify an excess. Controlling the dominant background from QCD Multijet processed is the central feature of the strategy, implementing use of the powerful discriminant, the \alt variable described in Chapter \ref{ch:at}. The remaining backgrounds from electroweak processes may then be accounted for using data-driven estimation techniques in muon and photon control samples. The analysis presented here was done in 2011 and uses 1.1fb$^{-1}$ data, representing an update on the previous iteration of this analysis using 35pb$^{-1}$ 2010 data, which will be periodically referred to and is fully documented at \cite{35paper}.
@@ -9,15 +10,19 @@ Isolating these new physics events from Standard Model background processes is e
 This analysis uses datasets both from Monte Carlo simulation (MC) and of data recorded by the CMS detector in 2011.
 
 \subsection{Monte Carlo Simulation}
-Datasets of simulated events with calculated cross-sections are required for any analysis at the LHC. The following samples are used, full details of which can be found in Appendix A.
-\subsubsection{Standard Model Background}
+Datasets of simulated events with calculated cross-sections are required for any analysis at the LHC. Using PDFs from CTEQ~\cite{CTEQ}, partons are generated and hard-scattered using either MadGraph~\cite{madgraph} or \textsc{PYTHIA}~\cite{PYTHIA}. The particles hadronize and  The following samples are used, full details of which can be found in Appendix A. 
+\subsubsection{Standard Model}
 \begin{itemize}
-\item QCD Multijet
-\item W + jets
-\item Z $\ra \nu\bar{\nu}$ + jets
-\item t$\bar{\textrm{t}}$ + jets
-\item $\gamma$ + jets
+\item QCD Multijet (\textsc{PYTHIA})
+\item QCD Multijet (MadGraph)
+\item W $\ra l\nu$+ jets (MadGraph)
+\item Z $\ra \nu\bar{\nu}$ + jets (MadGraph)
+\item t$\bar{\textrm{t}}$ + jets (MadGraph)
+\item Single top (t or $\bar{t}$)  (MadGraph)
+\item $\gamma$ + jets (MadGraph)
 \end{itemize}
+
+The dominant background is from QCD which we have available from two different generators \textsc{MADGRAPH} and \textsc{Pythia}. The $\gamma$ + jets sample does not represent a background but is used in the Z background prediction method as a $\gamma$ control sample is used. The remaining samples contribute to the electroweak backgrounds. 
 
 \subsubsection{CMSSM SUSY Signal}
 For the purpose of understanding the possible yields from CMSSM SUSY, two mSUGRA parameter points are used. CMS has a dedicated set of 10 Low Mass(LM) points designed for initial data-taking from which we have chosen LM4 and LM6, the values of which are found in Table~\ref{tab:LM}.
@@ -37,7 +42,7 @@ For the purpose of understanding the possible yields from CMSSM SUSY, two mSUGRA
 \caption{\label{tab:LM}The two CMSSM SUSY signal points used and their corresponding mSUGRA parameter values.}
 \end{table}
 
-These points are chosen for their existence above the exclusion limit set previously, shown in Figure~\ref{fig:lm35limit} on the exclusion plot from the 2010 iteration of this analysis\cite{35paper}.
+These points are chosen for their existence above the exclusion limit set previously, shown in Figure~\ref{fig:lm35limit} on the exclusion plot from the 2010 iteration of this analysis \cite{35paper}. The program SoftSUSY~\cite{softsusy} is used to generate the mass spectrum of each point, and this is fed into \textsc{PYTHIA} for generation before undergoing the full CMS detector simulation in GEANT4~\cite{GEANT4}.
 
 \begin{figure}[htbp]
 \centering
@@ -51,7 +56,7 @@ This analysis considers data collected by CMS at $\sqrt{s} = 7$~TeV in 2011 betw
 
 As described previously, loose requirements on the types of triggers passed allow the sorting of the data into each Primary Dataset (PD). For the hadronic analysis the HT dataset is used, with basic low-threshold $\HT$ triggers required. Higher threshold triggers are applied subsequently as part of the analysis selection, detailed in Section~\ref{sec:trig}.
 
-For the data-driven estimation techniques muon and photon control samples are defined. For the muon control sample, the HT PD is also used, as a low muon $p_{T}$ requirement makes this better suited than the dedicated Muon PD. However the photon control sample uses the dedicated Photon PD that requires some basic threshold photon triggers to be passed. The photon control sample had slightly lower statistics available (~1.06 fb$^{-1}$) and henceforth a correction factor is applied to yields from this control sample to normalise to the signal region.
+For the data-driven estimation techniques muon and photon control samples are defined. For the muon control sample, the HT PD is also used, as a low muon $p_{T}$ requirement makes this better suited than the dedicated Muon PD. However the photon control sample uses the dedicated Photon PD that requires some basic threshold photon triggers to be passed. The photon control sample had slightly lower statistics available ($\sim$ 1.06 fb$^{-1}$) and henceforth a correction factor is applied to yields from this control sample to normalise to the signal region.
 
 
 \section{Analysis Framework}
@@ -69,7 +74,7 @@ In the previous iteration of this analysis for the 2010 dataset, a set of pure \
 
 The use of cross-object triggers is now employed, requiring events that pass thresholds in both \HT and \mht for the signal region. As the era of data-taking progressed there were several menu-changes, during which time we required the lowest un-prescaled thresholds available at a given time to ensure signal yields are accurate, some of which are implemented in the menu under different versions, the relevant paths appended with \verb!_v*!.
 
-The first set of runs in the 2011 dataset correspond to a trigger used with thresholds in [\HT,\MHT] = [260,60]~GeV. After this the CMS standard thresholds were shifted down by 10~GeV, relevant for the major portion of data taking. For all runs henceforth the lowest unprescaled cross-trigger had an \HT threshold of 250 GeV, during which time the \MHT thresholds of the lowest unprescaled evolve through 60, 70 and 90 GeV.
+The first set of runs in the 2011 dataset correspond to a trigger used with thresholds in [\HT,\MHT] = [260,60]~GeV. After this the CMS standard thresholds were shifted down by 10~GeV, relevant for the major portion of data taking. For all runs henceforth the lowest un-prescaled cross-trigger had an \HT threshold of 250 GeV, during which time the \MHT thresholds of the lowest un-prescaled evolve through 60, 70 and 90 GeV.
 
 \begin{table}[htbp]
 \centering

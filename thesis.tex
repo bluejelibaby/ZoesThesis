@@ -9,9 +9,10 @@
 
 %% Master tex file for the thesis.
 
-%\documentclass[11pt,a4paper]{book} % double-sided
-\documentclass[12pt,a4paper]{report}
-\usepackage{subfigure,epsfig,amstext,floatfig,alltt,fancyhdr,setspace,xspace,amsmath,slashed,xfrac,amssymb,multirow,array}
+%\documentclass[12pt,a4paper]{book} % double-sided
+\documentclass[12pt,twoside,a4paper]{report}
+
+\usepackage{subfigure,epsfig,amstext,floatfig,alltt,fancyhdr,setspace,xspace,amsmath,slashed,xfrac,amssymb,multirow,array,layout}
 % Different font in captions
 \newcommand{\captionfonts}{\it}
 
@@ -35,13 +36,17 @@
 \tolerance=1000
 
 % sets all the margins to be the correct size for thesis
-
-%%%%%%% FINAL THESIS MARGINS  %%%%%%%%%
-\setlength{\oddsidemargin}{0.7cm}
-%\setlength{\evensidemargin}{1.46cm}
-\setlength{\evensidemargin}{-0.04cm}
-%\setlength{\evensidemargin}{0cm}
 \setlength{\textwidth}{14.5cm}
+  \setlength{\marginparwidth}{0pt}
+  \setlength{\marginparsep}{0pt}
+  
+  \setlength{\oddsidemargin}{3.25cm}
+  \addtolength{\oddsidemargin}{-1in}
+\setlength{\evensidemargin}{3.25cm}
+  \addtolength{\evensidemargin}{-\marginparsep}
+  \addtolength{\evensidemargin}{-1in}
+  
+  
 \setlength{\topmargin}{-0.94cm}
 \setlength{\textheight}{21.9cm} %22.2
 \renewcommand{\hoffset}{0cm}
@@ -56,6 +61,7 @@
 %% the table of contents
 %\pagestyle{empty}
 %
+%\layout
 \pagenumbering{arabic}
 \setcounter{page}{1}
 \include{title}
@@ -133,14 +139,14 @@
 
 %\setcounter{page}{1}
 %% Add chapters here %%
-\include{Introduction}
-\include{Theory}
-\include{Detector}
-\include{Objects}
-\include{AlphaT}
-\include{RA1_2}
-%\include{RA4}
-\include{Conclusion}
+%\include{Introduction}
+%\include{Theory}
+%\include{Detector}
+%\include{Objects}
+%\include{AlphaT}
+%\include{RA1_2}
+\include{RA4}
+%\include{Conclusion}
 
 \renewcommand{\chaptername}[1]{Appendix A. }
 \renewcommand{\chaptermark}[1]{\markboth{\chaptername \ #1}{}} 
