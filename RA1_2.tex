@@ -761,9 +761,60 @@ The overall uncertainty is then achieved by adding these components in quadratur
 
 
 \subsection{Signal Contamination in $\mu$ Control Sample}
+\label{sec:sigmucon}
+In the case where SUSY-like New Physics exists, the $\mu$ selection may receive some contamination from signal events producing missing energy alongside one lepton. Table~\ref{tab:lm6contam} shows the bin-by-bin event yields for test point LM6 alongside the yields from SM, and the relevant significance $\sfrac{S}{B}$. The contamination is small in all but the highest bin where the significance exceeds 1. 
 
-In the case where SUSY-like New Physics exists, the $\mu$ selection may receive some contamination from signal events producing missing energy alongside one lepton. Table~\ref{tab:lm6contam} shows the contamination per bin for the SUSY test point LM6. 
+As there can be such contamination and this depends on the model of signal, the possible signal contribution must be included in the $\mu$ control sample during the simultaneous fit. This will be included through the \% efficiency of the $\mu$ selection in bin $i$, $\epsilon^{i}_{\mu}$ obtained by
 
+\begin{equation}
+\epsilon^{i}_{\mu} = 100 \times \frac{N_{\mu}}{N_{tot}}
+\end{equation}
+ where N$_{\mu}$ is the number of signal events that pass the $\mu$ selection, and N$_{tot}$ is the total number of signal events prior to selection. The values of $\epsilon^{i}_{\mu}$for LM6 are also included in Table~\ref{tab:lm6contam}, where the value of N$_{tot}$ for LM6 is 335.23.
+
+
+\begin{table}[htbp]
+\centering
+\footnotesize
+\begin{tabular*}{0.9\linewidth}{@{\extracolsep{\fill}}c c c c c}
+\hline
+\hline
+\scalht Bin (GeV) & 275--325 & 325--375 & 375--475 & 475--575 \\ [0.5ex]
+\hline
+\hline
+SM (W + \tto) & 407.5 & 179.1  & 131.6 & 48.7  \\
+LM6 & 0.13 & 0.15 & 0.53 & 0.82 \\
+\hline
+\hline
+$\sfrac{S}{B}$ & 0.00 & 0.00 & 0.00 & 0.02 \\
+%\hline
+%\hline
+$\epsilon^{i}_{\mu}$(LM6) (\%) & 0.045 & 0.045 & 0.16 & 0.25 \\
+\hline
+\hline
+\newline
+\newline
+\newline
+\end{tabular*}
+\begin{tabular*}{0.9\linewidth}{@{\extracolsep{\fill}}c c c c c}
+\hline
+\hline
+\scalht Bin (GeV) & 575--675 & 675--775 & 775--875 & 875--$\infty$ \\ [0.5ex]
+\hline
+\hline
+SM (W + \tto) & 13.3  & 8.0  & 3.2 & 0.9 \\
+LM6 & 1.09 & 1.17 & 0.95 & 1.21 \\
+\hline
+\hline
+$\sfrac{S}{B}$ & 0.08 & 0.15 & 0.30 & 1.34 \\
+%\hline
+%\hline
+$\epsilon^{i}_{\mu}$(LM6) (\%) & 0.325 & 0.348 & 0.283 & 0.362 \\
+\hline
+\hline
+
+\end{tabular*}
+\caption{\label{tab:lm6contam} Signal contamination yields from LM6 in the $\mu$ Control Sample in 1.1fb$^{-1}$ Monte Carlo, shown alongside Standard Model MC yields and significance $\sfrac{S}{B}$. Efficiency of the $\mu$ selection in LM6 $\epsilon^{i}_{\mu}$(LM6) in \% is calculated by 100*(yield/N$_{tot}$) where N$_{tot}$ is the total events in the LM6 sample at 1.1fb$^{-1}$, 335.23. }
+\end{table}
 %\subsection{Full electroweak background prediction cross check}
 
 
@@ -1038,7 +1089,7 @@ s^{i} = f \rho_{sig} x l \epsilon^{i}_{had}
 \label{eq:sig}
 \end{equation}
 
-This introduces the multiplicative factor $f^{x}$ to be applied to the cross section. This represents the parameter of interest for which we shall determine an allowed interval. Analogously the signal contamination in the muon control region $s^{i}_{\mu}$ in Equation~\ref{eq:jul} is also written using these factors and the muon selection efficiency for signal $\epsilon^{i}_{\mu}$:
+This introduces the multiplicative factor $f^{x}$ to be applied to the cross section. This represents the parameter of interest for which we shall determine an allowed interval. Analogously the signal contamination in the muon control region  $s^{i}_{\mu}$ in Equation~\ref{eq:jul} is also written using these factors and the muon selection efficiency for signal $\epsilon^{i}_{\mu}$ as described in Section~\ref{sec:sigmucon}:
 
 \begin{equation}
 s^{i}_{\mu} = f \rho_{sig} x l \epsilon^{i}_{\mu}
@@ -1128,9 +1179,10 @@ Data                    & 21                             & 6                    
 
 
 
-\section{Excluding Signal in the CMSSM Plane}
+\section{Excluding Signal Models}
+\subsection{Constructing a Test Statistic}
 
-Using the full likelihood with the signal contribution as detailed previously and maximising gives the likelihood $L(\hat{f}, \hat{\theta)})$ where \hat{f} is the MLE of f the parameter of primary interest, and \hat{theta} the set of MLEs of all the nuisance parameters. The maximum likelihood for a given $f$ L(f, \theta_{\mu}) is defined by the conditional set of MLEs for the nuisance parameters, and the ratio between these two is known as the profile likelihood $\lambda(f}$:
+Using the full likelihood with the signal contribution as detailed previously and maximising gives the likelihood $L(\hat{f}, \hat{\theta)})$ where $\hat{f}$ is the MLE of f the parameter of primary interest, and $\hat{theta}$ the set of MLEs of all the nuisance parameters. The maximum likelihood for a given $f$ $L(f, \theta_{\mu})$ is defined by the conditional set of MLEs for the nuisance parameters, and the ratio between these two is known as the profile likelihood ratio $\lambda(f)$:
 
 \begin{equation}
 \lambda(f) = \frac{L(f, \theta_{\mu})}{L(\hat{f}, \hat{\theta})}
@@ -1141,8 +1193,30 @@ The parameter f represents a factor applied to the nominal cross section of a si
 
 \begin{equation}
 q_{f} = 
+\begin{cases} -2 log \lambda(f) & \quad \text{when} f > \hat{f} \\
+0 & \quad \text{otherwise}\\
+  \end{cases} 
+\end{equation}
 
+\subsection{The CL$_{S}$ Method}
 
+The CL$_{S}$ method defines the probability of agreement with the S+B hypothesis relative to the background-only scenario:
+
+\begin{equation}
+CL_{S} = \frac{CL_{S+B}}{CL_{B}}
+\label{eq:cls}
+\end{equation} 
+ where CL$_{S+B}$ is the probability of the observation agreeing with the signal plus background hypothesis, and CL$_{B}$ the probability of agreement with the background only hypothesis. This is superior to methods that only require comparison to the signal plus background hypothesis, as 
+ 
+ Implementation with our test statistic q$_{f}$ requires the generation of pseudo-experiments in f in order to generate two distributions of q$_{f}$ in both the S+B and B cases. The numerical value for CL$_{S+B}$(CL$_{B}$) is 1 minus the quantile of the observed value in the S+B (B) q$_{f}$ distribution. The value of CL$_{S} = \alpha'$ The level of confidence of excluding the signal model is then 1-$\alpha'$. We choose to exclude at the 95\% confidence level, corresponding to an $\alpha'$ = 0.05. Thus all signal models for which CL$_{S}$ < 0.05 are excluded. 
+ 
+\subsection{Setting an Exclusion Limit in the CMSSM Plane}
+ 
+In order to interpret the results in the CMSSM model, this method is applied to signal events from many mSUGRA parameter sets in order to set an exclusion limit. We choose to fix three parameters A$_{0}$ = 0 GeV, tan $\beta$ and sign($\mu$) = +. A signal scan is produced in the plane of $m_{0} - m_{1/2}$ with a set of 10k signal events generated at each point. SoftSUSY is used to generate the full mass spectrum of the sparticles, passed to Pythia for generation. After full reconstruction simulation they are reweighed according to the next-to-leading-order (NLO) cross-sections found by Prospino. 
+
+The CL$_{S}$ method detailed above is applied to each point in the Signal Scan and tested against the 0.05 requirement in order to identify the 95\% confidence exclusion limit, shown in Figure~\ref{fig:cmssm}. Models beneath the  curve are excluded at 95\%. The expected limit band is shown centred on the median value with a $\pm$ 1 Standard Deviation width, taken from the relevant quantiles of the distribution of CL$_{S}$ calculated using the full distribution of SM pseudo-experiments. 
+
+The points excluded translate within the CMSSM to a bound on the masses of the sparticles as they are governed by the parameters m$_{0}$ and m$_{1/2}$. Mean squark masses and equal gluino masses below 1.1 TeV can be excluded for m$_{0}$ $<$ 500 GeV, and for higher values of m$_{0}$ with the gluino mass much lower than the mean squark mass, the gluino mass is excluded below 0.5~GeV.
 
 \begin{figure}[htbp]
   \begin{center}
@@ -1157,4 +1231,3 @@ A_0 = 0, \mu > 0$) using NLO signal cross sections using the
 \end{figure}
 
 
-\section{Conclusion}

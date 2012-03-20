@@ -4,6 +4,316 @@
   \def\url#1{{\tt #1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{}\fi
 
+\bibitem{Rolnick}
+William~B Rolnick.
+\newblock \enquote{{The Fundamnetal Particles and Their Interactions}}.
+\newblock Addison-Wesley (1994).
+
+\bibitem{qedalpha}
+R.~{Bouchendira}, P.~{Clad{\'e}}, S.~{Guellati-Kh{\'e}lifa}, F.~{Nez} \&
+  F.~{Biraben}.
+\newblock \enquote{{New Determination of the Fine Structure Constant and Test
+  of the Quantum Electrodynamics}}.
+\newblock {\em Physical Review Letters\/}, {\bf 106}, 8 (2011) 080801,
+  {1012.3627}.
+
+\bibitem{PichSM}
+Antonio Pich.
+\newblock \enquote{{The Standard model of electroweak interactions}}.
+\newblock {0705.4264}.
+
+\bibitem{HerreroSM}
+M.~Herrero.
+\newblock \enquote{{The Standard model}}.
+\newblock {hep-ph/9812242}.
+
+\bibitem{Glashow}
+S.~L. Glashow.
+\newblock \enquote{{Partial Symmetries of Weak Interactions}}.
+\newblock {\em Nucl. Phys.\/}, {\bf 22} (1961) 579--588.
+
+\bibitem{Breaking}
+Jeffrey Goldstone, Abdus Salam \& Steven Weinberg.
+\newblock \enquote{Broken Symmetries}.
+\newblock {\em Phys. Rev.\/}, {\bf 127} (1962) 965--970.
+
+\bibitem{MexHat}
+Luis Alvarez-Gaume \& John Ellis.
+\newblock \enquote{{Eyes on a prize particle}}.
+\newblock {\em Nat Phys\/}, {\bf 7}, 1 (2011) 2--3.
+
+\bibitem{PeskinSch}
+Michael Peskin \& Daniel Schroeder.
+\newblock \enquote{{An Introduction to Quantum Field Theory}}.
+\newblock Westview Press (1995).
+
+\bibitem{WWHMass}
+Benjamin~W. Lee, C.~Quigg \& H.~B. Thacker.
+\newblock \enquote{Weak interactions at very high energies: The role of the
+  Higgs-boson mass}.
+\newblock {\em Phys. Rev. D\/}, {\bf 16} (1977) 1519--1531.
+
+\bibitem{Drees}
+Manuel Drees.
+\newblock \enquote{{An Introduction to supersymmetry}}.
+\newblock {hep-ph/9611409}.
+
+\bibitem{zwicky}
+F.~{Zwicky}.
+\newblock \enquote{{Die Rotverschiebung von extragalaktischen Nebeln}}.
+\newblock {\em Helvetica Physica Acta\/}, {\bf 6} (1933) 110--127.
+
+\bibitem{WMAP5}
+E.~Komatsu et~al.
+\newblock \enquote{{Five-Year Wilkinson Microwave Anisotropy Probe (WMAP)
+  Observations:Cosmological Interpretation}}.
+\newblock {\em Astrophys. J. Suppl.\/}, {\bf 180} (2009) 330--376, {0803.0547}.
+
+\bibitem{Dine}
+Michael Dine.
+\newblock \enquote{{Supersymmetry and String Theory}}.
+\newblock Cambridge University Press (2007).
+
+\bibitem{PeskinBSM}
+Michael~E. Peskin.
+\newblock \enquote{{Beyond the standard model}}.
+\newblock {hep-ph/9705479}.
+
+\bibitem{terning}
+John Terning.
+\newblock \enquote{Modern Supersymmetry}.
+\newblock Clarendon Press (2006).
+
+\bibitem{SUSYPrime}
+Stephen~P. Martin.
+\newblock \enquote{{A Supersymmetry primer}}.
+\newblock {hep-ph/9709356}.
+
+\bibitem{SUSYsuch}
+S.~Dawson.
+\newblock \enquote{{SUSY and such}}.
+\newblock {\em NATO Adv.Study Inst.Ser.B Phys.\/}, {\bf 365} (1997) 33--80,
+  {hep-ph/9612229}.
+
+\bibitem{early}
+Albert de~Roeck.
+\newblock \enquote{Early physics with ATLAS and CMS}.
+\newblock {\em Pramana Journal of Physics\/}.
+
+\bibitem{CMSTDRII}
+A~de~Roeck, A~Ball, M~Della~Negra, L~Foa \& A~Petrilli.
+\newblock \enquote{{CMS} {P}hysics: {T}echnical {D}esign {R}eport {V}olume
+  {II}, {P}hysics {P}erformance}.
+\newblock CERN, Geneva (2006).
+\newblock Revised version submitted on 2006-09-22 17:44:47.
+
+\bibitem{LHCDesign}
+Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
+  Poole \& Paul Proudlock.
+\newblock \enquote{LHC Design Report}.
+\newblock CERN, Geneva (2004).
+
+\bibitem{LHCConcept}
+Thomas~Sven Pettersson \& P~Lefèvre.
+\newblock \enquote{{T}he {L}arge {H}adron {C}ollider: {C}onceptual {D}esign}.
+\newblock Technical Report CERN-AC-95-05 LHC, CERN, Geneva (1995).
+
+\bibitem{CMSTDP}
+{The {CMS} Collaboration}.
+\newblock \enquote{{T}he {C}ompact {M}uon {S}olenoid {T}echnical {P}roposal}.
+\newblock {\em CERN/LHCC\/}, {\bf 94-38}.
+
+\bibitem{PDG}
+K~et~al. Nakamura.
+\newblock \enquote{Review of Particle Physics, 2010-2011. Review of Particle
+  Properties}.
+\newblock {\em J. Phys. G\/}, {\bf 37}, 7A (2010) 075021.
+\newblock The 2010 edition of Review of Particle Physics is published for the
+  Particle Data Group by IOP Publishing as article number 075021 in volume 37
+  of Journal of Physics G: Nuclear and Particle Physics. This edition should be
+  cited as: K Nakamura et al (Particle Data Group) 2010 J. Phys. G: Nucl. Part.
+  Phys. 37 075021.
+
+\bibitem{HCALTDR}
+The~CMS Collaboration.
+\newblock \enquote{The CMS hadron calorimeter project: Technical Design
+  Report}.
+\newblock Technical Design Report CMS. CERN, Geneva (1997).
+
+\bibitem{HCALTestBeam}
+Efe Yazgan.
+\newblock \enquote{{The CMS barrel calorimeter response to particle beams from
+  2-GeV/c to 350-GeV/c}}.
+\newblock {\em J. Phys. Conf. Ser.\/}, {\bf 160} (2009) 012056.
+
+\bibitem{MuonTDR}
+The~CMS Collaboration.
+\newblock \enquote{The CMS muon project: Technical Design Report}.
+\newblock Technical Design Report CMS. CERN, Geneva (1997).
+
+\bibitem{TRIGTDR}
+Sergio Cittolin, Attila Rácz \& Paris Sphicas.
+\newblock \enquote{CMS trigger and data-acquisition project: Technical Design
+  Report}.
+\newblock Technical Design Report CMS. CERN, Geneva (2002).
+
+\bibitem{CTF}
+Wolfgang Adam, Boris Mangano, Thomas Speer \& Teddy Todorov.
+\newblock \enquote{Track Reconstruction in the CMS tracker}.
+\newblock Technical Report CMS-NOTE-2006-041, CERN, Geneva (2006).
+
+\bibitem{Kalman}
+R~Frühwirth.
+\newblock \enquote{Application of Kalman filtering to track and vertex
+  fitting}.
+\newblock {\em Nucl. Instrum. Methods Phys. Res., A\/}, {\bf 262},
+  HEPHY-PUB-503 (1987) 444. 19 p.
+
+\bibitem{AVF}
+R~Frühwirth, Wolfgang Waltenberger \& Pascal Vanlaer.
+\newblock \enquote{Adaptive Vertex Fitting}.
+\newblock Technical Report CMS-NOTE-2007-008, CERN, Geneva (2007).
+
+\bibitem{TRK-10-005}
+The~CMS Collaboration.
+\newblock \enquote{Tracking and Primary Vertex Results in First 7 TeV
+  Collisions}.
+\newblock {\bf CMS-PAS-TRK-10-005}.
+
+\bibitem{jetroundup}
+{Xavier Janssen for the CMS Collaboration}.
+\newblock \enquote{{Underlying event and jet reconstruction in CMS}}.
+\newblock {\bf CMS CR-2011/012}.
+
+\bibitem{akt}
+Matteo Cacciari, Gavin Salam \& Gregory Soyez.
+\newblock \enquote{The anti-k$_{t}$ jet clustering algorithm}.
+\newblock {\em JHEP\/}, {\bf 0804} (2008) 063.
+
+\bibitem{aktrecom}
+V~Chetluru, F~Pandolfi, P~Schieferdecker \& M~Zelinski.
+\newblock \enquote{{Jet Reconstruction Performance at CMS}}.
+\newblock {\bf CMS AN-2009/067}.
+
+\bibitem{kt}
+S.~Catani, Yuri~L. Dokshitzer, M.~H. Seymour \& B.~R. Webber.
+\newblock \enquote{{Longitudinally invariant K(t) clustering algorithms for
+  hadron hadron collisions}}.
+\newblock {\em Nucl. Phys.\/}, {\bf B406} (1993) 187--224.
+
+\bibitem{HERWIG}
+G.~Corcella, I.G. Knowles, G.~Marchesini, S.~Moretti, K.~Odagiri et~al.
+\newblock \enquote{{HERWIG 6.5 release note}}.
+\newblock {hep-ph/0210213}.
+
+\bibitem{PYTHIA64}
+Torbjorn Sjostrand, Stephen Mrenna \& Peter~Z. Skands.
+\newblock \enquote{{PYTHIA 6.4 Physics and Manual}}.
+\newblock {\em JHEP\/}, {\bf 0605} (2006) 026, {hep-ph/0603175}.
+
+\bibitem{GEANT4}
+{The Geant4 Collaboration}.
+\newblock \enquote{{Geant4-A Simulation Toolkit}}.
+\newblock {\em Nuclear Instruments and Methods in Physics Research A\/}, {\bf
+  506} (2003) 250--303.
+
+\bibitem{JME-10-010}
+The~CMS Collaboration.
+\newblock \enquote{Jet Energy Corrections determination at 7 TeV}.
+\newblock {\bf CMS-PAS-JME-10-010}.
+
+\bibitem{metrecon}
+S~Esen, G~Landsberg, M~Titov, A~DeRoeck, M~Spiropolu, M~Tytgat, D~Puigh,
+  P~Wittich, K~Terashi, A~Gurrola, T~Kamon, C.~N. Nguyen, A~Safonov, J.~W.
+  Gary, F~Liu, H~Nguyen, J~Sturdy, R~Cavanaugh, R~Remington, M~Schmitt,
+  B~Scurlock, E.A. Albayrak, T~Yetkin \& M~Zielinski.
+\newblock \enquote{{\met Performance in CMS}}.
+\newblock {\bf CMS AN-2007/041}.
+
+\bibitem{etmissnote}
+Greg Landsberg \& Filip Moortgat.
+\newblock \enquote{MET Reconstruction, Performance, and Validation}.
+\newblock {\bf CMS AN-2008/089}.
+
+\bibitem{JME-10-004}
+The~CMS Collaboration.
+\newblock \enquote{Missing Transverse Energy Performance in Minimum-Bias andJet
+  Events from Proton-Proton Collisions at $\sqrt{s} = 7$ TeV}.
+\newblock {\bf CMS-PAS-JME-10-004}.
+
+\bibitem{muonperf}
+{The CMS Collaboration}.
+\newblock \enquote{Performance of CMS Muon Reconstruction in Cosmic-Ray
+  Events}.
+\newblock {\em J. Instrum.\/}, {\bf 5}, arXiv:0911.4994. CMS-CFT-09-014 (2009)
+  T03022 . 47 p.
+
+\bibitem{MUO-10-004}
+The~CMS Collaboration.
+\newblock \enquote{Performance of muon reconstruction and identification in pp
+  collisions at $\sqrt{s}$ = 7 TeV}.
+\newblock {\bf CMS-PAS-MUO-10-004}.
+
+\bibitem{EGM-10-005}
+The~CMS Collaboration.
+\newblock \enquote{Photon reconstruction and identification at sqrt(s) = 7
+  TeV}.
+\newblock {\bf CMS-PAS-EGM-10-005}.
+
+\bibitem{gsf}
+Wolfgang Adam, R~Frühwirth, Are Strandlie \& T~Todor.
+\newblock \enquote{Reconstruction of Electrons with the Gaussian-Sum Filter in
+  the CMS Tracker at the LHC}.
+\newblock Technical Report CMS-NOTE-2005-001, CERN, Geneva (2005).
+
+\bibitem{EGM-10-004}
+The~CMS Collaboration.
+\newblock \enquote{Electron reconstruction and identification at sqrt(s) = 7
+  TeV}.
+\newblock {\bf CMS-PAS-EGM-10-004}.
+
+\bibitem{Randall}
+Lisa Randall \& David Tucker-Smith.
+\newblock \enquote{{Dijet Searches for Supersymmetry at the LHC}}.
+\newblock {\em Phys. Rev. Lett.\/}, {\bf 101} (2008) 221803, {0806.1049}.
+
+\bibitem{PASaT}
+The~CMS Collaboration.
+\newblock \enquote{SUSY searches with diet events}.
+\newblock {\bf CMS PAS SUS-08-005}.
+
+\bibitem{ANaT}
+Henning Flaecher, John Jones, Tanja Rommerskirchen, Benjamin Sinclair \& Markus
+  Stoye.
+\newblock \enquote{SUSY searches with dijet events}.
+\newblock {\bf CMS AN-2008/071}.
+
+\bibitem{ANnaT}
+T~Whyntie, O~Buchm¨uller, O~Fl¨acher, J~Jones, T~Rommerskirchen, M~Stoye \&
+  A~Tapper.
+\newblock \enquote{Extending the early SUSY search with all-hadronic dijet
+  events to n-jet topologies}.
+\newblock {\bf CMS AN-2008/114}.
+
+\bibitem{an2009_56}
+H~Fl¨acher, M~Stoye, T~Rommerskirchen, R~Bainbridge, J~Marrouche, T~Whyntie \&
+  T~Yetkin.
+\newblock \enquote{Search for SUSY with exclusive n-jet events}.
+\newblock {\bf CMS AN-2009/056}.
+
+\bibitem{an2010_119}
+R~Bainbridge, B~Betchart, H~Fl¨acher, E~Laird, B~Mathias, T~Rommerskirchen \&
+  M~Stoye.
+\newblock \enquote{Performance of variables used in jets + missing energy
+  searches in 7 TeV data}.
+\newblock {\bf CMS AN-2009/056}.
+
+\bibitem{an2009_188}
+O~Buchm¨uller, L~Gouskos, Z~Hatherell, G~Karapostoli, A~Sparrow \& P~Sphicas.
+\newblock \enquote{An application of the \alt jet-balancing method to the
+  single-lepton mode SUSY searches}.
+\newblock {\bf CMS AN-2009/188}.
+
 \bibitem{35paper}
 Vardan Khachatryan et~al.
 \newblock \enquote{{Search for Supersymmetry in pp Collisions at 7 TeV in
@@ -62,5 +372,11 @@ Johan Alwall, Pavel Demin, Simon de~Visscher, Rikkert Frederix, Michel Herquet
   et~al.
 \newblock \enquote{{MadGraph/MadEvent v4: The New Web Generation}}.
 \newblock {\em JHEP\/}, {\bf 0709} (2007) 028, {0706.2334}.
+
+\bibitem{minuit}
+F.~{James} \& M.~{Roos}.
+\newblock \enquote{{Minuit - a system for function minimization and analysis of
+  the parameter errors and correlations}}.
+\newblock {\em Computer Physics Communications\/}, {\bf 10} (1975) 343--367.
 
 \end{thebibliography}

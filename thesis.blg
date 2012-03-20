@@ -3,9 +3,38 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: title.aux
 A level-1 auxiliary file: symbols.aux
+A level-1 auxiliary file: Introduction.aux
+A level-1 auxiliary file: Theory.aux
+A level-1 auxiliary file: Detector.aux
+A level-1 auxiliary file: Objects.aux
+A level-1 auxiliary file: AlphaT.aux
 A level-1 auxiliary file: RA1_2.aux
+A level-1 auxiliary file: Conclusion.aux
+A level-1 auxiliary file: appA.aux
 The style file: thesis.bst
 Database file #1: papers.bib
+Warning--empty journal in PichSM
+Warning--empty journal in HerreroSM
+Warning--empty journal in Drees
+Warning--empty journal in PeskinBSM
+Warning--empty journal in SUSYPrime
+Warning--empty journal in TRK-10-005
+Warning--empty journal in jetroundup
+Warning--empty journal in aktrecom
+Warning--empty journal in HERWIG
+Warning--empty journal in JME-10-010
+Warning--empty journal in metrecon
+Warning--empty journal in etmissnote
+Warning--empty journal in JME-10-004
+Warning--empty journal in MUO-10-004
+Warning--empty journal in EGM-10-005
+Warning--empty journal in EGM-10-004
+Warning--empty journal in PASaT
+Warning--empty journal in ANaT
+Warning--empty journal in ANnaT
+Warning--empty journal in an2009_56
+Warning--empty journal in an2010_119
+Warning--empty journal in an2009_188
 Warning--empty journal in EWK-11-001
 Warning--empty journal in JME-09-008
 Warning--empty journal in MUO-10-002
@@ -13,45 +42,45 @@ Warning--empty journal in AN-10-116
 Warning--empty journal in EGM-10-006
 Warning--empty journal in WZXS
 Warning--empty journal in SUS-10-001
-You've used 10 entries,
+You've used 65 entries,
             2232 wiz_defined-function locations,
-            596 strings with 5767 characters,
-and the built_in function-call counts, 1889 in all, are:
-= -- 139
-> -- 76
-< -- 0
-+ -- 31
-- -- 21
-* -- 139
-:= -- 312
-add.period$ -- 30
-call.type$ -- 10
-change.case$ -- 0
+            923 strings with 13373 characters,
+and the built_in function-call counts, 13377 in all, are:
+= -- 1019
+> -- 623
+< -- 4
++ -- 241
+- -- 176
+* -- 1045
+:= -- 2147
+add.period$ -- 200
+call.type$ -- 65
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 119
-empty$ -- 196
-format.name$ -- 24
-if$ -- 391
+cite$ -- 94
+duplicate$ -- 768
+empty$ -- 1373
+format.name$ -- 206
+if$ -- 2853
 int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 10
-newline$ -- 57
-num.names$ -- 10
-pop$ -- 48
+int.to.str$ -- 65
+missing$ -- 70
+newline$ -- 334
+num.names$ -- 65
+pop$ -- 352
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 37
+skip$ -- 213
 stack$ -- 0
-substring$ -- 48
-swap$ -- 29
-text.length$ -- 0
+substring$ -- 414
+swap$ -- 210
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 7
-while$ -- 13
-width$ -- 12
-write$ -- 102
-(There were 7 warnings)
+warning$ -- 29
+while$ -- 88
+width$ -- 67
+write$ -- 649
+(There were 29 warnings)
