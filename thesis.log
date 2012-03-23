@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  20 MAR 2012 18:03
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  23 MAR 2012 12:49
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -502,7 +502,11 @@ Package: layout 2000/09/25 v1.2c Show layout parameters
 No file macros.tex.
 ** Make sure \initfloatingfigs being called immediately
    after \begin{document} !! ** (./thesis.aux (./title.aux) (./symbols.aux)
-(./RA4.aux) (./appA.aux))
+(./RA1_2.aux
+
+LaTeX Warning: Label `eq:sig' multiply defined.
+
+) (./RA4.aux) (./appA.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
@@ -604,30 +608,30 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \openout2 = `symbols.aux'.
 
  (./symbols.tex)
-(./thesis.toc)
+(./thesis.toc [2
+
+
+
+
+])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [2
-
-
-
-
-]
+ [3]
 \openout2 = `RA4.aux'.
 
  (./RA4.tex
 Chapter 1.
 
-LaTeX Warning: Reference `ch:RA1' on page 3 undefined on input line 3.
+LaTeX Warning: Reference `sec:musel' on page 4 undefined on input line 5.
 
 
-LaTeX Warning: Reference `sec:musel' on page 3 undefined on input line 5.
+LaTeX Warning: Reference `sec:lepalt' on page 4 undefined on input line 14.
 
-) [3
+[4
 
 
-]
+]) [5]
 \openout2 = `appA.aux'.
 
  (./appA.tex
@@ -635,44 +639,58 @@ Appendix A.
 
 Underfull \vbox (badness 2460) has occurred while \output is active []
 
- [4
+ [6
 
 
 
 ])
-[5] (./thesis.bbl
+[7] (./thesis.bbl
 Underfull \hbox (badness 1057) in paragraph at lines 55--59
 []\OT1/cmr/m/n/12 The CMS Col-lab-o-ra-tion.  ``Per-for-mance of Meth-ods for D
 ata-Driven
  []
 
-) [6
+) [8
 
 
 ] (./thesis.aux (./title.aux) (./symbols.aux) (./RA4.aux) (./appA.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 7333 strings out of 493747
- 116266 string characters out of 3143546
- 155547 words of memory out of 3000000
- 10428 multiletter control sequences out of 15000+200000
- 18095 words of font info for 69 fonts, out of 3000000 for 9000
+ 7461 strings out of 493747
+ 118468 string characters out of 3143546
+ 162268 words of memory out of 3000000
+ 10550 multiletter control sequences out of 15000+200000
+ 19723 words of font info for 76 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,10n,40p,529b,285s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
-usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></us
-r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr
-/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (6 pages, 98020 bytes).
+ 38i,14n,40p,807b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
+r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+cal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
+texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
+live/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
+e/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/20
+10/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+0/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2010
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2010/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2010/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on thesis.pdf (8 pages, 186009 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 100 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
