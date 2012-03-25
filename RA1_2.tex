@@ -641,7 +641,7 @@ The bin-by-bin results including prediction are shown in Table~\ref{tab:resmu}, 
 \hline
 \hline
 \scalht Bin (GeV) & 275--325 & 325--375 & 375--475 & 475--575 \\ [0.5ex]
-\aline
+\hline
 \hline
 MC W + $\ttNew$ & 463.0 $\pm$ 16.0$_{\rm stat}$ & 171.2 $\pm$ 9.5$_{\rm stat}$ & 116.3 $\pm$ 8.3$_{\rm stat}$ & 43.7 $\pm$ 5.1$_{\rm stat}$ \\
 MC $\mu +$~jets & 407.5 $\pm$ 14.5$_{\rm stat}$ & 179.1 $\pm$ 9.6$_{\rm stat}$ & 131.6 $\pm$ 8.8$_{\rm stat}$ & 48.7 $\pm$ 5.5$_{\rm stat}$ \\
@@ -1216,9 +1216,9 @@ CL_{S} = \frac{CL_{S+B}}{CL_{B}}
  
 \subsection{Setting an Exclusion Limit in the CMSSM Plane}
  
-In order to interpret the results in the CMSSM model, this method is applied to signal events from many mSUGRA parameter sets in order to set an exclusion limit. We choose to fix three parameters A$_{0}$ = 0 GeV, tan $\beta$ and sign($\mu$) = +. A signal scan is produced in the plane of $m_{0} - m_{1/2}$ with a set of 10k signal events generated at each point. SoftSUSY is used to generate the full mass spectrum of the sparticles, passed to Pythia for generation. After full reconstruction simulation they are reweighed according to the next-to-leading-order (NLO) cross-sections found by Prospino. 
+In order to interpret the results in the CMSSM model, this method is applied to signal events from many mSUGRA parameter sets in order to set an exclusion limit. We choose to fix three parameters A$_{0}$ = 0 GeV, tan $\beta$ and sign($\mu$) = +. A signal scan is produced in the plane of $m_{0} - m_{1/2}$ with a set of 10k signal events generated at each point. SoftSUSY~\cite{softsusy} is used to generate the full mass spectrum of the sparticles, passed to \textsc{pythia} for generation. After full reconstruction simulation they are reweighed according to the next-to-leading-order (NLO) cross-sections found by Prospino~\cite{prospino}. 
 
-The CL$_{S}$ method detailed above is applied to each point in the Signal Scan and tested against the 0.05 requirement in order to identify the 95\% confidence exclusion limit, shown in Figure~\ref{fig:cmssm}. Models beneath the  curve are excluded at 95\%. The expected limit band is shown centred on the median value with a $\pm$ 1 Standard Deviation width, taken from the relevant quantiles of the distribution of CL$_{S}$ calculated using the full distribution of SM pseudo-experiments. 
+The CL$_{S}$ method detailed above is applied to each point in the Signal Scan and tested against $\alpha'$ = 0.05 requirement in order to identify the 95\% confidence exclusion limit, shown in Figure~\ref{fig:cmssm}. Models beneath the  curve are excluded at 95\%. The expected limit band is shown centred on the median value with a $\pm$ 1 standard deviation width, taken from the relevant quantiles of the distribution of CL$_{S}$ calculated using the full distribution of SM pseudo-experiments. 
 
 The points excluded translate within the CMSSM to a bound on the masses of the sparticles as they are governed by the parameters m$_{0}$ and m$_{1/2}$. Mean squark masses and equal gluino masses below 1.1 TeV can be excluded for m$_{0}$ $<$ 500 GeV, and for higher values of m$_{0}$ with the gluino mass much lower than the mean squark mass, the gluino mass is excluded below 0.5~GeV.
 
