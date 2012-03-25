@@ -10,7 +10,7 @@ Isolating these new physics events from Standard Model background processes is e
 This analysis uses datasets both from Monte Carlo simulation (MC) and of data recorded by the CMS detector in 2011.
 
 \subsection{Monte Carlo Simulation}
-Datasets of simulated events with calculated cross-sections are required for any analysis at the LHC. Using PDFs from CTEQ~\cite{CTEQ}, partons are generated and hard-scattered using either MadGraph~\cite{madgraph} or \textsc{PYTHIA}~\cite{PYTHIA}. The particles hadronize and  The following samples are used, full details of which can be found in Appendix A. 
+Datasets of simulated events with calculated cross-sectionssystem are required for any analysis at the LHC. Using PDFs from CTEQ~\cite{CTEQ}, partons are generated and hard-scattered using either MadGraph~\cite{madgraph} or \textsc{PYTHIA}~\cite{PYTHIA}. The particles hadronize and  The following samples are used, full details of which can be found in Appendix A. 
 \subsubsection{Standard Model}
 \begin{itemize}
 \item QCD Multijet (\textsc{PYTHIA})
@@ -286,7 +286,7 @@ A basic selection of events used for comparison of distributions between data an
 \begin{description}
 
 
-\item[HCAL Barrel and End-cap (HBHE) Noise Fiter]{Events where noise has been identified in the HCAL are removed also, using an algorithm which checks for Photodetectors which have at east 17 out of 18 channels with an E $>$ 1.5 GeV.}
+\item[HCAL Barrel and End-cap (HBHE) Noise Filter]{Events where noise has been identified in the HCAL are removed also, using an algorithm which checks for Photodetectors which have at east 17 out of 18 channels with an E $>$ 1.5 GeV.}
 \end{description}
 Following these conditions events are then selected by the following criteria, using the definitions of physics objects according to the criteria stated previously:
 
@@ -641,7 +641,7 @@ The bin-by-bin results including prediction are shown in Table~\ref{tab:resmu}, 
 \hline
 \hline
 \scalht Bin (GeV) & 275--325 & 325--375 & 375--475 & 475--575 \\ [0.5ex]
-\hline
+\aline
 \hline
 MC W + $\ttNew$ & 463.0 $\pm$ 16.0$_{\rm stat}$ & 171.2 $\pm$ 9.5$_{\rm stat}$ & 116.3 $\pm$ 8.3$_{\rm stat}$ & 43.7 $\pm$ 5.1$_{\rm stat}$ \\
 MC $\mu +$~jets & 407.5 $\pm$ 14.5$_{\rm stat}$ & 179.1 $\pm$ 9.6$_{\rm stat}$ & 131.6 $\pm$ 8.8$_{\rm stat}$ & 48.7 $\pm$ 5.5$_{\rm stat}$ \\
@@ -762,8 +762,7 @@ A;though the estimation technique is data-driven the use of the ratio R$^{had}_{
 \item There is an uncertainty on the assumption the that the control sample is pure, i.e. that the fraction of events $f$ in the sample that come from W and t$\bar{\textrm{t}}$ decays is 1. From Monte Carlo we have observed the contamination from QCD to be negligible, but to allow for poor QCD MC modelling assign a conservative uncertainty of 200\% on the expected QCD yield, still only contributing a 3\% uncertainty on $f$.
 \end{itemize}
 
-The overall uncertainty is then achieved by adding these components in quadrature, which yields a value of 24\%. Whilst lower than the value taken from the 2010 analysis, 30\%, it is consistent and shows there is not an under-estimate. The error is reduced due to the inclusion of the two low \HT bins which reduces the overall percentage contributed from the lepton veto inefficiency, which propagates the highest error. Excluding the lower two bins brings this calculation in line with ~30\% and as the overall sensitivity is lowest in these two bins the outcome of introducing an over-estimate of the uncertainty will have little effect on the limit. 
-
+The overall uncertainty is then achieved by adding these components in quadrature, which yields a value of 24\%. Whilst lower than the value taken from the 2010 analysis, 30\%, it is consistent with the current practise of rounding up to the nearest 10\% and shows there is not an under-estimate. The error is reduced due to the inclusion of the two low \HT bins which reduces the overall percentage contributed from the lepton veto inefficiency, which propagates the highest error. 
 
 \subsection{Signal Contamination in $\mu$ Control Sample}
 \label{sec:sigmucon}
@@ -986,7 +985,7 @@ In addition to the experimental uncertainties listed above, there is a theoretic
 Adding all these sources of uncertainty in quadrature gives an overall uncertainty of 12.5\%, which is carried onwards to the limit calculation. 
 
 \section{Statistical Interpretation}
-
+\label{sec:fit}
 Having obtained the yields and predictions as detailed in previous sections, it is desirable to quantify and interpret the results of the three selections simultaneously with respect to the SM only hypothesis and also possible CMSSM SUSY signal. The results in all 3 selections are used simultaneously together in order to draw conclusions. A likelihood model is used for each of the three samples describing the relevant results along with the uncertainties, with the number of observed events in each assumed to have a Poisson Distribution Pois($n | \mu$) where the number of expected events is $\mu$ as in Equation~\ref{eq:poiss}.
 
 \begin{equation}
