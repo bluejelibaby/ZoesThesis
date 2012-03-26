@@ -1,34 +1,77 @@
-\chapter{}
-%\section*{Data Samples}
-\section*{HT 1.1fb$^{-1}$ Data}
+\chapter{Data Samples}
+%\section*{Data Sample Filenames}
+\begin{table}[htbp]
+\caption{\label{}Details of the Monte Carlo simulation samples used in this thesis, with cross-sections and relevant same sizes available. Produced in the Spring11/Summer11 CMS Official Production Campaigns. The MadGraph Z, $\gamma$ and QCD samples have a k-factor of 1.27 applied to $\sigma$, from differences in Z+Jets production at NO and NNLO.}
+\begin{tabular}{cccc}
+\hline
+\hline
+Process & Notes & $\sigma$ / pb & \# events\\
+\hline
+\hline
+QCD (\textsc{pythia6}) & 15 $< \hat{p_{T}} <$ 30 GeV & 8.159 $\times$ 10$^{8}$ & 9,720,000 \\ 
+$[$Tune Z2$]$ & 30 $< \hat{p_{T}} <$ 50 GeV & 5.312 $\times$ 10$^{7}$ & 4,060,424\\ 
+& 50 $< H_{T} <$ 80 GeV & 6.359 $\times$ 10$^{6}$ & 5,605,000\\ 
+& 80 $< H_{T} <$ 120 GeV & 7.843 $\times$ 10$^{5}$ & 6,589956\\ 
+& 120 $< H_{T} <$ 170 GeV & 1.151 $\times$ 10$^{5}$ & 5,073528\\ 
+& 170 $< H_{T} <$ 300 GeV & 2.426 $\times$ 10$^{4}$ & 5,473,920 \\ 
+& 300 $< H_{T} <$ 470 GeV & 1.168 $\times$ 10$^{3}$ & 4,452,669\\ 
+& 470 $< H_{T} <$ 600 GeV & 7.022 $\times$ 10$^{1}$ & 3,210,085\\ 
+& 600 $< H_{T} <$ 800 GeV & 1.555 $\times$ 10$^{1}$ & 4,105,695\\ 
+& 800 $< H_{T} <$ 1000 GeV & 1.844 $\times$ 10$^{0}$ & 3,833,888\\ 
+& 1000 $< H_{T} <$ 1400 GeV & 3.321 $\times$ 10$^{-1}$ & 2,053,222\\
+& 1400 $< H_{T} <$ 1800 GeV & 1.087 $\times$ 10$^{-2}$ & 2,156,200\\  
+& $H_{T} >$ 1800 GeV & 3.575 $\times$ 10$^{-4}$ & 273,139\\ 
+\hline
+\hline
+QCD (MadGraph) & 100 $< \hat{p_{T}} <$ 250 GeV & 8.891 $\times$ 10$^{6}$ & 21,066,112 \\
+$[$Tune Z2$]$ & 250 $< \hat{p_{T}} <$ 500 GeV & 2.174 $\times$ 10$^{5}$ & 20,594,219 \\ 
+& 500 $< \hat{p_{T}} <$ 1000 GeV & 6.607 $\times$ 10$^{3}$ & 14,397,469 \\ 
+&$\hat{p_{T}} >$ 1000 GeV &  $\times$ 10$^{2}$ & 6,294,851 \\ 
+\hline
+\hline
+$\gamma$ + jets (MadGraph) &  40 $< H_{T} <$ 100 GeV & 3.000 $\times$ 10$^{4}$ & 2,217,101 \\
+$[$Tune Z2$]$ &  100 $< H_{T} <$ 100 GeV & 4.415 $\times$ 10$^{3}$ & 1,065,691\\
+&$H_{T} >$ 200 GeV & 1.054 $\times$ 10$^{2}$ & 1,142,171\\
+\hline
+\hline
+W + Jets (MadGraph)& NNLO & 3.131 $\times$ 10$^{4}$ & 46,608,773\\
+\tto + jets (MadGraph) & NLO & 1.575 $\times$ 10$^{2}$ & 3,701,947\\
+Z $\ra \nu \bar{\nu}$ (MadGraph) & NNLO & 5.715 $\times$ 10$^{3}$ & 2,165,002\\
+\hline
+\hline
+LM4 & - & 1.879 & 218,380 \\
+LM6 & - &  3.104 $\times$ 10$^{-1}$ & 220,000\\
+\hline
+\hline
+\end{tabular}
+
+
+\end{table}
+
+\subsection*{HT 1.1fb$^{-1}$ Data}
 \begin{verbatim}
 /HT/Run2011A-May10ReReco-v1/AOD
 /HT/Run2011A-PromptReco-v4/AOD
 \end{verbatim}
-\section*{Photon 1.1fb$^{-1}$ Data}
+\subsection*{Photon 1.1fb$^{-1}$ Data}
 \begin{verbatim}
 /Photon/Run2011A-May10ReReco-v1/AOD
 /Photon/Run2011A-PromptReco-v4/AOD
 \end{verbatim}
 %\section*{Monte Carlo Samples}
-\section*{Standard Model Background Monte Carlo}
+\subsection*{Standard Model Background Monte Carlo}
 \fontsize{10}{12}
 \begin{verbatim}
-/QCD_Pt_*_TuneZ2_7TeV_pythia6/Spring11-PU_S1_START311_V1G1-v1/AODSIM
-/QCD_TuneD6T_HT-*_7TeV-madgraph/Spring11-PU_S1_START311_V1G1-v1/AODSIM
+/QCD_Pt_*_TuneZ2_7TeV_pythia6/Summer11-PU_S1_START42_V11-v1/AODSIM
+/QCD_TuneD6T_HT-*_7TeV-madgraph/Summer11-PU_S1_START42_V11-v1/AODSIM
 /TTJets_TuneZ2_7TeV-madgraph-tauola/Summer11-PU_S4_START42_V11-v1/AODSIM
-/TToBLNu_TuneZ2_*-channel_7TeV-madgraph/Spring11-PU_S1_START311_V1G1-v1/AODSIM
-
-
 /WJetsToLNu_TuneZ2_7TeV-madgraph-tauola/Summer11-PU_S4_START42_V11-v1/AODSIM
-
 /ZinvisibleJets_7TeV-madgraph/Spring11-PU_S1_START311_V1G1-v1/GEN-SIM-RECO
-
-/GJets_TuneD6T_HT-40To100_7TeV-madgraph/Spring11-PU_S1_START311_V1G1-v1/AODSIM
+/GJets_TuneD6T_HT-*_7TeV-madgraph/Spring11-PU_S1_START311_V1G1-v1/AODSIM
 
 \end{verbatim}
 \normalsize
-\section*{SUSY Signal Reference Monte Carlo}
+\subsection*{SUSY Signal Reference Monte Carlo}
 \fontsize{10}{12}
 \begin{verbatim}
 
