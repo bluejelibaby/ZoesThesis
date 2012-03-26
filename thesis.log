@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  26 MAR 2012 12:15
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  26 MAR 2012 13:39
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -502,7 +502,8 @@ Package: layout 2000/09/25 v1.2c Show layout parameters
 No file macros.tex.
 ** Make sure \initfloatingfigs being called immediately
    after \begin{document} !! ** (./thesis.aux (./title.aux) (./symbols.aux)
-(./abstract.aux) (./declaration.aux) (./Introduction.aux) (./RA4.aux)
+(./abstract.aux) (./declaration.aux) (./Introduction.aux) (./Theory.aux)
+(./Detector.aux) (./Objects.aux) (./AlphaT.aux) (./RA1_2.aux) (./RA4.aux)
 (./Conclusion.aux) (./appA.aux))
 \openout1 = `thesis.aux'.
 
@@ -621,63 +622,34 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 
 
-] (./thesis.toc)
+] (./thesis.toc [4
+
+
+] [5])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [4
-
-
-]
+ [6]
 \openout2 = `Introduction.aux'.
 
 
 (./Introduction.tex
 Chapter 1.
-
-LaTeX Warning: Reference `ch:theory' on page 5 undefined on input line 10.
-
-
-LaTeX Warning: Reference `ch:detector' on page 5 undefined on input line 10.
+[7
 
 
-LaTeX Warning: Reference `ch:objects' on page 5 undefined on input line 10.
-
-
-LaTeX Warning: Reference `ch:ra1' on page 5 undefined on input line 13.
-
-
-LaTeX Warning: Citation `1' on page 5 undefined on input line 13.
-
-
-LaTeX Warning: Reference `sec:lalt' on page 5 undefined on input line 13.
-
-) [5
-
-
-]
+]) [8]
 \openout2 = `RA4.aux'.
 
  (./RA4.tex
 Chapter 2.
-
-LaTeX Warning: Reference `ch:RA1' on page 6 undefined on input line 4.
-
-
-LaTeX Warning: Reference `sec:musel' on page 6 undefined on input line 6.
-
-
-LaTeX Warning: Reference `sec:lalt' on page 6 undefined on input line 10.
-
-[6
+[9
 
 
 
 ]
-
-LaTeX Warning: Reference `sec:muon' on page 7 undefined on input line 21.
-
 LaTeX Font Info:    Calculating math sizes for size <8.39996> on input line 25.
+
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.19998> not available
@@ -691,7 +663,7 @@ LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.19998> not available
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.19998> not available
 (Font)              size <5> substituted on input line 25.
 
-[7]
+[10]
 LaTeX Font Info:    Calculating math sizes for size <6.99997> on input line 38.
 
 
@@ -707,82 +679,54 @@ LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.49998> not available
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.49998> not available
 (Font)              size <5> substituted on input line 38.
 
-
-LaTeX Warning: Reference `ch:ra1' on page 8 undefined on input line 83.
-
-
-LaTeX Warning: Reference `sec:lalt' on page 8 undefined on input line 83.
-
-
-LaTeX Warning: Reference `ch:ra1' on page 8 undefined on input line 83.
-
-
-LaTeX Warning: Reference `sec:lalt' on page 8 undefined on input line 83.
-
-<Figures/RA4/SoversqrtB_AsWas.pdf, id=35, 569.12625pt x 385.44pt>
+<Figures/RA4/SoversqrtB_AsWas.pdf, id=47, 569.12625pt x 385.44pt>
 File: Figures/RA4/SoversqrtB_AsWas.pdf Graphic file (type pdf)
 
 <use Figures/RA4/SoversqrtB_AsWas.pdf>
-<Figures/RA4/SoversqrtB_noMT_hat.pdf, id=36, 569.12625pt x 385.44pt>
+<Figures/RA4/SoversqrtB_noMT_hat.pdf, id=48, 569.12625pt x 385.44pt>
 File: Figures/RA4/SoversqrtB_noMT_hat.pdf Graphic file (type pdf)
 
 <use Figures/RA4/SoversqrtB_noMT_hat.pdf>
-<Figures/RA4/SoversqrtB_noMT_noat.pdf, id=37, 569.12625pt x 385.44pt>
+<Figures/RA4/SoversqrtB_noMT_noat.pdf, id=49, 569.12625pt x 385.44pt>
 File: Figures/RA4/SoversqrtB_noMT_noat.pdf Graphic file (type pdf)
 
 <use Figures/RA4/SoversqrtB_noMT_noat.pdf>
-<Figures/RA4/SoversqrtB_noMT_lat.pdf, id=38, 569.12625pt x 385.44pt>
+<Figures/RA4/SoversqrtB_noMT_lat.pdf, id=50, 569.12625pt x 385.44pt>
 File: Figures/RA4/SoversqrtB_noMT_lat.pdf Graphic file (type pdf)
 
 <use Figures/RA4/SoversqrtB_noMT_lat.pdf>
-
-LaTeX Warning: Reference `ch:ra1' on page 8 undefined on input line 96.
-
-
-LaTeX Warning: Reference `ch:ra1' on page 8 undefined on input line 96.
-
-
-LaTeX Warning: Reference `sec:fit' on page 8 undefined on input line 105.
-
-<Figures/RA4/AsWas_Modified_CLs.pdf, id=39, 569.12625pt x 385.44pt>
+<Figures/RA4/AsWas_Modified_CLs.pdf, id=51, 569.12625pt x 385.44pt>
 File: Figures/RA4/AsWas_Modified_CLs.pdf Graphic file (type pdf)
 
 <use Figures/RA4/AsWas_Modified_CLs.pdf>
-<Figures/RA4/hat_Modified_CLs.pdf, id=40, 569.12625pt x 385.44pt>
+<Figures/RA4/hat_Modified_CLs.pdf, id=52, 569.12625pt x 385.44pt>
 File: Figures/RA4/hat_Modified_CLs.pdf Graphic file (type pdf)
 
 <use Figures/RA4/hat_Modified_CLs.pdf>
-<Figures/RA4/noat_Modified_CLs.pdf, id=41, 569.12625pt x 385.44pt>
+<Figures/RA4/noat_Modified_CLs.pdf, id=53, 569.12625pt x 385.44pt>
 File: Figures/RA4/noat_Modified_CLs.pdf Graphic file (type pdf)
 
 <use Figures/RA4/noat_Modified_CLs.pdf>
-<Figures/RA4/lat_Modified_CLs.pdf, id=42, 569.12625pt x 385.44pt>
+<Figures/RA4/lat_Modified_CLs.pdf, id=54, 569.12625pt x 385.44pt>
 File: Figures/RA4/lat_Modified_CLs.pdf Graphic file (type pdf)
 
-<use Figures/RA4/lat_Modified_CLs.pdf>
-
-LaTeX Warning: Reference `ch:ra1' on page 8 undefined on input line 115.
-
-
-LaTeX Warning: Reference `ch:ra1' on page 8 undefined on input line 115.
-
-[8] [9] [10 <./Figures/RA4/SoversqrtB_AsWas.pdf, page is rotated 90 degrees> <.
-/Figures/RA4/SoversqrtB_noMT_hat.pdf, page is rotated 90 degrees> <./Figures/RA
-4/SoversqrtB_noMT_noat.pdf, page is rotated 90 degrees> <./Figures/RA4/Soversqr
-tB_noMT_lat.pdf, page is rotated 90 degrees>] [11 <./Figures/RA4/AsWas_Modified
-_CLs.pdf, page is rotated 90 degrees> <./Figures/RA4/hat_Modified_CLs.pdf, page
- is rotated 90 degrees> <./Figures/RA4/noat_Modified_CLs.pdf, page is rotated 9
-0 degrees> <./Figures/RA4/lat_Modified_CLs.pdf, page is rotated 90 degrees>])
-[12]
+<use Figures/RA4/lat_Modified_CLs.pdf> [11] [12] [13 <./Figures/RA4/SoversqrtB_
+AsWas.pdf, page is rotated 90 degrees> <./Figures/RA4/SoversqrtB_noMT_hat.pdf, 
+page is rotated 90 degrees> <./Figures/RA4/SoversqrtB_noMT_noat.pdf, page is ro
+tated 90 degrees> <./Figures/RA4/SoversqrtB_noMT_lat.pdf, page is rotated 90 de
+grees>] [14 <./Figures/RA4/AsWas_Modified_CLs.pdf, page is rotated 90 degrees> 
+<./Figures/RA4/hat_Modified_CLs.pdf, page is rotated 90 degrees> <./Figures/RA4
+/noat_Modified_CLs.pdf, page is rotated 90 degrees> <./Figures/RA4/lat_Modified
+_CLs.pdf, page is rotated 90 degrees>]) [15]
 \openout2 = `Conclusion.aux'.
 
  (./Conclusion.tex
 Chapter 3.
-[13
+[16
 
 
 
-]) [14]
+]) [17]
 \openout2 = `appA.aux'.
 
  (./appA.tex
@@ -793,40 +737,46 @@ Underfull \hbox (badness 1337) in paragraph at lines 4--4
 les used in this
  []
 
-) [15
+) [18
 
 
 
-] [16] (./thesis.bbl [17
+] [19] (./thesis.bbl
+Underfull \hbox (badness 1590) in paragraph at lines 8--12
+[]\OT1/cmr/m/n/12 R Bain-bridge, B Betchart, O Buch-mueller, D Bur-ton, H Flaec
+her,
+ []
+
+[20
 
 
 ]
 Missing character: There is no ü in font cmr12!
 Missing character: There is no è in font cmr12!
 
-Underfull \hbox (badness 1867) in paragraph at lines 128--131
+Underfull \hbox (badness 1867) in paragraph at lines 143--146
 []\OT1/cmr/m/n/12 The CMS Col-lab-o-ra-tion.  ``The Com-pact Muon Solenoid Tech
 -ni-cal
  []
 
+[21]
 Missing character: There is no á in font cmr12!
-[18]
 Missing character: There is no ü in font cmr12!
 Missing character: There is no ü in font cmr12!
 
-Underfull \hbox (badness 1917) in paragraph at lines 205--209
+Underfull \hbox (badness 1917) in paragraph at lines 220--224
 []\OT1/cmr/m/n/12 S. Catani, Yuri L. Dok-shitzer, M. H. Sey-mour & B. R. Web-be
 r.
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 232--238
+Underfull \hbox (badness 1038) in paragraph at lines 247--253
 \OT1/cmr/m/n/12 R Rem-ing-ton, M Schmitt, B Scur-lock, E.A. Al-bayrak, T Yetkin
  &
  []
 
-[19]
-Underfull \hbox (badness 1199) in paragraph at lines 258--262
+[22]
+Underfull \hbox (badness 1199) in paragraph at lines 273--277
 []\OT1/cmr/m/n/12 The CMS Col-lab-o-ra-tion.  ``Per-for-mance of muon re-con-st
 ruc-tion and
  []
@@ -836,14 +786,15 @@ Missing character: There is no ¨ in font cmr12!
 Missing character: There is no ¨ in font cmr12!
 Missing character: There is no ¨ in font cmr12!
 Missing character: There is no ¨ in font cmr12!
+[23]
 Missing character: There is no ¨ in font cmr12!
-[20]
-Underfull \hbox (badness 1057) in paragraph at lines 384--388
+
+Underfull \hbox (badness 1057) in paragraph at lines 399--403
 []\OT1/cmr/m/n/12 The CMS Col-lab-o-ra-tion.  ``Per-for-mance of Meth-ods for D
 ata-Driven
  []
 
-) [21] (./thesis.aux (./title.aux) (./symbols.aux) (./abstract.aux)
+[24]) [25] (./thesis.aux (./title.aux) (./symbols.aux) (./abstract.aux)
 (./declaration.aux) (./Introduction.aux) (./RA4.aux) (./Conclusion.aux)
 (./appA.aux))
 
@@ -851,14 +802,14 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.25002pt have occurred.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 7611 strings out of 493747
- 121081 string characters out of 3143546
- 174166 words of memory out of 3000000
- 10663 multiletter control sequences out of 15000+200000
+ 7804 strings out of 493747
+ 123980 string characters out of 3143546
+ 177971 words of memory out of 3000000
+ 10841 multiletter control sequences out of 15000+200000
  32629 words of font info for 133 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  38i,19n,40p,1747b,381s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -867,26 +818,27 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
-r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
-exlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
-ive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/
-2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/201
-0/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2010/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2010/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2010/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2010/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2010/texmf
--dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (21 pages, 576136 bytes).
+usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
+r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+cal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
+texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
+live/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
+e/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/20
+10/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+0/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2010/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2010/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2010/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2010/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2010/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2010/texmf-d
+ist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on thesis.pdf (25 pages, 590595 bytes).
 PDF statistics:
- 503 PDF objects out of 1000 (max. 8388607)
- 249 compressed objects within 3 object streams
+ 520 PDF objects out of 1000 (max. 8388607)
+ 261 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

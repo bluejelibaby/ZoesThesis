@@ -2,12 +2,12 @@
 \contentsline {chapter}{Declaration}{3}
 \contentsline {chapter}{Acknowledgements}{4}
 \contentsline {chapter}{Contents}{4}
-\contentsline {chapter}{\numberline {1} Introduction}{5}
-\contentsline {chapter}{\numberline {2}Extending the $\mu $ Control Sample to a Signal Sample}{6}
-\contentsline {subsection}{\numberline {2.0.1}Relaxing the Cuts}{6}
-\contentsline {subsection}{\numberline {2.0.2}Event Yields}{7}
-\contentsline {subsection}{\numberline {2.0.3}Fit Results}{8}
-\contentsline {section}{\numberline {2.1}Interpretation}{12}
-\contentsline {chapter}{\numberline {3}Conclusion}{13}
-\contentsline {chapter}{\numberline {A}Data Samples}{15}
-\contentsline {chapter}{Bibliography}{17}
+\contentsline {chapter}{\numberline {1} Introduction}{7}
+\contentsline {chapter}{\numberline {2}Extending the $\mu $ Control Sample to a Signal Sample}{9}
+\contentsline {subsection}{\numberline {2.0.1}Relaxing the Cuts}{9}
+\contentsline {subsection}{\numberline {2.0.2}Event Yields}{10}
+\contentsline {subsection}{\numberline {2.0.3}Fit Results}{11}
+\contentsline {section}{\numberline {2.1}Interpretation}{15}
+\contentsline {chapter}{\numberline {3}Conclusion}{16}
+\contentsline {chapter}{\numberline {A}Data Samples}{18}
+\contentsline {chapter}{Bibliography}{20}

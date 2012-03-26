@@ -4,6 +4,21 @@
   \def\url#1{{\tt #1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{}\fi
 
+\bibitem{1fbnote}
+R~Bainbridge, B~Betchart, O~Buchmueller, D~Burton, H~Flaecher, Z~Hatherell,
+  E~Laird, B~Mathias, P~Sphicas \& M~Stoye.
+\newblock \enquote{Search for Supersymmetry with the $\alpha_{T}$ variable}.
+\newblock {\bf CMS AN-2011/244}.
+
+\bibitem{PRL1fb}
+S.~{Chatrchyan}, V.~{Khachatryan}, A.~M. {Sirunyan}, A.~{Tumasyan}, W.~{Adam},
+  T.~{Bergauer}, M.~{Dragicevic}, J.~{Er{\"o}}, C.~{Fabjan}, M.~{Friedl} \&
+  et~al.
+\newblock \enquote{{Search for Supersymmetry at the LHC in Events with Jets and
+  Missing Transverse Energy}}.
+\newblock {\em Physical Review Letters\/}, {\bf 107}, 22 (2011) 221804,
+  {1109.2352}.
+
 \bibitem{Rolnick}
 William~B Rolnick.
 \newblock \enquote{{The Fundamnetal Particles and Their Interactions}}.
@@ -212,7 +227,7 @@ G.~Corcella, I.G. Knowles, G.~Marchesini, S.~Moretti, K.~Odagiri et~al.
 \newblock \enquote{{HERWIG 6.5 release note}}.
 \newblock {hep-ph/0210213}.
 
-\bibitem{PYTHIA64}
+\bibitem{pythia}
 Torbjorn Sjostrand, Stephen Mrenna \& Peter~Z. Skands.
 \newblock \enquote{{PYTHIA 6.4 Physics and Manual}}.
 \newblock {\em JHEP\/}, {\bf 0605} (2006) 026, {hep-ph/0603175}.
@@ -391,5 +406,11 @@ F.~{James} \& M.~{Roos}.
 \newblock \enquote{{Minuit - a system for function minimization and analysis of
   the parameter errors and correlations}}.
 \newblock {\em Computer Physics Communications\/}, {\bf 10} (1975) 343--367.
+
+\bibitem{prospino}
+W.~Beenakker, R.~Hopker \& M.~Spira.
+\newblock \enquote{{PROSPINO: A Program for the production of supersymmetric
+  particles in next-to-leading order QCD}}.
+\newblock {hep-ph/9611232}.
 
 \end{thebibliography}

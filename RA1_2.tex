@@ -10,7 +10,7 @@ Isolating these new physics events from Standard Model background processes is e
 This analysis uses datasets both from Monte Carlo simulation (MC) and of data recorded by the CMS detector in 2011.
 
 \subsection{Monte Carlo Simulation}
-Datasets of simulated events with calculated cross-sectionssystem are required for any analysis at the LHC. Using PDFs from CTEQ~\cite{CTEQ}, partons are generated and hard-scattered using either MadGraph~\cite{madgraph} or \textsc{PYTHIA}~\cite{PYTHIA}. The particles hadronize and  The following samples are used, full details of which can be found in Appendix A. 
+Datasets of simulated events with calculated cross-sectionssystem are required for any analysis at the LHC. Using PDFs from CTEQ~\cite{CTEQ}, partons are generated and hard-scattered using either MadGraph~\cite{madgraph} or \textsc{PYTHIA}~\cite{pythia}. The particles hadronize and  The following samples are used, full details of which can be found in Appendix A. 
 \subsubsection{Standard Model}
 \begin{itemize}
 \item QCD Multijet (\textsc{PYTHIA})
@@ -1038,7 +1038,7 @@ b^{i}_{p} = \int_{x_{i}}^{x_{i+1}} m^{i} \delta(x - \langle \HT \rangle^{i}) Ae^
 \label{eq:rat4}
 \end{equation}
 
-This allows the expression in Equation~\ref{bicomp} of the two components of $b^{i}$, in which the knowledge that \RaT is flat in electroweak processes, and therefore $k_{ewk}$ = 0 is used.
+This allows the expression in Equation~\ref{eq:bicomp} of the two components of $b^{i}$, in which the knowledge that \RaT is flat in electroweak processes, and therefore $k_{ewk}$ = 0 is used.
 \begin{equation}
 b^{i}_{ewk} = m^{i} A_{ewk} \qquad
 b^{i}_{qcd} = m^{i} A_{qcd} e^{-k_{qcd} \langle \HT \rangle^{i}}.
@@ -1093,11 +1093,11 @@ s^{i} = f \rho_{sig} x l \epsilon^{i}_{had}
 \label{eq:sig}
 \end{equation}
 
-This introduces the multiplicative factor $f^{x}$ to be applied to the cross section. This represents the parameter of interest for which we shall determine an allowed interval. Analogously the signal contamination in the muon control region  $s^{i}_{\mu}$ in Equation~\ref{eq:jul} is also written using these factors and the muon selection efficiency for signal $\epsilon^{i}_{\mu}$ as described in Section~\ref{sec:sigmucon}:
+This introduces the multiplicative factor $f^{x}$ to be applied to the cross section. This represents the parameter of interest for which we shall determine an allowed interval. Analogously the signal contamination in the muon control region  $s^{i}_{\mu}$ in Equation~\ref{eq:sigmu} is also written using these factors and the muon selection efficiency for signal $\epsilon^{i}_{\mu}$ as described in Section~\ref{sec:sigmucon}:
 
 \begin{equation}
 s^{i}_{\mu} = f \rho_{sig} x l \epsilon^{i}_{\mu}
-\label{eq:sig}
+\label{eq:sigmu}
 \end{equation}
 
 \subsection{Total Likelihood}
