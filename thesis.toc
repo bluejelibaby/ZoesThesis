@@ -2,12 +2,24 @@
 \contentsline {chapter}{Declaration}{3}
 \contentsline {chapter}{Acknowledgements}{4}
 \contentsline {chapter}{Contents}{4}
-\contentsline {chapter}{\numberline {1} Introduction}{7}
-\contentsline {chapter}{\numberline {2}Extending the $\mu $ Control Sample to a Signal Sample}{9}
-\contentsline {subsection}{\numberline {2.0.1}Relaxing the Cuts}{9}
-\contentsline {subsection}{\numberline {2.0.2}Event Yields}{10}
-\contentsline {subsection}{\numberline {2.0.3}Fit Results}{11}
-\contentsline {section}{\numberline {2.1}Interpretation}{15}
-\contentsline {chapter}{\numberline {3}Conclusion}{16}
-\contentsline {chapter}{\numberline {A}Data Samples}{18}
-\contentsline {chapter}{Bibliography}{20}
+\contentsline {chapter}{\numberline {1}Theoretical Overview}{5}
+\contentsline {section}{\numberline {1.1}The Standard Model}{5}
+\contentsline {subsection}{\numberline {1.1.1}Gauge Theory of Interactions}{7}
+\contentsline {subsubsection}{Quantum ElectroDynamics}{9}
+\contentsline {subsubsection}{QCD}{10}
+\contentsline {subsubsection}{The Parton Model}{12}
+\contentsline {subsubsection}{The Weak Force and Electroweak Unification}{13}
+\contentsline {subsection}{\numberline {1.1.2}EWSB and the Higgs Mechanism}{15}
+\contentsline {section}{\numberline {1.2}Motivation for Physics Beyond the Standard Model}{16}
+\contentsline {subsection}{\numberline {1.2.1}The Hierarchy Problem}{17}
+\contentsline {subsection}{\numberline {1.2.2}Cold Dark Matter}{18}
+\contentsline {subsection}{\numberline {1.2.3}Unification of Coupling Constants}{19}
+\contentsline {section}{\numberline {1.3}Supersymmetry}{19}
+\contentsline {subsection}{\numberline {1.3.1}R-Parity}{20}
+\contentsline {subsection}{\numberline {1.3.2}MSSM}{22}
+\contentsline {subsection}{\numberline {1.3.3}Supersymmetry Breaking}{23}
+\contentsline {subsection}{\numberline {1.3.4}Minimal Supergravity and the Constrained MSSM}{24}
+\contentsline {subsubsection}{Current Limits on the CMSSM}{25}
+\contentsline {subsection}{\numberline {1.3.5}Production Mechanisms in pp collisions}{26}
+\contentsline {chapter}{\numberline {A}Data Samples}{29}
+\contentsline {chapter}{Bibliography}{31}
