@@ -13,13 +13,13 @@ As there are many models to describe the exact nature of SUSY due to the unknown
 
 Discussion of SUSY on the whole and specific models such as mSUGRA are then used to quantify the reach of the search and to tune the cuts with Monte Carlo data. Where no new physics is found it can be useful to set limits on the parameters of such models, and in this thesis we will use mSUGRA for this purpose, along with test points in the mSUGRA phase space. However it is important to remember that the search itself remains open and sensitive to any WIMP candidate. 
 
-Physics at the LHC will suffer from high background rates, especially those from QCD, and the main goal of any analysis is selecting the new physics events required whilst removing the background from Standard Model processes. Missing energy can be observed in events in two ways, real missing energy from the production of weakly interacting particles, such as neutrinos and LSP's, and fake missing energy which is a result of mismeasurment of objects, or missed objects. 
+Physics at the LHC will suffer from high background rates, especially those from QCD, and the main goal of any analysis is selecting the new physics events required whilst removing the background from Standard Model processes. Missing energy can be observed in events in two ways, real missing energy from the production of weakly interacting particles, such as neutrinos and LSP's, and fake missing energy which is a result of mismeasurement of objects, or missed objects. 
 
 Having noted that the generic signal produced by any such new physics model is a large amount of \met, it might be assumed this forms the main variable to separate signal from background events. As \met is measured in the calorimeters, it can be affected by miscalibration and noise in the detector, thus is not robust for early physics at the LHC. 
 
-To combat this issue there is also the quantity \mht which represents the vector sum of transverse momenta $p_{T}$ of the jets in the system, giving the hadronic missing energy analogous to \met in a hadronic search. However, there are limitations to the use of either of these quantities, as they are not robust to mismeasurments of the jets. 
+To combat this issue there is also the quantity \mht which represents the vector sum of transverse momenta $p_{T}$ of the jets in the system, giving the hadronic missing energy analogous to \met in a hadronic search. However, there are limitations to the use of either of these quantities, as they are not robust to mismeasurements of the jets. 
 
-A background event with no missing energy may therefore be selected as having considerable \met or \mht due to these mismeasurments, and thus it is natural to look for other variables which have a higher discriminatory power. 
+A background event with no missing energy may therefore be selected as having considerable \met or \mht due to these mismeasurements, and thus it is natural to look for other variables which have a higher discriminatory power. 
 
 
 
@@ -31,9 +31,9 @@ A background event with no missing energy may therefore be selected as having co
 
 The first step in devising a SUSY search strategy begins with the simplest of channels, the ``dijet" search with just two jets and missing energy corresponding to two missing neutralinos.  This channel is motivated by one of the cinematic scenarios of mSUGRA mentioned in Chapter \ref{ch:theory}, where the gluino is heavier than the squarks, therefore squarks are liable to decay directly to the LSP producing a quark jet. Due to the low multiplicity it is easy to understand kinematically the situation in play. 
 
-At the LHC the dominant background is from QCD diet events, produced with an extremely large cross section. These events do not actually produce \met but can ``fake" this signature through detector effects such as mismeasurment or missed objects. In addition there are a number of other backgrounds that produce real missing energy in electroweak interactions, W + jets, $t \bar{t}$ and Z $\rightarrow \nu \bar{\nu}$ + jets, which we will refer to collectively as EWK. The greatest task on hand is to eliminate the dominating QCD background, which in a perfect detector could be easily achieved with a simple cut on \met or \mht. However, due to the ``fake" \met signature from QCD events, a significant proportion of these events remain after such a cut, so it is desirable to devise a variable which can separate true sources of missing energy, and those arising from the detector. 
+At the LHC the dominant background is from QCD dijet events, produced with an extremely large cross section. These events do not actually produce \met but can ``fake" this signature through detector effects such as mismeasurement or missed objects. In addition there are a number of other backgrounds that produce real missing energy in electroweak interactions, W + jets, $t \bar{t}$ and Z $\rightarrow \nu \bar{\nu}$ + jets, which we will refer to collectively as EWK. The greatest task on hand is to eliminate the dominating QCD background, which in a perfect detector could be easily achieved with a simple cut on \met or \mht. However, due to the ``fake" \met signature from QCD events, a significant proportion of these events remain after such a cut, so it is desirable to devise a variable which can separate true sources of missing energy, and those arising from the detector. 
 
-In a QCD diet event, were it to be perfectly measured, the two jets are pair produced and following conservation laws must be back-to-back and of equal magnitude. In events with real missing energy, such as our potential SUSY signal, the jets have been produced independently of one another, and such rules do not govern them. The distribution of the azimuthal angle between the two jets, $\Delta \phi$, is therefore very different for the QCD background and potential signal events.  
+In a QCD dijet event, were it to be perfectly measured, the two jets are pair produced and following conservation laws must be back-to-back and of equal magnitude. In events with real missing energy, such as our potential SUSY signal, the jets have been produced independently of one another, and such rules do not govern them. The distribution of the azimuthal angle between the two jets, $\Delta \phi$, is therefore very different for the QCD background and potential signal events.  
 
 
 It is possible to exploit the nature of this further using a new variable proposed by Randall and Tucker-Smith, $\alpha$, defined in Equation \ref{eqn:alpha}~\cite{Randall}. 
@@ -43,7 +43,16 @@ It is possible to exploit the nature of this further using a new variable propos
 \label{eqn:alpha}
 \end{equation}
 
-The $E_{T}^{j2}$ is the transverse energy of the second jet (the lowest in energy) and $M_{inv}^{j1,j2}$ is the invariant mass of the dijet system. The design of this variable allows us to exploit the expected back-to-back nature of any dijet from QCD. A well-measured QCD event can only take values of $\alpha < 0.5$. In sharp contrast, a SUSY event can, due to the unseen neutralinos, produce jets in a similar direction with a low invariant mass giving rise to high values of $\alpha$.
+The $E_{T}^{j2}$ is the transverse energy of the second jet (the lowest in energy) and $M_{inv}^{j1,j2}$ is the invariant mass of the dijet system. The design of this variable allows us to exploit the difference in topologies between QCD events and SUSY, as shown in Figure~\ref{fig:attop}. Due to the expected back-to-back nature of the jets in any dijet event from QCD, a well-measured event can only take values of $\alpha < 0.5$. In sharp contrast, in a SUSY event the two jets are produced independently of one another and therefore their directions are not correlated. This can lead to jets in a similar direction with a low invariant mass giving rise to high values of $\alpha$. This topology is shared by other backgrounds that produce real missing energy through the production of neutrinos.
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.6\textwidth]{Figures/AlphaT/forZ.pdf}
+\caption{\label{fig:attop}The event topologies of background (QCD) dijet events (left) with no real missing energy and SUSY signal events (right) with missing energy from the production of LSPs. The background events can have fake missing energy due to jet mismeasurements.}
+\end{figure}
+
+
 
 The transverse variant of this variable, given in Equation \ref{eqn:alpha} makes use of the transverse mass $M_{T}$ of the two jets as opposed to the invariant mass.
 
@@ -52,7 +61,7 @@ The transverse variant of this variable, given in Equation \ref{eqn:alpha} makes
 \label{eqn:alphat}
 \end{equation}
 
-In this case a well-measured QCD event will have exactly 0.5. While both show equally strong power of background discrimination, $\alpha_{T}$ has greater signal retention for certain mSUGRA points,\cite{PASaT} and therefore is deemed comparable or superior. It is upon this variable that the search strategy is formed. The presence of the second jet energy in the numerator also gives rise to one of the most important properties of this variable, its resilience to jet mismeasurment. If there is a large mismeasurment of one of the jets, the order could be inverted. As a perfectly measured QCD event yields \alt = 0.5, the cut chosen is \alt > 0.55 in order to take into account the finite resolution of the jet energy measurement.  
+In this case a well-measured QCD event will have exactly 0.5. While both show equally strong power of background discrimination, $\alpha_{T}$ has greater signal retention for certain mSUGRA points,\cite{PASaT} and therefore is deemed comparable or superior. It is upon this variable that the search strategy is formed. The presence of the second jet energy in the numerator also gives rise to one of the most important properties of this variable, its resilience to jet mismeasurement. If there is a large mismeasurement of one of the jets, the order could be inverted. As a perfectly measured QCD event yields \alt = 0.5, the cut chosen is \alt > 0.55 in order to take into account the finite resolution of the jet energy measurement.  
 
 
 The explicit reliance of \alt on $\Delta \phi$ can be seen when the relationship is rewritten in the massless limit, in Equation \ref{eqn:alphatphi}. This relationship indicates a high correlation, and thus a cut on \alt renders a further cut on $\Delta \phi$ negligible\cite{ANaT}.
@@ -66,7 +75,7 @@ The explicit reliance of \alt on $\Delta \phi$ can be seen when the relationship
 \section{$\alpha_{T}$ in a n-jet system}
 More complicated decay processes result in hadronic signatures with more than two jets, generalised to the n-jet system, for example where a gluino-squark pair decay to produce three quarks and two LSP's. In order to increase phase space the dijet search channel may be extended to a final state including N jets and considerable \met, where N $\geq$ 2. This is colloquially known as the all-hadronic search channel as it comprises any fully-hadronic decay modes that might yield possible SUSY signal. 
 
-Following the success of the construction of the \alt variable in the dijet topology, the variable was extended to a general form applicable for an n-jet system, thus incorporating the full hadronic SUSY search channel\cite{ANnaT} . This is undertaken by modelling the system of $n$ jets as though it were a diet system, through the mathematical construction of two pseudo jets. Thus \alt can be calculated using the properties of the pseudo jets. 
+Following the success of the construction of the \alt variable in the dijet topology, the variable was extended to a general form applicable for an n-jet system, thus incorporating the full hadronic SUSY search channel\cite{ANnaT} . This is undertaken by modelling the system of $n$ jets as though it were a dijet system, through the mathematical construction of two pseudo jets. Thus \alt can be calculated using the properties of the pseudo jets. 
 
 The two pseudo-jets are built by merging the n jets present in two sets with a vectorial sum deciding the direction, and a length equal to the sum of the magnitudes of the composite jets. The combinations chosen to assign n jets into 2 pseudo jets is done such that they are as balanced as possible, i.e. the difference in \HT, $\Delta \HT$ is at a minimum. All combinations are therefore considered, and the one which satisfies this condition is chosen. With this psedo-dijet system we can construct a formalism for \alt that uses the basic kinematic variables of the system in Equation \ref{eqn:alphat_njet}. 
 
