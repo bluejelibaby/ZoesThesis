@@ -2,17 +2,12 @@
 \contentsline {chapter}{Declaration}{3}
 \contentsline {chapter}{Acknowledgements}{4}
 \contentsline {chapter}{Contents}{4}
-\contentsline {chapter}{\numberline {1}The Compact Muon Solenoid Experiment at the LHC}{5}
-\contentsline {section}{\numberline {1.1}The Large Hadron Collider}{5}
-\contentsline {section}{\numberline {1.2}The Compact Muon Solenoid}{8}
-\contentsline {subsection}{\numberline {1.2.1}Coordinate System}{10}
-\contentsline {subsection}{\numberline {1.2.2}Superconducting Magnet}{10}
-\contentsline {subsection}{\numberline {1.2.3}Tracker}{12}
-\contentsline {subsection}{\numberline {1.2.4}ECAL}{13}
-\contentsline {subsection}{\numberline {1.2.5}HCAL}{16}
-\contentsline {subsection}{\numberline {1.2.6}Muon System}{18}
-\contentsline {subsection}{\numberline {1.2.7}Trigger}{20}
-\contentsline {subsubsection}{Prescaled Triggers}{21}
-\contentsline {subsection}{\numberline {1.2.8}Primary Dataset}{22}
-\contentsline {chapter}{\numberline {A}Data Samples}{23}
-\contentsline {chapter}{Bibliography}{25}
+\contentsline {chapter}{\numberline {1}Searching for SUSY with $\alpha _{T}$}{5}
+\contentsline {section}{\numberline {1.1}Inclusive SUSY Search}{5}
+\contentsline {section}{\numberline {1.2}$\alpha _{T}$ in a di-jet system}{7}
+\contentsline {section}{\numberline {1.3}$\alpha _{T}$ in a n-jet system}{9}
+\contentsline {section}{\numberline {1.4}Defining the ratio \ensuremath {R_{\ensuremath {\alpha _{\text {T}}}\xspace }}\xspace }{10}
+\contentsline {section}{\numberline {1.5}Extending $\ensuremath {\alpha _{\text {T}}}\xspace $ for single-lepton searches}{11}
+\contentsline {section}{\numberline {1.6}Reliance of \ensuremath {\alpha _{\text {T}}}\xspace on jet object definition}{12}
+\contentsline {chapter}{\numberline {A}Data Samples}{14}
+\contentsline {chapter}{Bibliography}{16}

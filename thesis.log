@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  28 MAR 2012 16:48
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  28 MAR 2012 19:00
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -514,7 +514,7 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 No file macros.tex.
 ** Make sure \initfloatingfigs being called immediately
    after \begin{document} !! ** (./thesis.aux (./title.aux) (./symbols.aux)
-(./abstract.aux) (./declaration.aux) (./Detector.aux) (./appA.aux))
+(./abstract.aux) (./declaration.aux) (./AlphaT.aux) (./appA.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
@@ -640,58 +640,64 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 
 ]
-\openout2 = `Detector.aux'.
+\openout2 = `AlphaT.aux'.
 
- (./Detector.tex
+ (./AlphaT.tex
 Chapter 1.
 
-Underfull \vbox (badness 1259) has occurred while \output is active []
+LaTeX Warning: Reference `ch:theory' on page 5 undefined on input line 10.
 
- [5
+[5
 
 
 ]
-<Figures/Detector/lhc-schematic.jpg, id=26, 375.3222pt x 391.7034pt>
-File: Figures/Detector/lhc-schematic.jpg Graphic file (type jpg)
+Underfull \vbox (badness 4132) has occurred while \output is active []
 
-<use Figures/Detector/lhc-schematic.jpg> [6] [7 <./Figures/Detector/lhc-schemat
-ic.jpg>] <Figures/Detector/injection.png, id=37, 477.785pt x 339.2675pt>
-File: Figures/Detector/injection.png Graphic file (type png)
+ [6]
 
-<use Figures/Detector/injection.png> [8]
-<Figures/Detector/CMS_Structure.pdf, id=42, 845.1575pt x 597.23125pt>
-File: Figures/Detector/CMS_Structure.pdf Graphic file (type pdf)
+LaTeX Warning: Reference `ch:theory' on page 7 undefined on input line 27.
 
-<use Figures/Detector/CMS_Structure.pdf>
-<Figures/Detector/CMS_Slice.png, id=43, 995.72pt x 507.8975pt>
-File: Figures/Detector/CMS_Slice.png Graphic file (type png)
 
-<use Figures/Detector/CMS_Slice.png>
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1803) has occurred while \output is active []
 
- [9 <./Figures/Detector/injection.png>] [10 <./Figures/Detector/CMS_Structure.p
-df>]
-[11 <./Figures/Detector/CMS_Slice.png (PNG copy)>] [12] [13]
-Underfull \vbox (badness 8075) has occurred while \output is active []
+ [7]
+<Figures/AlphaT/forZ.pdf, id=36, 1027.84pt x 770.88pt>
+File: Figures/AlphaT/forZ.pdf Graphic file (type pdf)
 
- [14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<use Figures/AlphaT/forZ.pdf> [8 <./Figures/AlphaT/forZ.pdf>] [9]
+LaTeX Font Info:    Calculating math sizes for size <8.39996> on input line 82.
 
- [15]
-<Figures/Detector/HCAL.png, id=218, 641.7576pt x 373.8768pt>
-File: Figures/Detector/HCAL.png Graphic file (type png)
 
-<use Figures/Detector/HCAL.png> [16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17 <./Figures/Detector/HCAL.png>] [18]
-<Figures/Detector/MS.pdf, id=229, 437.635pt x 335.2525pt>
-File: Figures/Detector/MS.pdf Graphic file (type pdf)
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.19998> not available
+(Font)              size <5> substituted on input line 82.
 
-<use Figures/Detector/MS.pdf>
-Underfull \vbox (badness 5008) has occurred while \output is active []
 
- [19 <./Figures/Detector/MS.pdf>] [20] [21]) [22]
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.19998> not available
+(Font)              size <5> substituted on input line 82.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.19998> not available
+(Font)              size <5> substituted on input line 82.
+
+<Figures/AlphaT/ThesisATPlot.pdf, id=65, 569.12625pt x 408.52625pt>
+File: Figures/AlphaT/ThesisATPlot.pdf Graphic file (type pdf)
+
+<use Figures/AlphaT/ThesisATPlot.pdf> [10] [11 <./Figures/AlphaT/ThesisATPlot.p
+df, page is rotated 90 degrees>]
+<Figures/AlphaT/aT_3.pdf, id=118, 546.04pt x 569.12625pt>
+File: Figures/AlphaT/aT_3.pdf Graphic file (type pdf)
+
+<use Figures/AlphaT/aT_3.pdf>
+<Figures/AlphaT/aT_4.pdf, id=119, 546.04pt x 569.12625pt>
+File: Figures/AlphaT/aT_4.pdf Graphic file (type pdf)
+
+<use Figures/AlphaT/aT_4.pdf>
+<Figures/AlphaT/aT_5.pdf, id=120, 546.04pt x 569.12625pt>
+File: Figures/AlphaT/aT_5.pdf Graphic file (type pdf)
+
+<use Figures/AlphaT/aT_5.pdf>) [12] [13 <./Figures/AlphaT/aT_3.pdf> <./Figures/
+AlphaT/aT_4.pdf> <./Figures/AlphaT/aT_5.pdf>]
 \openout2 = `appA.aux'.
 
  (./appA.tex
@@ -702,17 +708,17 @@ Underfull \hbox (badness 1337) in paragraph at lines 4--4
 les used in this
  []
 
-) [23
+) [14
 
 
 
-] [24] (./thesis.bbl
+] [15] (./thesis.bbl
 Underfull \hbox (badness 1590) in paragraph at lines 8--12
 []\OT1/cmr/m/n/12 R Bain-bridge, B Betchart, O Buch-mueller, D Bur-ton, H Flaec
 her,
  []
 
-[25
+[16
 
 
 ]
@@ -724,7 +730,7 @@ Underfull \hbox (badness 1867) in paragraph at lines 143--146
 -ni-cal
  []
 
-[26]
+[17]
 Missing character: There is no ‡ in font cmr12!
 Missing character: There is no Ÿ in font cmr12!
 Missing character: There is no Ÿ in font cmr12!
@@ -740,7 +746,7 @@ Underfull \hbox (badness 1038) in paragraph at lines 247--253
  &
  []
 
-[27]
+[18]
 Underfull \hbox (badness 1199) in paragraph at lines 273--277
 []\OT1/cmr/m/n/12 The CMS Col-lab-o-ra-tion.  ``Per-for-mance of muon re-con-st
 ruc-tion and
@@ -751,7 +757,7 @@ Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
-[28]
+[19]
 Missing character: There is no ¬ in font cmr12!
 
 Underfull \hbox (badness 1057) in paragraph at lines 399--403
@@ -759,39 +765,47 @@ Underfull \hbox (badness 1057) in paragraph at lines 399--403
 ata-Driven
  []
 
-[29]) [30] (./thesis.aux (./title.aux) (./symbols.aux) (./abstract.aux)
-(./declaration.aux) (./Detector.aux) (./appA.aux)) ) 
+[20]) [21] (./thesis.aux (./title.aux) (./symbols.aux) (./abstract.aux)
+(./declaration.aux) (./AlphaT.aux) (./appA.aux))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 2.90001pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 7565 strings out of 493747
- 119522 string characters out of 3143546
- 164546 words of memory out of 3000000
- 10629 multiletter control sequences out of 15000+200000
- 16885 words of font info for 64 fonts, out of 3000000 for 9000
+ 7638 strings out of 493747
+ 120601 string characters out of 3143546
+ 164529 words of memory out of 3000000
+ 10699 multiletter control sequences out of 15000+200000
+ 27794 words of font info for 110 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,14n,40p,1747b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2010/te
-xmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2010/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2010/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2010/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2010/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2010/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2010/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2010/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2010/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2010/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2010/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2010/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2010/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2010/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/pub
-lic/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (30 pages, 2696649 bytes).
+ 38i,16n,40p,1747b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
+texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texl
+ive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl8.pfb></usr/local/texliv
+e/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
+010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/20
+10/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2010
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2010/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on thesis.pdf (21 pages, 374668 bytes).
 PDF statistics:
- 341 PDF objects out of 1000 (max. 8388607)
- 206 compressed objects within 3 object streams
+ 344 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
