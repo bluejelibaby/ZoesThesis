@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  28 MAR 2012 19:00
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  29 MAR 2012 13:02
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -508,46 +508,65 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box33
 \rot@mess@toks=\toks48
 )
+(/usr/local/texlive/2010/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count195
+\FV@InFile=\read1
+\FV@TabBox=\box34
+\c@FancyVerbLine=\count196
+\FV@StepNumber=\count197
+\FV@OutFile=\write3
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/examplep/examplep.sty
+Package: examplep 2010/02/03 v0.04 Verbatim and typeset TeX code
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/examplep/verbfwr.sty
+Package: verbfwr 2003/09/25 v0.02 Verbatim file write
+\verbfwr@writefile=\write4
+))
 \@input{macros.aux}
 \openout2 = `macros.aux'.
 
 No file macros.tex.
 ** Make sure \initfloatingfigs being called immediately
    after \begin{document} !! ** (./thesis.aux (./title.aux) (./symbols.aux)
-(./abstract.aux) (./declaration.aux) (./AlphaT.aux) (./appA.aux))
+(./abstract.aux) (./declaration.aux) (./RA1_2.aux) (./appA.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 60.
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    ... okay on input line 60.
 
 (/usr/local/texlive/2010/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count195
+\scratchcounter=\count198
 \scratchdimen=\dimen135
-\scratchbox=\box34
-\nofMPsegments=\count196
-\nofMParguments=\count197
+\scratchbox=\box35
+\nofMPsegments=\count199
+\nofMParguments=\count200
 \everyMPshowfont=\toks49
-\MPscratchCnt=\count198
+\MPscratchCnt=\count201
 \MPscratchDim=\dimen136
-\MPnumerator=\count199
+\MPnumerator=\count202
 \everyMPtoPDFconversion=\toks50
 ) (/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2010/04/01 v0.9 Utility functions of pdfTeX for LuaTeX (HO)
@@ -632,72 +651,381 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 
 
-] (./thesis.toc)
-\tf@toc=\write3
-\openout3 = `thesis.toc'.
-
- [4
+] (./thesis.toc [4
 
 
-]
-\openout2 = `AlphaT.aux'.
+])
+\tf@toc=\write5
+\openout5 = `thesis.toc'.
 
- (./AlphaT.tex
+ [5]
+\openout2 = `RA1_2.aux'.
+
+
+(./RA1_2.tex
 Chapter 1.
 
-LaTeX Warning: Reference `ch:theory' on page 5 undefined on input line 10.
+LaTeX Warning: Reference `ch:at' on page 6 undefined on input line 5.
 
-[5
+
+LaTeX Warning: Citation `tuneZ2' on page 6 undefined on input line 13.
+
+
+Underfull \vbox (badness 1142) has occurred while \output is active []
+
+ [6
 
 
 ]
-Underfull \vbox (badness 4132) has occurred while \output is active []
+[7] <Figures/Analysis/LM46on35limit.png, id=38, 924.5742pt x 674.52pt>
+File: Figures/Analysis/LM46on35limit.png Graphic file (type png)
 
- [6]
+<use Figures/Analysis/LM46on35limit.png>
+Underfull \vbox (badness 4556) has occurred while \output is active []
 
-LaTeX Warning: Reference `ch:theory' on page 7 undefined on input line 27.
+ [8 <./Figures/Analysis/LM46on35limit.png>]
+
+LaTeX Warning: Reference `sec:detrig' on page 9 undefined on input line 74.
+
+[9] [10] [11]
+
+LaTeX Warning: Reference `sec:reconjet' on page 12 undefined on input line 162.
 
 
-Underfull \vbox (badness 1803) has occurred while \output is active []
+[12]
+Overfull \hbox (8.53548pt too wide) in paragraph at lines 183--183
+[]|[]| 
+ []
 
- [7]
-<Figures/AlphaT/forZ.pdf, id=36, 1027.84pt x 770.88pt>
-File: Figures/AlphaT/forZ.pdf Graphic file (type pdf)
 
-<use Figures/AlphaT/forZ.pdf> [8 <./Figures/AlphaT/forZ.pdf>] [9]
-LaTeX Font Info:    Calculating math sizes for size <8.39996> on input line 82.
+Underfull \hbox (badness 1122) in paragraph at lines 223--223
+[]|\OT1/cmr/m/n/12 Transverse im-pact pa-ram-e-ter with re-spect to
+ []
 
+[13]
+Underfull \hbox (badness 1199) in paragraph at lines 250--250
+[]|\OT1/cmr/m/n/12 Difference in $\OML/cmm/m/it/12 ^^^$ \OT1/cmr/m/n/12 be-twee
+n track and
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 251--251
+[]|\OT1/cmr/m/n/12 Difference in $\OML/cmm/m/it/12 ^^Q$ \OT1/cmr/m/n/12 be-twee
+n track and
+ []
+
+[14]
+Overfull \hbox (0.61237pt too wide) in paragraph at lines 270--285
+ [][] 
+ []
+
+
+Underfull \vbox (badness 1360) has occurred while \output is active []
+
+ [15]
+[16]
+LaTeX Font Info:    Calculating math sizes for size <8.39996> on input line 333
+.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.19998> not available
-(Font)              size <5> substituted on input line 82.
+(Font)              size <5> substituted on input line 333.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.19998> not available
-(Font)              size <5> substituted on input line 82.
+(Font)              size <5> substituted on input line 333.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.19998> not available
-(Font)              size <5> substituted on input line 82.
+(Font)              size <5> substituted on input line 333.
 
-<Figures/AlphaT/ThesisATPlot.pdf, id=65, 569.12625pt x 408.52625pt>
-File: Figures/AlphaT/ThesisATPlot.pdf Graphic file (type pdf)
+[17] <Figures/Analysis/PAS/HT_all.pdf, id=80, 569.12625pt x 558.085pt>
+File: Figures/Analysis/PAS/HT_all.pdf Graphic file (type pdf)
 
-<use Figures/AlphaT/ThesisATPlot.pdf> [10] [11 <./Figures/AlphaT/ThesisATPlot.p
-df, page is rotated 90 degrees>]
-<Figures/AlphaT/aT_3.pdf, id=118, 546.04pt x 569.12625pt>
-File: Figures/AlphaT/aT_3.pdf Graphic file (type pdf)
+<use Figures/Analysis/PAS/HT_all.pdf>
+<Figures/Analysis/PAS/JetMultiplicity_all.pdf, id=81, 569.12625pt x 558.085pt>
+File: Figures/Analysis/PAS/JetMultiplicity_all.pdf Graphic file (type pdf)
 
-<use Figures/AlphaT/aT_3.pdf>
-<Figures/AlphaT/aT_4.pdf, id=119, 546.04pt x 569.12625pt>
-File: Figures/AlphaT/aT_4.pdf Graphic file (type pdf)
+<use Figures/Analysis/PAS/JetMultiplicity_all.pdf>
+Underfull \hbox (badness 1478) in paragraph at lines 371--371
+[]\OT1/cmr/m/it/12 Figure 1.2: []Dis-tri-bu-tions of (a) $\OML/cmm/m/it/12 H[]$
+\OT1/cmr/m/it/12 , (b) NJet, show-ing com-par-isons of
+ []
 
-<use Figures/AlphaT/aT_4.pdf>
-<Figures/AlphaT/aT_5.pdf, id=120, 546.04pt x 569.12625pt>
-File: Figures/AlphaT/aT_5.pdf Graphic file (type pdf)
+<Figures/Analysis/PAS/AlphaT_all.pdf, id=82, 569.12625pt x 558.085pt>
+File: Figures/Analysis/PAS/AlphaT_all.pdf Graphic file (type pdf)
 
-<use Figures/AlphaT/aT_5.pdf>) [12] [13 <./Figures/AlphaT/aT_3.pdf> <./Figures/
-AlphaT/aT_4.pdf> <./Figures/AlphaT/aT_5.pdf>]
+<use Figures/Analysis/PAS/AlphaT_all.pdf>
+<Figures/Analysis/PAS/AlphaT_Zoomed_all_zoe.pdf, id=83, 581.17125pt x 558.085pt
+>
+File: Figures/Analysis/PAS/AlphaT_Zoomed_all_zoe.pdf Graphic file (type pdf)
+ <use Figures/Analysis/PAS/AlphaT_Zoomed_all_zoe.pdf>
+<Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf, id=84, 569.12625pt x 
+558.085pt>
+File: Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf Graphic file (typ
+e pdf)
+ <use Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf>
+<Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf, id=85, 569.12625pt
+ x 558.085pt>
+File: Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf Graphic file (
+type pdf)
+ <use Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf>
+<Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf, id=86, 569.12625p
+t x 558.085pt>
+File: Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf Graphic file 
+(type pdf)
+
+<use Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf>
+
+LaTeX Warning: Reference `sec:atrat' on page 18 undefined on input line 414.
+
+[18] [19 <./Figures/Analysis/PAS/HT_all.pdf> <./Figures/Analysis/PAS/JetMultipl
+icity_all.pdf> <./Figures/Analysis/PAS/AlphaT_all.pdf, page is rotated 90 degre
+es> <./Figures/Analysis/PAS/AlphaT_Zoomed_all_zoe.pdf>] [20 <./Figures/Analysis
+/PAS/JetMultiplicityAfterAlphaT_all.pdf, page is rotated 90 degrees> <./Figures
+/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf, page is rotated 90 degrees
+> <./Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf, page is rotat
+ed 90 degrees>] [21]
+<Figures/Analysis/PAS/Ratio_Multi2Incl_AlphaT55.pdf, id=314, 569.12625pt x 408.
+52625pt>
+File: Figures/Analysis/PAS/Ratio_Multi2Incl_AlphaT55.pdf Graphic file (type pdf
+)
+ <use Figures/Analysis/PAS/Ratio_Multi2Incl_AlphaT55.pdf>
+<Figures/Analysis/PAS/Syst_Multi2Incl_AlphaT55.pdf, id=315, 569.12625pt x 408.5
+2625pt>
+File: Figures/Analysis/PAS/Syst_Multi2Incl_AlphaT55.pdf Graphic file (type pdf)
+
+ <use Figures/Analysis/PAS/Syst_Multi2Incl_AlphaT55.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+[23 <./Figures/Analysis/PAS/Ratio_Multi2Incl_AlphaT55.pdf, page is rotated 90 d
+egrees> <./Figures/Analysis/PAS/Syst_Multi2Incl_AlphaT55.pdf, page is rotated 9
+0 degrees>]
+<Figures/Analysis/Types/2011_all_W_Pie.png, id=408, 698.61pt x 674.52pt>
+File: Figures/Analysis/Types/2011_all_W_Pie.png Graphic file (type png)
+
+<use Figures/Analysis/Types/2011_all_W_Pie.png>
+<Figures/Analysis/Types/2011_all_TT_Pie.png, id=409, 561.7788pt x 542.5068pt>
+File: Figures/Analysis/Types/2011_all_TT_Pie.png Graphic file (type png)
+
+<use Figures/Analysis/Types/2011_all_TT_Pie.png>
+<Figures/Analysis/Types/2011_ttWall_Pie.png, id=410, 561.7788pt x 542.5068pt>
+File: Figures/Analysis/Types/2011_ttWall_Pie.png Graphic file (type png)
+
+<use Figures/Analysis/Types/2011_ttWall_Pie.png>
+
+LaTeX Warning: Float too large for page by 241.48824pt on input line 522.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+[25 <./Figures/Analysis/Types/2011_all_W_Pie.png (PNG copy)> <./Figures/Analysi
+s/Types/2011_all_TT_Pie.png> <./Figures/Analysis/Types/2011_ttWall_Pie.png>]
+[26]
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_beforeaT.pdf, id
+=424, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_beforeaT.pd
+f Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_beforeaT.pdf
+>
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_beforeaT.pdf, id
+=425, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_beforeaT.pd
+f Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_beforeaT.pdf
+>
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT.pdf, id
+=426, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT.pd
+f Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT.pdf
+>
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_beforeaT.pdf, id=4
+27, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_beforeaT.pdf 
+Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_beforeaT.pdf>
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_beforeaT.pdf, i
+d=428, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_beforeaT.p
+df Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_beforeaT.pd
+f>
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_beforeaT.pdf, id=4
+29, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_beforeaT.pdf 
+Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_beforeaT.pdf>
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_afteraT.pdf, id=
+430, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_afteraT.pdf
+ Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_afteraT.pdf>
+
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_afteraT.pdf, id=
+431, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_afteraT.pdf
+ Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_afteraT.pdf>
+
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT.pdf, id=
+432, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT.pdf
+ Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT.pdf>
+
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_afteraT.pdf, id=43
+3, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_afteraT.pdf G
+raphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_afteraT.pdf>
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_afteraT.pdf, id
+=434, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_afteraT.pd
+f Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_afteraT.pdf
+>
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_afteraT.pdf, id=43
+5, 569.12625pt x 467.7475pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_afteraT.pdf G
+raphic file (type pdf)
+
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_afteraT.pdf>
+Underfull \hbox (badness 1946) in paragraph at lines 690--690
+\OT1/cmr/m/it/12 cor-re-spond to sta-tis-ti-cal er-rors and an ad-di-tional con
+-ser-va-tive sys-tem-atic
+ []
+
+[27] [28 <./Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_befor
+eaT.pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/muon_plots/spring1
+1NoLogYnJetMuonControl_beforeaT.pdf, page is rotated 90 degrees> <./Figures/Ana
+lysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT.pdf, page is rotate
+d 90 degrees> <./Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_be
+foreaT.pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/muon_plots/spri
+ng11NoLogYMuCsoMuonControl_beforeaT.pdf, page is rotated 90 degrees> <./Figures
+/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_beforeaT.pdf, page is rota
+ted 90 degrees>] [29 <./Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonC
+ontrol_afteraT.pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/muon_pl
+ots/spring11NoLogYnJetMuonControl_afteraT.pdf, page is rotated 90 degrees> <./F
+igures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT.pdf, page 
+is rotated 90 degrees> <./Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonC
+ontrol_afteraT.pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/muon_pl
+ots/spring11NoLogYMuCsoMuonControl_afteraT.pdf, page is rotated 90 degrees> <./
+Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_afteraT.pdf, page i
+s rotated 90 degrees>] [30] [31] [32] [33]
+LaTeX Font Info:    Calculating math sizes for size <6.99997> on input line 802
+.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.49998> not available
+(Font)              size <5> substituted on input line 802.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.49998> not available
+(Font)              size <5> substituted on input line 802.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.49998> not available
+(Font)              size <5> substituted on input line 802.
+
+[34]
+<Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf, id=982, 
+569.12625pt x 541.02126pt>
+File: Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf Grap
+hic file (type pdf)
+
+<use Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf>
+<Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf, id=983, 569.12
+625pt x 541.02126pt>
+File: Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf Graphic fi
+le (type pdf)
+
+<use Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35] [36 <./Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pd
+f> <./Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf>] [37]
+Underfull \hbox (badness 10000) in alignment at lines 953--970
+[][][][][] 
+ []
+
+[38]
+
+LaTeX Warning: Reference `sec:JES' on page 39 undefined on input line 989.
+
+[39] [40] [41]
+Underfull \vbox (badness 3209) has occurred while \output is active []
+
+ [42]
+[43]
+<Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.pdf, 
+id=1063, 569.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.
+pdf Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.p
+df>
+<Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf, id=
+1064, 569.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf
+ Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf>
+
+<Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.pdf, i
+d=1065, 569.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.p
+df Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.pd
+f>
+
+LaTeX Warning: Float too large for page by 45.1477pt on input line 1140.
+
+
+<Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_ratio.p
+df, id=1066, 569.12625pt x 385.44pt>
+File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_ra
+tio.pdf Graphic file (type pdf)
+
+<use Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_rat
+io.pdf>
+Underfull \vbox (badness 5832) has occurred while \output is active []
+
+ [44]
+[45 <./Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy
+.pdf> <./Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.
+pdf> <./Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy
+.pdf>]
+Overfull \vbox (30.32227pt too high) has occurred while \output is active []
+
+
+[46 <./Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_r
+atio.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
+<Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf, id=1106, 569.12625pt x
+ 408.52625pt>
+File: Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf Graphic file (type
+ pdf)
+ <use Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf>)
+[48] [49 <./Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf, page is rot
+ated 90 degrees>]
 \openout2 = `appA.aux'.
 
  (./appA.tex
@@ -708,17 +1036,17 @@ Underfull \hbox (badness 1337) in paragraph at lines 4--4
 les used in this
  []
 
-) [14
+) [50
 
 
 
-] [15] (./thesis.bbl
+] [51] (./thesis.bbl
 Underfull \hbox (badness 1590) in paragraph at lines 8--12
 []\OT1/cmr/m/n/12 R Bain-bridge, B Betchart, O Buch-mueller, D Bur-ton, H Flaec
 her,
  []
 
-[16
+[52
 
 
 ]
@@ -730,7 +1058,7 @@ Underfull \hbox (badness 1867) in paragraph at lines 143--146
 -ni-cal
  []
 
-[17]
+[53]
 Missing character: There is no ‡ in font cmr12!
 Missing character: There is no Ÿ in font cmr12!
 Missing character: There is no Ÿ in font cmr12!
@@ -746,7 +1074,7 @@ Underfull \hbox (badness 1038) in paragraph at lines 247--253
  &
  []
 
-[18]
+[54]
 Underfull \hbox (badness 1199) in paragraph at lines 273--277
 []\OT1/cmr/m/n/12 The CMS Col-lab-o-ra-tion.  ``Per-for-mance of muon re-con-st
 ruc-tion and
@@ -757,7 +1085,7 @@ Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
-[19]
+[55]
 Missing character: There is no ¬ in font cmr12!
 
 Underfull \hbox (badness 1057) in paragraph at lines 399--403
@@ -765,47 +1093,57 @@ Underfull \hbox (badness 1057) in paragraph at lines 399--403
 ata-Driven
  []
 
-[20]) [21] (./thesis.aux (./title.aux) (./symbols.aux) (./abstract.aux)
-(./declaration.aux) (./AlphaT.aux) (./appA.aux))
+[56]) [57] (./thesis.aux (./title.aux) (./symbols.aux) (./abstract.aux)
+(./declaration.aux) (./RA1_2.aux) (./appA.aux))
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 2.90001pt have occurred.
+(Font)              up to 3.25002pt have occurred.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7638 strings out of 493747
- 120601 string characters out of 3143546
- 164529 words of memory out of 3000000
- 10699 multiletter control sequences out of 15000+200000
- 27794 words of font info for 110 fonts, out of 3000000 for 9000
+ 8753 strings out of 493747
+ 146912 string characters out of 3143546
+ 189951 words of memory out of 3000000
+ 11767 multiletter control sequences out of 15000+200000
+ 33372 words of font info for 134 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,16n,40p,1747b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
-ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
-al/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
-texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
-live/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texl
-ive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl8.pfb></usr/local/texliv
-e/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
-010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/20
-10/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2010
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2010/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (21 pages, 374668 bytes).
+ 38i,20n,40p,1747b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></u
+sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></
+usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
+usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
+/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
+ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loc
+al/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local
+/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
+exlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
+live/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texli
+ve/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/
+2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/201
+0/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2010/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2010/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2010/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2010/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2010/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2010/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2010/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2010/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2010/texmf-dist/font
+s/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2010/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2010/texmf-dist/fonts/
+type1/public/cm-super/sfrm1200.pfb>
+Output written on thesis.pdf (57 pages, 1864610 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
- 189 compressed objects within 2 object streams
+ 1273 PDF objects out of 1440 (max. 8388607)
+ 646 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
