@@ -60,7 +60,7 @@
 \contentsline {section}{\numberline {6.1}Samples}{75}
 \contentsline {subsection}{\numberline {6.1.1}Monte Carlo Simulation}{76}
 \contentsline {subsubsection}{Standard Model}{76}
-\contentsline {subsubsection}{CMSSM SUSY Signal}{76}
+\contentsline {subsubsection}{CMSSM SUSY Signal}{77}
 \contentsline {subsection}{\numberline {6.1.2}Data Sample}{78}
 \contentsline {section}{\numberline {6.2}Analysis Framework}{78}
 \contentsline {section}{\numberline {6.3}Trigger}{78}
