@@ -149,11 +149,6 @@ K~et~al. Nakamura.
 \newblock \enquote{Review of Particle Physics, 2010-2011. Review of Particle
   Properties}.
 \newblock {\em J. Phys. G\/}, {\bf 37}, 7A (2010) 075021.
-\newblock The 2010 edition of Review of Particle Physics is published for the
-  Particle Data Group by IOP Publishing as article number 075021 in volume 37
-  of Journal of Physics G: Nuclear and Particle Physics. This edition should be
-  cited as: K Nakamura et al (Particle Data Group) 2010 J. Phys. G: Nucl. Part.
-  Phys. 37 075021.
 
 \bibitem{HCALTDR}
 The~CMS Collaboration.
@@ -347,6 +342,12 @@ Johan Alwall, Pavel Demin, Simon de~Visscher, Rikkert Frederix, Michel Herquet
 \newblock \enquote{{MadGraph/MadEvent v4: The New Web Generation}}.
 \newblock {\em JHEP\/}, {\bf 0709} (2007) 028, {0706.2334}.
 
+\bibitem{tuneZ2}
+{The CMS Collaboration}.
+\newblock \enquote{Measurement of the Underlying Event Activity at the LHC with
+  $\sqrt{s}$}.
+\newblock {\bf CMS PAS QCD-10-010}.
+
 \bibitem{softsusy}
 B.C. Allanach.
 \newblock \enquote{{SOFTSUSY: a program for calculating supersymmetric
@@ -406,6 +407,11 @@ F.~{James} \& M.~{Roos}.
 \newblock \enquote{{Minuit - a system for function minimization and analysis of
   the parameter errors and correlations}}.
 \newblock {\em Computer Physics Communications\/}, {\bf 10} (1975) 343--367.
+
+\bibitem{roofit}
+Wouter Verkerke \& David~P. Kirkby.
+\newblock \enquote{{The RooFit toolkit for data modeling}}.
+\newblock {physics/0306116}.
 
 \bibitem{prospino}
 W.~Beenakker, R.~Hopker \& M.~Spira.
