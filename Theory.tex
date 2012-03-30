@@ -179,7 +179,7 @@ Building an individual Lagrangian to describe the picture of weak interactions w
 The gauge group of the unified theory is $SU(2)_{L} \times U(1)_{Y}$, where $U(1)_{Y}$ is a different copy of the symmetry seen in electromagnetism, the $U(1)_{em}$ group. In this picture the conserved quantity is Y, the weak hypercharge, and the conserved quantity for the SU(2) symmetry is the weak isospin, $T_{3}$. The previous quantity conserved under $U(1)_{em}$ Q can be defined as a linear combination of the two $Q = T_{3} + \frac{Y}{2}$.  The $SU(2)_{L}$ suffix is not taken from the conserved quantity, $T_{3}$, but from it most important property, its action on only Left Handed (LH) fermions. Fermions that are Right Handed (RH) have a weak isospin $T_{3} = 0$ and do not interact via the weak force, whereas LH fermions have $T_{3} =  \pm \frac{1}{2}$ and interact via three gauge bosons. The $W^{\pm}$ bosons have each an isospin of unit 1, with a sign defined by the name, and they govern an interaction from a particle of $T_{3}=+\frac{1}{2}$ into one of $T_{3}=-\frac{1}{2}$ and vice versa, according to conservation laws. The third boson given by the SU(2) group alone is the $W^{0}$ boson of $T_{3}=0$, which allows interactions where the weak isospin stays the same. This is not a physically observed particle, as the electroweak unification leads to mixing between this and the boson given by the $U(1)_{Y}$ group to produce the photon and the $Z^{0}$ particle.
 
 
-The Lagrangian formalism for a fermion field $\psi = \psi_{L} + \psi_{R}$ must be invariant under the transformations of both $U(1)_{Y}$ and $SU(2)_{L}$. The $U(1)_{Y}$ transformation of $\psi$ and its gauge field $B_{\mu}$ are shown in Equation \ref{eqn:ewu1}, and the $SU(2)_{L}$ transformations of $\psi$ and the three gauge fields $W^{\nu}_{\mu}$ in Equation \ref{eqn:ewsu2}.
+The Lagrangian formalism for a fermion field $\psi = \psi_{L} + \psi_{R}$ must be invariant under the transformations of both $U(1)_{Y}$ and $SU(2)_{L}$. The $U(1)_{Y}$ transformation of $\psi$ and its gauge field $B_{\mu}$ are shown in Equation \ref{eqn:ewu1}, with the U(1)$_{Y}$ coupling constant $g'$ and the gauge parameter $\alpha(x)$. The $SU(2)_{L}$ transformations of $\psi$ and the three gauge fields $W^{\nu}_{\mu}$ are shown in Equations \ref{eqn:ewsu2} and \ref{eqn:ewsu2} with the SU(2)$_{L}$ gauge coupling constant $g'$ and the gauge parameters $\beta^{i}(\stc)$ for i = 1,2,3.
 
 \begin{equation}
 \psi(\stc) \rightarrow e^{i\frac{g'}{2}Y\alpha (\stc)}\psi(\stc) \qquad B_{\mu}(\stc) \rightarrow B_{\mu}(\stc) - \frac{1}{g'}\partial_{\mu}\alpha(\stc)
@@ -188,20 +188,21 @@ The Lagrangian formalism for a fermion field $\psi = \psi_{L} + \psi_{R}$ must b
 
 \begin{equation}
 \psi(\stc) \rightarrow e^{igI\sigma_{\nu} \beta^{\nu} (\stc)}\psi(\stc)
+\label{eqn:ewsu2}
 \end{equation}
 \begin{equation}
 W_{\mu}^{\nu}(\stc) \rightarrow W_{\mu}^{\nu}(\stc) - \frac{1}{g}\partial_{\mu}\beta^{\nu}(\stc) + \epsilon_{\nu \delta \theta}\beta^{\delta}(\stc)W_{\mu}^{\theta}(\stc)
-\label{eqn:ewsu2}
+\label{eqn:ewsu3}
 \end{equation}
 
 Using these formalisms the Lagrangian for the Electroweak Sector takes the form in Equation \ref{eqn:Lqfd}, where the covariant derivative is as defined in Equation \ref{eqn:QFDD}. 
 
 \begin{equation}
-\Lagr_{EW} = \sum_{fermions} \bar{\psi}i\gamma^{\mu}D_{\mu}\psi - \frac{1}{4}\sum_{\theta = 1,2,3} W_{\theta,\mu\nu}W_{\theta}^{\mu\nu} - \frac{1}{4}B_{\mu\nu}B^{\mu\nu}
+\Lagr_{EW} = \sum_{fermions} \bar{\psi}i\gamma^{\mu}D_{\mu}\psi - \frac{1}{4}\sum_{\theta = 1,2,3} W^{\theta}_{\mu\nu}W_{\theta}^{\mu\nu} - \frac{1}{4}B_{\mu\nu}B^{\mu\nu}
 \label{eqn:Lqfd}
 \end{equation}
 \begin{equation}
-\mathcal{D}_{\mu} = \partial_{\mu}-igT\sigma_{\nu}W_{\mu}^{\nu}(\stc) - ig'\frac{Y}{2}B_{\mu}(\stc)
+\mathcal{D}_{\mu} = \partial_{\mu}-ig\frac{\sigma_{\nu}}{2}W_{\mu}^{\nu}(\stc) - ig'\frac{Y}{2}B_{\mu}(\stc)
 \label{eqn:QFDD}
 \end{equation}
 
@@ -238,12 +239,12 @@ The distinction between the two forces caused by this symmetry breaking are due 
 \section{Motivation for Physics Beyond the Standard Model}
 The standard model has been widely successful, predicting the existence of particles such as the $W^{\pm}$ and Z Bosons, and the t quark, showing impressive agreement with experimental findings at the level of 0.1\%. However, there are several signs that it is not a complete theory, and that more information is needed to describe physics at higher energy scales. On the theoretical side, it is dissatisfying that the SM does not currently incorporate the gravitational force, explain the existence of dark matter and dark energy. Neutrino masses and flavour mixing are also unexplained, and the Higgs is as yet undiscovered. In addition it requires several input parameters to tune the masses of particles and flavour mixing, generally viewed as inelegant as this reliance on experimental data does not reflect the fundamental picture of nature.  The existing SM is therefore generally thought of as an effective theory, a very low energy approximation to a more complete theory\cite{PeskinSch}.
 
-The incorporation of the gravitational force has not bothered particle physicists much at the electro-weak energy scale as the strength of the effects of gravity on fundamental particles is negligible compared to the other fundamental forces. However, at an energy known as the Plank Scale, $M_{p} \sim 10^{18}$ GeV quantum gravitational effects become important, leading to the breakdown of the existing QFT picture of the Standard Model. Thus new physics must exist at this energy scale, or before, indicating the SM is only valid up to some unknown energy scale. We think of the SM as a low-energy approximation of some larger more fundamental theory. In the event that no new physics exists prior to the Plank scale, the Higgs mechanism theory requires fine-tuning to lower the Higgs mass, which is considered to be ``unnatural”. This is known as the ``hierarchy problem”.
+The incorporation of the gravitational force has not bothered particle physicists much at the electro-weak energy scale as the strength of the effects of gravity on fundamental particles is negligible compared to the other fundamental forces. However, at an energy known as the Plank Scale, $M_{p} \sim 10^{18}$ GeV quantum gravitational effects become important, leading to the breakdown of the existing QFT picture of the Standard Model. Thus new physics must exist at this energy scale, or before, indicating the SM is only valid up to some unknown energy scale. We think of the SM as a low-energy approximation of some larger more fundamental theory. In the event that no new physics exists prior to the Plank scale, the Higgs mechanism theory requires fine-tuning to lower the Higgs mass, which is considered to be ``unnatural". This is known as the ``hierarchy problem".
 
 As there are both theoretical and experimental concerns over the SM, this provokes theories Beyond the Standard Model (BSM), many of which come in to play at the TeV scale, which we are able to explore for the first time with the LHC. A detailed description of a few of the most interesting shortcomings most relevant to this thesis are given below.
 
 \subsection{The Hierarchy Problem}
-Although the Higgs Boson has yet to be observed experimentally, its mechanism is necessary to the Standard Model to provide mass to the particles, and thus is considered to exist unless proven otherwise. However, while it solves the spontaneous symmetry breaking problem, the Higgs theory introduces theoretical issues of its own. The presence of the Higgs in the SM ensures the WW scattering amplitude does not violate unitarity, but only whilst the $m_{H} < 1 \textrm{TeV}$, providing an upper bound on the expected mass\cite{WWHMass}. 
+Although the Higgs Boson has yet to be observed experimentally, its mechanism is necessary to the Standard Model to provide mass to the particles, and thus is considered to exist unless proven otherwise. However, while it solves the spontaneous symmetry breaking problem, the Higgs theory introduces theoretical issues of its own. The presence of the Higgs in the SM ensures the WW scattering amplitude does not violate unitarity, but only whilst the $m_{H} < 1$ $\textrm{TeV}$, providing an upper bound on the expected mass~\cite{WWHMass}. 
 
 However, the mass of the Higgs, given by its self interaction receives extremely large radiative corrections. This is due to the heavy fermion anti-fermion pair loop contribution, seen in Figure \ref{fig:hiloop}. 
 

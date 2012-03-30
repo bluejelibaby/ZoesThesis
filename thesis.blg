@@ -17,21 +17,17 @@ A level-1 auxiliary file: Conclusion.aux
 A level-1 auxiliary file: appA.aux
 The style file: thesis.bst
 Database file #1: papers.bib
-Warning--empty journal in PeskinBSM
-Warning--empty journal in JME-10-010
-Warning--empty journal in JME-09-008
-Warning--empty journal in MUO-10-002
-Warning--empty journal in AN-10-116
-Warning--empty journal in EGM-10-006
 Warning--empty journal in 1fbnote
 Warning--empty journal in PichSM
 Warning--empty journal in HerreroSM
 Warning--empty journal in Drees
+Warning--empty journal in PeskinBSM
 Warning--empty journal in SUSYPrime
 Warning--empty journal in TRK-10-005
 Warning--empty journal in jetroundup
 Warning--empty journal in aktrecom
 Warning--empty journal in HERWIG
+Warning--empty journal in JME-10-010
 Warning--empty journal in metrecon
 Warning--empty journal in etmissnote
 Warning--empty journal in JME-10-004
@@ -46,6 +42,10 @@ Warning--empty journal in an2010_119
 Warning--empty journal in an2009_188
 Warning--empty journal in tuneZ2
 Warning--empty journal in EWK-11-001
+Warning--empty journal in JME-09-008
+Warning--empty journal in MUO-10-002
+Warning--empty journal in AN-10-116
+Warning--empty journal in EGM-10-006
 Warning--empty journal in WZXS
 Warning--empty journal in SUS-10-001
 Warning--empty journal in roofit

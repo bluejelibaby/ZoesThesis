@@ -1,63 +1,62 @@
 \contentsline {chapter}{Abstract}{3}
 \contentsline {chapter}{Declaration}{5}
-\contentsline {chapter}{Acknowledgements}{7}
-\contentsline {chapter}{Contents}{9}
-\contentsline {chapter}{List of figures}{11}
-\contentsline {chapter}{List of tables}{14}
-\contentsline {chapter}{\numberline {1} Introduction}{17}
-\contentsline {chapter}{\numberline {2}Theoretical Overview}{19}
-\contentsline {section}{\numberline {2.1}The Standard Model}{19}
-\contentsline {subsection}{\numberline {2.1.1}Gauge Theory of Interactions}{21}
-\contentsline {subsubsection}{Quantum ElectroDynamics}{23}
-\contentsline {subsubsection}{QCD}{24}
-\contentsline {subsubsection}{The Parton Model}{26}
-\contentsline {subsubsection}{The Weak Force and Electroweak Unification}{27}
-\contentsline {subsection}{\numberline {2.1.2}EWSB and the Higgs Mechanism}{29}
-\contentsline {section}{\numberline {2.2}Motivation for Physics Beyond the Standard Model}{30}
-\contentsline {subsection}{\numberline {2.2.1}The Hierarchy Problem}{31}
-\contentsline {subsection}{\numberline {2.2.2}Cold Dark Matter}{32}
-\contentsline {subsection}{\numberline {2.2.3}Unification of Coupling Constants}{33}
-\contentsline {section}{\numberline {2.3}Supersymmetry}{33}
-\contentsline {subsection}{\numberline {2.3.1}R-Parity}{34}
-\contentsline {subsection}{\numberline {2.3.2}MSSM}{36}
-\contentsline {subsection}{\numberline {2.3.3}Supersymmetry Breaking}{37}
-\contentsline {subsection}{\numberline {2.3.4}Minimal Supergravity and the Constrained MSSM}{38}
-\contentsline {subsubsection}{Current Limits on the CMSSM}{39}
-\contentsline {subsection}{\numberline {2.3.5}Production Mechanisms in pp collisions}{40}
-\contentsline {chapter}{\numberline {3}The Compact Muon Solenoid Experiment at the LHC}{43}
-\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{43}
-\contentsline {section}{\numberline {3.2}The Compact Muon Solenoid}{46}
-\contentsline {subsection}{\numberline {3.2.1}Coordinate System}{48}
-\contentsline {subsection}{\numberline {3.2.2}Superconducting Magnet}{48}
-\contentsline {subsection}{\numberline {3.2.3}Tracker}{50}
-\contentsline {subsection}{\numberline {3.2.4}ECAL}{51}
-\contentsline {subsection}{\numberline {3.2.5}HCAL}{54}
-\contentsline {subsection}{\numberline {3.2.6}Muon System}{56}
-\contentsline {subsection}{\numberline {3.2.7}Trigger}{58}
-\contentsline {subsubsection}{Prescaled Triggers}{59}
-\contentsline {subsection}{\numberline {3.2.8}Primary Dataset}{60}
-\contentsline {chapter}{\numberline {4}Event Reconstruction}{61}
-\contentsline {section}{\numberline {4.1}Beamspot}{62}
-\contentsline {section}{\numberline {4.2}Tracks}{62}
-\contentsline {section}{\numberline {4.3}Vertex}{64}
-\contentsline {section}{\numberline {4.4}Jets}{64}
-\contentsline {subsection}{\numberline {4.4.1}The anti-k$_{T}$ jet clustering method}{65}
-\contentsline {subsection}{\numberline {4.4.2}Jet Energy Scale Corrections}{67}
-\contentsline {section}{\numberline {4.5}Missing Energy}{69}
-\contentsline {subsection}{\numberline {4.5.1}\unhbox \voidb@x \hbox {${\hbox {$E$\kern -0.6em\lower -.05ex\hbox {/}\kern 0.10em}}_\text {T}$}\xspace Corrections}{70}
-\contentsline {subsubsection}{Type I Corrections}{71}
-\contentsline {subsubsection}{Type II Corrections}{71}
-\contentsline {subsection}{\numberline {4.5.2}Using Jets for Missing Energy - \unhbox \voidb@x \hbox {${\hbox {$H$\kern -0.8em\lower -.05ex\hbox {/}\kern 0.10em}}_\text {T}$}\xspace }{72}
-\contentsline {section}{\numberline {4.6}Muons}{72}
-\contentsline {section}{\numberline {4.7}Photons}{74}
-\contentsline {section}{\numberline {4.8}Electrons}{74}
-\contentsline {chapter}{\numberline {5}Searching for SUSY with $\alpha _{T}$}{76}
-\contentsline {section}{\numberline {5.1}Inclusive SUSY Search}{76}
-\contentsline {section}{\numberline {5.2}$\alpha _{T}$ in a di-jet system}{78}
-\contentsline {section}{\numberline {5.3}$\alpha _{T}$ in a n-jet system}{80}
-\contentsline {section}{\numberline {5.4}Defining the ratio \ensuremath {R_{\ensuremath {\alpha _{\text {T}}}\xspace }}\xspace }{81}
-\contentsline {section}{\numberline {5.5}Extending $\ensuremath {\alpha _{\text {T}}}\xspace $ for single-lepton searches}{82}
-\contentsline {section}{\numberline {5.6}Reliance of \ensuremath {\alpha _{\text {T}}}\xspace on jet object definition}{83}
+\contentsline {chapter}{Contents}{7}
+\contentsline {chapter}{List of figures}{9}
+\contentsline {chapter}{List of tables}{12}
+\contentsline {chapter}{\numberline {1} Introduction}{15}
+\contentsline {chapter}{\numberline {2}Theoretical Overview}{17}
+\contentsline {section}{\numberline {2.1}The Standard Model}{17}
+\contentsline {subsection}{\numberline {2.1.1}Gauge Theory of Interactions}{19}
+\contentsline {subsubsection}{Quantum ElectroDynamics}{21}
+\contentsline {subsubsection}{QCD}{22}
+\contentsline {subsubsection}{The Parton Model}{24}
+\contentsline {subsubsection}{The Weak Force and Electroweak Unification}{25}
+\contentsline {subsection}{\numberline {2.1.2}EWSB and the Higgs Mechanism}{27}
+\contentsline {section}{\numberline {2.2}Motivation for Physics Beyond the Standard Model}{28}
+\contentsline {subsection}{\numberline {2.2.1}The Hierarchy Problem}{29}
+\contentsline {subsection}{\numberline {2.2.2}Cold Dark Matter}{30}
+\contentsline {subsection}{\numberline {2.2.3}Unification of Coupling Constants}{31}
+\contentsline {section}{\numberline {2.3}Supersymmetry}{31}
+\contentsline {subsection}{\numberline {2.3.1}R-Parity}{33}
+\contentsline {subsection}{\numberline {2.3.2}MSSM}{34}
+\contentsline {subsection}{\numberline {2.3.3}Supersymmetry Breaking}{35}
+\contentsline {subsection}{\numberline {2.3.4}Minimal Supergravity and the Constrained MSSM}{36}
+\contentsline {subsubsection}{Current Limits on the CMSSM}{37}
+\contentsline {subsection}{\numberline {2.3.5}Production Mechanisms in pp collisions}{38}
+\contentsline {chapter}{\numberline {3}The Compact Muon Solenoid Experiment at the LHC}{41}
+\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{41}
+\contentsline {section}{\numberline {3.2}The Compact Muon Solenoid}{44}
+\contentsline {subsection}{\numberline {3.2.1}Coordinate System}{46}
+\contentsline {subsection}{\numberline {3.2.2}Superconducting Magnet}{46}
+\contentsline {subsection}{\numberline {3.2.3}Tracker}{48}
+\contentsline {subsection}{\numberline {3.2.4}ECAL}{49}
+\contentsline {subsection}{\numberline {3.2.5}HCAL}{52}
+\contentsline {subsection}{\numberline {3.2.6}Muon System}{54}
+\contentsline {subsection}{\numberline {3.2.7}Trigger}{56}
+\contentsline {subsubsection}{Prescaled Triggers}{57}
+\contentsline {subsection}{\numberline {3.2.8}Primary Dataset}{58}
+\contentsline {chapter}{\numberline {4}Event Reconstruction}{59}
+\contentsline {section}{\numberline {4.1}Beamspot}{60}
+\contentsline {section}{\numberline {4.2}Tracks}{60}
+\contentsline {section}{\numberline {4.3}Vertex}{62}
+\contentsline {section}{\numberline {4.4}Jets}{62}
+\contentsline {subsection}{\numberline {4.4.1}The anti-k$_{T}$ jet clustering method}{63}
+\contentsline {subsection}{\numberline {4.4.2}Jet Energy Scale Corrections}{65}
+\contentsline {section}{\numberline {4.5}Missing Energy}{67}
+\contentsline {subsection}{\numberline {4.5.1}\unhbox \voidb@x \hbox {${\hbox {$E$\kern -0.6em\lower -.05ex\hbox {/}\kern 0.10em}}_\text {T}$}\xspace Corrections}{68}
+\contentsline {subsubsection}{Type I Corrections}{69}
+\contentsline {subsubsection}{Type II Corrections}{69}
+\contentsline {subsection}{\numberline {4.5.2}Using Jets for Missing Energy - \unhbox \voidb@x \hbox {${\hbox {$H$\kern -0.8em\lower -.05ex\hbox {/}\kern 0.10em}}_\text {T}$}\xspace }{70}
+\contentsline {section}{\numberline {4.6}Muons}{70}
+\contentsline {section}{\numberline {4.7}Photons}{72}
+\contentsline {section}{\numberline {4.8}Electrons}{72}
+\contentsline {chapter}{\numberline {5}Searching for SUSY with $\alpha _{T}$}{75}
+\contentsline {section}{\numberline {5.1}Inclusive SUSY Search}{75}
+\contentsline {section}{\numberline {5.2}$\alpha _{T}$ in a di-jet system}{77}
+\contentsline {section}{\numberline {5.3}$\alpha _{T}$ in a n-jet system}{79}
+\contentsline {section}{\numberline {5.4}Defining the ratio \ensuremath {R_{\ensuremath {\alpha _{\text {T}}}\xspace }}\xspace }{80}
+\contentsline {section}{\numberline {5.5}Extending $\ensuremath {\alpha _{\text {T}}}\xspace $ for single-lepton searches}{81}
+\contentsline {section}{\numberline {5.6}Reliance of \ensuremath {\alpha _{\text {T}}}\xspace on jet object definition}{82}
 \contentsline {chapter}{\numberline {6}All-Hadronic Analysis}{85}
 \contentsline {section}{\numberline {6.1}Samples}{85}
 \contentsline {subsection}{\numberline {6.1.1}Monte Carlo Simulation}{86}
@@ -114,6 +113,6 @@
 \contentsline {subsection}{\numberline {7.0.5}Event Yields}{130}
 \contentsline {subsection}{\numberline {7.0.6}Fit Results}{131}
 \contentsline {section}{\numberline {7.1}Interpretation}{135}
-\contentsline {chapter}{\numberline {8}Conclusion}{136}
-\contentsline {chapter}{\numberline {A}Data Samples}{138}
-\contentsline {chapter}{Bibliography}{140}
+\contentsline {chapter}{\numberline {8}Conclusion}{137}
+\contentsline {chapter}{\numberline {A}Data Samples}{139}
+\contentsline {chapter}{Bibliography}{141}

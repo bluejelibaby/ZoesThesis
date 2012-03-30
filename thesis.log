@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  30 MAR 2012 12:12
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  30 MAR 2012 16:43
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -529,9 +529,9 @@ Package: verbfwr 2003/09/25 v0.02 Verbatim file write
 ))
 ** Make sure \initfloatingfigs being called immediately
    after \begin{document} !! ** (./thesis.aux (./title.aux) (./symbols.aux)
-(./abstract.aux) (./declaration.aux) (./acknowledgements.aux)
-(./Introduction.aux) (./Theory.aux) (./Detector.aux) (./Objects.aux)
-(./AlphaT.aux) (./RA1_2.aux) (./RA4.aux) (./Conclusion.aux) (./appA.aux))
+(./abstract.aux) (./declaration.aux) (./Introduction.aux) (./Theory.aux)
+(./Detector.aux) (./Objects.aux) (./AlphaT.aux) (./RA1_2.aux) (./RA4.aux)
+(./Conclusion.aux) (./appA.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
@@ -654,24 +654,14 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ] [6
 
 
+] (./thesis.toc [7
+
 ]
-\openout2 = `acknowledgements.aux'.
-
-
-(./acknowledgements.tex) [7
-
-
-] [8
-
-
-] (./thesis.toc [9
-
-] [10])
+[8])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
- [11] (./thesis.lof
-[12
+ [9] (./thesis.lof [10
 
 ]
 Overfull \hbox (18.62277pt too wide) in paragraph at lines 23--23
@@ -683,7 +673,7 @@ Overfull \hbox (18.62277pt too wide) in paragraph at lines 23--23
 
 Underfull \vbox (badness 5091) has occurred while \output is active []
 
- [13]
+ [11]
 LaTeX Font Info:    Calculating math sizes for size <8.39996> on input line 61.
 
 
@@ -699,72 +689,88 @@ LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.19998> not available
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.19998> not available
 (Font)              size <5> substituted on input line 61.
 
+
+LaTeX Warning: Reference `ch:ra1' on page 133 undefined on input line 61.
+
+
+LaTeX Warning: Reference `ch:ra1' on page 134 undefined on input line 66.
+
 )
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
- [14] (./thesis.lot
+ [12] (./thesis.lot
 Underfull \vbox (badness 4454) has occurred while \output is active []
 
- [15
+ [13
 
-])
+]
+
+LaTeX Warning: Reference `ch:ra1' on page 132 undefined on input line 25.
+
+
+LaTeX Warning: Reference `sec:lalt' on page 132 undefined on input line 25.
+
+)
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
-
-[16]
+ [14]
 \openout2 = `Introduction.aux'.
 
  (./Introduction.tex
 Chapter 1.
-[17
+[15
 
 
 
-]) [18]
+]) [16]
 \openout2 = `Theory.aux'.
 
  (./Theory.tex
 Chapter 2.
-[19
+[17
 
 
 
-] [20] [21] [22] [23]
+
+] [18] [19] [20] [21]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <4.19998> not available
 (Font)              size <5> substituted on input line 114.
 
-[24] [25]
+[22] [23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
-[27] [28] <Figures/Theory/MHat.png, id=108, 949.5475pt x 586.19pt>
+ [24]
+[25] [26] <Figures/Theory/MHat.png, id=102, 949.5475pt x 586.19pt>
 File: Figures/Theory/MHat.png Graphic file (type png)
 
-<use Figures/Theory/MHat.png> [29]
-Missing character: There is no Ó in font cmr12!
-Missing character: There is no Ó in font cmr12!
- [30 <./Figures/Theory/MHat.png>]
-<Figures/Theory/higgsself.pdf, id=115, 390.45876pt x 175.65625pt>
+<use Figures/Theory/MHat.png> [27] [28 <./Figures/Theory/MHat.png>]
+<Figures/Theory/higgsself.pdf, id=109, 390.45876pt x 175.65625pt>
 File: Figures/Theory/higgsself.pdf Graphic file (type pdf)
 
-<use Figures/Theory/higgsself.pdf> [31] [32 <./Figures/Theory/higgsself.pdf>]
-[33] <Figures/Theory/smcoupling.pdf, id=139, 573.14125pt x 392.46625pt>
+<use Figures/Theory/higgsself.pdf> [29] [30 <./Figures/Theory/higgsself.pdf>]
+[31] <Figures/Theory/smcoupling.pdf, id=133, 573.14125pt x 392.46625pt>
 File: Figures/Theory/smcoupling.pdf Graphic file (type pdf)
 
 <use Figures/Theory/smcoupling.pdf>
-<Figures/Theory/susycoupling.pdf, id=140, 574.145pt x 388.45125pt>
+<Figures/Theory/susycoupling.pdf, id=134, 574.145pt x 388.45125pt>
 File: Figures/Theory/susycoupling.pdf Graphic file (type pdf)
 
-<use Figures/Theory/susycoupling.pdf> [34] [35 <./Figures/Theory/smcoupling.pdf
-> <./Figures/Theory/susycoupling.pdf>] [36] [37] [38] [39]
-<Figures/Theory/mSUGRA_TDR_1.pdf, id=190, 542.025pt x 520.94624pt>
+<use Figures/Theory/susycoupling.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33 <./Figures/Theory/smcoupling.pdf> <./Figures/Theory/susycoupling.pdf>] [34
+] [35]
+[36] [37] <Figures/Theory/mSUGRA_TDR_1.pdf, id=184, 542.025pt x 520.94624pt>
 File: Figures/Theory/mSUGRA_TDR_1.pdf Graphic file (type pdf)
 
-<use Figures/Theory/mSUGRA_TDR_1.pdf> [40] [41 <./Figures/Theory/mSUGRA_TDR_1.p
-df>]) [42]
+<use Figures/Theory/mSUGRA_TDR_1.pdf> [38] [39 <./Figures/Theory/mSUGRA_TDR_1.p
+df>]) [40]
 \openout2 = `Detector.aux'.
 
  (./Detector.tex
@@ -772,52 +778,53 @@ Chapter 3.
 
 Underfull \vbox (badness 1259) has occurred while \output is active []
 
- [43
+ [41
+
 
 
 
 ]
-<Figures/Detector/lhc-schematic.jpg, id=206, 375.3222pt x 391.7034pt>
+<Figures/Detector/lhc-schematic.jpg, id=199, 375.3222pt x 391.7034pt>
 File: Figures/Detector/lhc-schematic.jpg Graphic file (type jpg)
 
-<use Figures/Detector/lhc-schematic.jpg> [44] [45 <./Figures/Detector/lhc-schem
-atic.jpg>] <Figures/Detector/injection.png, id=213, 477.785pt x 339.2675pt>
+<use Figures/Detector/lhc-schematic.jpg> [42] [43 <./Figures/Detector/lhc-schem
+atic.jpg>] <Figures/Detector/injection.png, id=207, 477.785pt x 339.2675pt>
 File: Figures/Detector/injection.png Graphic file (type png)
 
-<use Figures/Detector/injection.png> [46]
-<Figures/Detector/CMS_Structure.pdf, id=218, 845.1575pt x 597.23125pt>
+<use Figures/Detector/injection.png> [44]
+<Figures/Detector/CMS_Structure.pdf, id=212, 845.1575pt x 597.23125pt>
 File: Figures/Detector/CMS_Structure.pdf Graphic file (type pdf)
 
 <use Figures/Detector/CMS_Structure.pdf>
-<Figures/Detector/CMS_Slice.png, id=219, 995.72pt x 507.8975pt>
+<Figures/Detector/CMS_Slice.png, id=213, 995.72pt x 507.8975pt>
 File: Figures/Detector/CMS_Slice.png Graphic file (type png)
 
 <use Figures/Detector/CMS_Slice.png>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47 <./Figures/Detector/injection.png>] [48 <./Figures/Detector/CMS_Structure.
+ [45 <./Figures/Detector/injection.png>] [46 <./Figures/Detector/CMS_Structure.
 pdf>]
-[49 <./Figures/Detector/CMS_Slice.png (PNG copy)>] [50] [51]
+[47 <./Figures/Detector/CMS_Slice.png (PNG copy)>] [48] [49]
 Underfull \vbox (badness 8075) has occurred while \output is active []
 
- [52]
+ [50]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53]
-<Figures/Detector/HCAL.png, id=392, 641.7576pt x 373.8768pt>
+ [51]
+<Figures/Detector/HCAL.png, id=386, 641.7576pt x 373.8768pt>
 File: Figures/Detector/HCAL.png Graphic file (type png)
 
-<use Figures/Detector/HCAL.png> [54]
+<use Figures/Detector/HCAL.png> [52]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55 <./Figures/Detector/HCAL.png>] [56]
-<Figures/Detector/MS.pdf, id=404, 437.635pt x 335.2525pt>
+ [53 <./Figures/Detector/HCAL.png>] [54]
+<Figures/Detector/MS.pdf, id=397, 437.635pt x 335.2525pt>
 File: Figures/Detector/MS.pdf Graphic file (type pdf)
 
 <use Figures/Detector/MS.pdf>
 Underfull \vbox (badness 5008) has occurred while \output is active []
 
- [57 <./Figures/Detector/MS.pdf>] [58] [59]) [60]
+ [55 <./Figures/Detector/MS.pdf>] [56] [57]) [58]
 \openout2 = `Objects.aux'.
 
  (./Objects.tex
@@ -825,68 +832,74 @@ Chapter 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61
+ [59
+
 
 
 
 ]
-[62]
+[60]
 Underfull \vbox (badness 8075) has occurred while \output is active []
 
- [63]
-[64] [65] <Figures/Objects/akt.pdf, id=447, 796.9775pt x 574.145pt>
+ [61]
+[62] [63] <Figures/Objects/akt.pdf, id=441, 796.9775pt x 574.145pt>
 File: Figures/Objects/akt.pdf Graphic file (type pdf)
 
 <use Figures/Objects/akt.pdf>
 Underfull \vbox (badness 2894) has occurred while \output is active []
 
- [66]
-[67 <./Figures/Objects/akt.pdf>] [68]
-<Figures/Objects/JESU.pdf, id=472, 569.12625pt x 546.04pt>
+ [64]
+[65 <./Figures/Objects/akt.pdf>] [66]
+<Figures/Objects/JESU.pdf, id=465, 569.12625pt x 546.04pt>
 File: Figures/Objects/JESU.pdf Graphic file (type pdf)
 
-<use Figures/Objects/JESU.pdf> [69 <./Figures/Objects/JESU.pdf>]
+<use Figures/Objects/JESU.pdf> [67 <./Figures/Objects/JESU.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70]
-[71] [72] [73] [74]) [75]
+ [68]
+[69] [70] [71] [72]) [73] [74
+
+
+]
 \openout2 = `AlphaT.aux'.
 
  (./AlphaT.tex
 Chapter 5.
-[76
-
+[75
 
 
 ]
 Underfull \vbox (badness 4132) has occurred while \output is active []
 
- [77]
+ [76]
 Underfull \vbox (badness 1803) has occurred while \output is active []
 
- [78]
-<Figures/AlphaT/forZ.pdf, id=521, 1027.84pt x 770.88pt>
+ [77]
+<Figures/AlphaT/forZ.pdf, id=517, 1027.84pt x 770.88pt>
 File: Figures/AlphaT/forZ.pdf Graphic file (type pdf)
 
-<use Figures/AlphaT/forZ.pdf> [79 <./Figures/AlphaT/forZ.pdf>] [80]
-<Figures/AlphaT/ThesisATPlot.pdf, id=550, 569.12625pt x 408.52625pt>
+<use Figures/AlphaT/forZ.pdf> [78 <./Figures/AlphaT/forZ.pdf>] [79]
+<Figures/AlphaT/ThesisATPlot.pdf, id=547, 569.12625pt x 408.52625pt>
 File: Figures/AlphaT/ThesisATPlot.pdf Graphic file (type pdf)
 
-<use Figures/AlphaT/ThesisATPlot.pdf> [81] [82 <./Figures/AlphaT/ThesisATPlot.p
+<use Figures/AlphaT/ThesisATPlot.pdf> [80] [81 <./Figures/AlphaT/ThesisATPlot.p
 df, page is rotated 90 degrees>]
-<Figures/AlphaT/aT_3.pdf, id=602, 546.04pt x 569.12625pt>
+<Figures/AlphaT/aT_3.pdf, id=599, 546.04pt x 569.12625pt>
 File: Figures/AlphaT/aT_3.pdf Graphic file (type pdf)
 
 <use Figures/AlphaT/aT_3.pdf>
-<Figures/AlphaT/aT_4.pdf, id=603, 546.04pt x 569.12625pt>
+<Figures/AlphaT/aT_4.pdf, id=600, 546.04pt x 569.12625pt>
 File: Figures/AlphaT/aT_4.pdf Graphic file (type pdf)
 
 <use Figures/AlphaT/aT_4.pdf>
-<Figures/AlphaT/aT_5.pdf, id=604, 546.04pt x 569.12625pt>
+<Figures/AlphaT/aT_5.pdf, id=601, 546.04pt x 569.12625pt>
 File: Figures/AlphaT/aT_5.pdf Graphic file (type pdf)
 
-<use Figures/AlphaT/aT_5.pdf>) [83] [84 <./Figures/AlphaT/aT_3.pdf> <./Figures/
-AlphaT/aT_4.pdf> <./Figures/AlphaT/aT_5.pdf>]
+<use Figures/AlphaT/aT_5.pdf>) [82] [83 <./Figures/AlphaT/aT_3.pdf> <./Figures/
+AlphaT/aT_4.pdf> <./Figures/AlphaT/aT_5.pdf>] [84
+
+
+]
 \openout2 = `RA1_2.aux'.
 
  (./RA1_2.tex
@@ -895,7 +908,6 @@ Chapter 6.
 Underfull \vbox (badness 1142) has occurred while \output is active []
 
  [85
-
 
 
 ]
@@ -923,12 +935,6 @@ n track and
 Underfull \hbox (badness 1320) in paragraph at lines 251--251
 []|\OT1/cmr/m/n/12 Difference in $\OML/cmm/m/it/12 ^^Q$ \OT1/cmr/m/n/12 be-twee
 n track and
- []
-
-
-Underfull \hbox (badness 1383) in paragraph at lines 255--255
-[]\OT1/cmr/m/it/12 Table 6.7: []Set of cuts ap-plied in ``WP95" Elec-tron ID, t
-aken from [[]]
  []
 
 [93]
@@ -1223,6 +1229,7 @@ Chapter 7.
 
 
 
+
 ] [130]
 <Figures/RA4/SoversqrtB_AsWas.pdf, id=1863, 569.12625pt x 385.44pt>
 File: Figures/RA4/SoversqrtB_AsWas.pdf Graphic file (type pdf)
@@ -1262,16 +1269,18 @@ f, page is rotated 90 degrees> <./Figures/RA4/SoversqrtB_noMT_noat.pdf, page is
  degrees>] [134 <./Figures/RA4/AsWas_Modified_CLs.pdf, page is rotated 90 degre
 es> <./Figures/RA4/hat_Modified_CLs.pdf, page is rotated 90 degrees> <./Figures
 /RA4/noat_Modified_CLs.pdf, page is rotated 90 degrees> <./Figures/RA4/lat_Modi
-fied_CLs.pdf, page is rotated 90 degrees>]) [135]
+fied_CLs.pdf, page is rotated 90 degrees>]) [135] [136
+
+
+]
 \openout2 = `Conclusion.aux'.
 
  (./Conclusion.tex
 Chapter 8.
-[136
+[137
 
 
-
-]) [137]
+]) [138]
 \openout2 = `appA.aux'.
 
  (./appA.tex
@@ -1282,55 +1291,56 @@ Underfull \hbox (badness 1337) in paragraph at lines 4--4
 les used in this
  []
 
-) [138
+) [139
 
 
 
-] [139] (./thesis.bbl
-Underfull \hbox (badness 1590) in paragraph at lines 65--69
+] [140] (./thesis.bbl
+Underfull \hbox (badness 1590) in paragraph at lines 8--12
 []\OT1/cmr/m/n/12 R Bain-bridge, B Betchart, O Buch-mueller, D Bur-ton, H Flaec
 her,
  []
 
-[140
+[141
 
 
-] [141]
+]
 Missing character: There is no Ÿ in font cmr12!
 Missing character: There is no  in font cmr12!
 
-Underfull \hbox (badness 1867) in paragraph at lines 183--186
+Underfull \hbox (badness 1867) in paragraph at lines 143--146
 []\OT1/cmr/m/n/12 The CMS Col-lab-o-ra-tion.  ``The Com-pact Muon Solenoid Tech
 -ni-cal
  []
 
 Missing character: There is no ‡ in font cmr12!
+[142]
 Missing character: There is no Ÿ in font cmr12!
 Missing character: There is no Ÿ in font cmr12!
 
-Underfull \hbox (badness 1917) in paragraph at lines 250--254
+Underfull \hbox (badness 1917) in paragraph at lines 215--219
 []\OT1/cmr/m/n/12 S. Catani, Yuri L. Dok-shitzer, M. H. Sey-mour & B. R. Web-be
 r.
  []
 
-[142]
-Underfull \hbox (badness 1038) in paragraph at lines 272--278
+
+Underfull \hbox (badness 1038) in paragraph at lines 242--248
 \OT1/cmr/m/n/12 R Rem-ing-ton, M Schmitt, B Scur-lock, E.A. Al-bayrak, T Yetkin
  &
  []
 
-
-Underfull \hbox (badness 1199) in paragraph at lines 298--302
+[143]
+Underfull \hbox (badness 1199) in paragraph at lines 268--272
 []\OT1/cmr/m/n/12 The CMS Col-lab-o-ra-tion.  ``Per-for-mance of muon re-con-st
 ruc-tion and
  []
 
 Missing character: There is no Ÿ in font cmr12!
-[143]
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
+[144]
 Missing character: There is no ¬ in font cmr12!
 
 Underfull \hbox (badness 1057) in paragraph at lines 400--404
@@ -1338,23 +1348,26 @@ Underfull \hbox (badness 1057) in paragraph at lines 400--404
 ata-Driven
  []
 
-[144]) [145] (./thesis.aux (./title.aux) (./symbols.aux) (./abstract.aux)
-(./declaration.aux) (./acknowledgements.aux) (./Introduction.aux) (./Theory.aux
-) (./Detector.aux) (./Objects.aux) (./AlphaT.aux) (./RA1_2.aux) (./RA4.aux)
-(./Conclusion.aux) (./appA.aux))
+[145]) [146] (./thesis.aux (./title.aux) (./symbols.aux) (./abstract.aux)
+(./declaration.aux) (./Introduction.aux) (./Theory.aux) (./Detector.aux)
+(./Objects.aux) (./AlphaT.aux) (./RA1_2.aux) (./RA4.aux) (./Conclusion.aux)
+(./appA.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.25002pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 9053 strings out of 493747
- 152953 string characters out of 3143546
- 196770 words of memory out of 3000000
- 11972 multiletter control sequences out of 15000+200000
+ 9044 strings out of 493747
+ 152787 string characters out of 3143546
+ 196438 words of memory out of 3000000
+ 11970 multiletter control sequences out of 15000+200000
  35548 words of font info for 142 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  38i,20n,44p,1747b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1392,10 +1405,10 @@ pe1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type
 public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2010/texmf-dist/fonts/ty
 pe1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2010/texmf-dist/font
 s/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (145 pages, 5241156 bytes).
+Output written on thesis.pdf (146 pages, 5241324 bytes).
 PDF statistics:
- 2371 PDF objects out of 2487 (max. 8388607)
- 1224 compressed objects within 13 object streams
+ 2374 PDF objects out of 2487 (max. 8388607)
+ 1226 compressed objects within 13 object streams
  0 named destinations out of 1000 (max. 500000)
  291 words of extra memory for PDF output out of 10000 (max. 10000000)
 
