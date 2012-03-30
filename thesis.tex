@@ -29,7 +29,7 @@
   \vskip\belowcaptionskip}
 \makeatother   % Cancel the effect of \makeatletter
 
-\include{macros}
+%\include{macros}
 \initfloatingfigs
 
 %%% helps to discourage hyphenation 10000 for no hyphens but dodgy line lengths%%%
@@ -58,15 +58,40 @@
 
 %% In the beginning ....
 \begin{document}
+   % Width of head rule
 %% First do introductory stuff - leave this as pagestyle empty until after
 %% the table of contents
 %\pagestyle{empty}
 %
+
+\fancypagestyle{plain}{
+	\fancyhf{}                          % clear all header and footer field
+	\fancyfoot[LE,RO]{\thepage}
+		
+      	\renewcommand{\headrulewidth}{0pt}
+     	 \renewcommand{\footrulewidth}{0pt}
+	   }	
+
+
 %\layout
 \pagenumbering{arabic}
 \setcounter{page}{1}
+
+\pagestyle{fancy}
+\fancyhead{} %clear all fields
+\renewcommand{\headheight}{28pt}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername \ \thechapter.\ #1}{}} 
+\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1} {}}
+
+\fancyhead[LE]{\small \slshape \leftmark}      % Chapter in the right on even pages
+\fancyhead[RO]{\small \slshape \rightmark}     % Section in the left on odd pages
+\renewcommand{\headrulewidth}{0.3pt} 
+
 \include{title}
-%\ \newpage		% Newpage needed if doing double sided.
+%\newpage		% Newpage needed if doing double sided.
 
 
 
@@ -76,42 +101,40 @@
 
 %-----------------------------------------------------------------------------
 
-\pagestyle{fancy}
-\fancyhead{} %clear all fields
-\renewcommand{\headheight}{28pt}
-\cfoot{}
-\fancyfoot[LE,RO]{\thepage}
 
-\renewcommand{\chaptermark}[1]{\markboth{\chaptername \ \thechapter.\ #1}{}} 
-\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1} {}}
-
-\fancyhead[LE]{\small \slshape \leftmark}      % Chapter in the right on even pages
-\fancyhead[RO]{\small \slshape \rightmark}     % Section in the left on odd pages
-\renewcommand{\headrulewidth}{0.3pt}    % Width of head rule
 
 %-----------------------------------------------------------------------------
 
 
-
 \include{symbols}
 \onehalfspacing
-
+\thispagestyle{plain}
+\cleardoublepage
+\thispagestyle{plain}
 \addcontentsline{toc}{chapter}{Abstract}
 \include{abstract}
+\thispagestyle{plain}
+\cleardoublepage
 
-%\ \newpage		% Newpage needed if printing double sided.
+
+
+%\newpage		% Newpage needed if printing double sided.
+%\newpage
 
 \addcontentsline{toc}{chapter}{Declaration}
 \include{declaration}
-
-%\ \newpage		% Newpage needed if printing double sided.
+\thispagestyle{plain}
+\cleardoublepage
+\thispagestyle{plain}
+%\newpage		% Newpage needed if printing double sided.
+%\newpage
 
 \addcontentsline{toc}{chapter}{Acknowledgements}
-%\include{acknowledgements}
-
+\include{acknowledgements}
+\thispagestyle{plain}
+\cleardoublepage
 \singlespacing
-
-%\ \newpage		% Newpage needed if printing double sided.
+%\newpage		% Newpage needed if printing double sided.
 
 \addcontentsline{toc}{chapter}{Contents}
 \tableofcontents
@@ -119,13 +142,12 @@
 %\ \newpage		% Newpage needed if printing double sided.
 %\ \newpage		% Newpage needed if printing double sided.
 
-%%%%%ZOE%\addcontentsline{toc}{chapter}{List of figures}
-%%%ZOE\listoffigures
+\addcontentsline{toc}{chapter}{List of figures}
+\listoffigures
 
 %\ \newpage		% Newpage needed if printing double sided.
-
-%%%%ZOE\addcontentsline{toc}{chapter}{List of tables}
-%%%%ZOE\listoftables
+\addcontentsline{toc}{chapter}{List of tables}
+\listoftables
   
 %\ \newpage		% Newpage needed if printing double sided.
 %\ \newpage		% Newpage needed if printing double sided.
@@ -134,7 +156,9 @@
 
 
 %% Now the body of the text - note that parskip has to be reset after the TOC
-
+\thispagestyle{plain}
+\cleardoublepage
+\thispagestyle{plain}
 \onehalfspacing
 %\pagenumbering{arabic}
 
