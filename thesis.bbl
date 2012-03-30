@@ -4,6 +4,63 @@
   \def\url#1{{\tt #1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{}\fi
 
+\bibitem{MexHat}
+Luis Alvarez-Gaume \& John Ellis.
+\newblock \enquote{{Eyes on a prize particle}}.
+\newblock {\em Nat Phys\/}, {\bf 7}, 1 (2011) 2--3.
+
+\bibitem{PeskinBSM}
+Michael~E. Peskin.
+\newblock \enquote{{Beyond the standard model}}.
+\newblock {hep-ph/9705479}.
+
+\bibitem{CMSTDRII}
+A~de~Roeck, A~Ball, M~Della~Negra, L~Foa \& A~Petrilli.
+\newblock \enquote{{CMS} {P}hysics: {T}echnical {D}esign {R}eport {V}olume
+  {II}, {P}hysics {P}erformance}.
+\newblock CERN, Geneva (2006).
+\newblock Revised version submitted on 2006-09-22 17:44:47.
+
+\bibitem{akt}
+Matteo Cacciari, Gavin Salam \& Gregory Soyez.
+\newblock \enquote{The anti-k$_{t}$ jet clustering algorithm}.
+\newblock {\em JHEP\/}, {\bf 0804} (2008) 063.
+
+\bibitem{JME-10-010}
+The~CMS Collaboration.
+\newblock \enquote{Jet Energy Corrections determination at 7 TeV}.
+\newblock {\bf CMS-PAS-JME-10-010}.
+
+\bibitem{35paper}
+Vardan Khachatryan et~al.
+\newblock \enquote{{Search for Supersymmetry in pp Collisions at 7 TeV in
+  Events with Jets and Missing Transverse Energy}}.
+\newblock {\em Phys.Lett.\/}, {\bf B698} (2011) 196--218, {1101.1628}.
+
+\bibitem{JME-09-008}
+The~CMS Collaboration.
+\newblock \enquote{Calorimeter Jet Quality Criteria for the First CMS Collision
+  Data}.
+\newblock {\bf CMS-PAS-JME-09-008}.
+
+\bibitem{MUO-10-002}
+The~CMS Collaboration.
+\newblock \enquote{Performance of muon identification in pp collisions at
+  $\sqrt{s}$ = 7 TeV}.
+\newblock {\bf CMS-PAS-MUO-10-002}.
+
+\bibitem{AN-10-116}
+N.~Adam et~al.
+\newblock \enquote{Measurements of Inclusive W and Z Cross Sections in pp
+  Collisions at $\sqrt{s}$ = 7 TeV}.
+\newblock {\bf CMS AN 2010/116}.
+
+\bibitem{EGM-10-006}
+The~CMS Collaboration.
+\newblock \enquote{Isolated Photon Reconstruction and Identification at at
+  sqrt(s) = 7 TeV}.
+\newblock {\bf CMS-PAS-EGM-10-006}.
+
 \bibitem{1fbnote}
 R~Bainbridge, B~Betchart, O~Buchmueller, D~Burton, H~Flaecher, Z~Hatherell,
   E~Laird, B~Mathias, P~Sphicas \& M~Stoye.
@@ -58,11 +115,6 @@ Jeffrey Goldstone, Abdus Salam \& Steven Weinberg.
 \newblock \enquote{Broken Symmetries}.
 \newblock {\em Phys. Rev.\/}, {\bf 127} (1962) 965--970.
 
-\bibitem{MexHat}
-Luis Alvarez-Gaume \& John Ellis.
-\newblock \enquote{{Eyes on a prize particle}}.
-\newblock {\em Nat Phys\/}, {\bf 7}, 1 (2011) 2--3.
-
 \bibitem{PeskinSch}
 Michael Peskin \& Daniel Schroeder.
 \newblock \enquote{{An Introduction to Quantum Field Theory}}.
@@ -95,11 +147,6 @@ Michael Dine.
 \newblock \enquote{{Supersymmetry and String Theory}}.
 \newblock Cambridge University Press (2007).
 
-\bibitem{PeskinBSM}
-Michael~E. Peskin.
-\newblock \enquote{{Beyond the standard model}}.
-\newblock {hep-ph/9705479}.
-
 \bibitem{terning}
 John Terning.
 \newblock \enquote{Modern Supersymmetry}.
@@ -120,13 +167,6 @@ S.~Dawson.
 Albert de~Roeck.
 \newblock \enquote{Early physics with ATLAS and CMS}.
 \newblock {\em Pramana Journal of Physics\/}.
-
-\bibitem{CMSTDRII}
-A~de~Roeck, A~Ball, M~Della~Negra, L~Foa \& A~Petrilli.
-\newblock \enquote{{CMS} {P}hysics: {T}echnical {D}esign {R}eport {V}olume
-  {II}, {P}hysics {P}erformance}.
-\newblock CERN, Geneva (2006).
-\newblock Revised version submitted on 2006-09-22 17:44:47.
 
 \bibitem{LHCDesign}
 Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
@@ -201,11 +241,6 @@ The~CMS Collaboration.
 \newblock \enquote{{Underlying event and jet reconstruction in CMS}}.
 \newblock {\bf CMS CR-2011/012}.
 
-\bibitem{akt}
-Matteo Cacciari, Gavin Salam \& Gregory Soyez.
-\newblock \enquote{The anti-k$_{t}$ jet clustering algorithm}.
-\newblock {\em JHEP\/}, {\bf 0804} (2008) 063.
-
 \bibitem{aktrecom}
 V~Chetluru, F~Pandolfi, P~Schieferdecker \& M~Zelinski.
 \newblock \enquote{{Jet Reconstruction Performance at CMS}}.
@@ -232,11 +267,6 @@ Torbjorn Sjostrand, Stephen Mrenna \& Peter~Z. Skands.
 \newblock \enquote{{Geant4-A Simulation Toolkit}}.
 \newblock {\em Nuclear Instruments and Methods in Physics Research A\/}, {\bf
   506} (2003) 250--303.
-
-\bibitem{JME-10-010}
-The~CMS Collaboration.
-\newblock \enquote{Jet Energy Corrections determination at 7 TeV}.
-\newblock {\bf CMS-PAS-JME-10-010}.
 
 \bibitem{metrecon}
 S~Esen, G~Landsberg, M~Titov, A~DeRoeck, M~Spiropolu, M~Tytgat, D~Puigh,
@@ -330,12 +360,6 @@ O~Buchm¨uller, L~Gouskos, Z~Hatherell, G~Karapostoli, A~Sparrow \& P~Sphicas.
   single-lepton mode SUSY searches}.
 \newblock {\bf CMS AN-2009/188}.
 
-\bibitem{35paper}
-Vardan Khachatryan et~al.
-\newblock \enquote{{Search for Supersymmetry in pp Collisions at 7 TeV in
-  Events with Jets and Missing Transverse Energy}}.
-\newblock {\em Phys.Lett.\/}, {\bf B698} (2011) 196--218, {1101.1628}.
-
 \bibitem{madgraph}
 Johan Alwall, Pavel Demin, Simon de~Visscher, Rikkert Frederix, Michel Herquet
   et~al.
@@ -360,30 +384,6 @@ B.C. Allanach.
 \newblock \enquote{Absolute Calibration of Luminosity Measurement at CMS:
   Summer 2011 Update}.
 \newblock {\bf CMS PAS EWK-11-001}.
-
-\bibitem{JME-09-008}
-The~CMS Collaboration.
-\newblock \enquote{Calorimeter Jet Quality Criteria for the First CMS Collision
-  Data}.
-\newblock {\bf CMS-PAS-JME-09-008}.
-
-\bibitem{MUO-10-002}
-The~CMS Collaboration.
-\newblock \enquote{Performance of muon identification in pp collisions at
-  $\sqrt{s}$ = 7 TeV}.
-\newblock {\bf CMS-PAS-MUO-10-002}.
-
-\bibitem{AN-10-116}
-N.~Adam et~al.
-\newblock \enquote{Measurements of Inclusive W and Z Cross Sections in pp
-  Collisions at $\sqrt{s}$ = 7 TeV}.
-\newblock {\bf CMS AN 2010/116}.
-
-\bibitem{EGM-10-006}
-The~CMS Collaboration.
-\newblock \enquote{Isolated Photon Reconstruction and Identification at at
-  sqrt(s) = 7 TeV}.
-\newblock {\bf CMS-PAS-EGM-10-006}.
 
 \bibitem{WZXS}
 {The CMS Collaboration}.

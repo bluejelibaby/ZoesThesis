@@ -3,117 +3,117 @@
 \contentsline {chapter}{Acknowledgements}{7}
 \contentsline {chapter}{Contents}{9}
 \contentsline {chapter}{List of figures}{11}
-\contentsline {chapter}{List of tables}{15}
-\contentsline {chapter}{\numberline {1} Introduction}{19}
-\contentsline {chapter}{\numberline {2}Theoretical Overview}{21}
-\contentsline {section}{\numberline {2.1}The Standard Model}{21}
-\contentsline {subsection}{\numberline {2.1.1}Gauge Theory of Interactions}{23}
-\contentsline {subsubsection}{Quantum ElectroDynamics}{25}
-\contentsline {subsubsection}{QCD}{26}
-\contentsline {subsubsection}{The Parton Model}{28}
-\contentsline {subsubsection}{The Weak Force and Electroweak Unification}{29}
-\contentsline {subsection}{\numberline {2.1.2}EWSB and the Higgs Mechanism}{31}
-\contentsline {section}{\numberline {2.2}Motivation for Physics Beyond the Standard Model}{32}
-\contentsline {subsection}{\numberline {2.2.1}The Hierarchy Problem}{33}
-\contentsline {subsection}{\numberline {2.2.2}Cold Dark Matter}{34}
-\contentsline {subsection}{\numberline {2.2.3}Unification of Coupling Constants}{35}
-\contentsline {section}{\numberline {2.3}Supersymmetry}{35}
-\contentsline {subsection}{\numberline {2.3.1}R-Parity}{36}
-\contentsline {subsection}{\numberline {2.3.2}MSSM}{38}
-\contentsline {subsection}{\numberline {2.3.3}Supersymmetry Breaking}{39}
-\contentsline {subsection}{\numberline {2.3.4}Minimal Supergravity and the Constrained MSSM}{40}
-\contentsline {subsubsection}{Current Limits on the CMSSM}{41}
-\contentsline {subsection}{\numberline {2.3.5}Production Mechanisms in pp collisions}{42}
-\contentsline {chapter}{\numberline {3}The Compact Muon Solenoid Experiment at the LHC}{45}
-\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{45}
-\contentsline {section}{\numberline {3.2}The Compact Muon Solenoid}{48}
-\contentsline {subsection}{\numberline {3.2.1}Coordinate System}{50}
-\contentsline {subsection}{\numberline {3.2.2}Superconducting Magnet}{50}
-\contentsline {subsection}{\numberline {3.2.3}Tracker}{52}
-\contentsline {subsection}{\numberline {3.2.4}ECAL}{53}
-\contentsline {subsection}{\numberline {3.2.5}HCAL}{56}
-\contentsline {subsection}{\numberline {3.2.6}Muon System}{58}
-\contentsline {subsection}{\numberline {3.2.7}Trigger}{60}
-\contentsline {subsubsection}{Prescaled Triggers}{61}
-\contentsline {subsection}{\numberline {3.2.8}Primary Dataset}{62}
-\contentsline {chapter}{\numberline {4}Event Reconstruction}{63}
-\contentsline {section}{\numberline {4.1}Beamspot}{64}
-\contentsline {section}{\numberline {4.2}Tracks}{64}
-\contentsline {section}{\numberline {4.3}Vertex}{66}
-\contentsline {section}{\numberline {4.4}Jets}{66}
-\contentsline {subsection}{\numberline {4.4.1}The anti-k$_{T}$ jet clustering method}{67}
-\contentsline {subsection}{\numberline {4.4.2}Jet Energy Scale Corrections}{69}
-\contentsline {section}{\numberline {4.5}Missing Energy}{71}
-\contentsline {subsection}{\numberline {4.5.1}\unhbox \voidb@x \hbox {${\hbox {$E$\kern -0.6em\lower -.05ex\hbox {/}\kern 0.10em}}_\text {T}$}\xspace Corrections}{72}
-\contentsline {subsubsection}{Type I Corrections}{73}
-\contentsline {subsubsection}{Type II Corrections}{73}
-\contentsline {subsection}{\numberline {4.5.2}Using Jets for Missing Energy - \unhbox \voidb@x \hbox {${\hbox {$H$\kern -0.8em\lower -.05ex\hbox {/}\kern 0.10em}}_\text {T}$}\xspace }{74}
-\contentsline {section}{\numberline {4.6}Muons}{74}
-\contentsline {section}{\numberline {4.7}Photons}{76}
-\contentsline {section}{\numberline {4.8}Electrons}{76}
-\contentsline {chapter}{\numberline {5}Searching for SUSY with $\alpha _{T}$}{78}
-\contentsline {section}{\numberline {5.1}Inclusive SUSY Search}{78}
-\contentsline {section}{\numberline {5.2}$\alpha _{T}$ in a di-jet system}{80}
-\contentsline {section}{\numberline {5.3}$\alpha _{T}$ in a n-jet system}{82}
-\contentsline {section}{\numberline {5.4}Defining the ratio \ensuremath {R_{\ensuremath {\alpha _{\text {T}}}\xspace }}\xspace }{83}
-\contentsline {section}{\numberline {5.5}Extending $\ensuremath {\alpha _{\text {T}}}\xspace $ for single-lepton searches}{84}
-\contentsline {section}{\numberline {5.6}Reliance of \ensuremath {\alpha _{\text {T}}}\xspace on jet object definition}{85}
-\contentsline {chapter}{\numberline {6}All-Hadronic Analysis}{87}
-\contentsline {section}{\numberline {6.1}Samples}{87}
-\contentsline {subsection}{\numberline {6.1.1}Monte Carlo Simulation}{88}
-\contentsline {subsubsection}{Standard Model}{88}
-\contentsline {subsubsection}{CMSSM SUSY Signal}{89}
-\contentsline {subsection}{\numberline {6.1.2}Data Sample}{90}
-\contentsline {section}{\numberline {6.2}Analysis Framework}{90}
-\contentsline {section}{\numberline {6.3}Trigger}{90}
-\contentsline {section}{\numberline {6.4}Object Definitions}{93}
-\contentsline {subsection}{\numberline {6.4.1}Good Event Definition}{93}
-\contentsline {subsection}{\numberline {6.4.2}Jets}{93}
-\contentsline {subsection}{\numberline {6.4.3}$\ensuremath {H_{T}}\xspace $ and \unhbox \voidb@x \hbox {${\hbox {$H$\kern -0.8em\lower -.05ex\hbox {/}\kern 0.10em}}_\text {T}$}\xspace }{94}
-\contentsline {subsection}{\numberline {6.4.4}Muons}{94}
-\contentsline {subsection}{\numberline {6.4.5}Electrons}{95}
-\contentsline {subsection}{\numberline {6.4.6}Photons}{95}
-\contentsline {section}{\numberline {6.5}Pre-Selection}{96}
-\contentsline {section}{\numberline {6.6}Final Signal Selection}{97}
-\contentsline {section}{\numberline {6.7}An $\ensuremath {H_{T}}\xspace $ Shape Analysis}{98}
-\contentsline {section}{\numberline {6.8}Hadronic Signal Region Results}{99}
-\contentsline {subsection}{\numberline {6.8.1}Data to Monte-Carlo Comparisons }{99}
-\contentsline {subsection}{\numberline {6.8.2}$R_{\alpha _{T}}$ on $H_{T}$}{102}
-\contentsline {subsubsection}{Hadronic Bulk Control Selection}{102}
-\contentsline {subsection}{\numberline {6.8.3}Composition of Selected \ensuremath {\rm {t}\mathaccentV {bar}016{\rm {t}} + jets}\xspace and \ensuremath {\rm W + jets}\xspace Background Events}{105}
-\contentsline {section}{\numberline {6.9}Estimation of t$\mathaccentV {bar}016{\textrm {t}}$ and W + Jets Backgrounds with a high $p_{T}$ control sample using W $\ensuremath {\rightarrow }\mu \nu $ events.}{105}
-\contentsline {subsection}{\numberline {6.9.1}Muon Control Sample Selection}{107}
-\contentsline {subsection}{\numberline {6.9.2}Prediction Calculation}{108}
-\contentsline {subsection}{\numberline {6.9.3}$\mu $ Control Sample Systematic Uncertainty}{108}
-\contentsline {subsubsection}{Dependance of the Prediction Calculation}{112}
-\contentsline {subsubsection}{Components of the Overall Uncertainty}{113}
-\contentsline {subsection}{\numberline {6.9.4}Signal Contamination in Muon Control Sample}{115}
-\contentsline {section}{\numberline {6.10}Estimation of Z $\ensuremath {\rightarrow }\nu \mathaccentV {bar}016{\nu }$ + jets background using photon + jets events}{116}
-\contentsline {subsection}{\numberline {6.10.1}Z Background Prediction Calculation}{116}
-\contentsline {subsection}{\numberline {6.10.2}Photon Control Sample Systematic Uncertainty}{118}
-\contentsline {subsection}{\numberline {6.10.3}Cross-Prediction between Control Samples}{119}
-\contentsline {section}{\numberline {6.11}Signal Region Systematic Uncertainties}{120}
-\contentsline {subsubsection}{Luminosity}{120}
-\contentsline {subsubsection}{Effect of dead ECAL cut}{120}
-\contentsline {subsubsection}{Effect of e/$\mu $/$\gamma $ Vetoes}{120}
-\contentsline {subsubsection}{Jet Energy Scale and Resolution}{120}
-\contentsline {subsubsection}{Theoretical Uncertainty}{121}
-\contentsline {section}{\numberline {6.12}Statistical Interpretation}{121}
-\contentsline {subsection}{\numberline {6.12.1}Hadronic Signal Selection Likelihood}{121}
-\contentsline {subsection}{\numberline {6.12.2}Expression of b$^{i}$ using \ensuremath {R_{\ensuremath {\alpha _{\text {T}}}\xspace }}\xspace evolution in \ensuremath {H_{T}}\xspace }{122}
-\contentsline {subsection}{\numberline {6.12.3}Electroweak Control Sample Likelihoods}{123}
-\contentsline {subsection}{\numberline {6.12.4}Presence of Signal}{124}
-\contentsline {subsection}{\numberline {6.12.5}Total Likelihood}{124}
-\contentsline {section}{\numberline {6.13}Testing the SM-only hypothesis}{125}
-\contentsline {section}{\numberline {6.14}Excluding Signal Models}{127}
-\contentsline {subsection}{\numberline {6.14.1}Constructing a Test Statistic}{127}
-\contentsline {subsection}{\numberline {6.14.2}The CL$_{S}$ Method}{128}
-\contentsline {subsection}{\numberline {6.14.3}Setting an Exclusion Limit in the CMSSM Plane}{129}
-\contentsline {chapter}{\numberline {7}Extending the $\mu $ Control Sample to a Signal Sample}{131}
-\contentsline {subsection}{\numberline {7.0.4}Relaxing the Cuts}{131}
-\contentsline {subsection}{\numberline {7.0.5}Event Yields}{132}
-\contentsline {subsection}{\numberline {7.0.6}Fit Results}{133}
-\contentsline {section}{\numberline {7.1}Interpretation}{137}
-\contentsline {chapter}{\numberline {8}Conclusion}{138}
-\contentsline {chapter}{\numberline {A}Data Samples}{140}
-\contentsline {chapter}{Bibliography}{142}
+\contentsline {chapter}{List of tables}{14}
+\contentsline {chapter}{\numberline {1} Introduction}{17}
+\contentsline {chapter}{\numberline {2}Theoretical Overview}{19}
+\contentsline {section}{\numberline {2.1}The Standard Model}{19}
+\contentsline {subsection}{\numberline {2.1.1}Gauge Theory of Interactions}{21}
+\contentsline {subsubsection}{Quantum ElectroDynamics}{23}
+\contentsline {subsubsection}{QCD}{24}
+\contentsline {subsubsection}{The Parton Model}{26}
+\contentsline {subsubsection}{The Weak Force and Electroweak Unification}{27}
+\contentsline {subsection}{\numberline {2.1.2}EWSB and the Higgs Mechanism}{29}
+\contentsline {section}{\numberline {2.2}Motivation for Physics Beyond the Standard Model}{30}
+\contentsline {subsection}{\numberline {2.2.1}The Hierarchy Problem}{31}
+\contentsline {subsection}{\numberline {2.2.2}Cold Dark Matter}{32}
+\contentsline {subsection}{\numberline {2.2.3}Unification of Coupling Constants}{33}
+\contentsline {section}{\numberline {2.3}Supersymmetry}{33}
+\contentsline {subsection}{\numberline {2.3.1}R-Parity}{34}
+\contentsline {subsection}{\numberline {2.3.2}MSSM}{36}
+\contentsline {subsection}{\numberline {2.3.3}Supersymmetry Breaking}{37}
+\contentsline {subsection}{\numberline {2.3.4}Minimal Supergravity and the Constrained MSSM}{38}
+\contentsline {subsubsection}{Current Limits on the CMSSM}{39}
+\contentsline {subsection}{\numberline {2.3.5}Production Mechanisms in pp collisions}{40}
+\contentsline {chapter}{\numberline {3}The Compact Muon Solenoid Experiment at the LHC}{43}
+\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{43}
+\contentsline {section}{\numberline {3.2}The Compact Muon Solenoid}{46}
+\contentsline {subsection}{\numberline {3.2.1}Coordinate System}{48}
+\contentsline {subsection}{\numberline {3.2.2}Superconducting Magnet}{48}
+\contentsline {subsection}{\numberline {3.2.3}Tracker}{50}
+\contentsline {subsection}{\numberline {3.2.4}ECAL}{51}
+\contentsline {subsection}{\numberline {3.2.5}HCAL}{54}
+\contentsline {subsection}{\numberline {3.2.6}Muon System}{56}
+\contentsline {subsection}{\numberline {3.2.7}Trigger}{58}
+\contentsline {subsubsection}{Prescaled Triggers}{59}
+\contentsline {subsection}{\numberline {3.2.8}Primary Dataset}{60}
+\contentsline {chapter}{\numberline {4}Event Reconstruction}{61}
+\contentsline {section}{\numberline {4.1}Beamspot}{62}
+\contentsline {section}{\numberline {4.2}Tracks}{62}
+\contentsline {section}{\numberline {4.3}Vertex}{64}
+\contentsline {section}{\numberline {4.4}Jets}{64}
+\contentsline {subsection}{\numberline {4.4.1}The anti-k$_{T}$ jet clustering method}{65}
+\contentsline {subsection}{\numberline {4.4.2}Jet Energy Scale Corrections}{67}
+\contentsline {section}{\numberline {4.5}Missing Energy}{69}
+\contentsline {subsection}{\numberline {4.5.1}\unhbox \voidb@x \hbox {${\hbox {$E$\kern -0.6em\lower -.05ex\hbox {/}\kern 0.10em}}_\text {T}$}\xspace Corrections}{70}
+\contentsline {subsubsection}{Type I Corrections}{71}
+\contentsline {subsubsection}{Type II Corrections}{71}
+\contentsline {subsection}{\numberline {4.5.2}Using Jets for Missing Energy - \unhbox \voidb@x \hbox {${\hbox {$H$\kern -0.8em\lower -.05ex\hbox {/}\kern 0.10em}}_\text {T}$}\xspace }{72}
+\contentsline {section}{\numberline {4.6}Muons}{72}
+\contentsline {section}{\numberline {4.7}Photons}{74}
+\contentsline {section}{\numberline {4.8}Electrons}{74}
+\contentsline {chapter}{\numberline {5}Searching for SUSY with $\alpha _{T}$}{76}
+\contentsline {section}{\numberline {5.1}Inclusive SUSY Search}{76}
+\contentsline {section}{\numberline {5.2}$\alpha _{T}$ in a di-jet system}{78}
+\contentsline {section}{\numberline {5.3}$\alpha _{T}$ in a n-jet system}{80}
+\contentsline {section}{\numberline {5.4}Defining the ratio \ensuremath {R_{\ensuremath {\alpha _{\text {T}}}\xspace }}\xspace }{81}
+\contentsline {section}{\numberline {5.5}Extending $\ensuremath {\alpha _{\text {T}}}\xspace $ for single-lepton searches}{82}
+\contentsline {section}{\numberline {5.6}Reliance of \ensuremath {\alpha _{\text {T}}}\xspace on jet object definition}{83}
+\contentsline {chapter}{\numberline {6}All-Hadronic Analysis}{85}
+\contentsline {section}{\numberline {6.1}Samples}{85}
+\contentsline {subsection}{\numberline {6.1.1}Monte Carlo Simulation}{86}
+\contentsline {subsubsection}{Standard Model}{86}
+\contentsline {subsubsection}{CMSSM SUSY Signal}{87}
+\contentsline {subsection}{\numberline {6.1.2}Data Sample}{88}
+\contentsline {section}{\numberline {6.2}Analysis Framework}{88}
+\contentsline {section}{\numberline {6.3}Trigger}{88}
+\contentsline {section}{\numberline {6.4}Object Definitions}{91}
+\contentsline {subsection}{\numberline {6.4.1}Good Event Definition}{91}
+\contentsline {subsection}{\numberline {6.4.2}Jets}{91}
+\contentsline {subsection}{\numberline {6.4.3}$\ensuremath {H_{T}}\xspace $ and \unhbox \voidb@x \hbox {${\hbox {$H$\kern -0.8em\lower -.05ex\hbox {/}\kern 0.10em}}_\text {T}$}\xspace }{92}
+\contentsline {subsection}{\numberline {6.4.4}Muons}{92}
+\contentsline {subsection}{\numberline {6.4.5}Electrons}{93}
+\contentsline {subsection}{\numberline {6.4.6}Photons}{93}
+\contentsline {section}{\numberline {6.5}Pre-Selection}{94}
+\contentsline {section}{\numberline {6.6}Final Signal Selection}{95}
+\contentsline {section}{\numberline {6.7}An $\ensuremath {H_{T}}\xspace $ Shape Analysis}{96}
+\contentsline {section}{\numberline {6.8}Hadronic Signal Region Results}{97}
+\contentsline {subsection}{\numberline {6.8.1}Data to Monte-Carlo Comparisons }{97}
+\contentsline {subsection}{\numberline {6.8.2}$R_{\alpha _{T}}$ on $H_{T}$}{100}
+\contentsline {subsubsection}{Hadronic Bulk Control Selection}{100}
+\contentsline {subsection}{\numberline {6.8.3}Composition of Selected \ensuremath {\rm {t}\mathaccentV {bar}016{\rm {t}} + jets}\xspace and \ensuremath {\rm W + jets}\xspace Background Events}{103}
+\contentsline {section}{\numberline {6.9}Estimation of t$\mathaccentV {bar}016{\textrm {t}}$ and W + Jets Backgrounds with a high $p_{T}$ control sample using W $\ensuremath {\rightarrow }\mu \nu $ events.}{103}
+\contentsline {subsection}{\numberline {6.9.1}Muon Control Sample Selection}{105}
+\contentsline {subsection}{\numberline {6.9.2}Prediction Calculation}{106}
+\contentsline {subsection}{\numberline {6.9.3}$\mu $ Control Sample Systematic Uncertainty}{106}
+\contentsline {subsubsection}{Dependance of the Prediction Calculation}{110}
+\contentsline {subsubsection}{Components of the Overall Uncertainty}{111}
+\contentsline {subsection}{\numberline {6.9.4}Signal Contamination in Muon Control Sample}{113}
+\contentsline {section}{\numberline {6.10}Estimation of Z $\ensuremath {\rightarrow }\nu \mathaccentV {bar}016{\nu }$ + jets background using photon + jets events}{114}
+\contentsline {subsection}{\numberline {6.10.1}Z Background Prediction Calculation}{114}
+\contentsline {subsection}{\numberline {6.10.2}Photon Control Sample Systematic Uncertainty}{116}
+\contentsline {subsection}{\numberline {6.10.3}Cross-Prediction between Control Samples}{117}
+\contentsline {section}{\numberline {6.11}Signal Region Systematic Uncertainties}{118}
+\contentsline {subsubsection}{Luminosity}{118}
+\contentsline {subsubsection}{Effect of dead ECAL cut}{118}
+\contentsline {subsubsection}{Effect of e/$\mu $/$\gamma $ Vetoes}{118}
+\contentsline {subsubsection}{Jet Energy Scale and Resolution}{118}
+\contentsline {subsubsection}{Theoretical Uncertainty}{119}
+\contentsline {section}{\numberline {6.12}Statistical Interpretation}{119}
+\contentsline {subsection}{\numberline {6.12.1}Hadronic Signal Selection Likelihood}{119}
+\contentsline {subsection}{\numberline {6.12.2}Expression of b$^{i}$ using \ensuremath {R_{\ensuremath {\alpha _{\text {T}}}\xspace }}\xspace evolution in \ensuremath {H_{T}}\xspace }{120}
+\contentsline {subsection}{\numberline {6.12.3}Electroweak Control Sample Likelihoods}{121}
+\contentsline {subsection}{\numberline {6.12.4}Presence of Signal}{122}
+\contentsline {subsection}{\numberline {6.12.5}Total Likelihood}{122}
+\contentsline {section}{\numberline {6.13}Testing the SM-only hypothesis}{123}
+\contentsline {section}{\numberline {6.14}Excluding Signal Models}{125}
+\contentsline {subsection}{\numberline {6.14.1}Constructing a Test Statistic}{125}
+\contentsline {subsection}{\numberline {6.14.2}The CL$_{S}$ Method}{126}
+\contentsline {subsection}{\numberline {6.14.3}Setting an Exclusion Limit in the CMSSM Plane}{127}
+\contentsline {chapter}{\numberline {7}Extending the $\mu $ Control Sample to a Signal Sample}{129}
+\contentsline {subsection}{\numberline {7.0.4}Relaxing the Cuts}{129}
+\contentsline {subsection}{\numberline {7.0.5}Event Yields}{130}
+\contentsline {subsection}{\numberline {7.0.6}Fit Results}{131}
+\contentsline {section}{\numberline {7.1}Interpretation}{135}
+\contentsline {chapter}{\numberline {8}Conclusion}{136}
+\contentsline {chapter}{\numberline {A}Data Samples}{138}
+\contentsline {chapter}{Bibliography}{140}
