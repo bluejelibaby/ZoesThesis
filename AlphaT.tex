@@ -57,7 +57,14 @@ The transverse variant of this variable, given in Equation~\ref{eqn:alpha} makes
 \label{eqn:alphat}
 \end{equation}
 
-In this case a well-measured QCD event will have exactly 0.5. While both show equally strong power of background discrimination, $\alpha_{T}$ has greater signal retention for certain mSUGRA points~\cite{PASaT}, and therefore is deemed comparable or superior. It is upon this variable that the search strategy is formed. The presence of the second jet energy in the numerator also gives rise to one of the most important properties of this variable, its resilience to jet mismeasurement. If there is a large mismeasurement of one of the jets, the order could be inverted. As a perfectly measured QCD event yields \alt = 0.5, the cut chosen is \alt $>$ 0.55 in order to take into account the finite resolution of the jet energy measurement.  
+In this case a well-measured QCD event will have exactly 0.5. While both show equally strong power of background discrimination, $\alpha_{T}$ has greater signal retention for certain mSUGRA points~\cite{PASaT}, and therefore is deemed comparable or superior. It is upon this variable that the search strategy is formed. The presence of the second jet energy in the numerator also gives rise to one of the most important properties of this variable, its resilience to jet mismeasurement. If there is a large mismeasurement of one of the jets, the order could be inverted. As a perfectly measured QCD event yields \alt = 0.5, the cut chosen is \alt $>$ 0.55 in order to take into account the finite resolution of the jet energy measurement.  The distribution of \alt in Monte Carlo dijet events is shown in Figure~\ref{fig:atedgedi} illustrating the sharp edge at this cut value in the QCD events, alongside the distributions from electroweak backgrounds and two possible SUSY points LM4 \& LM6 for reference.
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{Figures/AlphaT/Thesis_dijet_ATPlot}
+\caption[Distributions of \alt in di-jet events from Monte Carlo for QCD and the electroweak backgrounds W, \tto and Z + jets, indicating the sharp edge in QCD at the standard cut value of 0.55.]{\label{fig:atedgedi}Distributions of \alt in di-jet events from Monte Carlo for QCD and the electroweak backgrounds W, \tto and Z + jets, indicating the sharp edge in QCD at the standard cut value of 0.55. Also shown are the distributions of the two SUSY CMSSM test points LM4 and LM6.}
+\end{center}
+\end{figure}
 
 
 The explicit reliance of \alt on $\Delta \phi$ can be seen when the relationship is rewritten in the massless limit, in Equation~\ref{eqn:alphatphi}. This relationship indicates a high correlation, and thus a cut on \alt renders a further cut on $\Delta \phi$ negligible~\cite{ANaT}.
@@ -82,12 +89,12 @@ The two pseudo-jets are built by merging the n jets present in two sets with a v
 
 The second form of the definition shows its dependence on the ratios of $\Delta \HT$ and \mht to the overall \HT of the event. In a well measured QCD event there is no \mht, and $\Delta \HT / \HT < \sfrac{1}{3}$, from which the maximal value comes from the rare ``Mercedes Star" QCD event with three jets of equal mass and momenta with the $\Delta \phi$ between any chosen two being equal. Therefore with an ideal detector QCD events have $0.333 < \alt < 0.5$, but a large mismeasurement can lead to a high \mht which can raise the values of \alt. The chosen cut value of \alt $>$ 0.55 corresponds to a missing energy fraction \mht / \HT $>$ 0.4, and as this occurs in QCD events the ratio $\Delta \HT / \HT$ is liable to increase also. This relationship prevents \alt for QCD events from significantly exceeding 0.5 unless an object of sizeable momentum were missed altogether in the calculation. 
 
-It has been shown that whilst the sharp cut-off for QCD events at \alt = 0.5 becomes less distinct, it is still pronounced as can be seen in Figure~\ref{fig:atedge} and thus retains the powerful background rejection properties desired~\cite{an2009_56}. Performance tests with smeared jet energies show the \alt variable applied to a multi-jet analysis is robust to jet mismeasurement, and superior in this area to a standard \met analysis. The jet energy scale does not directly affect \alt but its resolution improves for increasing \HT, as demonstrated with 7~TeV data in Reference~\cite{an2010_119}. 
+Whilst the sharp cut-off for QCD events at \alt = 0.5 becomes less distinct, it is still pronounced as can be seen in Figure~\ref{fig:atedge} and thus retains the powerful background rejection properties desired~\cite{an2009_56}. Performance tests with smeared jet energies show the \alt variable applied to a multi-jet analysis is robust to jet mismeasurement, and superior in this area to a standard \met analysis. The jet energy scale does not directly affect \alt but its resolution improves for increasing \HT, as demonstrated with 7~TeV data in Reference~\cite{an2010_119}. 
 
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=0.6\textwidth]{Figures/AlphaT/ThesisATPlot}
-\caption[Distributions of \alt in multi-jet events form Monte Carlo for QCD and the electroweak backgrounds W, \tto and Z + jets, indicating the sharp edge around the standard cut value of 0.55.]{\label{fig:atedge}Distributions of \alt in multi-jet events form Monte Carlo for QCD and the electroweak backgrounds W, \tto and Z + jets, indicating the sharp edge around the standard cut value of 0.55. Also shown are the distributions of the two SUSY CMSSM test points LM4 and LM6.}
+\caption[Distributions of \alt in multi-jet events from Monte Carlo for QCD and the electroweak backgrounds W, \tto and Z + jets, indicating the sharp edge around the standard cut value of 0.55.]{\label{fig:atedge}Distributions of \alt in multi-jet events from Monte Carlo for QCD and the electroweak backgrounds W, \tto and Z + jets, indicating the sharp edge around the standard cut value of 0.55. Also shown are the distributions of the two SUSY CMSSM test points LM4 and LM6.}
 \end{center}
 \end{figure}
 
@@ -102,7 +109,17 @@ The proportion of SUSY signal to background differs greatly with the $\HT$ of th
 \label{eqn:rat}
 \end{equation}
 
-The relationship of this variable with $\HT$ can then be studied for background processes and potential SUSY signal using Monte Carlo samples. Where QCD events with no real missing energy dominate the numerator, tightening the $\HT$ cut results in a decreasing \RaT. If the QCD background is negligible due to a successful \alt cut, the now-dominating  electroweak backgrounds contribute some real missing energy in the form of neutrinos and exhibit a flat relationship with \HT. However, in the presence of an mSUGRA SUSY signal in the numerator an increase of $\HT$ corresponds to an increasing \RaT. These three distinctive behaviours provide a strong search strategy using \RaT in exclusive bins of \HT. These trends have been shown to be robust to jet mismeasurements, or even when 1 jet in 25 is not included in the calculation~\cite{an2010_119}
+The relationship of this variable with $\HT$ can then be studied for background processes and potential SUSY signal using Monte Carlo samples. Where QCD events with no real missing energy dominate the numerator, tightening the $\HT$ cut results in a decreasing \RaT. If the QCD background is negligible due to a successful \alt cut, the now-dominating  electroweak backgrounds contribute some real missing energy in the form of neutrinos and exhibit a flat relationship with \HT. However, in the presence of an mSUGRA SUSY signal in the numerator an increase of $\HT$ corresponds to an increasing \RaT. Taken from \ref{35paper}, Figure~\ref{fig:ratfigs} (left) exhibits the background trends using a lowered cut of \alt > 0.51 to demonstrate the behaviour with QCD in the numerator, and 0.55 to show the flat electroweak relationship. Figure~\ref{fig:ratfigs} (right) shows the behaviour with the inclusion of CMSSM SUSY signal points LM0 and LM1. These three distinct trends provide a strong search strategy using \RaT in exclusive bins of \HT. These trends have been shown to be robust to jet mismeasurements, or even when 1 jet in 25 is not included in the calculation~\cite{an2010_119}
+
+
+\begin{figure}[htbp]
+\begin{center}
+\subfigure[]{\includegraphics[width=0.45\textwidth]{Figures/AlphaT/RaT_bkd}}
+\subfigure[]{\includegraphics[width=0.45\textwidth]{Figures/AlphaT/RaT_sig}}
+
+\caption[(a)The relationships of \RaT with \HT in SM Monte Carlo and 35~pb$^{-1}$ CMS 2010 Data  background with standard \alt cut 0.55 ensuring electroweak only in numerator (W shown alongside) and 0.51 allowing QCD into numerator. (b) The relationships of \RaT with \HT in SM Monte Carlo with the inclusion of two CMSSM test points LM0 \& LM1.]{\label{fig:atedge}(a)The relationships of \RaT with \HT in SM Monte Carlo and 35~pb$^{-1}$ CMS 2010 Data  background with standard \alt cut 0.55 ensuring electroweak only in numerator (W shown alongside) and 0.51 allowing QCD into numerator. (b) The relationships of \RaT with \HT in SM Monte Carlo with the inclusion of two CMSSM test points LM0 \& LM1. Taken from~\cite{35paper}}
+\end{center}
+\end{figure}
 
 
 
