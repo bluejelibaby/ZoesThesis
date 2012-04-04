@@ -87,7 +87,7 @@ The set of possible transformations is described in the language of Group Theory
 
 The fundamental electromagnetic force is studied in quantum field theory as Quantum ElectroDynamics (QED), the oldest and simplest of the theories brought together to form the SM. The symmetry group of QED is U(1) and this gives an associated conserved quantity, the electric charge Q. The electromagnetic force is carried by the massless boson, the photon, and affects only the charged fermions. The symmetry allows no self interaction of the photon. The fermion field $\psi_{q}$ with charge $q$ and mass $m_{q}$ with symmetries under the group of transformations $e^{-i\alpha(\stc)}$ gives rise to the Lagrangian in Equation \ref{eqn:QEDL}.
 \begin{equation}
-\Lagr_{QED} = \bar{\psi}_{q}(\stc)(i \gamma^{\mu}\mathcal{D}_{QED} - m_{q}) \psi_{q}(\stc) - \frac{1}{4}F_{\mu \nu}F^{\mu \nu}
+\Lagr_{QED} = \bar{\psi}_{q}(\stc)(i \gamma^{\mu}\slashed{\mathcal{D}}_{QED} - m_{q}) \psi_{q}(\stc) - \frac{1}{4}F_{\mu \nu}F^{\mu \nu}
 \label{eqn:QEDL}
 \end{equation}
 
@@ -103,7 +103,7 @@ A_{\mu}(\stc) \rightarrow A_{\mu}(\stc) + \partial_{\mu} \alpha(\stc)
 \label{AQED}
 \end{equation}
 
-The  covariant derivative, $\slashed{D}_{QED,\mu}$ is defined as in Equation \ref{eqn:QEDD} so as to maintain an invariance to local U(1) charge symmetry. 
+The  covariant derivative, $\slashed{\mathcal{D}}_{QED,\mu}$ is defined as in Equation \ref{eqn:QEDD} so as to maintain an invariance to local U(1) charge symmetry. 
 \begin{equation}
 \slashed{\mathcal{D}}_{QED} = \partial_{\mu} + iqA_{\mu}
 \label{eqn:QEDD}
@@ -136,7 +136,7 @@ A^{\alpha}_{\mu}(\stc) \rightarrow A^{\alpha}_{\mu}(\stc) = \frac{1}{g_{s}} \par
 The Lagrangian for a quark carrying colour $\alpha$ is then described in Equation \ref{eqn:QCDL}
 
 \begin{equation}
-\Lagr_{QCD} = \sum_{q} \bar{q}(i \gamma^{\mu}\slashed{D}_{QCD} - m_{q}) q - \frac{1}{4}G^{\alpha}_{\mu \nu}G^{\mu \nu}_{\alpha}
+\Lagr_{QCD} = \sum_{q} \bar{q}(i \gamma^{\mu}\slashed{\mathcal{D}}_{QCD} - m_{q}) q - \frac{1}{4}G^{\alpha}_{\mu \nu}G^{\mu \nu}_{\alpha}
 \label{eqn:QCDL}
 \end{equation}
 
@@ -197,11 +197,11 @@ W_{\mu}^{\nu}(\stc) \rightarrow W_{\mu}^{\nu}(\stc) - \frac{1}{g}\partial_{\mu}\
 Using these formalisms the Lagrangian for the Electroweak Sector takes the form in Equation \ref{eqn:Lqfd}, where the covariant derivative is as defined in Equation \ref{eqn:QFDD}. 
 
 \begin{equation}
-\Lagr_{EW} = \sum_{fermions} \bar{\psi}i\gamma^{\mu}D_{\mu}\psi - \frac{1}{4}\sum_{\theta = 1,2,3} W^{\theta}_{\mu\nu}W_{\theta}^{\mu\nu} - \frac{1}{4}B_{\mu\nu}B^{\mu\nu}
+\Lagr_{EW} = \sum_{fermions} \bar{\psi}i\gamma^{\mu}\slashed{\mathcal{D}}_{\mu}\psi - \frac{1}{4}\sum_{\theta = 1,2,3} W^{\theta}_{\mu\nu}W_{\theta}^{\mu\nu} - \frac{1}{4}B_{\mu\nu}B^{\mu\nu}
 \label{eqn:Lqfd}
 \end{equation}
 \begin{equation}
-\mathcal{D}_{\mu} = \partial_{\mu}-ig\frac{\sigma_{\nu}}{2}W_{\mu}^{\nu}(\stc) - ig'\frac{Y}{2}B_{\mu}(\stc)
+\slashed{\mathcal{D}}_{\mu} = \partial_{\mu}-ig\frac{\sigma_{\nu}}{2}W_{\mu}^{\nu}(\stc) - ig'\frac{Y}{2}B_{\mu}(\stc)
 \label{eqn:QFDD}
 \end{equation}
 
