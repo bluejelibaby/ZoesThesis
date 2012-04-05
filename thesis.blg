@@ -17,6 +17,10 @@ A level-1 auxiliary file: Conclusion.aux
 A level-1 auxiliary file: appA.aux
 The style file: thesis.bst
 Database file #1: papers.bib
+I was expecting a `,' or a `}'---line 28 of file papers.bib
+ :   issue = {24}
+ :               x
+I'm skipping whatever remains of this entry
 Warning--empty journal in 1fbnote
 Warning--empty journal in PichSM
 Warning--empty journal in HerreroSM
@@ -50,45 +54,45 @@ Warning--empty journal in WZXS
 Warning--empty journal in SUS-10-001
 Warning--empty journal in roofit
 Warning--empty journal in prospino
-You've used 72 entries,
+You've used 73 entries,
             2232 wiz_defined-function locations,
-            962 strings with 14243 characters,
-and the built_in function-call counts, 14996 in all, are:
-= -- 1128
-> -- 725
+            968 strings with 14326 characters,
+and the built_in function-call counts, 15254 in all, are:
+= -- 1153
+> -- 729
 < -- 4
-+ -- 278
-- -- 206
-* -- 1198
-:= -- 2411
-add.period$ -- 220
-call.type$ -- 72
++ -- 280
+- -- 207
+* -- 1221
+:= -- 2447
+add.period$ -- 223
+call.type$ -- 73
 change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 105
-duplicate$ -- 855
-empty$ -- 1521
-format.name$ -- 241
-if$ -- 3183
+cite$ -- 106
+duplicate$ -- 868
+empty$ -- 1550
+format.name$ -- 242
+if$ -- 3238
 int.to.chr$ -- 0
-int.to.str$ -- 72
-missing$ -- 77
-newline$ -- 368
-num.names$ -- 72
-pop$ -- 389
+int.to.str$ -- 73
+missing$ -- 78
+newline$ -- 373
+num.names$ -- 73
+pop$ -- 393
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 238
+skip$ -- 241
 stack$ -- 0
-substring$ -- 469
-swap$ -- 237
+substring$ -- 500
+swap$ -- 241
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 33
-while$ -- 98
-width$ -- 74
-write$ -- 716
-(There were 33 warnings)
+while$ -- 101
+width$ -- 75
+write$ -- 726
+(There was 1 error message)

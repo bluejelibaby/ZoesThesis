@@ -32,6 +32,11 @@ R.~{Bouchendira}, P.~{Clad{\'e}}, S.~{Guellati-Kh{\'e}lifa}, F.~{Nez} \&
 \newblock {\em Physical Review Letters\/}, {\bf 106}, 8 (2011) 080801,
   {1012.3627}.
 
+\bibitem{partonfeyn}
+Richard~P. Feynman.
+\newblock \enquote{Very High-Energy Collisions of Hadrons}.
+\newblock {\em Phys. Rev. Lett.\/}, {\bf 23} (1969) 1415--1417.
+
 \bibitem{CTEQ}
 Pavel~M. Nadolsky et~al.
 \newblock \enquote{{Implications of CTEQ global analysis for collider
@@ -324,17 +329,17 @@ R~Bainbridge, B~Betchart, H~Fl¬acher, E~Laird, B~Mathias, T~Rommerskirchen \&
   searches in 7 TeV data}.
 \newblock {\bf CMS AN-2009/056}.
 
-\bibitem{an2009_188}
-O~Buchm¬uller, L~Gouskos, Z~Hatherell, G~Karapostoli, A~Sparrow \& P~Sphicas.
-\newblock \enquote{An application of the \alt jet-balancing method to the
-  single-lepton mode SUSY searches}.
-\newblock {\bf CMS AN-2009/188}.
-
 \bibitem{35paper}
 Vardan Khachatryan et~al.
 \newblock \enquote{{Search for Supersymmetry in pp Collisions at 7 TeV in
   Events with Jets and Missing Transverse Energy}}.
 \newblock {\em Phys.Lett.\/}, {\bf B698} (2011) 196--218, {1101.1628}.
+
+\bibitem{an2009_188}
+O~Buchm¬uller, L~Gouskos, Z~Hatherell, G~Karapostoli, A~Sparrow \& P~Sphicas.
+\newblock \enquote{An application of the \alt jet-balancing method to the
+  single-lepton mode SUSY searches}.
+\newblock {\bf CMS AN-2009/188}.
 
 \bibitem{madgraph}
 Johan Alwall, Pavel Demin, Simon de~Visscher, Rikkert Frederix, Michel Herquet

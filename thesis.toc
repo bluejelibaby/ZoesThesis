@@ -18,12 +18,12 @@
 \contentsline {subsection}{\numberline {2.2.2}Cold Dark Matter}{34}
 \contentsline {subsection}{\numberline {2.2.3}Unification of Coupling Constants}{35}
 \contentsline {section}{\numberline {2.3}Supersymmetry}{35}
-\contentsline {subsection}{\numberline {2.3.1}R-Parity}{37}
+\contentsline {subsection}{\numberline {2.3.1}$R$-Parity}{37}
 \contentsline {subsection}{\numberline {2.3.2}MSSM}{38}
 \contentsline {subsection}{\numberline {2.3.3}Supersymmetry Breaking}{39}
 \contentsline {subsection}{\numberline {2.3.4}Minimal Supergravity and the Constrained MSSM}{40}
 \contentsline {subsubsection}{Current Limits on the CMSSM}{41}
-\contentsline {subsection}{\numberline {2.3.5}Production Mechanisms in pp collisions}{42}
+\contentsline {subsection}{\numberline {2.3.5}Production Mechanisms in p-p collisions}{42}
 \contentsline {chapter}{\numberline {3}The Compact Muon Solenoid Experiment at the LHC}{45}
 \contentsline {section}{\numberline {3.1}The Large Hadron Collider}{45}
 \contentsline {section}{\numberline {3.2}The Compact Muon Solenoid}{48}

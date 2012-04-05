@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  4 APR 2012 15:15
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  5 APR 2012 13:04
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -753,10 +753,6 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <4.19998> not available
 (Font)              size <5> substituted on input line 113.
 
 [26] [27]
-
-LaTeX Warning: Citation `partonfeyn' on page 28 undefined on input line 166.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
@@ -779,7 +775,7 @@ File: Figures/Theory/susycoupling.pdf Graphic file (type pdf)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3780) has occurred while \output is active []
 
  [37 <./Figures/Theory/smcoupling.pdf> <./Figures/Theory/susycoupling.pdf>] [38
 ] [39]
@@ -797,10 +793,7 @@ Chapter 3.
 
 
 
-]
-Underfull \vbox (badness 3449) has occurred while \output is active []
-
- [46]
+] [46]
 <Figures/Detector/lhc-schematic.jpg, id=215, 375.3222pt x 391.7034pt>
 File: Figures/Detector/lhc-schematic.jpg Graphic file (type jpg)
 
@@ -822,7 +815,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [49 <./Figures/Detector/injection.png>] [50 <./Figures/Detector/CMS_Structure.
 pdf>]
 [51 <./Figures/Detector/CMS_Slice.png (PNG copy)>] [52] [53]
-Underfull \vbox (badness 8075) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [54]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -838,10 +831,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <Figures/Detector/MS.pdf, id=410, 437.635pt x 335.2525pt>
 File: Figures/Detector/MS.pdf Graphic file (type pdf)
 
-<use Figures/Detector/MS.pdf>
-Underfull \vbox (badness 5008) has occurred while \output is active []
-
- [59 <./Figures/Detector/MS.pdf>] [60] [61]) [62]
+<use Figures/Detector/MS.pdf> [59 <./Figures/Detector/MS.pdf>] [60] [61])
+[62]
 \openout2 = `Objects.aux'.
 
  (./Objects.tex
@@ -1356,29 +1347,29 @@ her,
 Missing character: There is no Ÿ in font cmr12!
 Missing character: There is no  in font cmr12!
 
-Underfull \hbox (badness 1867) in paragraph at lines 143--146
+Underfull \hbox (badness 1867) in paragraph at lines 148--151
 []\OT1/cmr/m/n/12 The CMS Col-lab-o-ra-tion.  ``The Com-pact Muon Solenoid Tech
 -ni-cal
  []
 
-Missing character: There is no ‡ in font cmr12!
 [148]
+Missing character: There is no ‡ in font cmr12!
 Missing character: There is no Ÿ in font cmr12!
 Missing character: There is no Ÿ in font cmr12!
 
-Underfull \hbox (badness 1917) in paragraph at lines 215--219
+Underfull \hbox (badness 1917) in paragraph at lines 220--224
 []\OT1/cmr/m/n/12 S. Catani, Yuri L. Dok-shitzer, M. H. Sey-mour & B. R. Web-be
 r.
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 242--248
+Underfull \hbox (badness 1038) in paragraph at lines 247--253
 \OT1/cmr/m/n/12 R Rem-ing-ton, M Schmitt, B Scur-lock, E.A. Al-bayrak, T Yetkin
  &
  []
 
 [149]
-Underfull \hbox (badness 1199) in paragraph at lines 268--272
+Underfull \hbox (badness 1199) in paragraph at lines 273--277
 []\OT1/cmr/m/n/12 The CMS Col-lab-o-ra-tion.  ``Per-for-mance of muon re-con-st
 ruc-tion and
  []
@@ -1391,7 +1382,7 @@ Missing character: There is no ¬ in font cmr12!
 [150]
 Missing character: There is no ¬ in font cmr12!
 
-Underfull \hbox (badness 1057) in paragraph at lines 400--404
+Underfull \hbox (badness 1057) in paragraph at lines 405--409
 []\OT1/cmr/m/n/12 The CMS Col-lab-o-ra-tion.  ``Per-for-mance of Meth-ods for D
 ata-Driven
  []
@@ -1412,10 +1403,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9081 strings out of 493747
- 153637 string characters out of 3143546
- 197103 words of memory out of 3000000
- 11996 multiletter control sequences out of 15000+200000
+ 9082 strings out of 493747
+ 153651 string characters out of 3143546
+ 197107 words of memory out of 3000000
+ 11997 multiletter control sequences out of 15000+200000
  35548 words of font info for 142 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  39i,20n,44p,1776b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1453,7 +1444,7 @@ pe1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type
 public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2010/texmf-dist/fonts/ty
 pe1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2010/texmf-dist/font
 s/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (152 pages, 5367304 bytes).
+Output written on thesis.pdf (152 pages, 5368553 bytes).
 PDF statistics:
  2535 PDF objects out of 2984 (max. 8388607)
  1313 compressed objects within 14 object streams
