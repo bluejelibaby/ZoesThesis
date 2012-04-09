@@ -6,6 +6,7 @@ A level-1 auxiliary file: symbols.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: declaration.aux
 A level-1 auxiliary file: acknowledgements.aux
+A level-1 auxiliary file: dedicate.aux
 A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: Theory.aux
 A level-1 auxiliary file: Detector.aux
@@ -17,10 +18,6 @@ A level-1 auxiliary file: Conclusion.aux
 A level-1 auxiliary file: appA.aux
 The style file: thesis.bst
 Database file #1: papers.bib
-I was expecting a `,' or a `}'---line 28 of file papers.bib
- :   issue = {24}
- :               x
-I'm skipping whatever remains of this entry
 Warning--empty journal in 1fbnote
 Warning--empty journal in PichSM
 Warning--empty journal in HerreroSM
@@ -54,45 +51,45 @@ Warning--empty journal in WZXS
 Warning--empty journal in SUS-10-001
 Warning--empty journal in roofit
 Warning--empty journal in prospino
-You've used 73 entries,
+You've used 74 entries,
             2232 wiz_defined-function locations,
-            968 strings with 14326 characters,
-and the built_in function-call counts, 15254 in all, are:
-= -- 1153
-> -- 729
+            975 strings with 14433 characters,
+and the built_in function-call counts, 15484 in all, are:
+= -- 1173
+> -- 733
 < -- 4
-+ -- 280
-- -- 207
-* -- 1221
-:= -- 2447
-add.period$ -- 223
-call.type$ -- 73
++ -- 282
+- -- 208
+* -- 1241
+:= -- 2480
+add.period$ -- 226
+call.type$ -- 74
 change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 106
-duplicate$ -- 868
-empty$ -- 1550
-format.name$ -- 242
-if$ -- 3238
+cite$ -- 107
+duplicate$ -- 881
+empty$ -- 1577
+format.name$ -- 243
+if$ -- 3289
 int.to.chr$ -- 0
-int.to.str$ -- 73
-missing$ -- 78
-newline$ -- 373
-num.names$ -- 73
-pop$ -- 393
+int.to.str$ -- 74
+missing$ -- 79
+newline$ -- 378
+num.names$ -- 74
+pop$ -- 397
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 241
+skip$ -- 244
 stack$ -- 0
-substring$ -- 500
-swap$ -- 241
+substring$ -- 521
+swap$ -- 245
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 33
-while$ -- 101
-width$ -- 75
-write$ -- 726
-(There was 1 error message)
+while$ -- 103
+width$ -- 76
+write$ -- 736
+(There were 33 warnings)

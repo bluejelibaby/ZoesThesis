@@ -418,6 +418,13 @@ Wouter Verkerke \& David~P. Kirkby.
 \newblock \enquote{{The RooFit toolkit for data modeling}}.
 \newblock {physics/0306116}.
 
+\bibitem{zech}
+G.~{Zech}.
+\newblock \enquote{{Upper limits in experiments with background or measurement
+  errors}}.
+\newblock {\em Nuclear Instruments and Methods in Physics Research A\/}, {\bf
+  277} (1989) 608--610.
+
 \bibitem{prospino}
 W.~Beenakker, R.~Hopker \& M.~Spira.
 \newblock \enquote{{PROSPINO: A Program for the production of supersymmetric

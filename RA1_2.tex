@@ -10,8 +10,8 @@ Isolating these new physics events from Standard Model background processes is e
 This analysis uses datasets both from Monte Carlo simulation (MC) and of data recorded by the CMS detector in 2011.
 
 \subsection{Monte Carlo Simulation}
-Datasets of simulated events with calculated cross-sections are required for any analysis at the LHC. Using PDFs from CTEQ~\cite{CTEQ}, partons are generated and hard-scattered using either MadGraph~\cite{madgraph} or \textsc{pythia}~\cite{pythia}. They are hadronised using \textsc{pythia}, the exact parameters of which are extracted using a tune, in this case ``Z2"~\cite{tuneZ2}.
-The cross-section of a process taking into account only first-order feynman diagrams is called Leading Order (LO). When the second-order diagrams are included it is called Next-to-Leading-Order (NLO), and when third order diagrams are also included it is Next-to-Next-to-Leading-Order (NNLO).   Those generated using \textsc{pythia} are calculated at LO cross-sections, whilst the use of the MadGraph generator is used for processes with complicated multi-particle final states as it is capable of generating them at NLO cross-sections. In addition, the Z, QCD and $\gamma$ cross-sections from MadGraph have a k-factor applied of 1.27 to artificially convert the numerical cross-section used to to NNLO.
+Datasets of simulated events with theoretically calculated cross-sections are required for any analysis at the LHC. Using PDFs from CTEQ~\cite{CTEQ}, partons are generated and hard-scattered using either MadGraph~\cite{madgraph} or \textsc{pythia}~\cite{pythia}. They are hadronised using \textsc{pythia}, the exact parameters of which are extracted using a tune, in this case ``Z2"~\cite{tuneZ2}.
+The cross-section of a process taking into account only first-order feynman diagrams is called Leading Order (LO). When the second-order diagrams are included it is called Next-to-Leading-Order (NLO), and when third order diagrams are also included it is Next-to-Next-to-Leading-Order (NNLO).   Those generated using \textsc{pythia} are calculated at LO cross-sections, whilst the use of the MadGraph generator is used for processes with complicated multi-particle final states, as it is capable of generating them at NLO cross-sections. In addition, the Z, QCD and $\gamma$ cross-sections from MadGraph have a k-factor applied of 1.27 to artificially convert the numerical cross-section used to to NNLO.
 
 The samples then undergo the full CMS detector simulation with GEANT4~\cite{GEANT4}. The following samples (which are expected to be the dominant backgrounds) are used, full details of which can be found in Appendix A. 
 
@@ -25,7 +25,7 @@ The samples then undergo the full CMS detector simulation with GEANT4~\cite{GEAN
 \item $\gamma$ + jets (MadGraph)
 \end{itemize}
 
-The dominant background is from QCD which we have available from two different generators MadGraph and \textsc{pythia}. The $\gamma$ + jets sample does not represent a background but is used in the Z background prediction method as a photon control sample is used. The remaining samples contribute to the electroweak backgrounds. 
+The dominant background is from QCD, which we have available from two different generators MadGraph and \textsc{pythia}. The $\gamma$ + jets sample does not represent a background but is used in the Z background prediction method as a photon control sample is used. The remaining samples contribute to the electroweak backgrounds. 
 
 \subsubsection{CMSSM SUSY Signal}
 For the purpose of understanding the possible yields from CMSSM SUSY, two mSUGRA parameter points are used. CMS has a dedicated set of 10 Low Mass (LM) points designed for initial data-taking from which two points have been chosen, LM4 and LM6, the values of which are found in Table~\ref{tab:LM}.
@@ -73,9 +73,9 @@ For the purpose of the analysis private ntuples are generated from the RECO samp
 In order to select the signal events and minimise the contamination from backgrounds, a set of selection criteria is applied. As described previously in Section~\ref{sec:detrig}, data collected by the CMS detector is stored and organised according to the L1 and HLT trigger paths passed. While the datasets chosen in Section~\ref{sec:datasam} have some basic level trigger requirements, the analysis also demands a more stringent set of requirements.
 
 
-In the previous iteration of this analysis for the 2010 dataset, a set of pure $\HT$ triggers was used. However these are unsuitable for the 2011 analysis as due to the increase in instantaneous luminosity the rate of triggers with desirable thresholds have become too high and therefore have been prescaled. This renders them unsuitable for the signal selection although they will play a part in the control region. Moving to higher $\HT$ thresholds is also undesirable as it would reduce a significant portion of the search region.
+In the previous iteration of this analysis for the 2010 dataset, a set of pure $\HT$ triggers was used. However these are unsuitable for the 2011 analysis as due to the increase in instantaneous luminosity the rate of triggers with desirable thresholds have become too high and therefore have been prescaled. This renders them unsuitable for the signal selection, although they will play a part in the control region. Moving to higher $\HT$ thresholds is also undesirable as it would reduce a significant portion of the search region.
 
-Instead, the use of cross-object triggers is now employed, requiring events that pass thresholds in both $\HT$ and \mht for the signal region. As the era of data-taking progressed there were several trigger menu changes, during which time the lowest un-prescaled thresholds available at a given time were required to ensure signal yields are accurate. Some of the thresholds are implemented in the menu under different numbered versions at different times, and the relevant paths appended with ``\verb!_v*!".
+Instead, the use of cross-object triggers is now employed, requiring events that pass thresholds in both $\HT$ and \mht for the signal region. As the era of data-taking progressed, there were several trigger menu changes, during which time the lowest un-prescaled thresholds available at a given time were required to ensure signal yields are accurate. Some of the thresholds are implemented in the menu under different numbered versions at different times, and the relevant paths appended with ``\verb!_v*!".
 
 The first set of runs in the 2011 dataset correspond to a trigger used with thresholds in [\,\HT,\,\MHT] = [\,260,\,60\,]~GeV. After this the CMS standard thresholds were shifted down by 10~GeV, relevant for the major portion of data taking. For all runs henceforth the lowest un-prescaled cross-trigger had an $\HT$ threshold of 250 GeV, during which time the \MHT thresholds of the lowest un-prescaled evolve through 60, 70 and 90~GeV.
 
@@ -131,7 +131,7 @@ $\HT > 575$ & \verb! HLT_HT520_v*, HLT_HT550_v*!\\
 
 
 
-In the muon control sample, due to the low $p^{\mu}_{T}$ = 10~GeV threshold the same triggers are used as for the hadronic signal sample. The photon sample makes use of the single photon trigger paths shown in Table~\ref{tab:photrig}, using the lowest unprescaled threshold available for each given run in the data.
+In the muon control sample, due to the low $p^{\mu}_{T}$ = 10~GeV threshold, the same triggers are used as for the hadronic signal sample. The photon sample makes use of the single photon trigger paths shown in Table~\ref{tab:photrig}, using the lowest unprescaled threshold available for each given run in the data.
 \begin{table}[htbp]
 \centering
 \begin{tabular}{ c }
@@ -251,7 +251,7 @@ Difference in $\eta$ between track and supercluster& $\Delta \eta_{vtx}$& $<$ 0.
 Ratio of HCAL energy in $\Delta R = 0.15$ to ECAL seed energy & H / E & $<$ 0.15 & $<$ 0.07\\
 \hline
 \end{tabular}
-\caption[Set of cuts applied in ``WP95" Electron ID, corresponding to an intended 95\% efficiency for signal electrons in W events for electrons with $p_{T} > 20$~GeV.]{\label{tab:eid} Set of cuts applied in ``WP95" Electron ID, taken from \cite{AN-10-116} corresponding to an intended 95\% efficiency for signal electrons in W events for electrons with $p_{T} > 20$~GeV.}
+\caption[Set of cuts applied in ``WP95" Electron ID, corresponding to an intended 95\% efficiency for signal electrons in W events for electrons with $p_{T} > 20$~GeV.]{\label{tab:eid} Set of cuts applied in ``WP95" Electron ID, taken from \cite{AN-10-116} corresponding to an intended 95\% efficiency for signal electrons in W events.}
 \end{table}
 \subsection{Photons}
 
@@ -409,10 +409,10 @@ The distributions of jet multiplicity, $\Delta \phi^{*}$ and $M_{eff}$ after the
 
 \subsection{$R_{\alpha_{T}}$ on $H_{T}$}
 
-Rather than a simple cut-and-count experiment a shape analysis in \HT bins is used as defined in Section~\ref{sec:shape}, as it is desirable to look simultaneously in different \HT regions while maximising the possible signal area. This is performed using the properties of the \RaT variable, as discussed in Section~\ref{sec:atrat}, due to its unique properties separating the three possible components in its numerator: contamination from QCD, dominant EWK backgrounds and the entrance of SUSY signal events.
+Rather than a simple cut-and-count experiment, a shape analysis in \HT bins is used as defined in Section~\ref{sec:shape}, as it is desirable to look simultaneously in different \HT regions while maximising the possible signal area. This is performed using the properties of the \RaT variable, as discussed in Section~\ref{sec:atrat}, due to its unique properties separating the three possible components in its numerator: contamination from QCD, dominant EWK backgrounds and the entrance of SUSY signal events.
 
 \subsubsection{Hadronic Bulk Control Selection}
-While the numerator is defined by the final selection defined previously the denominator, which shall be known as the hadronic bulk control region, is defined by the pre-selection only, with the additional change of triggers essential as the cross triggers would put an inadvertent \MHT cut, biasing the \alt distribution. Here, as it is a control region we use a suite of prescaled \HT triggers described previously. It is important to remove not just the \alt cut but all cuts of the final level selection as the cleaning cuts may introduce a bias to high missing energy. The bin-by-bin 1.1fb\,$^{-1}$ yields for the hadronic signal and hadronic bulk selections are found in Table~\ref{tab:hadyield}, along with each corresponding value for \RaT.
+While the numerator of \RaT is defined by the final selection defined previously the denominator, which shall be known as the hadronic bulk control region, is defined by the pre-selection only, with the additional change of triggers essential as the cross triggers would put an inadvertent \MHT cut, biasing the \alt distribution. Here, as it is a control region we use a suite of prescaled \HT triggers described previously in Section~\ref{sec:trig}. It is important to remove not just the \alt cut but all cuts of the final level selection as the cleaning cuts may introduce a bias to high missing energy. The bin-by-bin 1.1fb\,$^{-1}$ yields for the hadronic signal and hadronic bulk selections are found in Table~\ref{tab:hadyield}, along with each corresponding value for \RaT.
 
 \begin{table}[ht!]
 
@@ -717,7 +717,7 @@ W^{had}_{data} = W^{\mu}_{data, meas} \times (\frac{f_{W}}{a_{W} \times \epsilon
 \label{eq:Wc}
 \end{equation}
 
- Multiplying out the full dependence introduces quadratic terms in the fractions pertaining to each component, $f_{W}$, $f_{\tto}$ which multiply the factors P$^{had}_{W}/(a_{W} \times \epsilon_{W})$ and P$^{had}_{W}/(a_{W} \times \epsilon_{W})$. This can be calculated in MC by dividing the yield of each component for the full hadronic signal selection without the lepton veto, with that after the lepton veto has been applied. Yields normalised to 1.1\,fb$^{-1}$ are shown in Table~\ref{tab:pae} without and with the lepton veto, and the corresponding values of P$^{had}/(a \times \epsilon)$, indicating these are similar. Using the full \HT range (left) there is a small difference not seen in the 2010 analysis which is reduced by using the highest 6 bins only. The similarity between these two factors indicates that fluctuations in the fractions of W and \tto events have little effect despite their quadratic nature, allowing a linear treatment of the uncertainties on the remaining factors. 
+ Multiplying out the full dependence introduces quadratic terms in the fractions pertaining to each component, $f_{W}$, $f_{\tto}$, which multiply the factors P$^{had}_{W}/(a_{W} \times \epsilon_{W})$ and P$^{had}_{W}/(a_{W} \times \epsilon_{W})$. This can be calculated in MC by dividing the yield of each component for the full hadronic signal selection without the lepton veto, with that after the lepton veto has been applied. Yields normalised to 1.1\,fb$^{-1}$ are shown in Table~\ref{tab:pae} without and with the lepton veto, and the corresponding values of P$^{had}/(a \times \epsilon)$, indicating these are similar. Using the full \HT range (left) there is a small difference not seen in the 2010 analysis which is reduced by using the highest 6 bins only. The similarity between these two factors indicates that fluctuations in the fractions of W and \tto events have little effect despite their quadratic nature, allowing a linear treatment of the uncertainties on the remaining factors. 
  
  \begin{table}[htbp]
  \footnotesize
