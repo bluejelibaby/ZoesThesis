@@ -144,6 +144,11 @@ Thomas~Sven Pettersson \& P~Lefèvre.
 \newblock \enquote{{T}he {L}arge {H}adron {C}ollider: {C}onceptual {D}esign}.
 \newblock Technical Report CERN-AC-95-05 LHC, CERN, Geneva (1995).
 
+\bibitem{Christiane}
+Christiane Lefèvre.
+\newblock \enquote{The CERN accelerator complex. Complexe des accélérateurs du
+  CERN} (2008).
+
 \bibitem{CMSTDP}
 {The {CMS} Collaboration}.
 \newblock \enquote{{T}he {C}ompact {M}uon {S}olenoid {T}echnical {P}roposal}.

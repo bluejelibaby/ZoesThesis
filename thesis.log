@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  2 JUL 2012 13:17
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  2 JUL 2012 13:37
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -802,7 +802,7 @@ File: Figures/Detector/CMS_Structure.pdf Graphic file (type pdf)
 File: Figures/Detector/CMS_Slice.png Graphic file (type png)
 
 <use Figures/Detector/CMS_Slice.png>
-Underfull \vbox (badness 8132) has occurred while \output is active []
+Underfull \vbox (badness 6944) has occurred while \output is active []
 
  [51 <./Figures/Detector/injection.png>] [52 <./Figures/Detector/CMS_Structure.
 pdf>]
@@ -1339,8 +1339,17 @@ her,
 ]
 Missing character: There is no Ÿ in font cmr12!
 Missing character: There is no  in font cmr12!
+Missing character: There is no  in font cmr12!
+Missing character: There is no Ž in font cmr12!
+Missing character: There is no Ž in font cmr12!
 
-Underfull \hbox (badness 1867) in paragraph at lines 148--151
+Underfull \hbox (badness 1509) in paragraph at lines 148--151
+[]\OT1/cmr/m/n/12 Christiane Lefvre.  ``The CERN ac-cel-er-a-tor com-plex. Com-
+plexe des
+ []
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 153--156
 []\OT1/cmr/m/n/12 The CMS Col-lab-o-ra-tion.  ``The Com-pact Muon Solenoid Tech
 -ni-cal
  []
@@ -1350,19 +1359,19 @@ Missing character: There is no ‡ in font cmr12!
 Missing character: There is no Ÿ in font cmr12!
 Missing character: There is no Ÿ in font cmr12!
 
-Underfull \hbox (badness 1917) in paragraph at lines 220--224
+Underfull \hbox (badness 1917) in paragraph at lines 225--229
 []\OT1/cmr/m/n/12 S. Catani, Yuri L. Dok-shitzer, M. H. Sey-mour & B. R. Web-be
 r.
  []
 
-
-Underfull \hbox (badness 1038) in paragraph at lines 247--253
+[151]
+Underfull \hbox (badness 1038) in paragraph at lines 252--258
 \OT1/cmr/m/n/12 R Rem-ing-ton, M Schmitt, B Scur-lock, E.A. Al-bayrak, T Yetkin
  &
  []
 
-[151]
-Underfull \hbox (badness 1199) in paragraph at lines 273--277
+
+Underfull \hbox (badness 1199) in paragraph at lines 278--282
 []\OT1/cmr/m/n/12 The CMS Col-lab-o-ra-tion.  ``Per-for-mance of muon re-con-st
 ruc-tion and
  []
@@ -1371,11 +1380,11 @@ Missing character: There is no Ÿ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
-Missing character: There is no ¬ in font cmr12!
 [152]
 Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ¬ in font cmr12!
 
-Underfull \hbox (badness 1057) in paragraph at lines 405--409
+Underfull \hbox (badness 1057) in paragraph at lines 410--414
 []\OT1/cmr/m/n/12 The CMS Col-lab-o-ra-tion.  ``Per-for-mance of Meth-ods for D
 ata-Driven
  []
@@ -1388,12 +1397,15 @@ ata-Driven
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.25002pt have occurred.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 9091 strings out of 493747
- 153756 string characters out of 3143546
- 198860 words of memory out of 3000000
- 11999 multiletter control sequences out of 15000+200000
+ 9092 strings out of 493747
+ 153768 string characters out of 3143546
+ 198864 words of memory out of 3000000
+ 12000 multiletter control sequences out of 15000+200000
  35548 words of font info for 142 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  39i,20n,44p,1785b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1431,7 +1443,7 @@ pe1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type
 public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2010/texmf-dist/fonts/ty
 pe1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2010/texmf-dist/font
 s/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (154 pages, 5370080 bytes).
+Output written on thesis.pdf (154 pages, 5370185 bytes).
 PDF statistics:
  2541 PDF objects out of 2984 (max. 8388607)
  1317 compressed objects within 14 object streams

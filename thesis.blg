@@ -24,6 +24,7 @@ Warning--empty journal in HerreroSM
 Warning--empty journal in Drees
 Warning--empty journal in PeskinBSM
 Warning--empty journal in SUSYPrime
+Warning--empty note in Christiane
 Warning--empty journal in TRK-10-005
 Warning--empty journal in jetroundup
 Warning--empty journal in aktrecom
@@ -51,45 +52,45 @@ Warning--empty journal in WZXS
 Warning--empty journal in SUS-10-001
 Warning--empty journal in roofit
 Warning--empty journal in prospino
-You've used 74 entries,
+You've used 75 entries,
             2232 wiz_defined-function locations,
-            975 strings with 14433 characters,
-and the built_in function-call counts, 15484 in all, are:
-= -- 1173
-> -- 733
+            979 strings with 14535 characters,
+and the built_in function-call counts, 15593 in all, are:
+= -- 1183
+> -- 737
 < -- 4
-+ -- 282
-- -- 208
-* -- 1241
-:= -- 2480
-add.period$ -- 226
-call.type$ -- 74
++ -- 284
+- -- 209
+* -- 1248
+:= -- 2503
+add.period$ -- 228
+call.type$ -- 75
 change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 107
-duplicate$ -- 881
-empty$ -- 1577
-format.name$ -- 243
-if$ -- 3289
+cite$ -- 109
+duplicate$ -- 886
+empty$ -- 1586
+format.name$ -- 244
+if$ -- 3310
 int.to.chr$ -- 0
-int.to.str$ -- 74
+int.to.str$ -- 75
 missing$ -- 79
-newline$ -- 378
-num.names$ -- 74
-pop$ -- 397
+newline$ -- 382
+num.names$ -- 75
+pop$ -- 398
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 244
+skip$ -- 245
 stack$ -- 0
 substring$ -- 521
-swap$ -- 245
+swap$ -- 247
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 33
-while$ -- 103
-width$ -- 76
-write$ -- 736
-(There were 33 warnings)
+warning$ -- 34
+while$ -- 104
+width$ -- 77
+write$ -- 744
+(There were 34 warnings)
