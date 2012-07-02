@@ -52,45 +52,45 @@ Warning--empty journal in WZXS
 Warning--empty journal in SUS-10-001
 Warning--empty journal in roofit
 Warning--empty journal in prospino
-You've used 75 entries,
+You've used 77 entries,
             2232 wiz_defined-function locations,
-            979 strings with 14535 characters,
-and the built_in function-call counts, 15593 in all, are:
-= -- 1183
-> -- 737
+            988 strings with 14760 characters,
+and the built_in function-call counts, 15938 in all, are:
+= -- 1216
+> -- 745
 < -- 4
-+ -- 284
-- -- 209
-* -- 1248
-:= -- 2503
-add.period$ -- 228
-call.type$ -- 75
-change.case$ -- 1
++ -- 288
+- -- 211
+* -- 1261
+:= -- 2558
+add.period$ -- 236
+call.type$ -- 77
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 109
-duplicate$ -- 886
-empty$ -- 1586
-format.name$ -- 244
-if$ -- 3310
+cite$ -- 111
+duplicate$ -- 908
+empty$ -- 1629
+format.name$ -- 246
+if$ -- 3393
 int.to.chr$ -- 0
-int.to.str$ -- 75
-missing$ -- 79
-newline$ -- 382
-num.names$ -- 75
-pop$ -- 398
+int.to.str$ -- 77
+missing$ -- 82
+newline$ -- 393
+num.names$ -- 77
+pop$ -- 410
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 245
+skip$ -- 250
 stack$ -- 0
-substring$ -- 521
-swap$ -- 247
+substring$ -- 523
+swap$ -- 251
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 34
-while$ -- 104
-width$ -- 77
-write$ -- 744
+while$ -- 106
+width$ -- 79
+write$ -- 766
 (There were 34 warnings)

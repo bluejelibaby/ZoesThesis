@@ -21,7 +21,7 @@ S.~{Chatrchyan}, V.~{Khachatryan}, A.~M. {Sirunyan}, A.~{Tumasyan}, W.~{Adam},
 
 \bibitem{Rolnick}
 William~B Rolnick.
-\newblock \enquote{{The Fundamnetal Particles and Their Interactions}}.
+\newblock \enquote{{The Fundamental Particles and Their Interactions}}.
 \newblock Addison-Wesley (1994).
 
 \bibitem{qedalpha}
@@ -149,10 +149,22 @@ Christiane Lefèvre.
 \newblock \enquote{The CERN accelerator complex. Complexe des accélérateurs du
   CERN} (2008).
 
+\bibitem{TDRVOLI}
+G~L et.~al. Bayatian.
+\newblock \enquote{CMS Physics Technical Design Report Volume I: Detector
+  Performance and Software}.
+\newblock Technical Design Report CMS. CERN, Geneva (2006).
+\newblock There is an error on cover due to a technical problem for some items.
+
 \bibitem{CMSTDP}
 {The {CMS} Collaboration}.
 \newblock \enquote{{T}he {C}ompact {M}uon {S}olenoid {T}echnical {P}roposal}.
 \newblock {\em CERN/LHCC\/}, {\bf 94-38}.
+
+\bibitem{cmsslice}
+Dave Barney.
+\newblock \enquote{CMS Slice}.
+\newblock {\em IPPOG-doc-12-v1\/}.
 
 \bibitem{PDG}
 K~et~al. Nakamura.
