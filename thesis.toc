@@ -47,7 +47,7 @@
 \contentsline {subsection}{\numberline {4.5.1}\unhbox \voidb@x \hbox {${\hbox {$E$\kern -0.6em\lower -.05ex\hbox {/}\kern 0.10em}}_\text {T}$}\xspace Corrections}{74}
 \contentsline {subsubsection}{Type I Corrections}{75}
 \contentsline {subsubsection}{Type II Corrections}{75}
-\contentsline {subsection}{\numberline {4.5.2}Using Jets for Missing Energy - \unhbox \voidb@x \hbox {${\hbox {$H$\kern -0.8em\lower -.05ex\hbox {/}\kern 0.10em}}_\text {T}$}\xspace }{76}
+\contentsline {subsection}{\numberline {4.5.2}Using Jets for Missing Energy - \unhbox \voidb@x \hbox {${\hbox {$H$\kern -0.7em\lower -.05ex\hbox {/}\kern 0.10em}}_\text {T}$}\xspace }{76}
 \contentsline {section}{\numberline {4.6}Muons}{76}
 \contentsline {section}{\numberline {4.7}Photons}{78}
 \contentsline {section}{\numberline {4.8}Electrons}{78}
@@ -69,7 +69,7 @@
 \contentsline {section}{\numberline {6.4}Object Definitions}{99}
 \contentsline {subsection}{\numberline {6.4.1}Good Event Definition}{99}
 \contentsline {subsection}{\numberline {6.4.2}Jets}{99}
-\contentsline {subsection}{\numberline {6.4.3}$\ensuremath {H_{T}}\xspace $ and \unhbox \voidb@x \hbox {${\hbox {$H$\kern -0.8em\lower -.05ex\hbox {/}\kern 0.10em}}_\text {T}$}\xspace }{100}
+\contentsline {subsection}{\numberline {6.4.3}$\ensuremath {H_{T}}\xspace $ and \unhbox \voidb@x \hbox {${\hbox {$H$\kern -0.7em\lower -.05ex\hbox {/}\kern 0.10em}}_\text {T}$}\xspace }{100}
 \contentsline {subsection}{\numberline {6.4.4}Muons}{100}
 \contentsline {subsection}{\numberline {6.4.5}Electrons}{101}
 \contentsline {subsection}{\numberline {6.4.6}Photons}{101}

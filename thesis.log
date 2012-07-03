@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  3 JUL 2012 11:23
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  3 JUL 2012 11:52
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -909,20 +909,21 @@ File: Figures/AlphaT/RaT_bkd.pdf Graphic file (type pdf)
 File: Figures/AlphaT/RaT_sig.pdf Graphic file (type pdf)
 
 <use Figures/AlphaT/RaT_sig.pdf> [88]
-<Figures/AlphaT/aT_3.pdf, id=693, 546.04pt x 569.12625pt>
-File: Figures/AlphaT/aT_3.pdf Graphic file (type pdf)
+<Figures/AlphaT/aT_3_conv.pdf, id=693, 546.04pt x 569.12625pt>
+File: Figures/AlphaT/aT_3_conv.pdf Graphic file (type pdf)
 
-<use Figures/AlphaT/aT_3.pdf>
-<Figures/AlphaT/aT_4.pdf, id=694, 546.04pt x 569.12625pt>
-File: Figures/AlphaT/aT_4.pdf Graphic file (type pdf)
+<use Figures/AlphaT/aT_3_conv.pdf>
+<Figures/AlphaT/aT_4_conv.pdf, id=694, 546.04pt x 569.12625pt>
+File: Figures/AlphaT/aT_4_conv.pdf Graphic file (type pdf)
 
-<use Figures/AlphaT/aT_4.pdf>
-<Figures/AlphaT/aT_5.pdf, id=695, 546.04pt x 569.12625pt>
-File: Figures/AlphaT/aT_5.pdf Graphic file (type pdf)
+<use Figures/AlphaT/aT_4_conv.pdf>
+<Figures/AlphaT/aT_5_conv.pdf, id=695, 546.04pt x 569.12625pt>
+File: Figures/AlphaT/aT_5_conv.pdf Graphic file (type pdf)
 
-<use Figures/AlphaT/aT_5.pdf>) [89 <./Figures/AlphaT/RaT_bkd.pdf, page is rotat
-ed 90 degrees> <./Figures/AlphaT/RaT_sig.pdf>] [90 <./Figures/AlphaT/aT_3.pdf> 
-<./Figures/AlphaT/aT_4.pdf> <./Figures/AlphaT/aT_5.pdf>] [91] [92
+<use Figures/AlphaT/aT_5_conv.pdf>) [89 <./Figures/AlphaT/RaT_bkd.pdf, page is 
+rotated 90 degrees> <./Figures/AlphaT/RaT_sig.pdf>] [90 <./Figures/AlphaT/aT_3_
+conv.pdf> <./Figures/AlphaT/aT_4_conv.pdf> <./Figures/AlphaT/aT_5_conv.pdf>]
+[91] [92
 
 
 ]
@@ -939,7 +940,7 @@ Overfull \hbox (5.30582pt too wide) in paragraph at lines 16--17
 ion with GEANT4 [[]].
  []
 
-[94] <Figures/Analysis/LM46on35limit.png, id=913, 924.5742pt x 674.52pt>
+[94] <Figures/Analysis/LM46on35limit.png, id=808, 924.5742pt x 674.52pt>
 File: Figures/Analysis/LM46on35limit.png Graphic file (type png)
 
 <use Figures/Analysis/LM46on35limit.png> [95 <./Figures/Analysis/LM46on35limit.
@@ -979,33 +980,33 @@ Overfull \hbox (5.1241pt too wide) in paragraph at lines 293--294
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [104]
-<Figures/Analysis/PAS/HT_all.pdf, id=950, 569.12625pt x 558.085pt>
+<Figures/Analysis/PAS/HT_all.pdf, id=844, 569.12625pt x 558.085pt>
 File: Figures/Analysis/PAS/HT_all.pdf Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/HT_all.pdf>
-<Figures/Analysis/PAS/JetMultiplicity_all.pdf, id=951, 569.12625pt x 558.085pt>
+<Figures/Analysis/PAS/JetMultiplicity_all.pdf, id=845, 569.12625pt x 558.085pt>
 File: Figures/Analysis/PAS/JetMultiplicity_all.pdf Graphic file (type pdf)
 <use Figures/Analysis/PAS/JetMultiplicity_all.pdf>
-<Figures/Analysis/PAS/AlphaT_all.pdf, id=952, 569.12625pt x 558.085pt>
+<Figures/Analysis/PAS/AlphaT_all.pdf, id=846, 569.12625pt x 558.085pt>
 File: Figures/Analysis/PAS/AlphaT_all.pdf Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/AlphaT_all.pdf>
-<Figures/Analysis/PAS/AlphaT_Zoomed_all_zoe3.pdf, id=953, 581.17125pt x 558.085
+<Figures/Analysis/PAS/AlphaT_Zoomed_all_zoe3.pdf, id=847, 581.17125pt x 558.085
 pt>
 File: Figures/Analysis/PAS/AlphaT_Zoomed_all_zoe3.pdf Graphic file (type pdf)
  <use Figures/Analysis/PAS/AlphaT_Zoomed_all_zoe3.pdf>
-<Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf, id=954, 569.12625pt x
+<Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf, id=848, 569.12625pt x
  558.085pt>
 File: Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf Graphic file (typ
 e pdf)
  <use Figures/Analysis/PAS/JetMultiplicityAfterAlphaT_all.pdf>
-<Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf, id=955, 569.12625p
+<Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf, id=849, 569.12625p
 t x 558.085pt>
 File: Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf Graphic file (
 type pdf)
 
 <use Figures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf>
-<Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf, id=956, 569.12625
+<Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf, id=850, 569.12625
 pt x 558.085pt>
 File: Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf Graphic file 
 (type pdf)
@@ -1018,12 +1019,12 @@ ysis/PAS/JetMultiplicityAfterAlphaT_all.pdf, page is rotated 90 degrees> <./Fig
 ures/Analysis/PAS/EffectiveMass_after_alphaT_55_all.pdf, page is rotated 90 deg
 rees> <./Figures/Analysis/PAS/BiasedDeltaPhi_after_alphaT_55_all.pdf, page is r
 otated 90 degrees>]
-<Figures/Analysis/PAS/Ratio_Multi2Incl_AlphaT55.pdf, id=1182, 569.12625pt x 408
+<Figures/Analysis/PAS/Ratio_Multi2Incl_AlphaT55.pdf, id=1076, 569.12625pt x 408
 .52625pt>
 File: Figures/Analysis/PAS/Ratio_Multi2Incl_AlphaT55.pdf Graphic file (type pdf
 )
  <use Figures/Analysis/PAS/Ratio_Multi2Incl_AlphaT55.pdf>
-<Figures/Analysis/PAS/Syst_Multi2Incl_AlphaT55.pdf, id=1183, 569.12625pt x 408.
+<Figures/Analysis/PAS/Syst_Multi2Incl_AlphaT55.pdf, id=1077, 569.12625pt x 408.
 52625pt>
 File: Figures/Analysis/PAS/Syst_Multi2Incl_AlphaT55.pdf Graphic file (type pdf)
 
@@ -1034,15 +1035,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [110 <./Figures/Analysis/PAS/Ratio_Multi2Incl_AlphaT55.pdf, page is rotated 90 
 degrees> <./Figures/Analysis/PAS/Syst_Multi2Incl_AlphaT55.pdf, page is rotated 
 90 degrees>]
-<Figures/Analysis/Types/2011_all_W_Pie.png, id=1277, 698.61pt x 674.52pt>
+<Figures/Analysis/Types/2011_all_W_Pie.png, id=1172, 698.61pt x 674.52pt>
 File: Figures/Analysis/Types/2011_all_W_Pie.png Graphic file (type png)
 
 <use Figures/Analysis/Types/2011_all_W_Pie.png>
-<Figures/Analysis/Types/2011_all_TT_Pie.png, id=1278, 561.7788pt x 542.5068pt>
+<Figures/Analysis/Types/2011_all_TT_Pie.png, id=1173, 561.7788pt x 542.5068pt>
 File: Figures/Analysis/Types/2011_all_TT_Pie.png Graphic file (type png)
 
 <use Figures/Analysis/Types/2011_all_TT_Pie.png>
-<Figures/Analysis/Types/2011_ttWall_Pie.png, id=1279, 561.7788pt x 542.5068pt>
+<Figures/Analysis/Types/2011_ttWall_Pie.png, id=1174, 561.7788pt x 542.5068pt>
 File: Figures/Analysis/Types/2011_ttWall_Pie.png Graphic file (type png)
 
 <use Figures/Analysis/Types/2011_ttWall_Pie.png>
@@ -1053,81 +1054,81 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 is/Types/2011_all_TT_Pie.png> <./Figures/Analysis/Types/2011_ttWall_Pie.png>]
 [113]
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_beforeaT.pdf, id
-=1292, 569.12625pt x 467.7475pt>
+=1187, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_beforeaT.pd
 f Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_beforeaT.pdf
 >
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_beforeaT.pdf, id
-=1293, 569.12625pt x 467.7475pt>
+=1188, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_beforeaT.pd
 f Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_beforeaT.pdf
 >
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT.pdf, id
-=1294, 569.12625pt x 467.7475pt>
+=1189, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT.pd
 f Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT.pdf
 >
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_beforeaT.pdf, id=1
-295, 569.12625pt x 467.7475pt>
+190, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_beforeaT.pdf 
 Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_beforeaT.pdf>
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_beforeaT.pdf, i
-d=1296, 569.12625pt x 467.7475pt>
+d=1191, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_beforeaT.p
 df Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_beforeaT.pd
 f>
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_beforeaT.pdf, id=1
-297, 569.12625pt x 467.7475pt>
+192, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_beforeaT.pdf 
 Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_beforeaT.pdf>
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_afteraT.pdf, id=
-1298, 569.12625pt x 467.7475pt>
+1193, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_afteraT.pdf
  Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_afteraT.pdf>
 
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_afteraT.pdf, id=
-1299, 569.12625pt x 467.7475pt>
+1194, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_afteraT.pdf
  Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_afteraT.pdf>
 
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT.pdf, id=
-1300, 569.12625pt x 467.7475pt>
+1195, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT.pdf
  Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT.pdf>
 
-<Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_afteraT.pdf, id=13
-01, 569.12625pt x 467.7475pt>
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_afteraT.pdf, id=11
+96, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_afteraT.pdf G
 raphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_afteraT.pdf>
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_afteraT.pdf, id
-=1302, 569.12625pt x 467.7475pt>
+=1197, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_afteraT.pd
 f Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_afteraT.pdf
 >
-<Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_afteraT.pdf, id=13
-03, 569.12625pt x 467.7475pt>
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_afteraT.pdf, id=11
+98, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_afteraT.pdf G
 raphic file (type pdf)
 
@@ -1177,13 +1178,13 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <3.49998> not available
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [121]
-<Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf, id=1850,
+<Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf, id=1745,
  569.12625pt x 541.02126pt>
 File: Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf Grap
 hic file (type pdf)
 
 <use Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf>
-<Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf, id=1851, 569.1
+<Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf, id=1746, 569.1
 2625pt x 541.02126pt>
 File: Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf Graphic fi
 le (type pdf)
@@ -1205,21 +1206,21 @@ Underfull \vbox (badness 3199) has occurred while \output is active []
  [126]
 [127] [128] [129] [130] [131]
 <Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.pdf, 
-id=1934, 569.12625pt x 385.44pt>
+id=1829, 569.12625pt x 385.44pt>
 File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.
 pdf Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.p
 df>
 <Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf, id=
-1935, 569.12625pt x 385.44pt>
+1830, 569.12625pt x 385.44pt>
 File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf
  Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf>
 
 <Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.pdf, i
-d=1936, 569.12625pt x 385.44pt>
+d=1831, 569.12625pt x 385.44pt>
 File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.p
 df Graphic file (type pdf)
 
@@ -1230,7 +1231,7 @@ LaTeX Warning: Float too large for page by 28.36824pt on input line 1137.
 
 
 <Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_ratio.p
-df, id=1937, 569.12625pt x 385.44pt>
+df, id=1832, 569.12625pt x 385.44pt>
 File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_ra
 tio.pdf Graphic file (type pdf)
 
@@ -1244,7 +1245,7 @@ y.pdf> <./Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy
 .pdf> <./Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_log
 y.pdf>] [134 <./Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal
 _alphaT_ratio.pdf>] [135]
-<Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf, id=1977, 569.12625pt x
+<Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf, id=1872, 569.12625pt x
  408.52625pt>
 File: Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf Graphic file (type
  pdf)
@@ -1264,35 +1265,35 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-[138] <Figures/RA4/SoversqrtB_AsWas.pdf, id=2030, 569.12625pt x 385.44pt>
+[138] <Figures/RA4/SoversqrtB_AsWas.pdf, id=1924, 569.12625pt x 385.44pt>
 File: Figures/RA4/SoversqrtB_AsWas.pdf Graphic file (type pdf)
 
 <use Figures/RA4/SoversqrtB_AsWas.pdf>
-<Figures/RA4/SoversqrtB_noMT_hat.pdf, id=2031, 569.12625pt x 385.44pt>
+<Figures/RA4/SoversqrtB_noMT_hat.pdf, id=1925, 569.12625pt x 385.44pt>
 File: Figures/RA4/SoversqrtB_noMT_hat.pdf Graphic file (type pdf)
 
 <use Figures/RA4/SoversqrtB_noMT_hat.pdf>
-<Figures/RA4/SoversqrtB_noMT_noat.pdf, id=2032, 569.12625pt x 385.44pt>
+<Figures/RA4/SoversqrtB_noMT_noat.pdf, id=1926, 569.12625pt x 385.44pt>
 File: Figures/RA4/SoversqrtB_noMT_noat.pdf Graphic file (type pdf)
 
 <use Figures/RA4/SoversqrtB_noMT_noat.pdf>
-<Figures/RA4/SoversqrtB_noMT_lat.pdf, id=2033, 569.12625pt x 385.44pt>
+<Figures/RA4/SoversqrtB_noMT_lat.pdf, id=1927, 569.12625pt x 385.44pt>
 File: Figures/RA4/SoversqrtB_noMT_lat.pdf Graphic file (type pdf)
 
 <use Figures/RA4/SoversqrtB_noMT_lat.pdf>
-<Figures/RA4/AsWas_Modified_CLs.pdf, id=2034, 569.12625pt x 385.44pt>
+<Figures/RA4/AsWas_Modified_CLs.pdf, id=1928, 569.12625pt x 385.44pt>
 File: Figures/RA4/AsWas_Modified_CLs.pdf Graphic file (type pdf)
 
 <use Figures/RA4/AsWas_Modified_CLs.pdf>
-<Figures/RA4/hat_Modified_CLs.pdf, id=2035, 569.12625pt x 385.44pt>
+<Figures/RA4/hat_Modified_CLs.pdf, id=1929, 569.12625pt x 385.44pt>
 File: Figures/RA4/hat_Modified_CLs.pdf Graphic file (type pdf)
 
 <use Figures/RA4/hat_Modified_CLs.pdf>
-<Figures/RA4/noat_Modified_CLs.pdf, id=2036, 569.12625pt x 385.44pt>
+<Figures/RA4/noat_Modified_CLs.pdf, id=1930, 569.12625pt x 385.44pt>
 File: Figures/RA4/noat_Modified_CLs.pdf Graphic file (type pdf)
 
 <use Figures/RA4/noat_Modified_CLs.pdf>
-<Figures/RA4/lat_Modified_CLs.pdf, id=2037, 569.12625pt x 385.44pt>
+<Figures/RA4/lat_Modified_CLs.pdf, id=1931, 569.12625pt x 385.44pt>
 File: Figures/RA4/lat_Modified_CLs.pdf Graphic file (type pdf)
 
 <use Figures/RA4/lat_Modified_CLs.pdf> [139] [140] [141 <./Figures/RA4/Soversqr
@@ -1400,10 +1401,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 9094 strings out of 493747
- 153787 string characters out of 3143546
- 198872 words of memory out of 3000000
- 12002 multiletter control sequences out of 15000+200000
+ 9096 strings out of 493747
+ 153876 string characters out of 3143546
+ 198921 words of memory out of 3000000
+ 12004 multiletter control sequences out of 15000+200000
  35548 words of font info for 142 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  39i,20n,44p,1785b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1441,10 +1442,10 @@ pe1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type
 public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2010/texmf-dist/fonts/ty
 pe1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2010/texmf-dist/font
 s/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (154 pages, 5370618 bytes).
+Output written on thesis.pdf (154 pages, 5468908 bytes).
 PDF statistics:
- 2541 PDF objects out of 2984 (max. 8388607)
- 1317 compressed objects within 14 object streams
+ 2435 PDF objects out of 2487 (max. 8388607)
+ 1281 compressed objects within 13 object streams
  0 named destinations out of 1000 (max. 500000)
  323 words of extra memory for PDF output out of 10000 (max. 10000000)
 
