@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  3 JUL 2012 17:37
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.6.20)  3 JUL 2012 18:24
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -716,14 +716,16 @@ Underfull \vbox (badness 4454) has occurred while \output is active []
 \openout7 = `thesis.lot'.
 
 
-[19] [20
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
+ [19]
+[20]
 \openout2 = `Introduction.aux'.
 
  (./Introduction.tex
 Chapter 1.
 [21
+
 
 
 ]) [22]
@@ -1052,13 +1054,13 @@ f Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_beforeaT.pdf
 >
-<Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT.pdf, id
-=1189, 569.12625pt x 467.7475pt>
-File: Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT.pd
-f Graphic file (type pdf)
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT_z.pdf, 
+id=1189, 569.12625pt x 468.75125pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT_z.
+pdf Graphic file (type pdf)
 
-<use Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT.pdf
->
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT_z.p
+df>
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_beforeaT.pdf, id=1
 190, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_beforeaT.pdf 
@@ -1092,13 +1094,13 @@ File: Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_afteraT.pdf
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYnJetMuonControl_afteraT.pdf>
 
-<Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT.pdf, id=
-1195, 569.12625pt x 467.7475pt>
-File: Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT.pdf
- Graphic file (type pdf)
+<Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT_z.pdf, i
+d=1195, 570.13pt x 468.75125pt>
+File: Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT_z.p
+df Graphic file (type pdf)
 
-<use Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT.pdf>
-
+<use Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT_z.pd
+f>
 <Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_afteraT.pdf, id=11
 96, 569.12625pt x 467.7475pt>
 File: Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_afteraT.pdf G
@@ -1118,59 +1120,53 @@ File: Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_afteraT.pdf G
 raphic file (type pdf)
 
 <use Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_afteraT.pdf>
-Underfull \hbox (badness 1946) in paragraph at lines 689--689
-\OT1/cmr/m/it/12 cor-re-spond to sta-tis-ti-cal er-rors and an ad-di-tional con
--ser-va-tive sys-tem-atic
- []
+[114] [115 <./Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_bef
+oreaT.pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/muon_plots/sprin
+g11NoLogYnJetMuonControl_beforeaT.pdf, page is rotated 90 degrees> <./Figures/A
+nalysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT_z.pdf> <./Figures
+/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_beforeaT.pdf, page is rota
+ted 90 degrees> <./Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonContr
+ol_beforeaT.pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/muon_plots
+/spring11NoLogYMTMuonControl_beforeaT.pdf, page is rotated 90 degrees>]
+[116 <./Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_afteraT.p
+df, page is rotated 90 degrees> <./Figures/Analysis/PAS/muon_plots/spring11NoLo
+gYnJetMuonControl_afteraT.pdf, page is rotated 90 degrees> <./Figures/Analysis/
+PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT_z.pdf> <./Figures/Analysis
+/PAS/muon_plots/spring11NoLogYHTMuonControl_afteraT.pdf, page is rotated 90 deg
+rees> <./Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_afteraT
+.pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/muon_plots/spring11No
+LogYMTMuonControl_afteraT.pdf, page is rotated 90 degrees>]
+Overfull \vbox (15.0381pt too high) has occurred while \output is active []
 
 
-Underfull \vbox (badness 1552) has occurred while \output is active []
-
- [114]
-[115 <./Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonControl_beforeaT.
-pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/muon_plots/spring11NoL
-ogYnJetMuonControl_beforeaT.pdf, page is rotated 90 degrees> <./Figures/Analysi
-s/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT.pdf, page is rotated 90
- degrees> <./Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_before
-aT.pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/muon_plots/spring11
-NoLogYMuCsoMuonControl_beforeaT.pdf, page is rotated 90 degrees> <./Figures/Ana
-lysis/PAS/muon_plots/spring11NoLogYMTMuonControl_beforeaT.pdf, page is rotated 
-90 degrees>] [116 <./Figures/Analysis/PAS/muon_plots/spring11NoLogYMuPtMuonCont
-rol_afteraT.pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/muon_plots
-/spring11NoLogYnJetMuonControl_afteraT.pdf, page is rotated 90 degrees> <./Figu
-res/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT.pdf, page is 
-rotated 90 degrees> <./Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonCont
-rol_afteraT.pdf, page is rotated 90 degrees> <./Figures/Analysis/PAS/muon_plots
-/spring11NoLogYMuCsoMuonControl_afteraT.pdf, page is rotated 90 degrees> <./Fig
-ures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_afteraT.pdf, page is r
-otated 90 degrees>] [117] [118] [119] [120]
-LaTeX Font Info:    Calculating math sizes for size <6.99997> on input line 800
+[117] [118] [119] [120]
+LaTeX Font Info:    Calculating math sizes for size <6.99997> on input line 802
 .
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.49998> not available
-(Font)              size <5> substituted on input line 800.
+(Font)              size <5> substituted on input line 802.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.49998> not available
-(Font)              size <5> substituted on input line 800.
+(Font)              size <5> substituted on input line 802.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.49998> not available
-(Font)              size <5> substituted on input line 800.
+(Font)              size <5> substituted on input line 802.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <3.49998> not available
-(Font)              size <5> substituted on input line 800.
+(Font)              size <5> substituted on input line 802.
 
 [121]
-<Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf, id=1745,
+<Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf, id=1673,
  569.12625pt x 541.02126pt>
 File: Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf Grap
 hic file (type pdf)
 
 <use Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.pdf>
-<Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf, id=1746, 569.1
+<Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf, id=1674, 569.1
 2625pt x 541.02126pt>
 File: Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf Graphic fi
 le (type pdf)
@@ -1182,46 +1178,42 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [122] [123 <./Figures/Analysis/PAS/photon_plots/375___xcak5JetAlphaTFewBinsPat.
 pdf> <./Figures/Analysis/PAS/photon_plots/375___xcak5JetIndicesPat.pdf>]
 [124]
-Underfull \hbox (badness 10000) in alignment at lines 951--968
+Underfull \hbox (badness 10000) in alignment at lines 953--970
 [][][][][] 
  []
 
-
-Underfull \vbox (badness 6141) has occurred while \output is active []
-
- [125]
-[126] [127] [128]
+[125] [126] [127] [128]
 Underfull \vbox (badness 1655) has occurred while \output is active []
 
  [129]
 [130] [131]
 <Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.pdf, 
-id=1829, 569.12625pt x 385.44pt>
+id=1756, 569.12625pt x 385.44pt>
 File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.
 pdf Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_fit_logy.p
 df>
 <Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf, id=
-1830, 569.12625pt x 385.44pt>
+1757, 569.12625pt x 385.44pt>
 File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf
  Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_control_fit_logy.pdf>
 
 <Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.pdf, i
-d=1831, 569.12625pt x 385.44pt>
+d=1758, 569.12625pt x 385.44pt>
 File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.p
 df Graphic file (type pdf)
 
 <use Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_control_fit_logy.pd
 f>
 
-LaTeX Warning: Float too large for page by 28.36824pt on input line 1138.
+LaTeX Warning: Float too large for page by 28.36824pt on input line 1140.
 
 
 <Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_ratio.p
-df, id=1832, 569.12625pt x 385.44pt>
+df, id=1759, 569.12625pt x 385.44pt>
 File: Figures/Analysis/PAS/stats_plots/RQcdFallingExp/hadronic_signal_alphaT_ra
 tio.pdf Graphic file (type pdf)
 
@@ -1231,7 +1223,7 @@ signal_fit_logy.pdf> <./Figures/Analysis/PAS/stats_plots/RQcdFallingExp/muon_co
 ntrol_fit_logy.pdf> <./Figures/Analysis/PAS/stats_plots/RQcdFallingExp/photon_c
 ontrol_fit_logy.pdf>] [134 <./Figures/Analysis/PAS/stats_plots/RQcdFallingExp/h
 adronic_signal_alphaT_ratio.pdf>] [135]
-<Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf, id=1872, 569.12625pt x
+<Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf, id=1800, 569.12625pt x
  408.52625pt>
 File: Figures/Analysis/PAS/RA1_ExclusionLimit_tanb10_def.pdf Graphic file (type
  pdf)
@@ -1251,35 +1243,35 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-[138] <Figures/RA4/SoversqrtB_AsWas.pdf, id=1924, 569.12625pt x 385.44pt>
+[138] <Figures/RA4/SoversqrtB_AsWas.pdf, id=1852, 569.12625pt x 385.44pt>
 File: Figures/RA4/SoversqrtB_AsWas.pdf Graphic file (type pdf)
 
 <use Figures/RA4/SoversqrtB_AsWas.pdf>
-<Figures/RA4/SoversqrtB_noMT_hat.pdf, id=1925, 569.12625pt x 385.44pt>
+<Figures/RA4/SoversqrtB_noMT_hat.pdf, id=1853, 569.12625pt x 385.44pt>
 File: Figures/RA4/SoversqrtB_noMT_hat.pdf Graphic file (type pdf)
 
 <use Figures/RA4/SoversqrtB_noMT_hat.pdf>
-<Figures/RA4/SoversqrtB_noMT_noat.pdf, id=1926, 569.12625pt x 385.44pt>
+<Figures/RA4/SoversqrtB_noMT_noat.pdf, id=1854, 569.12625pt x 385.44pt>
 File: Figures/RA4/SoversqrtB_noMT_noat.pdf Graphic file (type pdf)
 
 <use Figures/RA4/SoversqrtB_noMT_noat.pdf>
-<Figures/RA4/SoversqrtB_noMT_lat.pdf, id=1927, 569.12625pt x 385.44pt>
+<Figures/RA4/SoversqrtB_noMT_lat.pdf, id=1855, 569.12625pt x 385.44pt>
 File: Figures/RA4/SoversqrtB_noMT_lat.pdf Graphic file (type pdf)
 
 <use Figures/RA4/SoversqrtB_noMT_lat.pdf>
-<Figures/RA4/AsWas_Modified_CLs.pdf, id=1928, 569.12625pt x 385.44pt>
+<Figures/RA4/AsWas_Modified_CLs.pdf, id=1856, 569.12625pt x 385.44pt>
 File: Figures/RA4/AsWas_Modified_CLs.pdf Graphic file (type pdf)
 
 <use Figures/RA4/AsWas_Modified_CLs.pdf>
-<Figures/RA4/hat_Modified_CLs.pdf, id=1929, 569.12625pt x 385.44pt>
+<Figures/RA4/hat_Modified_CLs.pdf, id=1857, 569.12625pt x 385.44pt>
 File: Figures/RA4/hat_Modified_CLs.pdf Graphic file (type pdf)
 
 <use Figures/RA4/hat_Modified_CLs.pdf>
-<Figures/RA4/noat_Modified_CLs.pdf, id=1930, 569.12625pt x 385.44pt>
+<Figures/RA4/noat_Modified_CLs.pdf, id=1858, 569.12625pt x 385.44pt>
 File: Figures/RA4/noat_Modified_CLs.pdf Graphic file (type pdf)
 
 <use Figures/RA4/noat_Modified_CLs.pdf>
-<Figures/RA4/lat_Modified_CLs.pdf, id=1931, 569.12625pt x 385.44pt>
+<Figures/RA4/lat_Modified_CLs.pdf, id=1859, 569.12625pt x 385.44pt>
 File: Figures/RA4/lat_Modified_CLs.pdf Graphic file (type pdf)
 
 <use Figures/RA4/lat_Modified_CLs.pdf> [139] [140] [141 <./Figures/RA4/Soversqr
@@ -1387,10 +1379,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 9096 strings out of 493747
- 153876 string characters out of 3143546
- 198928 words of memory out of 3000000
- 12004 multiletter control sequences out of 15000+200000
+ 9098 strings out of 493747
+ 153917 string characters out of 3143546
+ 198955 words of memory out of 3000000
+ 12006 multiletter control sequences out of 15000+200000
  35548 words of font info for 142 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  39i,20n,44p,1785b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1428,10 +1420,10 @@ pe1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type
 public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2010/texmf-dist/fonts/ty
 pe1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2010/texmf-dist/font
 s/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (154 pages, 5469321 bytes).
+Output written on thesis.pdf (154 pages, 5575621 bytes).
 PDF statistics:
- 2435 PDF objects out of 2487 (max. 8388607)
- 1281 compressed objects within 13 object streams
+ 2363 PDF objects out of 2487 (max. 8388607)
+ 1255 compressed objects within 13 object streams
  0 named destinations out of 1000 (max. 500000)
  323 words of extra memory for PDF output out of 10000 (max. 10000000)
 

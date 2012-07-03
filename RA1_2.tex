@@ -536,11 +536,11 @@ An additional set of requirements is also included with the muon requirement to 
 \item No second isolated muon outside of acceptance, reducing the contamination from Z$ \ra \mu \mu$.
 \end{itemize}
 
-Kinematic distributions of the events selected for the $\mu$ control sample are shown in Figure~\ref{fig:kin} prior to application of the \alt cut to demonstrate the agreement between data and Monte Carlo with high statistics. As the muon selection implicitly requires a cut on $\MHT / \HT$ that at its lowest ensures $\MHT >$ 110~GeV, no additional requirement is needed to ensure the trigger is efficient at the pre-\alt stage.
+Kinematic distributions of the events selected for the $\mu$ control sample are shown in Figure~\ref{fig:kin} prior to application of the \alt cut to demonstrate the agreement between data and Monte Carlo with high statistics. As the muon selection explicitly requires a cut on $\MHT / \HT$ that ensures $\MHT >$ 110~GeV, no additional requirement is needed to ensure the trigger is efficient at the pre-\alt stage.
 
 Agreement of data with the t$\bar{\textrm{t}}$-W MC in all distributions is good and no significant excess nor shape-disagreement are seen. In addition examination of the transverse mass distribution in Figure~\ref{fig:muon_beforeat_mt} confirms a peak at 80~GeV ($m^{W} \sim$ 80.385\,GeV) confirming the sample is dominated by W bosons. These observations lead to a conclusion that the sample is well modelled by Monte-Carlo and clean from contamination, confirming the validity of the selection and motivating the use of a Monte Carlo ratio in the prediction calculation. The QCD contamination is found to be negligible and not seen in these distributions.
 
-In Figure~\ref{fig:kinafter} the distributions are shown after the \alt cut, showing the same conclusions with lower statistics. This corresponds to the selection used for prediction.
+In Figure~\ref{fig:kinafter} the distributions are shown after the \alt cut, showing the same conclusions with lower statistics. This corresponds to the selection that will be used in the following section to predict the t$\bar{\textrm{t}}$-W contribution of the background to the hadronic selection.
 
 
 
@@ -556,7 +556,7 @@ In Figure~\ref{fig:kinafter} the distributions are shown after the \alt cut, sho
 \newline
 \begin{minipage}[b]{1.\linewidth}
 \centering
-\subfigure[\label{fig:muon_beforeat_at}]{\includegraphics[width=0.45\textwidth, angle=0]{Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT.pdf}}
+\subfigure[\label{fig:muon_beforeat_at}]{\includegraphics[width=0.45\textwidth, angle=0]{Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_beforeaT_z.pdf}}
 \subfigure[\label{fig:muon_beforeat_ht}]{\includegraphics[width=0.45\textwidth, angle=0]{Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_beforeaT.pdf}}
 \end{minipage}
 \newline
@@ -565,7 +565,7 @@ In Figure~\ref{fig:kinafter} the distributions are shown after the \alt cut, sho
 \subfigure[\label{fig:muon_beforeat_MuIso}]{\includegraphics[width=0.45\textwidth, angle=0]{Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_beforeaT.pdf}}
 \subfigure[\label{fig:muon_beforeat_mt}]{\includegraphics[width=0.45\textwidth, angle=0]{Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_beforeaT.pdf}}
 \end{minipage}
-\caption{\label{fig:muonplots_beforeat} Distributions of (a) $p_{T}^{\mu}$, (b) Jet Multiplicity (N(jet)), (c) $\alpha_{T}$, (d) $H_{T}$, (e) Muon Combined Isolation and (f) $M_{T}$ for the $\mu$ control selection \textbf{before} the $\alpha_{T} > 0.55$ cut is applied. Shows comparisons of 1.1~fb$^{-1}$ 2011 7~TeV CMS Data and equivalently weighted Monte-Carlo.}
+\caption{\label{fig:muonplots_beforeat} Distributions of (a) $p_{T}^{\mu}$, (b) Jet Multiplicity (N(jet)), (c) $\alpha_{T}$, (d) $H_{T}$, (e) Muon Combined Isolation and (f) $M_{T}$ for the $\mu$ control selection \textbf{before} the $\alpha_{T} > 0.55$ cut is applied. Shows comparisons of 1.1~fb$^{-1}$ 2011 7~TeV CMS Data and absolutely normalised Monte-Carlo.}
 \label{fig:kin}
 \end{center}
 \end{figure}
@@ -582,7 +582,7 @@ In Figure~\ref{fig:kinafter} the distributions are shown after the \alt cut, sho
 \centering
 
 
-\subfigure[\label{fig:muon_afterat_at}]{\includegraphics[width=0.45\textwidth, angle=0]{Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT.pdf}}
+\subfigure[\label{fig:muon_afterat_at}]{\includegraphics[width=0.45\textwidth, angle=0]{Figures/Analysis/PAS/muon_plots/spring11NoLogYaT_HMuonControl_afteraT_z.pdf}}
 \subfigure[\label{fig:muon_afterat_ht}]{\includegraphics[width=0.45\textwidth, angle=0]{Figures/Analysis/PAS/muon_plots/spring11NoLogYHTMuonControl_afteraT.pdf}}
 \end{minipage}
 \newline
@@ -592,13 +592,14 @@ In Figure~\ref{fig:kinafter} the distributions are shown after the \alt cut, sho
 \subfigure[\label{fig:muon_afterat_MuIso}]{\includegraphics[width=0.45\textwidth, angle=0]{Figures/Analysis/PAS/muon_plots/spring11NoLogYMuCsoMuonControl_afteraT.pdf}}
 \subfigure[\label{fig:muon_afterat_mt}]{\includegraphics[width=0.45\textwidth, angle=0]{Figures/Analysis/PAS/muon_plots/spring11NoLogYMTMuonControl_afteraT.pdf}}
 \end{minipage}
-\caption{\label{fig:muonplots_afterat} Distributions of (a) $p_{T}^{\mu}$, (b) Jet Multiplicity (N(jet)), (c) $\alpha_{T}$, (d) $H_{T}$, (e) Muon Combined Isolation and (f) $M_{T}$ for the $\mu$ control selection \textbf{after} the $\alpha_{T} > 0.55$ cut is applied. Shows comparisons of 1.1~fb$^{-1}$ 2011 7~TeV CMS Data and equivalently weighted Monte-Carlo.}
+\caption{\label{fig:muonplots_afterat} Distributions of (a) $p_{T}^{\mu}$, (b) Jet Multiplicity (N(jet)), (c) $\alpha_{T}$, (d) $H_{T}$, (e) Muon Combined Isolation and (f) $M_{T}$ for the $\mu$ control selection \textbf{after} the $\alpha_{T} > 0.55$ cut is applied. Shows comparisons of 1.1~fb$^{-1}$ 2011 7~TeV CMS Data and absolutely normalised Monte-Carlo.}
 \label{fig:kinafter}
 \end{center}
 \end{figure}
 \subsection{Prediction Calculation}
+\label{sec:calc}
 
-The prediction of the W boson decay contribution to the hadronic signal yield in the data, W$^{had}_{data}$, can be made from the analogous muon control yield W$^{\mu}_{data}$ providing the ratio between the hadronic and muon selections $R^{had}_{\mu}$ is known. This is taken from the events passing each selection in the \ttj and \wj Monte Carlo simulations W$^{had}_{MC}$ and W$^{\mu}_{MC}$, which corrects for the selection efficiencies and acceptance. The full estimation is made using Equation~\ref{eq:mupred}.
+The prediction of this contribution, W$^{had}_{data}$, can be made from the analogous muon control yield W$^{\mu}_{data}$ providing the ratio between the hadronic and muon selections $R^{had}_{\mu}$ is known. This is taken from the events passing each selection in the \ttj and \wj Monte Carlo simulations W$^{had}_{MC}$ and W$^{\mu}_{MC}$, which corrects for the selection efficiencies and acceptance. The full estimation is made using Equation~\ref{eq:mupred}.
 
 \begin{equation}
 W^{had}_{data} = W^{\mu}_{data}\times R^{had}_{\mu} = W^{\mu}_{data}\times (\frac{W^{had}_{MC}}{W^{\mu}_{MC}})
@@ -652,13 +653,13 @@ The bin-by-bin results including prediction are shown in Table~\ref{tab:resmu}, 
 \scalht Bin (GeV) & 275--325 & 325--375 & 375--475 & 475--575 \\ [0.5ex]
 \hline
 \hline
-MC W + $\ttNew$ & 463.0 $\pm$ 16.0$_{\rm stat}$ & 171.2 $\pm$ 9.5$_{\rm stat}$ & 116.3 $\pm$ 8.3$_{\rm stat}$ & 43.7 $\pm$ 5.1$_{\rm stat}$ \\
-MC $\mu +$~jets & 407.5 $\pm$ 14.5$_{\rm stat}$ & 179.1 $\pm$ 9.6$_{\rm stat}$ & 131.6 $\pm$ 8.8$_{\rm stat}$ & 48.7 $\pm$ 5.5$_{\rm stat}$ \\
-MC Ratio & 1.14 & 0.96 & 0.90 & 0.90 \\
-Data $\mu +$~jets & 389 & 156 & 113 & 39 \\
+$W^{had}_{MC}$ & 463.0 $\pm$ 16.0$_{\rm stat}$ & 171.2 $\pm$ 9.5$_{\rm stat}$ & 116.3 $\pm$ 8.3$_{\rm stat}$ & 43.7 $\pm$ 5.1$_{\rm stat}$ \\
+$W^{\mu}_{MC}$ & 407.5 $\pm$ 14.5$_{\rm stat}$ & 179.1 $\pm$ 9.6$_{\rm stat}$ & 131.6 $\pm$ 8.8$_{\rm stat}$ & 48.7 $\pm$ 5.5$_{\rm stat}$ \\
+$R^{had}_{\mu}$ & 1.14 & 0.96 & 0.90 & 0.90 \\
+$W^{\mu}_{data}$ & 389 & 156 & 113 & 39 \\
 \hline
 \hline
-\multirow{2}{*}{W + $\ttNew$ Prediction}& 442.0 $\pm$ 22.4$_{\rm stat}\hspace{0.08cm}$ & 149.1 $\pm$ 11.9$_{\rm stat}\hspace{0.01cm}$ & 101.9 $\pm$ 9.6$_{\rm stat}\hspace{0.23cm}$ & 35.2 $\pm$ 5.6$_{\rm stat}\hspace{0.2cm}$ \\
+\multirow{2}{*}{$W^{had}_{data}$ Prediction}& 442.0 $\pm$ 22.4$_{\rm stat}\hspace{0.08cm}$ & 149.1 $\pm$ 11.9$_{\rm stat}\hspace{0.01cm}$ & 101.9 $\pm$ 9.6$_{\rm stat}\hspace{0.23cm}$ & 35.2 $\pm$ 5.6$_{\rm stat}\hspace{0.2cm}$ \\
  & \multicolumn{1}{r}{$\pm$132.6$_{\rm syst}$} & \multicolumn{1}{r}{$\pm$ 44.7$_{\rm syst}$} & \multicolumn{1}{r}{$\pm$ 30.6$_{syst}$} & \multicolumn{1}{r}{$\pm$ 10.6$_{\rm syst}$}\\
 \hline
 \hline
@@ -674,23 +675,24 @@ Data $\mu +$~jets & 389 & 156 & 113 & 39 \\
 \scalht Bin (GeV) & 575--675 & 675--775 & 775--875 & 875--$\infty$ \\ [0.5ex]
 \hline
 \hline
-MC W + $\ttNew$ & 17.5 $\pm$ 3.2$_{\rm stat}$ & 5.1 $\pm$ 1.8$_{\rm stat}$ & 1.1 $\pm$ 0.7$_{\rm stat}$ & 1.8 $\pm$ 1.0$_{\rm stat}$ \\
-MC $\mu +$~jets & 13.3 $\pm$ 2.9$_{\rm stat}$ & 8.0 $\pm$ 2.3$_{\rm stat}$ & 3.2 $\pm$ 1.4$_{\rm stat}$ & 0.9 $\pm$ 0.7$_{\rm stat}$ \\
-MC Ratio & 0.90 & 0.90 & 0.90 & 0.90 \\
-Data $\mu +$~jets & 17 & 5 & 0 & 0 \\
+$W^{had}_{MC}$ & 17.5 $\pm$ 3.2$_{\rm stat}$ & 5.1 $\pm$ 1.8$_{\rm stat}$ & 1.1 $\pm$ 0.7$_{\rm stat}$ & 1.8 $\pm$ 1.0$_{\rm stat}$ \\
+$W^{\mu}_{MC}$ & 13.3 $\pm$ 2.9$_{\rm stat}$ & 8.0 $\pm$ 2.3$_{\rm stat}$ & 3.2 $\pm$ 1.4$_{\rm stat}$ & 0.9 $\pm$ 0.7$_{\rm stat}$ \\
+$R^{had}_{\mu}$ & 0.90 & 0.90 & 0.90 & 0.90 \\
+$W^{\mu}_{data}$ & 17 & 5 & 0 & 0 \\
 \hline
 \hline
-\multirow{2}{*}{W + $\ttNew$ Prediction} & 15.3 $\pm$ 3.7$_{\rm stat}$ & 4.5 $\pm$ 2.0$_{\rm stat}$ & 0.0 $\pm$ 1.0$_{\rm stat}$ & 0.0 $\pm$ 1.0$_{\rm stat}$ \\
+\multirow{2}{*}{$W^{had}_{data}$ Prediction} & 15.3 $\pm$ 3.7$_{\rm stat}$ & 4.5 $\pm$ 2.0$_{\rm stat}$ & 0.0 $\pm$ 1.0$_{\rm stat}$ & 0.0 $\pm$ 1.0$_{\rm stat}$ \\
 & \multicolumn{1}{r}{$\pm$ 4.6$_{\rm syst}$} & \multicolumn{1}{r}{$\pm$ 1.4$_{\rm syst}$} & &\\
 \hline
 \hline
 \end{tabular*}
 \end{minipage}
-\caption{\label{tab:resmu} Muon sample predictions with 1.1\,fb$^{-1}$. Errors quoted on predictions correspond to statistical errors and an additional conservative systematic uncertainty of 30\%, as used in the 2010 analysis.}
+\caption{\label{tab:resmu} Prediction of background component from W boson decays, with calculation components as defined in Section~\ref{sec:calc}, at 1.1\,fb$^{-1}$. Errors quoted on predictions correspond to statistical errors and an additional conservative systematic uncertainty of 30\%, as used in the 2010 analysis. Further discussion of the uncertainties are found in Section~\ref{sec:muunc}.}
 \end{table}
 
 
 \subsection{Muon Control Sample Systematic Uncertainty}
+\label{sec:muunc}
 Although the prediction is data-driven the reliance on the ratio $R^{had}_{MC}$ which is taken from Monte Carlo introduces sources of uncertainty based on the accuracy of modelling. Thus we apply conservative uncertainties on all factors which affect this quantity.
 \subsubsection{Dependence of the Prediction Calculation}
 
@@ -764,11 +766,11 @@ Although the estimation technique is data-driven the use of the ratio $R^{had}_{
 \begin{itemize}
 \item Events surviving due to hadronic tau decays are governed by the tau-jet response. In order to obtain the uncertainty the response was varied by $\pm$ 10\%, a conservative amount given the JES is at its greatest 6\%. The MC yield from such decays changed by 7\% under this variation, and so this is chosen for the uncertainty. 
 \item Events out of acceptance rely on accurate modelling of $a$. The properties of W are found to be well modelled but the measurement is performed for higher \Pt than is used in this analysis, therefore a conservative 10\% uncertainty is applied to these events. 
-\item The inefficiency of lepton ID requirements measured in electrons has a 30\% under-estimation from MC in data. In muons the under-estimate is slight, but the uncertainty from isolation requirements is not well understood, as unknown pile-up effects could alter this drastically. Therefore a conservative 100\% estimate is applied to remain above measured discrepancies, which is appropriate given the small proportion of events this effects. 
+\item The inefficiency of lepton ID requirements measured for electrons in the data is 30\% under-estimated by the MC. For muons the under-estimate is slight, but the uncertainty from isolation requirements is not well understood, as unknown pile-up effects could alter this drastically. Therefore a conservative 100\% estimate is applied to remain above measured discrepancies, which is appropriate given the small proportion of events this effects. 
 \item The small number of fully leptonic \tto decays is dominated by di-tau events. The expected uncertainty should take into account all the above effects, as all are relevant and responsible for some of these events remaining. In this case we assign a 50\% uncertainty.
 \end{itemize}
 \item The effect of acceptance, $a$, and efficiency, $\epsilon$, contribute a factor, $\sfrac{1}{a \times \epsilon}$, that is predicted using the MC. There is an uncertainty resulting from the difference in this between MC and data, which when measured for W and Z cross sections contributes 1.6\%, and for t$\bar{\textrm{t}}$ it is 6.1\%. Conservatively we chose 6.1\% which represents an overestimate as the proportion of W events in reality reduces this component's value.
-\item There is an uncertainty in the assumption that the control sample is pure, i.e. that the fraction of events, $f$, in the sample from W and t$\bar{\textrm{t}}$ decays is 1. From Monte Carlo we have observed the contamination from QCD to be negligible, but to allow for poor QCD MC modelling assign a conservative uncertainty of 200\% on the expected QCD yield, still only contributing a 3\% uncertainty on $f$.
+\item There is an uncertainty in the assumption that the control sample is pure, i.e. that the fraction of events, $f$, in the sample from W and t$\bar{\textrm{t}}$ decays is 1. From Monte Carlo we have observed the contamination from QCD to be negligible, but to allow for poor QCD MC modelling assign a conservative uncertainty of 200\% on the expected QCD yield from MC, still only contributing a 3\% uncertainty on $f$.
 \end{itemize}
 
 The overall uncertainty is then achieved by adding these components in quadrature, which yields a value of 24\%. Whilst lower than the value taken from the 2010 analysis, 30\%, it is consistent with the current practice of rounding up to the nearest 10\% and shows there is not an under-estimate. The error is reduced due to the inclusion of the two low \HT bins which reduces the overall percentage contributed from the lepton veto inefficiency, which is the category with the greatest error. 
@@ -844,7 +846,7 @@ The $\gamma$ control sample is defined similarly to that of the $\mu$ control sa
 \item $\Delta \textrm{R}(\gamma, \textrm{jet})$ $>$ 1
 \end{itemize}
 
-The \alt and Jet Multiplicity distributions of the $\gamma$ control sample selection events prior to the \alt cut are shown in Figure~\ref{fig:photon_plots} for the bins in the region $\HT > $375~GeV for data and MC from QCD and $\gamma$ + jets events, taken from MadGraph~\cite{madgraph}. The distributions show good shape agreement although the total yield in data is higher than in MC. As the method will only use MC to make a comparison ratio between the two selections any inaccuracies of the cross-section have no relevance to the estimation and therefore the method is still valid.
+The photon trigger requirements are defined in Table~\ref{tab:photrig}. The \alt and Jet Multiplicity distributions of the $\gamma$ control sample selection events prior to the \alt cut are shown in Figure~\ref{fig:photon_plots} for the bins in the region $\HT > $375~GeV for data and MC from QCD and $\gamma$ + jets events, taken from MadGraph~\cite{madgraph}. The distributions show good shape agreement although the total yield in data is higher than in MC. As the method will only use MC to make a comparison ratio between the two selections any inaccuracies of the cross-section have no relevance to the estimation and therefore the method is still valid.
 
 
 \begin{figure}[h]
@@ -885,14 +887,14 @@ The bin-by-bin results including prediction are shown in Table~\ref{tab:respho},
 \scalht Bin (GeV) & 275--325 & 325--375 & 375--475 & 475--575 \\ [0.5ex]
 \hline
 \hline
-MC $\znunu$ & 212.6 $\pm$ 20.4$_{\rm stat}$ & 92.0 $\pm$ 20.4$_{\rm stat}$ & 61.3 $\pm$ 20.4$_{\rm stat}$ & 42.9 $\pm$ 10.2$_{\rm stat}$ \\
-MC $\gamma +$~jets & 613.1 $\pm$ 20.4$_{\rm stat}$ & 265.7 $\pm$ 10.2$_{\rm stat}$ & 168.6 $\pm$ 10.2$_{\rm stat}$ & 55.2 $\pm$ 8.2$_{\rm stat}$ \\
-MC Ratio & 0.35 & 0.35 & 0.44 & 0.44 \\
-Data $\gamma +$~jets & 867.5 & 313.7 & 214.6 & 68.5 \\
-Sample Purity & 0.92 & 0.97 & 0.99 & 0.99 \\
+$Z_{MC}$ & 212.6 $\pm$ 20.4$_{\rm stat}$ & 92.0 $\pm$ 20.4$_{\rm stat}$ & 61.3 $\pm$ 20.4$_{\rm stat}$ & 42.9 $\pm$ 10.2$_{\rm stat}$ \\
+$\gamma_{MC}$ & 613.1 $\pm$ 20.4$_{\rm stat}$ & 265.7 $\pm$ 10.2$_{\rm stat}$ & 168.6 $\pm$ 10.2$_{\rm stat}$ & 55.2 $\pm$ 8.2$_{\rm stat}$ \\
+R$^{MC}_{Z/\gamma}$ & 0.35 & 0.35 & 0.44 & 0.44 \\
+$\gamma^{meas}_{data}$ & 867.5 & 313.7 & 214.6 & 68.5 \\
+$p$ & 0.92 & 0.97 & 0.99 & 0.99 \\
 \hline
 \hline
-\multirow{2}{*}{$\znunu$ Prediction} & 276.8 $\pm$ 9.5$_{\rm stat} \hspace{.35cm}$ & 105.3 $\pm$ 6.0$_{\rm stat}\hspace{.20cm}$ & 93.5 $\pm$ 6.4$_{\rm stat}\hspace{.15cm}$ & 29.8 $\pm$ 3.6$_{\rm stat}\hspace{.20cm}$ \\
+\multirow{2}{*}{$Z^{pred}_{data}$ Prediction} & 276.8 $\pm$ 9.5$_{\rm stat} \hspace{.35cm}$ & 105.3 $\pm$ 6.0$_{\rm stat}\hspace{.20cm}$ & 93.5 $\pm$ 6.4$_{\rm stat}\hspace{.15cm}$ & 29.8 $\pm$ 3.6$_{\rm stat}\hspace{.20cm}$ \\
  & \multicolumn{1}{r}{$\pm$ 110.7$_{syst}$} & \multicolumn{1}{r}{ $\pm$ 42.1$_{syst}$} & \multicolumn{1}{r}{ $\pm$ 37.4$_{syst}$}&\multicolumn{1}{r}{ $\pm$ 11.9$_{syst}$ }\\
 %\hline
 \hline
@@ -910,14 +912,14 @@ Sample Purity & 0.92 & 0.97 & 0.99 & 0.99 \\
 \scalht Bin (GeV) & 575--675 & 675--775 & 775--875 & 875--$\infty$ \\ [0.5ex]
 \hline
 \hline
-MC $\znunu$ & 5.1 $\pm$ 5.1$_{\rm stat}$ & 0.0 $\pm$ 3.1$_{\rm stat}$ & 3.1 $\pm$ 3.1$_{\rm stat}$ & 0.0 $\pm$ 3.1$_{\rm stat}$ \\
-MC $\gamma +$~jets & 23.5 $\pm$ 5.1$_{\rm stat}$ & 3.1 $\pm$ 2.0$_{\rm stat}$ & 3.1 $\pm$ 2.0$_{\rm stat}$ & 2.0 $\pm$ 1.0$_{\rm stat}$ \\
-MC Ratio & 0.44 & 0.44 & 0.44 & 0.44 \\
-Data $\gamma +$~jets & 24.5 & 12.3& 4.1 & 4.1 \\
-Sample Purity & 0.99 & 0.99 & 0.99 & 0.99 \\
+$Z_{MC}$  & 5.1 $\pm$ 5.1$_{\rm stat}$ & 0.0 $\pm$ 3.1$_{\rm stat}$ & 3.1 $\pm$ 3.1$_{\rm stat}$ & 0.0 $\pm$ 3.1$_{\rm stat}$ \\
+$\gamma_{MC}$ & 23.5 $\pm$ 5.1$_{\rm stat}$ & 3.1 $\pm$ 2.0$_{\rm stat}$ & 3.1 $\pm$ 2.0$_{\rm stat}$ & 2.0 $\pm$ 1.0$_{\rm stat}$ \\
+R$^{MC}_{Z/\gamma}$ & 0.44 & 0.44 & 0.44 & 0.44 \\
+$\gamma^{meas}_{data}$ & 24.5 & 12.3& 4.1 & 4.1 \\
+$p$ & 0.99 & 0.99 & 0.99 & 0.99 \\
 \hline
 \hline
-\multirow{2}{*}{$\znunu$ Prediction} & 10.7 $\pm$ 2.2$_{\rm stat}\hspace{.05cm}$ & 5.3 $\pm$ 1.5$_{\rm stat}\hspace{.05cm}$ & 1.8 $\pm$ 0.9$_{\rm stat}\hspace{.05cm}$ & 1.8 $\pm$ 0.9$_{\rm stat}\hspace{.05cm}$ \\
+\multirow{2}{*}{$Z^{pred}_{data}$ Prediction} & 10.7 $\pm$ 2.2$_{\rm stat}\hspace{.05cm}$ & 5.3 $\pm$ 1.5$_{\rm stat}\hspace{.05cm}$ & 1.8 $\pm$ 0.9$_{\rm stat}\hspace{.05cm}$ & 1.8 $\pm$ 0.9$_{\rm stat}\hspace{.05cm}$ \\
 
  & \multicolumn{1}{r}{$\pm$ 4.3$_{syst}$ } & \multicolumn{1}{r}{$\pm$ 2.1$_{syst}$ } & \multicolumn{1}{r}{$\pm$ 0.7$_{syst}$} & \multicolumn{1}{r}{$\pm$ 0.7$_{syst}$} \\
  \hline
