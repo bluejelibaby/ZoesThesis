@@ -66,16 +66,16 @@
 \contentsline {subsection}{\numberline {6.1.2}Data Sample}{96}
 \contentsline {section}{\numberline {6.2}Analysis Framework}{96}
 \contentsline {section}{\numberline {6.3}Trigger}{96}
-\contentsline {section}{\numberline {6.4}Object Definitions}{99}
-\contentsline {subsection}{\numberline {6.4.1}Good Event Definition}{99}
-\contentsline {subsection}{\numberline {6.4.2}Jets}{99}
-\contentsline {subsection}{\numberline {6.4.3}$\ensuremath {H_{T}}\xspace $ and \unhbox \voidb@x \hbox {${\hbox {$H$\kern -0.7em\lower -.05ex\hbox {/}\kern 0.10em}}_\text {T}$}\xspace }{100}
-\contentsline {subsection}{\numberline {6.4.4}Muons}{100}
-\contentsline {subsection}{\numberline {6.4.5}Electrons}{101}
-\contentsline {subsection}{\numberline {6.4.6}Photons}{101}
-\contentsline {section}{\numberline {6.5}Pre-Selection}{102}
-\contentsline {section}{\numberline {6.6}Final Signal Selection}{103}
-\contentsline {section}{\numberline {6.7}An $\ensuremath {H_{T}}\xspace $ Shape Analysis}{104}
+\contentsline {section}{\numberline {6.4}An $\ensuremath {H_{T}}\xspace $ Shape Analysis}{99}
+\contentsline {section}{\numberline {6.5}Object Definitions}{100}
+\contentsline {subsection}{\numberline {6.5.1}Good Event Definition}{100}
+\contentsline {subsection}{\numberline {6.5.2}Jets}{100}
+\contentsline {subsection}{\numberline {6.5.3}$\ensuremath {H_{T}}\xspace $ and \unhbox \voidb@x \hbox {${\hbox {$H$\kern -0.7em\lower -.05ex\hbox {/}\kern 0.10em}}_\text {T}$}\xspace }{101}
+\contentsline {subsection}{\numberline {6.5.4}Muons}{101}
+\contentsline {subsection}{\numberline {6.5.5}Electrons}{102}
+\contentsline {subsection}{\numberline {6.5.6}Photons}{103}
+\contentsline {section}{\numberline {6.6}Pre-Selection}{104}
+\contentsline {section}{\numberline {6.7}Final Signal Selection}{104}
 \contentsline {section}{\numberline {6.8}Hadronic Signal Region Results}{105}
 \contentsline {subsection}{\numberline {6.8.1}Data to Monte-Carlo Comparisons }{105}
 \contentsline {subsection}{\numberline {6.8.2}$R_{\alpha _{T}}$ on $H_{T}$}{107}
@@ -84,15 +84,15 @@
 \contentsline {section}{\numberline {6.9}Estimation of t$\mathaccentV {bar}016{\textrm {t}}$ and W + Jets Backgrounds with a high $p_{T}$ control sample using W $\ensuremath {\rightarrow }\mu \nu $ events.}{111}
 \contentsline {subsection}{\numberline {6.9.1}Muon Control Sample Selection}{113}
 \contentsline {subsection}{\numberline {6.9.2}Prediction Calculation}{114}
-\contentsline {subsection}{\numberline {6.9.3}Muon Control Sample Systematic Uncertainty}{114}
-\contentsline {subsubsection}{Dependence of the Prediction Calculation}{117}
+\contentsline {subsection}{\numberline {6.9.3}Muon Control Sample Systematic Uncertainty}{117}
+\contentsline {subsubsection}{Dependence of the Prediction Calculation}{118}
 \contentsline {subsubsection}{Components of the Overall Uncertainty}{119}
-\contentsline {subsection}{\numberline {6.9.4}Signal Contamination in Muon Control Sample}{120}
-\contentsline {section}{\numberline {6.10}Estimation of Z $\ensuremath {\rightarrow }\nu \mathaccentV {bar}016{\nu }$ + jets background using photon + jets events}{122}
+\contentsline {subsection}{\numberline {6.9.4}Signal Contamination in Muon Control Sample}{121}
+\contentsline {section}{\numberline {6.10}Estimation of Z $\ensuremath {\rightarrow }\nu \mathaccentV {bar}016{\nu }$ + jets background using photon + jets events}{121}
 \contentsline {subsection}{\numberline {6.10.1}Z Background Prediction Calculation}{123}
 \contentsline {subsection}{\numberline {6.10.2}Photon Control Sample Systematic Uncertainty}{124}
 \contentsline {subsection}{\numberline {6.10.3}Cross-Prediction between Control Samples}{125}
-\contentsline {section}{\numberline {6.11}Signal Region Systematic Uncertainties}{125}
+\contentsline {section}{\numberline {6.11}Signal Region Systematic Uncertainties}{126}
 \contentsline {subsubsection}{Luminosity}{126}
 \contentsline {subsubsection}{Effect of dead ECAL cut}{126}
 \contentsline {subsubsection}{Effect of e/$\mu $/$\gamma $ Vetoes}{126}
@@ -105,8 +105,8 @@
 \contentsline {subsection}{\numberline {6.12.4}Presence of Signal}{130}
 \contentsline {subsection}{\numberline {6.12.5}Total Likelihood}{131}
 \contentsline {section}{\numberline {6.13}Testing the SM-only hypothesis}{131}
-\contentsline {section}{\numberline {6.14}Excluding Signal Models}{134}
-\contentsline {subsection}{\numberline {6.14.1}Constructing a Test Statistic}{134}
+\contentsline {section}{\numberline {6.14}Excluding Signal Models}{132}
+\contentsline {subsection}{\numberline {6.14.1}Constructing a Test Statistic}{132}
 \contentsline {subsection}{\numberline {6.14.2}The CL$_{S}$ Method}{135}
 \contentsline {subsection}{\numberline {6.14.3}Setting an Exclusion Limit in the CMSSM Plane}{135}
 \contentsline {chapter}{\numberline {7}Extending the Muon Control Sample to a Signal Sample}{137}
